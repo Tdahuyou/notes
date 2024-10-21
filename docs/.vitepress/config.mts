@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/notes/',
+  base: '/notes/docs/.vitepress/dist/',
   title: "Tdahuyou",
   description: "学习笔记",
   themeConfig: {
