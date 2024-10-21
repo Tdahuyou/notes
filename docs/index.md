@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "notes"
-  text: "学习笔记"
-  tagline: My great project tagline
+  name: "Blogs"
+  text: "个人博客"
+  tagline: 汇总个人写的一些笔记内容，以便查阅。
   actions:
-    - theme: brand
-      text: Markdown Examples
+    - theme:
+      text: canvas
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
+    - theme:
+      text: electron
       link: /api-examples
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
