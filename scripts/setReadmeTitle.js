@@ -3,11 +3,17 @@
  */
 const fs = require('fs');
 const path = require('path');
+const minimist = require('minimist');
 
-const REPO_URL = 'https://github.com/Tdahuyou/electron/tree/main';
-const IGNORE_DIRS = ['md-imgs', '.git', '.vscode', '0000', '9999. template'];
-const BASE_DIR = path.resolve(__dirname, '..');
-// console.log('BASE_DIR =>', BASE_DIR);
+const config = require('./config.json');
+const args = minimist(process.argv.slice(2));
+
+const REPO_URL = `https://github.com/${config.github_username}/${args.repoName}/tree/main`;
+// https://github.com/Tdahuyou/electron/tree/main
+const IGNORE_DIRS = config.ignore_dirs;
+const BASE_DIR = path.resolve(__dirname, '..', '..', args.repoName);
+console.log('BASE_DIR =>', BASE_DIR);
+// BASE_DIR => c:\Users\Tdahuyou\Desktop\notes\{args.repoName}
 
 const DIR_MAP = {};
 
