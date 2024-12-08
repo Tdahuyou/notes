@@ -1,6 +1,6 @@
 # notes
 
-## 🔗 links
+## 🔗 github pages
 
 - https://tdahuyou.github.io/notes
 
