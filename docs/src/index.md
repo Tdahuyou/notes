@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "TNotes"
-  text: "笔记汇总"
+  text: "由 VitePress 和 Github Pages 搭建的笔记平台"
   tagline: 汇总个人写的一些笔记内容，以便查阅。
   image:
-    src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/icons/icon--github.svg
+    src:  https://vitepress.dev/vitepress-logo-large.webp
     alt: notes logo
   actions:
     - theme: brand
-      text: 笔记目录
-      link: canvas
+      text: 开始阅读
+      link: README
     - theme: alt
       text: View on GitHub
       link: https://github.com/Tdahuyou/notes

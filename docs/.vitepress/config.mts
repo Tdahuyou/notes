@@ -38,7 +38,7 @@ export default defineConfig({
       {
         text: '概述',
         items: [
-          { text: 'README', link: '/_'},
+          { text: 'README', link: '/README'},
         ]
       },
       {
