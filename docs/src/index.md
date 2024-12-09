@@ -100,10 +100,12 @@ features:
   - icon:
       src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/icons/icon--svg.png
     title: svg
+    details: svg 笔记
     link: https://github.com/Tdahuyou/svg/blob/main/README.md
   - icon:
       src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/icons/icon--typescript.svg
     title: typescript
+    details: typescript 笔记
     link: https://github.com/Tdahuyou/typescript/blob/main/README.md
   - icon:
       src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/icons/icon--vite.svg
