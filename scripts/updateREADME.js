@@ -376,10 +376,23 @@ class ReadmeUpdater {
       this.homeReadme.lines.join(this.EOL)
     );
     if (notesmeta.repos_vitepress.includes(this.repoName)) {
-      fs.writeFileSync(
-        this.vitepressDocPath,
-        this.homeReadme.lines.join(this.EOL)
-      );
+      const tocStartIdx = this.homeReadme.lines.indexOf(this.toc.startTag);
+      const tocEndIdx = this.homeReadme.lines.indexOf(this.toc.endTag);
+      if (tocStartIdx !== -1 && tocEndIdx !== -1) {
+        // 将 tocStartIdx 到 tocEndIdx 之间的内容给删除后再写入。
+        fs.writeFileSync(
+          this.vitepressDocPath,
+          this.homeReadme.lines
+            .slice(0, tocStartIdx)
+            .concat(this.homeReadme.lines.slice(tocEndIdx + 1))
+            .join(this.EOL)
+        );
+      } else {
+        fs.writeFileSync(
+          this.vitepressDocPath,
+          this.homeReadme.lines.join(this.EOL)
+        );
+      }
     }
     console.log(`✅ ${this.repoName} \t README.md updated.`);
   }
