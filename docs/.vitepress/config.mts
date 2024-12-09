@@ -36,8 +36,14 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '学习笔记',
-        items: notesmeta.repos_vitepress.map(item => ({ text: '📒 ' + item, link: `/${item}` }))
+        text: '概述',
+        items: [
+          { text: 'README', link: '/_'},
+        ]
+      },
+      {
+        text: '笔记目录',
+        items: notesmeta.repos_vitepress.map((item, i) => ({ text: `${i + 1}. 📒 ` + item, link: `/${item}` }))
       },
     ],
 
