@@ -12,6 +12,17 @@
   - github
 - https://tdahuyou.github.io/notes
   - github pages
+- https://github.com/Tdahuyou/m2mm
+  - m2mm 浏览器插件
+  - This is a Chrome browser extension that converts Markdown content from the clipboard into a Markmap.
+
+## 📒 页面结构
+
+![](assets/2024-12-09-13-44-46.png)
+
+## 💻 结合 m2mm 浏览器插件 - 以思维导图的形式来呈现大纲
+
+![](assets/2024-12-09-13-45-44.png)
 
 ## 📒 笔记管理架构
 
