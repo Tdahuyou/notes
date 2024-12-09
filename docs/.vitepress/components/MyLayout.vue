@@ -9,9 +9,14 @@
             更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
         </template>
         <template #doc-before>
-            <div class="copy-box">
-                <span class="tip" v-show="isCopied">Copied!</span>
-                <button class="copy-raw-file" @click="copyRawFile" title="Copy raw file">raw</button>
+            <div class="doc-before-container">
+                <div class="copy-box">
+                    <span class="tip" v-show="isCopied">Copied!</span>
+                    <button class="copy-raw-file" @click="copyRawFile" title="Copy raw file">raw</button>
+                </div>
+                <div class="github-box">
+                    <a :href="`https://github.com/Tdahuyou/${vpData.page.value.title.toLowerCase()}/blob/main/README.md`" title="to github repo">github</a>
+                </div>
             </div>
         </template>
         <!-- <template #doc-after>doc-after</template> -->
@@ -86,6 +91,10 @@ const copyRawFile = () => {
 </script>
 
 <style>
+.doc-before-container {
+    display: flex;
+    margin-bottom: 1rem;
+}
 .copy-box {
     position: relative;
 }
@@ -94,5 +103,9 @@ const copyRawFile = () => {
     position: absolute;
     top: -1.5rem;
     left: 0;
+}
+
+.github-box {
+    margin-left: 1rem;
 }
 </style>
