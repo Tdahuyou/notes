@@ -349,7 +349,11 @@
 ## 8. svg + css
 
 - [x] [0021. 使用 css 控制 svg 样式](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#1--notes)
+  - [1. 📒 使用 CSS 控制 SVG 样式的注意事项](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#1--使用-css-控制-svg-样式的注意事项)
+  - [2. 💻 demos.1 - 在 svg 中嵌入 style](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#2--demos1---在-svg-中嵌入-style)
+  - [3. 💻 demos.2 - 在 svg 上应用 css 中的动画过渡效果 - 1](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#3--demos2---在-svg-上应用-css-中的动画过渡效果---1)
+  - [4. 💻 demos.3 - 在 svg 上应用 css 中的动画过渡效果 - 2](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#4--demos3---在-svg-上应用-css-中的动画过渡效果---2)
+  - 不是很重要，快速过～
   
 
 ## 9. svg + js
@@ -394,10 +398,4 @@
 
 - [ ] [0041. 练习 - 绘制动态饼图](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) <!-- [locale](./0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0041.%20%E7%BB%83%E4%B9%A0%20-%20%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.md#1--notes)
-  
-
-## 11. ⏰ 待分组
-
-- [ ] [0050. 使用 js 控制 svg 实现 CRUD 操作](https://github.com/Tdahuyou/svg/tree/main/0050.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md) <!-- [locale](./0050.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md) -->  
-  - [1. ⏰](https://github.com/Tdahuyou/svg/tree/main/0050.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md#1-)
   
