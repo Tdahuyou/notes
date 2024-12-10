@@ -3,20 +3,26 @@
 - 如果你学习过 html、css，那么 svg 的很多笔记只需要搂一眼就行了。快速把笔记内容给过一遍，对 svg 中的一些元素有个初步的认识，知道不同元素之间分别可以用来绘制什么图形，当在项目中需要手写 svg 的时候，然后在线搜即可。
 
 
-## 1. svg 在线免费教程
+## 1. 词库
 
-## 2. svg 起步
+- [ ] [0049. en-words](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md) <!-- [locale](./0049.%20en-words/README.md) -->  
+  - [1. 📝 词汇列表 - 哪里不会点哪里](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md#1--词汇列表---哪里不会点哪里)
+  - 记录在学习过程中涉及到的一些英语词汇。
+  
+
+## 2. svg 在线免费教程
+
+## 3. svg 起步
 
 - [x] [0043. 理解 svg 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) <!-- [locale](./0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) -->  
-  - [1. 🔗 en-words - scalable、vector、graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#1--en-words---scalablevectorgraphics)
-  - [2. 📒 SVG 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#2--svg-是什么)
-    - [2.1. Scalable Vector Graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#21-scalable-vector-graphics)
-  - [3. 📒 SVG 的一些特点](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#3--svg-的一些特点)
-    - [3.1. 易于编辑](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#31-易于编辑)
-    - [3.2. 矢量图](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#32-矢量图)
-    - [3.3. 和传统的前端技术可以很好地结合](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#33-和传统的前端技术可以很好地结合)
-    - [3.4. 滤镜功能](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#34-滤镜功能)
-    - [3.5. 兼容性 nice](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#35-兼容性-nice)
+  - [1. 📒 SVG 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#1--svg-是什么)
+    - [1.1. Scalable Vector Graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#11-scalable-vector-graphics)
+  - [2. 📒 SVG 的一些特点](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#2--svg-的一些特点)
+    - [2.1. 易于编辑](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#21-易于编辑)
+    - [2.2. 矢量图](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#22-矢量图)
+    - [2.3. 和传统的前端技术可以很好地结合](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#23-和传统的前端技术可以很好地结合)
+    - [2.4. 滤镜功能](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#24-滤镜功能)
+    - [2.5. 兼容性 nice](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#25-兼容性-nice)
   - 知识点
     - 需要知道 SVG 是什么。
     - 需要知道 SVG 都有哪些特点，适合用来做些什么东西。
@@ -113,7 +119,7 @@
   - 可以结合着 `Q&A` 中提到的问题来理解 viewBox 属性。
   
 
-## 3. 基本图形绘制
+## 4. 基本图形绘制
 
 - [x] [0005. 使用 line 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - 使用 `<line>` 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--demos1---使用-<line>-绘制直线)
@@ -202,25 +208,52 @@
   - 看下文档中提供的 demo 效果，很容易理解其作用。效果蛮惊艳的，不过不太常见。
   
 
-## 4. path
+## 5. path
 
 - [x] [0048. 认识 path 元素](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) <!-- [locale](./0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) -->  
-  - [1. 🔗 en-words](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#1--en-words)
-  - [2. 📒 近乎万能的 path](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#2--近乎万能的-path)
-  - [3. 📒 path 中一些常用的命令](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#3--path-中一些常用的命令)
-  - [4. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#4--手写-svg-与设计软件导出-svg-的区别及适用场景)
-  - [5. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#5--demos1---来看一个由-path-制作的-logo--reactsvg-源码)
+  - [1. 📒 近乎万能的 path](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#1--近乎万能的-path)
+  - [2. 📒 path 中一些常用的命令](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#2--path-中一些常用的命令)
+  - [3. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#3--手写-svg-与设计软件导出-svg-的区别及适用场景)
+  - [4. 💻 demos.1 - 来看一个由 path 制作的 logo--react.svg 源码](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#4--demos1---来看一个由-path-制作的-logo--reactsvg-源码)
   - 在学习 path 的相关内容之前，先对 path 有个初步的认知，知道它都能用来干啥。
   - path 这玩意儿有点儿骚，因为它绘制的是路径，这个路径可以是直的也可以是弯的。也就是说几乎没有 path 不能绘制的图形。
   - 因此，在众多 svg 元素中，`<path>` 的参数也是最为复杂的。文中提到了不少关键字，这些关键字在后续的 demo 中大多都会结合实际的示例来介绍。要理解关键字，可以把切入点放在关键字的全称上，把英文单词先给看懂，知道每个关键字对应的英文全称是什么。
   
 
-- [ ] [0012. 使用 path 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--notes)
+- [x] [0012. 使用 path 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
+  - [1. 💻 demos.1 - 绘制直线的多种写法](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--demos1---绘制直线的多种写法)
+  - [2. 💻 demos.2 - 一个 `<path>` 允许多个 `M`](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#2--demos2---一个-<path>-允许多个-m)
+  - [3. 💻 demos.3 - 关键字的大小写有着不同的含义](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#3--demos3---关键字的大小写有着不同的含义)
+  - [4. 💻 demos.4 - H、V、Z 关键字](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#4--demos4---hvz-关键字)
+  - `<path>` 可以用于绘制直线，涉及到的关键字：`M/m`、`L/l`、`H`、`V`、`Z`。
   
 
-- [ ] [0011. 使用 path 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) <!-- [locale](./0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#1--notes)
+- [x] [0013. 绘制【扫码】图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
+  - [1. 🔗 iconfont 图标库](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--iconfont-图标库)
+  - [2. iconfont 扫码图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#2-iconfont-扫码图标)
+  - [3. 💻 demos.1 - 绘制扫码图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#3--demos1---绘制扫码图标)
+  - svg 经常被用来设计一些图标，一些非常简单的可以直接手写，不过更多时候还是使用设计软件制作。在学习 svg 的过程中，可以自己找几个简单的图标来自行练习一下。
+  - 示例中绘制的扫码图标，使用的是 `<path>` 绘制直线的相关知识来实现的。
+  - 能够看懂代码就行。实现方式不唯一，做法有很多种，比如一条条地绘制 `<line>` 也行。
+  
+
+- [x] [0011. 使用 path 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) <!-- [locale](./0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) -->  
+  - [1. 💻 demos.1 - 使用 `<path>` 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#1--demos1---使用-<path>-绘制弧)
+  - [2. 💻 demos.2 - 椭圆旋转](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#2--demos2---椭圆旋转)
+  - [3. 💻 demos.3 - 两点决定 4 条弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#3--demos3---两点决定-4-条弧)
+  - [4. 🤔 Q&A](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#4--q&a)
+    - [4.1. 问：指定一个起点坐标和一个终点坐标，一共可以绘制几条弧呢？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#41-问指定一个起点坐标和一个终点坐标一共可以绘制几条弧呢)
+    - [4.2. 问：如果起点和终点以及半径都保持不变的话，一共可以绘制几条弧呢？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#42-问如果起点和终点以及半径都保持不变的话一共可以绘制几条弧呢)
+    - [4.3. 问：如果 rx ry 是相同的值，那么旋转还有意义吗？](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#43-问如果-rx-ry-是相同的值那么旋转还有意义吗)
+  - 涉及到的关键字：`A`
+  - A 的参数有些多，可以结合 demos 来理解这些关键字的作用及含义。
+  - 通过思考结尾的 `Q&A` 部分提到的一些问题，有助于加深对本节内容的理解。
+  
+
+- [ ] [0036. 绘制【群】图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
+  - [1. 💻 demos.1 - 绘制「群」图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--demos1---绘制「群」图标)
+  - 本节涉及的知识点：使用 `path` 标签来绘制弧。【svg.0011】
+  - 能够理解这个群的图标其实就是通过几段弧绘制出来的即可。
   
 
 - [ ] [0010. 使用 path 绘制二次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
@@ -231,15 +264,7 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#1--notes)
   
 
-- [ ] [0013. 绘制【扫码】图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--notes)
-  
-
-- [ ] [0036. 绘制【群】图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--notes)
-  
-
-## 5. 描边和填充
+## 6. 描边和填充
 
 - [ ] [0028. 使用属性 stroke、stroke-width、stroke-opacity、stroke-linecap 设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md#1--notes)
@@ -273,7 +298,7 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0037.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%9C%BC%E7%9D%9B%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--notes)
   
 
-## 6. 复用
+## 7. 复用
 
 - [ ] [0017. 使用 g 作为容器](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) <!-- [locale](./0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#1--notes)
@@ -287,7 +312,7 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#1--notes)
   
 
-## 7. svg 与 js、html、css 的结合
+## 8. svg 与 js、html、css 的结合
 
 - [ ] [0021. 使用 css 控制 svg 样式](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#1--notes)
@@ -297,14 +322,21 @@
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md#1--notes)
   
 
-## 8. 练习
+## 9. 练习
 
 - [ ] [0013. 绘制【扫码】图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--notes)
+  - [1. 🔗 iconfont 图标库](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--iconfont-图标库)
+  - [2. iconfont 扫码图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#2-iconfont-扫码图标)
+  - [3. 💻 demos.1 - 绘制扫码图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#3--demos1---绘制扫码图标)
+  - svg 经常被用来设计一些图标，一些非常简单的可以直接手写，不过更多时候还是使用设计软件制作。在学习 svg 的过程中，可以自己找几个简单的图标来自行练习一下。
+  - 示例中绘制的扫码图标，使用的是 `<path>` 绘制直线的相关知识来实现的。
+  - 能够看懂代码就行。实现方式不唯一，做法有很多种，比如一条条地绘制 `<line>` 也行。
   
 
 - [ ] [0036. 绘制【群】图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
-  - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--notes)
+  - [1. 💻 demos.1 - 绘制「群」图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--demos1---绘制「群」图标)
+  - 本节涉及的知识点：使用 `path` 标签来绘制弧。【svg.0011】
+  - 能够理解这个群的图标其实就是通过几段弧绘制出来的即可。
   
 
 - [ ] [0037. 绘制【眼睛】图标](https://github.com/Tdahuyou/svg/tree/main/0037.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%9C%BC%E7%9D%9B%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0037.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%9C%BC%E7%9D%9B%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
