@@ -64,6 +64,11 @@
     - ……
   
 
+- [x] [0017. 回复关于 snipaste 下载失败的问题](https://github.com/Tdahuyou/pc/tree/main/0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/README.md) <!-- [locale](./0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/README.md) -->  
+  - [1. 💻 解决方案](https://github.com/Tdahuyou/pc/tree/main/0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/README.md#1--解决方案)
+  - ![](https://raw.githubusercontent.com/Tdahuyou/pc/main/0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/assets%2F2024-12-14-21-47-53.png)
+  
+
 - [ ] [0001. 使用 LICEcap 在 macos 和 windows 系统上录制 gif 图](https://github.com/Tdahuyou/pc/tree/main/0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.md) <!-- [locale](./0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.md) -->  
   - [1. 📒 LICEcap 简介](https://github.com/Tdahuyou/pc/tree/main/0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.md#1--licecap-简介)
   - [2. 📒 LICEcap 的安装和使用步骤](https://github.com/Tdahuyou/pc/tree/main/0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.md#2--licecap-的安装和使用步骤)
