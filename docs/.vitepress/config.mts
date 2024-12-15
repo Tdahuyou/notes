@@ -39,7 +39,7 @@ export default defineConfig({
         text: '概述',
         items: [
           { text: 'README', link: '/README'},
-          { text: '问题咨询 👉 ￥9.9 起', link: '/taobao'},
+          { text: '解决问题 👉 ￥9.9 起', link: '/taobao'},
         ]
       },
       {
