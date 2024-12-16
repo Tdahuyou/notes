@@ -1,6 +1,6 @@
 {
   "github_username": "Tdahuyou",
-  "common_ignore_dirs": ["md-imgs", ".git", "assets", ".vscode", "0000", "9999. templates"],
+  "common_ignore_dirs": ["md-imgs", ".git", "assets", ".vscode", "0000", "9999. templates", "node_modules"],
   "repos": [
     "algorithm_",
     "canvas",

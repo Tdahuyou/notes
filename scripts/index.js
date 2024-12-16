@@ -3,7 +3,7 @@ const minimist = require("minimist");
 
 const ReadmeUpdater = require("./updateREADME");
 const { mergeReadme, distributeReadme } = require('./notes-merge-distribute');
-const { syncLocalAndRemote, readNotesMataJson } = require('./utils');
+const { syncLocalAndRemote, initPkg } = require('./utils');
 const notesmeta = require("./.notesmeta.json");
 
 
@@ -19,8 +19,9 @@ const notesmeta = require("./.notesmeta.json");
   }
 
   const baseDir = path.resolve(__dirname, "..", "..", repoName);
-  const notesMataJson = readNotesMataJson(baseDir) || {};
-  let ignoreDirs = notesMataJson.ignoreDirs || [];
+  const pkg = await initPkg(baseDir, repoName) || {};
+  if (!pkg.tnotesConfig) throw new Error(`❌ repoName: tnotesConfig is required, ${repoName} has no tnotesConfig in package.json`);
+  let ignoreDirs = pkg.ignoreDirs || [];
   ignoreDirs = [...ignoreDirs, ...notesmeta.common_ignore_dirs];
 
   // console.log(args);

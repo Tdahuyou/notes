@@ -52,21 +52,39 @@ async function syncLocalAndRemote(dir) {
   }
 }
 
-function readNotesMataJson(baseDir) {
-  const filePath = path.resolve(baseDir, "notes.meta.json");
-  try {
-    const fileContent = fs.readFileSync(filePath, { encoding: "utf8" });
-    const data = JSON.parse(fileContent);
-    return data;
-  } catch (error) {
-    console.error(
-      `❌ Error reading or parsing notes.mata.json: ${error.message}`
-    );
-    return {};
+async function initPkg(baseDir, repoName) {
+  // 检查 package.json 是否存在
+  const pkgPath = path.resolve(baseDir, "package.json");
+  if (fs.existsSync(pkgPath)) {
+    try {
+      const pkgContent = fs.readFileSync(pkgPath, { encoding: "utf8" });
+      const pkg = JSON.parse(pkgContent);
+      return pkg;
+    } catch (error) {
+      console.error(`❌ Error reading or parsing package.json: ${error.message}`);
+      return {};
+    }
   }
+
+  // 将默认配置写入 package.json
+  const defaultPkg = {
+      "scripts": {
+          "sync": `            node ./node_modules/tnotes   --syncREADME          --repoName=${repoName}`,
+          "update": `          node ./node_modules/tnotes   --updateREADME        --repoName=${repoName}`,
+          "merge": `           node ./node_modules/tnotes   --mergeREADME         --repoName=${repoName}`,
+          "distribute": `      node ./node_modules/tnotes   --distributeREADME    --repoName=${repoName}`,
+          "docs:publish": `    node ./node_modules/tnotes/scripts/docs-publish.js`
+      },
+      "tnotesConfig": {
+        "ignoreDirs": []
+      }
+  };
+  fs.writeFileSync(pkgPath, JSON.stringify(defaultPkg, null, 2));
+  await runCommand("npm link tnotes", baseDir); // 链接 tnotes 库到当前笔记目录
+  return defaultPkg;
 }
 
 module.exports = {
     syncLocalAndRemote,
-    readNotesMataJson
+    initPkg
 }
