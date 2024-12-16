@@ -8,7 +8,9 @@ const notesmeta = require("./.notesmeta.json");
 
 
 (async () => {
-  const args = minimist(process.argv.slice(2));
+  const args = minimist(process.argv.slice(2), {
+    string: ['repoName']
+  });
   // console.log('args', args);
   
   const repoName = args.repoName;
