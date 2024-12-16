@@ -1,9 +1,5 @@
 # eslint
 
-<!-- region:toc -->
-- [eslint](#eslint)
-  - [1. 初步认识 eslint](#1-初步认识-eslint)
-<!-- endregion:toc -->
 
 ## 1. 初步认识 eslint
 

@@ -2,10 +2,6 @@
 
 ⏰ 笔记内容待搬运。
 
-<!-- region:toc -->
-- [javascript](#javascript)
-  - [1. 待分组](#1-待分组)
-<!-- endregion:toc -->
 
 ## 1. 待分组
 
@@ -672,4 +668,17 @@
   
 
 - [ ] [0077. encodeURIcomponent](https://github.com/Tdahuyou/javascript/tree/main/0077.%20encodeURIcomponent/README.md) <!-- [locale](./0077.%20encodeURIcomponent/README.md) -->  
+  
+
+
+
+## ⏰ 待分组
+
+- [ ] [9999. template](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md) <!-- [locale](./9999.%20template/README.md) -->  
+  
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#1--summary)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#2--links)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#3--notes)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#4--demo)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/9999.%20template/README.md#5--ai)
   

@@ -2,10 +2,6 @@
 
 ⏰ 从语雀上搬运 webpack 的早期学习笔记，当时的版本是 v4。刚才搜索了一下，现在（2024 年 11 月 29 日 07:21:59）的最新版是 v5.96.1。v4 的笔记回顾完之后再看看 v5。
 
-<!-- region:toc -->
-- [webpack](#webpack)
-  - [1. 初步认识 webpack](#1-初步认识-webpack)
-<!-- endregion:toc -->
 
 ## 1. 初步认识 webpack
 

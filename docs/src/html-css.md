@@ -2,11 +2,6 @@
 
 pending
 
-<!-- region:toc -->
-- [html-css](#html-css)
-  - [1. css 属性](#1-css-属性)
-  - [2. 笔记内容待完善](#2-笔记内容待完善)
-<!-- endregion:toc -->
 
 ## 1. css 属性
 

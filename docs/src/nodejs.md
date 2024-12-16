@@ -1,20 +1,5 @@
 # nodejs
 
-<!-- region:toc -->
-- [nodejs](#nodejs)
-  - [1. nodejs 学习资源](#1-nodejs-学习资源)
-    - [1.1. nodejs 书籍](#11-nodejs-书籍)
-    - [1.2. nodejs 掘金小册](#12-nodejs-掘金小册)
-    - [1.3. 其他免费在线学习资源](#13-其他免费在线学习资源)
-  - [2. nodejs 内置模块](#2-nodejs-内置模块)
-    - [2.1. process](#21-process)
-    - [2.2. crypto](#22-crypto)
-  - [3. koa](#3-koa)
-  - [4. npm 相关](#4-npm-相关)
-  - [5. nodejs 命令行操作](#5-nodejs-命令行操作)
-  - [6. 其他](#6-其他)
-  - [7. ⏰ 待分组](#7--待分组)
-<!-- endregion:toc -->
 
 ## 1. nodejs 学习资源
 ### 1.1. nodejs 书籍

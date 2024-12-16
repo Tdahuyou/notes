@@ -2,13 +2,6 @@
 
 vscode 学习笔记。
 
-<!-- region:toc -->
-- [vscode](#vscode)
-  - [1. 🔗 links](#1--links)
-  - [2. 注释管理](#2-注释管理)
-  - [3. 标签管理](#3-标签管理)
-  - [4. 插件](#4-插件)
-<!-- endregion:toc -->
 
 ## 1. 🔗 links
 

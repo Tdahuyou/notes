@@ -1,10 +1,5 @@
 # en-notes
 
-<!-- region:toc -->
-- [en-notes](#en-notes)
-  - [1. 单词本](#1-单词本)
-  - [2. qwerty-learner 英文单词](#2-qwerty-learner-英文单词)
-<!-- endregion:toc -->
 
 ## 1. 单词本
 
