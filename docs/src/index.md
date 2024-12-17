@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "TNotes"
   text: "由 VitePress 和 Github Pages 搭建的笔记平台"
-  tagline: 该站点汇总个人写的一些笔记内容，以便查阅、分享。笔记已开源在 github 上，有需要的可自行 clone。
+  tagline: 该站点汇总个人写的一些笔记内容大纲，以便查阅、分享。笔记已开源在 github 上，有需要的可自行 clone。
   image:
     src:  https://vitepress.dev/vitepress-logo-large.webp
     alt: notes logo

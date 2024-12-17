@@ -39,12 +39,17 @@ export default defineConfig({
         text: '概述',
         items: [
           { text: 'README', link: '/README'},
-          { text: '解决问题 👉 ￥9.9 起', link: '/taobao'},
         ]
       },
       {
         text: '笔记目录',
-        items: notesmeta.repos_vitepress.map((item, i) => ({ text: `${i + 1}. 📒 ` + item, link: `/${item}` }))
+        items: notesmeta.repos_vitepress.map((item, i) => ({ text: `${i + 1}. ` + item, link: `/${item}` }))
+      },
+      {
+        text: '其他',
+        items: [
+          { text: '淘宝店铺 Tdahuyou', link: '/taobao'},
+        ]
       },
     ],
 
