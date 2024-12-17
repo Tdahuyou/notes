@@ -11,9 +11,6 @@ importers:
       minimist:
         specifier: ^1.2.8
         version: 1.2.8
-      string-slugify:
-        specifier: ^0.5.1
-        version: 0.5.1
       vue:
         specifier: ^3.5.13
         version: 3.5.13
@@ -559,9 +556,6 @@ packages:
   character-entities-legacy@3.0.0:
     resolution: {integrity: sha512-RpPp0asT/6ufRm//AJVwpViZbGM/MkjQFxJccQRHmISF/22NBtsHqAWmL+/pmkPWoIUJdWyeVleTl1wydHATVQ==}
 
-  clify@0.1.1:
-    resolution: {integrity: sha512-mQZU4uzG+KfTSfiRLPjlsZ94e3AnuGp6wDRGfbFqRgv0GLTcki3TxWAaZt0XK8SVGleYYCE4pJ1SnjX8rgli+g==}
-
   color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
 
@@ -860,10 +854,6 @@ packages:
   mitt@3.0.1:
     resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
 
-  multiline@0.3.4:
-    resolution: {integrity: sha512-F4/m1gFxvrpFlW/kIBOrGtB9mVpIoQ5PgT+vd6hC63u7vggtYnw1LG/zjkLoxQXI7sDexPlfbF6+w0jmvIfsnQ==}
-    engines: {node: '>=0.10.0'}
-
   nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -1036,10 +1026,6 @@ packages:
     resolution: {integrity: sha512-1POYv7uv2gXoyGFpBCmpDVSNV74IfsWlDW216UPjbWufNf+bSU6GdbDsxdcxtfwb4xlI3yxzOTKClUosxARYrQ==}
     engines: {node: '>=0.10.0'}
 
-  string-slugify@0.5.1:
-    resolution: {integrity: sha512-fe3HTMqncuuPYHxPd/lIEGfnWyC/9VRjEqHp9uXoVn89jMyhGFiGOpee4TIV41ZrioE7X2g2sjDqnspo+tRdsA==}
-    hasBin: true
-
   string.prototype.padend@3.1.6:
     resolution: {integrity: sha512-XZpspuSB7vJWhvJc9DLSlrXl1mcA2BdoY5jjnS135ydXqLoqhs96JjDtCkjJEQHvfqZIp9hBuBMgI589peyx9Q==}
     engines: {node: '>= 0.4'}
@@ -1061,11 +1047,6 @@ packages:
   strip-bom@3.0.0:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
-
-  strip-indent@0.1.3:
-    resolution: {integrity: sha512-jX5TqOvZa+bSS8JeIvWXODBA7SH0PdpkbPOgt/EpPm0P1bdCPHpCnb27LweZWVT8tXFiKSQexb/Lg7xB7v1hTQ==}
-    engines: {node: '>=0.10.0'}
-    hasBin: true
 
   superjson@2.2.1:
     resolution: {integrity: sha512-8iGv75BYOa0xRJHK5vRLEjE2H/i4lulTjzpUXic3Eg8akftYjkmQDa8JARQ42rlczXyFR3IeRoeFCc7RxHsYZA==}
@@ -1717,8 +1698,6 @@ snapshots:
 
   character-entities-legacy@3.0.0: {}
 
-  clify@0.1.1: {}
-
   color-convert@1.9.3:
     dependencies:
       color-name: 1.1.3
@@ -2108,10 +2087,6 @@ snapshots:
 
   mitt@3.0.1: {}
 
-  multiline@0.3.4:
-    dependencies:
-      strip-indent: 0.1.3
-
   nanoid@3.3.7: {}
 
   nice-try@1.0.5: {}
@@ -2321,11 +2296,6 @@ snapshots:
 
   speakingurl@14.0.1: {}
 
-  string-slugify@0.5.1:
-    dependencies:
-      clify: 0.1.1
-      multiline: 0.3.4
-
   string.prototype.padend@3.1.6:
     dependencies:
       call-bind: 1.0.7
@@ -2358,8 +2328,6 @@ snapshots:
       character-entities-legacy: 3.0.0
 
   strip-bom@3.0.0: {}
-
-  strip-indent@0.1.3: {}
 
   superjson@2.2.1:
     dependencies:
