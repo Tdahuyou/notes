@@ -90,18 +90,26 @@ mindmap
 
 ## 💻 以 javascript 笔记管理流程为例
 
-- 是先准备好俩文件 `javascript/package.json` 和 `javascript/notes.meta.json`。
+- 是先准备好俩文件 `javascript/package.json`。
 - 下面是 javascript/package.json 中的内容，主要存放一些脚本。
   - 其中 merge、distribute 通常在初期处理格式问题的时候才需要用到。
 
 ```json
 {
-    "scripts": {
-        "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=javascript",
-        "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=javascript",
-        "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=javascript",
-        "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=javascript"
-    }
+  "scripts": {
+    "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=javascript",
+    "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=javascript",
+    "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=javascript",
+    "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=javascript"
+  },
+  "tnotesConfig": {
+    "ignoreDirs": [
+      "0000",
+      ".git",
+      ".vscode",
+      "9999. template"
+    ]
+  }
 }
 ```
 - 命令作用简介：
@@ -113,13 +121,8 @@ mindmap
     - 更新 README 文件，包括首页的 README.md 和每个笔记的 README.md。主要处理每篇笔记的目录结构，并将笔记的目录信息提取到 home README 中，形成一个有效的目录结构。
   - `npm run sync`
     - 保持本地和 GitHub 远程仓库内容同步，相当于执行了 `git pull`、`git add .`、`git commit -m "update"`、`git push`。
-- 下面是 javascript/notes.meta.json 中的内容，暂时仅有一个配置 ignoreDirs，用于配置忽略一些不需要处理的目录。
-
-```json
-{
-    "ignoreDirs": ["md-imgs", ".git", ".vscode"]
-}
-```
+- tnotesConfig 配置中的内容是 tnotes 脚本的配置数据。
+  - ignoreDirs，用于配置忽略一些不需要处理的目录。
 
 ## 📒 emoji 规范
 
