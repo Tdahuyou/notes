@@ -59,11 +59,11 @@
   - ![](https://raw.githubusercontent.com/Tdahuyou/pc/main/0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/assets%2F2024-12-14-21-47-53.png)
   
 
-- [ ] [0019. 记录在 24.12.15 看到的一个截图软件介绍视频](https://github.com/Tdahuyou/pc/tree/main/0019.%20%E8%AE%B0%E5%BD%95%E5%9C%A8%2024.12.15%20%E7%9C%8B%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E6%88%AA%E5%9B%BE%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%E8%A7%86%E9%A2%91/README.md) <!-- [locale](./0019.%20%E8%AE%B0%E5%BD%95%E5%9C%A8%2024.12.15%20%E7%9C%8B%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E6%88%AA%E5%9B%BE%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%E8%A7%86%E9%A2%91/README.md) -->  
-  - [1. 📝 个人评价](https://github.com/Tdahuyou/pc/tree/main/0019.%20%E8%AE%B0%E5%BD%95%E5%9C%A8%2024.12.15%20%E7%9C%8B%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E6%88%AA%E5%9B%BE%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%E8%A7%86%E9%A2%91/README.md#1--个人评价)
-  - [2. ⏰ 找时间体验一下 pixpin，参考官方文档，将所有功能都过一遍，确实好使的话，可以考虑从 snipaste 过渡到 pixpin。](https://github.com/Tdahuyou/pc/tree/main/0019.%20%E8%AE%B0%E5%BD%95%E5%9C%A8%2024.12.15%20%E7%9C%8B%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E6%88%AA%E5%9B%BE%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%E8%A7%86%E9%A2%91/README.md#2--找时间体验一下-pixpin参考官方文档将所有功能都过一遍确实好使的话可以考虑从-snipaste-过渡到-pixpin)
-  - 【梦想中完美的截图软件，终于有人开发出来了！-哔哩哔哩】 
-    - https://b23.tv/1ZLiTpl
+- [ ] [0019. 梦想中完美的截图软件，终于有人开发出来了！--bilibili--玄离199](https://github.com/Tdahuyou/pc/tree/main/0019.%20%E6%A2%A6%E6%83%B3%E4%B8%AD%E5%AE%8C%E7%BE%8E%E7%9A%84%E6%88%AA%E5%9B%BE%E8%BD%AF%E4%BB%B6%EF%BC%8C%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%BA%E5%BC%80%E5%8F%91%E5%87%BA%E6%9D%A5%E4%BA%86%EF%BC%81--bilibili--%E7%8E%84%E7%A6%BB199/README.md) <!-- [locale](./0019.%20%E6%A2%A6%E6%83%B3%E4%B8%AD%E5%AE%8C%E7%BE%8E%E7%9A%84%E6%88%AA%E5%9B%BE%E8%BD%AF%E4%BB%B6%EF%BC%8C%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%BA%E5%BC%80%E5%8F%91%E5%87%BA%E6%9D%A5%E4%BA%86%EF%BC%81--bilibili--%E7%8E%84%E7%A6%BB199/README.md) -->  
+  - [1. 📝 个人评价](https://github.com/Tdahuyou/pc/tree/main/0019.%20%E6%A2%A6%E6%83%B3%E4%B8%AD%E5%AE%8C%E7%BE%8E%E7%9A%84%E6%88%AA%E5%9B%BE%E8%BD%AF%E4%BB%B6%EF%BC%8C%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%BA%E5%BC%80%E5%8F%91%E5%87%BA%E6%9D%A5%E4%BA%86%EF%BC%81--bilibili--%E7%8E%84%E7%A6%BB199/README.md#1--个人评价)
+  - [2. ⏰ 找时间体验一下 pixpin，参考官方文档，将所有功能都过一遍，确实好使的话，可以考虑从 snipaste 过渡到 pixpin。](https://github.com/Tdahuyou/pc/tree/main/0019.%20%E6%A2%A6%E6%83%B3%E4%B8%AD%E5%AE%8C%E7%BE%8E%E7%9A%84%E6%88%AA%E5%9B%BE%E8%BD%AF%E4%BB%B6%EF%BC%8C%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%BA%E5%BC%80%E5%8F%91%E5%87%BA%E6%9D%A5%E4%BA%86%EF%BC%81--bilibili--%E7%8E%84%E7%A6%BB199/README.md#2--找时间体验一下-pixpin参考官方文档将所有功能都过一遍确实好使的话可以考虑从-snipaste-过渡到-pixpin)
+  - https://b23.tv/1ZLiTpl
+    - 梦想中完美的截图软件，终于有人开发出来了！--bilibili--玄离199
     - 视频中提到了 windows 系统自带的截图软件、snipaste、pixpin、QQ 截图、钉钉截图。
   
 
@@ -206,3 +206,20 @@
     - [5.2. 发布步骤](https://github.com/Tdahuyou/pc/tree/main/0016.%20chrome%20%E6%8F%92%E4%BB%B6%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B/README.md#52-发布步骤)
     - [5.3. 注意事项](https://github.com/Tdahuyou/pc/tree/main/0016.%20chrome%20%E6%8F%92%E4%BB%B6%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B/README.md#53-注意事项)
   
+
+## 6. B 站收藏
+
+### 6.1. 编程相关
+
+- [ ] [0020. 30年前的技术债引发win11离奇bug，微软不敢修！--bilibili--epcdiy](https://github.com/Tdahuyou/pc/tree/main/0020.%2030%E5%B9%B4%E5%89%8D%E7%9A%84%E6%8A%80%E6%9C%AF%E5%80%BA%E5%BC%95%E5%8F%91win11%E7%A6%BB%E5%A5%87bug%EF%BC%8C%E5%BE%AE%E8%BD%AF%E4%B8%8D%E6%95%A2%E4%BF%AE%EF%BC%81--bilibili--epcdiy/README.md) <!-- [locale](./0020.%2030%E5%B9%B4%E5%89%8D%E7%9A%84%E6%8A%80%E6%9C%AF%E5%80%BA%E5%BC%95%E5%8F%91win11%E7%A6%BB%E5%A5%87bug%EF%BC%8C%E5%BE%AE%E8%BD%AF%E4%B8%8D%E6%95%A2%E4%BF%AE%EF%BC%81--bilibili--epcdiy/README.md) -->  
+  - https://b23.tv/fZ4H265
+  - 介绍了 Windows 环境下路径过长的历史 bug
+  - 提到了 macOS 和 windows 在升级的时候所选择的策略：
+  - macOS 舍弃技术债，不对旧程序做兼容。
+  - Windows 保留技术债，尽可能对旧程序做兼容。
+
+- [ ] [0021. 下载开源软件还要付钱？论国内搜索引擎中的广告究竟有多不要脸？--bilibili--Z极客](https://github.com/Tdahuyou/pc/tree/main/0021.%20%E4%B8%8B%E8%BD%BD%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E8%BF%98%E8%A6%81%E4%BB%98%E9%92%B1%EF%BC%9F%E8%AE%BA%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%B8%AD%E7%9A%84%E5%B9%BF%E5%91%8A%E7%A9%B6%E7%AB%9F%E6%9C%89%E5%A4%9A%E4%B8%8D%E8%A6%81%E8%84%B8%EF%BC%9F--bilibili--Z%E6%9E%81%E5%AE%A2/README.md) <!-- [locale](./0021.%20%E4%B8%8B%E8%BD%BD%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E8%BF%98%E8%A6%81%E4%BB%98%E9%92%B1%EF%BC%9F%E8%AE%BA%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%B8%AD%E7%9A%84%E5%B9%BF%E5%91%8A%E7%A9%B6%E7%AB%9F%E6%9C%89%E5%A4%9A%E4%B8%8D%E8%A6%81%E8%84%B8%EF%BC%9F--bilibili--Z%E6%9E%81%E5%AE%A2/README.md) -->  
+  - https://b23.tv/FrZ0VMJ
+  - 介绍了使用百度，搜狗，360 等搜索开源免费软件缺下到盗版收费软件的问题。
+  - 介绍了广告拦截插件 - AdGuard。
+  - 侧面体现了使用 Google 的好处。（前提是有科学上网的条件）
