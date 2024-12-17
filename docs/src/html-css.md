@@ -2,13 +2,48 @@
 
 pending
 
+<!-- region:toc -->
+- [html-css](#html-css)
+  - [1. css 属性](#1-css-属性)
+  - [2. 笔记内容待完善](#2-笔记内容待完善)
+<!-- endregion:toc -->
 
 ## 1. css 属性
 
-- [ ] [0024. background 基本使用](https://github.com/Tdahuyou/html-css/tree/main/0024.%20background%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0024.%20background%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
-  - [1. 🔗 MDN background](https://github.com/Tdahuyou/html-css/tree/main/0024.%20background%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--mdn-background)
-  - [2. ⏰ background-* 忘记哪个就找些 demo 来看看，并汇总到 demos.* 中。](https://github.com/Tdahuyou/html-css/tree/main/0024.%20background%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#2--background-*-忘记哪个就找些-demo-来看看并汇总到-demos*-中)
-  - [3. 💻 demos.1 - 使用 background-image 设置背景](https://github.com/Tdahuyou/html-css/tree/main/0024.%20background%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#3--demos1---使用-background-image-设置背景)
+- [ ] [0024. background](https://github.com/Tdahuyou/html-css/tree/main/0024.%20background/README.md) <!-- [locale](./0024.%20background/README.md) -->  
+  - [1. ⏰ background-* 忘记哪个就找些 demo 来看看，并汇总到 demos.* 中。](https://github.com/Tdahuyou/html-css/tree/main/0024.%20background/README.md#1--background-*-忘记哪个就找些-demo-来看看并汇总到-demos*-中)
+  - [2. 💻 demos.1 - 使用 background-image 设置背景](https://github.com/Tdahuyou/html-css/tree/main/0024.%20background/README.md#2--demos1---使用-background-image-设置背景)
+  - MDN background
+    - https://developer.mozilla.org/zh-CN/docs/Web/CSS/background
+      - 在侧边目录中查看 `background-*`
+      - background
+      - background-attachment
+      - background-blend-mode
+      - background-clip
+      - background-color
+      - background-image
+      - background-origin
+      - background-position
+      - background-position-x
+      - background-position-y
+      - background-repeat
+      - background-size
+  
+
+- [ ] [0025. clip-path](https://github.com/Tdahuyou/html-css/tree/main/0025.%20clip-path/README.md) <!-- [locale](./0025.%20clip-path/README.md) -->  
+  - [1. 📒 clip-path 概述](https://github.com/Tdahuyou/html-css/tree/main/0025.%20clip-path/README.md#1--clip-path-概述)
+  - [2. 💻 demos.1 - 圆形裁剪](https://github.com/Tdahuyou/html-css/tree/main/0025.%20clip-path/README.md#2--demos1---圆形裁剪)
+  - [3. 💻 demos.3 - 椭圆形裁剪](https://github.com/Tdahuyou/html-css/tree/main/0025.%20clip-path/README.md#3--demos3---椭圆形裁剪)
+  - [4. 💻 demos.4 - 矩形裁剪](https://github.com/Tdahuyou/html-css/tree/main/0025.%20clip-path/README.md#4--demos4---矩形裁剪)
+  - [5. 💻 demos.2 - 多边形裁剪](https://github.com/Tdahuyou/html-css/tree/main/0025.%20clip-path/README.md#5--demos2---多边形裁剪)
+  - [6. 💻 demos.5 - 使用 svg 的裁剪路径来裁剪](https://github.com/Tdahuyou/html-css/tree/main/0025.%20clip-path/README.md#6--demos5---使用-svg-的裁剪路径来裁剪)
+  - [7. 💻 demos.6 - 使用 svg 的裁剪路径来裁剪 - vite、github](https://github.com/Tdahuyou/html-css/tree/main/0025.%20clip-path/README.md#7--demos6---使用-svg-的裁剪路径来裁剪---vitegithub)
+  - clip-path 的写法非常灵活，笔记中的 demo 仅记录了其中一部分写法，更多写法可以参考 MDN。
+  - 虽然路径的绘制方式有很多，但其实如果我们掌握好了 svg 的话，使用 svg 来绘制路径，想要啥效果就画啥效果，也就是说啥路径都可以自行指定。
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+    - mdn - css clip-path 属性
+  - https://caniuse.com/?search=clip-path
+    - can i use clip-path
   
 
 ## 2. 笔记内容待完善

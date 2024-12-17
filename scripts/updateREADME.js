@@ -11,6 +11,7 @@
 const fs = require('fs');
 const path = require('path');
 const notesmeta = require("./.notesmeta.json");
+const slugify = require('string-slugify');
 
 class ReadmeUpdater {
   constructor({repoName, baseDir, ignoreDirs}) {
