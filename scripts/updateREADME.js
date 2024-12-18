@@ -3,23 +3,20 @@
  * - 更新 note README 目录
  * - 目录编号自动更新
  * - 读取笔记头部信息，更新 home README
- * 
- * TODO:
- * 使用 markmap 自动生成 home Readme 的思维导图；markmap 有提供 CLI，可以生成看看最终的效果如何。
- * （PS：大概率是中看不中用……）
  */
 const fs = require('fs');
 const path = require('path');
 const notesmeta = require("./.notesmeta.json");
 
 class ReadmeUpdater {
-  constructor({repoName, baseDir, ignoreDirs}) {
+  constructor({repoName, baseDir, ignoreDirs, doneNoteIds}) {
     this.repoName = repoName;
     this.baseDir = baseDir;
     // fs.readdirSync(path.resolve(this.baseDir, 'notes.mata.json'), { encoding: 'utf8' });
     
     this.githubUsername = "Tdahuyou";
     this.ignoreDirs = ignoreDirs || [];
+    this.doneNoteIds = doneNoteIds || [];
     this.repoUrl = `https://github.com/${this.githubUsername}/${repoName}/tree/main`;
     this.repoBolbUrl = `https://raw.githubusercontent.com/${this.githubUsername}/${repoName}/main`; // for renderer img
 
@@ -198,7 +195,13 @@ class ReadmeUpdater {
         const noteID = match[3];
         this.homeReadme.ids.add(noteID);
         if (noteID in this.notes.map) {
-          this.homeReadme.lines[index] = `${match[1]}${this.notes.map[noteID]}`;
+          let prefixSymbol = match[1];
+          if (this.doneNoteIds.includes(noteID)) {
+            prefixSymbol = prefixSymbol.replace('[ ]', '[x]');
+          } else {
+            prefixSymbol = prefixSymbol.replace('[x]', '[ ]');
+          }
+          this.homeReadme.lines[index] = `${prefixSymbol}${this.notes.map[noteID]}`;
         }
       }
     });

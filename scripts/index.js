@@ -24,6 +24,7 @@ const notesmeta = require("./.notesmeta.json");
   const pkg = await initPkg(baseDir, repoName) || {};
   if (!pkg.tnotesConfig) throw new Error(`❌ repoName: tnotesConfig is required, ${repoName} has no tnotesConfig in package.json`);
   let ignoreDirs = pkg.ignoreDirs || [];
+  const doneNoteIds = pkg.tnotesConfig.doneNoteIds || [];
   ignoreDirs = [...ignoreDirs, ...notesmeta.common_ignore_dirs];
 
   // console.log(args);
@@ -32,6 +33,7 @@ const notesmeta = require("./.notesmeta.json");
       repoName,
       baseDir,
       ignoreDirs,
+      doneNoteIds
     });
     updater.updateReadme();
     await syncLocalAndRemote(baseDir);
