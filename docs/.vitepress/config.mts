@@ -134,9 +134,18 @@ export default defineConfig({
         ],
       },
       {
+        text: '随笔',
+        collapsed: true,
+        items: [{ text: '✍️ 地铁到站 - 围城', link: '/blog/1' }],
+      },
+      {
         text: '其他',
         collapsed: true,
-        items: [{ text: '付费答疑', link: '/taobao' }],
+        items: [
+          { text: '📮 邮箱', link: '/others/email' },
+          { text: '🧑🏻‍💻 微信', link: '/others/we-chat' },
+          { text: '💰 答疑', link: '/others/paid-consulting-service' },
+        ],
       },
     ],
 

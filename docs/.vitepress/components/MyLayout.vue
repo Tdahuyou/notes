@@ -5,9 +5,11 @@
             <!-- <pre>{{ notesData[vpData.page.value.title] }}</pre> -->
         </template>
         <!-- <template #doc-bottom>doc-bottom</template> -->
-        <!-- <template #doc-footer-before>
-            更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
-        </template> -->
+        <template #doc-footer-before>
+            <div class="footer-update-time" v-show="!notesmeta.repos_vitepress.includes(vpData.page.value.title)">
+                更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
+            </div>
+        </template>
         <template #doc-before>
             <div class="doc-before-container" v-show="notesmeta.repos_vitepress.includes(vpData.page.value.title)">
                 <div class="left-area">
@@ -29,8 +31,8 @@
                     </div>
                 </div>
                 <div class="right-area">
-                    <div class="notes-length">
-                        笔记数量：{{ notesLength }}
+                    <div class="notes-length" title="笔记数量">
+                        {{ notesLength }}｜
                     </div>
                     <div class="update-time">
                         更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
@@ -142,7 +144,6 @@ const copyRawFile = () => {
 .right-area {
     display: flex;
     align-items: center;
-    gap: 1rem;
 
     font-style: italic;
     font-size: .7rem;
@@ -150,5 +151,11 @@ const copyRawFile = () => {
 
 .update-time {
     vertical-align: middle;
+}
+
+.footer-update-time {
+    text-align: right;
+    font-style: italic;
+    font-size: .7rem;
 }
 </style>
