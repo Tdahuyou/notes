@@ -66,7 +66,8 @@ export default defineConfig({
               { text: 'HTML & CSS', link: '/html-css' },
               { text: 'JavaScript', link: '/javascript' },
               { text: 'TypeScript', link: '/typescript' },
-              { text: 'Markdown', link: '/markdown' }, // 添加 Markdown 到语言基础中
+              { text: 'Node.js', link: '/nodejs' },
+              { text: 'Markdown', link: '/markdown' },
             ],
           },
           {
@@ -81,11 +82,9 @@ export default defineConfig({
             text: '🛠 工具系列',
             collapsed: true,
             items: [
-              { text: 'PC 端开发环境', link: '/pc' },
+              { text: '工具分享及电脑使用', link: '/pc' },
               { text: 'VSCode 编辑器', link: '/vscode' },
               { text: 'Git 版本控制工具', link: '/git' },
-              { text: 'Prettier 代码格式化工具', link: '/prettier' },
-              { text: 'ESLint 代码检查工具', link: '/eslint' }, 
             ],
           },
           {
@@ -102,35 +101,35 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Webpack', link: '/webpack' },
-              { text: 'Vite 快速开发服务器', link: '/vite' },
-              { text: 'Node.js 运行时环境', link: '/nodejs' },
+              { text: 'Vite', link: '/vite' },
             ],
           },
           {
-            text: '🌍 国际化与本地化',
-            collapsed: true,
-            items: [{ text: 'i18n 国际化', link: '/i18n' }],
-          },
-          {
-            text: '📚 笔记与文档管理',
+            text: '🛠 前端工具',
             collapsed: true,
             items: [
-              { text: 'en-notes 英文笔记', link: '/en-notes' },
+              { text: 'Prettier 代码格式化工具', link: '/prettier' },
+              { text: 'ESLint 代码检查工具', link: '/eslint' },
+              { text: 'i18n 国际化', link: '/i18n' },
+            ],
+          },
+          {
+            text: '🗣️ 学习外语',
+            collapsed: true,
+            items: [
+              { text: 'en-notes 英语笔记', link: '/en-notes' },
+              { text: 'en-words 英语词库', link: '/en-words' },
             ],
           },
           {
             text: '🎮 小程序开发',
             collapsed: true,
-            items: [
-              { text: '微信小程序', link: '/miniprogram-wechat' },
-            ],
+            items: [{ text: '微信小程序', link: '/miniprogram-wechat' }],
           },
           {
             text: '🔢 算法',
             collapsed: true,
-            items: [
-              { text: 'LeetCode 题解', link: '/leetcode' },
-            ],
+            items: [{ text: 'LeetCode 题解', link: '/leetcode' }],
           },
         ],
       },

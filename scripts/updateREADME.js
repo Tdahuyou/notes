@@ -3,6 +3,7 @@
  * - 更新 note README 目录
  * - 目录编号自动更新
  * - 读取笔记头部信息，更新 home README
+ * - 自动将 home README 推送到 TNotes 中
  */
 const fs = require('fs');
 const path = require('path');
@@ -379,8 +380,13 @@ class ReadmeUpdater {
       this.homeReadme.lines.join(this.EOL)
     );
     if (notesmeta.repos_vitepress.includes(this.repoName)) {
-      const tocStartIdx = this.homeReadme.lines.indexOf(this.toc.startTag);
-      const tocEndIdx = this.homeReadme.lines.indexOf(this.toc.endTag);
+      const tocStartIdx = this.homeReadme.lines.indexOf(this.toc.startTag + (process.platform === 'win32' ? '\r' : ''));
+      const tocEndIdx = this.homeReadme.lines.indexOf(this.toc.endTag + (process.platform === 'win32' ? '\r' : ''));
+
+      console.log(this.homeReadme.lines)
+      console.log('tocStartIdx', tocStartIdx)
+      console.log('tocEndIdx', tocEndIdx)
+      
       if (tocStartIdx !== -1 && tocEndIdx !== -1) {
         // 将 tocStartIdx 到 tocEndIdx 之间的内容给删除后再写入。
         fs.writeFileSync(
