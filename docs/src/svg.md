@@ -5,7 +5,7 @@
 
 ## 1. 词库
 
-- [x] [0049. en-words](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md) <!-- [locale](./0049.%20en-words/README.md) -->  
+- [ ] [0049. en-words](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md) <!-- [locale](./0049.%20en-words/README.md) -->  
   - [1. 📝 词汇列表 - 哪里不会点哪里](https://github.com/Tdahuyou/svg/tree/main/0049.%20en-words/README.md#1--词汇列表---哪里不会点哪里)
   - 记录在学习过程中涉及到的一些英语词汇。
   
@@ -14,7 +14,7 @@
 
 ## 3. svg 起步
 
-- [x] [0043. 理解 svg 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) <!-- [locale](./0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) -->  
+- [ ] [0043. 理解 svg 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) <!-- [locale](./0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md) -->  
   - [1. 📒 SVG 是什么](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#1--svg-是什么)
     - [1.1. Scalable Vector Graphics](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#11-scalable-vector-graphics)
   - [2. 📒 SVG 的一些特点](https://github.com/Tdahuyou/svg/tree/main/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.md#2--svg-的一些特点)
@@ -30,7 +30,7 @@
   - 备注：文中有很多描述其实是重复的，虽然换了种说法，但是实际上描述的都是同样的内容。不过多次重复提到的内容，也恰恰是比较重要的点。
   
 
-- [x] [0044. 对比 svg 和 canvas](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) <!-- [locale](./0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) -->  
+- [ ] [0044. 对比 svg 和 canvas](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) <!-- [locale](./0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md) -->  
   - [1. 🔗 links](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#1--links)
   - [2. 📒 对比 svg 和 canvas](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#2--对比-svg-和-canvas)
   - [3. 📒 svg、canvas 的应用场景](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas/README.md#3--svgcanvas-的应用场景)
@@ -40,14 +40,14 @@
     - **如果你的项目涉及到复杂的动画、游戏或需要大量动态图形处理，Canvas 将可能提供更好的性能和灵活性。**
   
 
-- [x] [0045. 区分 Image 和 Graphic](https://github.com/Tdahuyou/svg/tree/main/0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) <!-- [locale](./0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) -->  
+- [ ] [0045. 区分 Image 和 Graphic](https://github.com/Tdahuyou/svg/tree/main/0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) <!-- [locale](./0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md) -->  
   - [1. 📒 Image vs. Graphic](https://github.com/Tdahuyou/svg/tree/main/0045.%20%E5%8C%BA%E5%88%86%20Image%20%E5%92%8C%20Graphic/README.md#1--image-vs-graphic)
   - 图像（Image）通常指的是 **像素数据的集合**，这些数据以栅格或点阵的形式存储。
   - 图形（Graphic）更多指的是 **通过数学表达式定义的图形**，例如 SVG 中的形状（圆形、矩形、路径等）。
   - 备注：自己能够理解 Image vs. Graphic 之间的区别即可，没必要死扣图形、图像两者的区别。从中文表述层面来看，它们大多时候都是被混用的，图、图形、图像，在书面表达中我们通常会将其视作同样的东西。比如：“A：请使用 canvas 绘制一个图形，要求颜色是……”，“B：不对，canvas 画的是图像（巴拉巴拉）” —— 没必要。
   
 
-- [x] [0046. 理解 svg 的 xmlns 属性](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) -->  
+- [ ] [0046. 理解 svg 的 xmlns 属性](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md) -->  
   - [1. 🔗 菜鸟教程 - xml 命名空间](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#1--菜鸟教程---xml-命名空间)
   - [2. 💻 demos.1 - 带有命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#2--demos1---带有命名空间-xmlns="httpwwww3org2000svg")
   - [3. 💻 demos.2 - 不带命名空间 `xmlns="http://www.w3.org/2000/svg"`](https://github.com/Tdahuyou/svg/tree/main/0046.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20xmlns%20%E5%B1%9E%E6%80%A7/README.md#3--demos2---不带命名空间-xmlns="httpwwww3org2000svg")
@@ -59,14 +59,14 @@
   - 本节内容：模拟一个要求 - 在 100*100 的视口中，渲染一个圆心位置是 `(50, 50)`，半径是 `20` 的红色圆形，然后通过 demos 来对比带命名空间和不带命名空间的区别。
   
 
-- [x] [0047. 理解 svg 的 version 属性](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md) -->  
+- [ ] [0047. 理解 svg 的 version 属性](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md) -->  
   - [1. 🔗 MDN - 对 svg version 属性的描述](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md#1--mdn---对-svg-version-属性的描述)
   - [2. 📒 认识 version 属性](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7/README.md#2--认识-version-属性)
   - version 属性的值只有两种情况：`1.0` 和 `1.1`。
   - **version 属性已经被抛弃了，你可以认为它是一个无效属性。**
   
 
-- [x] [0009. vscode svg 相关插件](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md) <!-- [locale](./0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md) -->  
+- [ ] [0009. vscode svg 相关插件](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md) <!-- [locale](./0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md) -->  
   - [1. 🔗 相关插件的链接](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md#1--相关插件的链接)
   - [2. 📒 SVG 插件简介](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md#2--svg-插件简介)
   - [3. 📒 SVG Preview 插件简介](https://github.com/Tdahuyou/svg/tree/main/0009.%20vscode%20svg%20%E7%9B%B8%E5%85%B3%E6%8F%92%E4%BB%B6/README.md#3--svg-preview-插件简介)
@@ -75,7 +75,7 @@
   - 有关插件的详细描述说明，可自行查阅插件对应的文档，文中仅仅是对插件功能的简单描述。
   
 
-- [x] [0001. 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) -->  
+- [ ] [0001. 在 html 中嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md) -->  
   - [1. 💻 demos.1 - 准备测试用的 svg 图形](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#1--demos1---准备测试用的-svg-图形)
   - [2. 💻 demos.2 - 通过 img 标签来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#2--demos2---通过-img-标签来嵌入-svg)
   - [3. 💻 demos.3 - 通过直接嵌入源码的方式来嵌入 svg](https://github.com/Tdahuyou/svg/tree/main/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.md#3--demos3---通过直接嵌入源码的方式来嵌入-svg)
@@ -89,7 +89,7 @@
   - 如果你写好了一个 svg 文件，想要知道如何将其引入到前端页面上，可以参考下文中提到的一些做法。
   
 
-- [x] [0002. 根元素 svg 的数量](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md) <!-- [locale](./0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md) -->  
+- [ ] [0002. 根元素 svg 的数量](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md) <!-- [locale](./0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md) -->  
   - [1. 💻 demos.1 - 在 .html 文件中书写多个 svg](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md#1--demos1---在-html-文件中书写多个-svg)
   - [2. 💻 demos.2 - 在 .svg 文件中只能书写单个 svg](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F/README.md#2--demos2---在-svg-文件中只能书写单个-svg)
   - 根元素的数量得看你在什么位置写，是写在 `.svg` 中还是 `.html` 中，前者 `.svg` 只能出现一个 `<svg>` 根元素，后者 `.html` 可以有多个 `<svg>` 根元素。
@@ -97,7 +97,7 @@
   - svg 标签写在 `.html` 文件中，可以写多个标记，表示嵌入了多个 svg 图片，每一个 svg 都是一个独立的区域。
   
 
-- [x] [0035. 绘制坐标系网格](https://github.com/Tdahuyou/svg/tree/main/0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) <!-- [locale](./0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) -->  
+- [ ] [0035. 绘制坐标系网格](https://github.com/Tdahuyou/svg/tree/main/0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) <!-- [locale](./0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md) -->  
   - [1. 💻 demos.1 - 绘制坐标系网格](https://github.com/Tdahuyou/svg/tree/main/0035.%20%E7%BB%98%E5%88%B6%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BD%91%E6%A0%BC/README.md#1--demos1---绘制坐标系网格)
   - 这里绘制的网格，是为了又一个更直观的参考坐标系，学习 svg、canvas 之类的内容，很多时候都是在手写一个个坐标，有一个直观的坐标参考系，写起来会方便很多。
   - 想要理解这个坐标是怎么绘制的，涉及到以下知识点：`<line>`、`<text>`、`<g>`、`viewBox`。
@@ -105,7 +105,7 @@
   - 至于 `viewBox`，它表示视口，不是一两句话讲得清楚的，这玩意儿后续也会单独介绍。
   
 
-- [x] [0034. 理解 viewBox 视口](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) <!-- [locale](./0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) -->  
+- [ ] [0034. 理解 viewBox 视口](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) <!-- [locale](./0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md) -->  
   - [1. 💻 demos.1 - 省略 `viewBox`](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#1--demos1---省略-viewbox)
   - [2. 💻 demos.2 - 指定 viewBox 正好装下图形](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#2--demos2---指定-viewbox-正好装下图形)
   - [3. 💻 demos.3 - 指定的 viewBox 区域看不到图形](https://github.com/Tdahuyou/svg/tree/main/0034.%20%E7%90%86%E8%A7%A3%20viewBox%20%E8%A7%86%E5%8F%A3/README.md#3--demos3---指定的-viewbox-区域看不到图形)
@@ -121,18 +121,18 @@
 
 ## 4. 基本图形绘制
 
-- [x] [0005. 使用 line 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
+- [ ] [0005. 使用 line 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - 使用 `<line>` 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--demos1---使用-<line>-绘制直线)
   - 绘制直线，只需要明确起点坐标 `(x1, y1)` 和终点坐标 `(x2, y2)` 即可。
   
 
-- [x] [0007. 使用 polyline 绘制折线](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) <!-- [locale](./0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) -->  
+- [ ] [0007. 使用 polyline 绘制折线](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) <!-- [locale](./0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - 使用 `<polyline>` 绘制折线](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md#1--demos1---使用-<polyline>-绘制折线)
   - [2. 💻 demos.2 - 使用 `<polyline>` 绘制折线并填充](https://github.com/Tdahuyou/svg/tree/main/0007.%20%E4%BD%BF%E7%94%A8%20polyline%20%E7%BB%98%E5%88%B6%E6%8A%98%E7%BA%BF/README.md#2--demos2---使用-<polyline>-绘制折线并填充)
   - 绘制折线的写法很简单，挨个标注点，渲染的时候会按照顺序将我们写的点连起来形成折线。
   
 
-- [x] [0008. 使用 rect 绘制矩形](https://github.com/Tdahuyou/svg/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md) <!-- [locale](./0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md) -->  
+- [ ] [0008. 使用 rect 绘制矩形](https://github.com/Tdahuyou/svg/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md) <!-- [locale](./0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md) -->  
   - [1. 💻 demos.1 - 绘制矩形](https://github.com/Tdahuyou/svg/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md#1--demos1---绘制矩形)
   - [2. 💻 demos.2 - 绘制圆角矩形](https://github.com/Tdahuyou/svg/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README.md#2--demos2---绘制圆角矩形)
   - 绘制一个矩形，需要知道两组信息：
@@ -142,11 +142,11 @@
     - 通过 `rx` `ry` 可以设置矩形的圆角效果。
   
 
-- [x] [0006. 使用 polygon 绘制多边形](https://github.com/Tdahuyou/svg/tree/main/0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md) <!-- [locale](./0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md) -->  
+- [ ] [0006. 使用 polygon 绘制多边形](https://github.com/Tdahuyou/svg/tree/main/0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md) <!-- [locale](./0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md) -->  
   - [1. 💻 demos.1 - 使用 `<polygon>` 绘制多边形](https://github.com/Tdahuyou/svg/tree/main/0006.%20%E4%BD%BF%E7%94%A8%20polygon%20%E7%BB%98%E5%88%B6%E5%A4%9A%E8%BE%B9%E5%BD%A2/README.md#1--demos1---使用-<polygon>-绘制多边形)
    
 
-- [x] [0003. 使用 circle 绘制圆形](https://github.com/Tdahuyou/svg/tree/main/0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) -->  
+- [ ] [0003. 使用 circle 绘制圆形](https://github.com/Tdahuyou/svg/tree/main/0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md) -->  
   - [1. 💻 demos.1 - 使用 circle 绘制圆形](https://github.com/Tdahuyou/svg/tree/main/0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md#1--demos1---使用-circle-绘制圆形)
   - [2. 💻 demos.2 - 使用 circle 绘制圆形](https://github.com/Tdahuyou/svg/tree/main/0003.%20%E4%BD%BF%E7%94%A8%20circle%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BD%A2/README.md#2--demos2---使用-circle-绘制圆形)
   - 绘制一个圆需要知道的信息：
@@ -154,7 +154,7 @@
     2. 绘制的圆的半径 `r`
   
 
-- [x] [0004. 使用 ellipse 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) -->  
+- [ ] [0004. 使用 ellipse 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) <!-- [locale](./0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md) -->  
   - [1. 💻 demos.1 - 使用 `<ellipse>` 绘制椭圆形](https://github.com/Tdahuyou/svg/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86%E5%BD%A2/README.md#1--demos1---使用-<ellipse>-绘制椭圆形)
   - 绘制椭圆需要知道的信息：
     1. 椭圆的圆心 cx cy
@@ -163,24 +163,24 @@
   - 如果 rx = ry，那么其实绘制的就是一个圆。
   
 
-- [x] [0031. 使用属性 x、y、dx、dy 控制文本的绘制位置](https://github.com/Tdahuyou/svg/tree/main/0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) <!-- [locale](./0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) -->  
+- [ ] [0031. 使用属性 x、y、dx、dy 控制文本的绘制位置](https://github.com/Tdahuyou/svg/tree/main/0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) <!-- [locale](./0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md) -->  
   - [1. 💻 demos.1 - 使用属性 x、y、dx、dy 控制文本的绘制位置](https://github.com/Tdahuyou/svg/tree/main/0031.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20x%E3%80%81y%E3%80%81dx%E3%80%81dy%20%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E7%9A%84%E7%BB%98%E5%88%B6%E4%BD%8D%E7%BD%AE/README.md#1--demos1---使用属性-xydxdy-控制文本的绘制位置)
   - x、y、dx、dy 这些属性决定了绘制文本的位置。其中 x、y 属性决定了文本的左上角位置，而 dx、dy 属性决定了文本的偏移量。
   
 
-- [x] [0029. 使用属性 text-anchor 设置文本的水平对齐方式](https://github.com/Tdahuyou/svg/tree/main/0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md) <!-- [locale](./0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md) -->  
+- [ ] [0029. 使用属性 text-anchor 设置文本的水平对齐方式](https://github.com/Tdahuyou/svg/tree/main/0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md) <!-- [locale](./0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md) -->  
   - [1. 💻 demos.1 - 控制文本的水平对齐方式](https://github.com/Tdahuyou/svg/tree/main/0029.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20text-anchor%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md#1--demos1---控制文本的水平对齐方式)
   - 属性 `text-anchor` 用于设置文本的水平对齐方式。
   
 
-- [x] [0030. 使用属性 textLength 约束文本长度](https://github.com/Tdahuyou/svg/tree/main/0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md) <!-- [locale](./0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md) -->  
+- [ ] [0030. 使用属性 textLength 约束文本长度](https://github.com/Tdahuyou/svg/tree/main/0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md) <!-- [locale](./0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md) -->  
   - [1. 💻 demos.1 - 约束文本长度](https://github.com/Tdahuyou/svg/tree/main/0030.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20textLength%20%E7%BA%A6%E6%9D%9F%E6%96%87%E6%9C%AC%E9%95%BF%E5%BA%A6/README.md#1--demos1---约束文本长度)
   - 属性 `textLength` 用于设置文本的长度
     - 长度过大，文本拉伸
     - 长度过小，文本压缩
   
 
-- [x] [0032. 通过 text 的其他属性来控制文本样式](https://github.com/Tdahuyou/svg/tree/main/0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md) -->  
+- [ ] [0032. 通过 text 的其他属性来控制文本样式](https://github.com/Tdahuyou/svg/tree/main/0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 💻 demos.1 - 设置文本样式](https://github.com/Tdahuyou/svg/tree/main/0032.%20%E9%80%9A%E8%BF%87%20text%20%E7%9A%84%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7%E6%9D%A5%E6%8E%A7%E5%88%B6%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F/README.md#1--demos1---设置文本样式)
   - fill：设置字体颜色
   - font-size：设置文字大小
@@ -197,20 +197,20 @@
     - small-caps 转大写，不过是小型的大写字母
   
 
-- [x] [0019. 使用 tspan 更细粒度地控制 text 中的内容](https://github.com/Tdahuyou/svg/tree/main/0019.%20%E4%BD%BF%E7%94%A8%20tspan%20%E6%9B%B4%E7%BB%86%E7%B2%92%E5%BA%A6%E5%9C%B0%E6%8E%A7%E5%88%B6%20text%20%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9/README.md) <!-- [locale](./0019.%20%E4%BD%BF%E7%94%A8%20tspan%20%E6%9B%B4%E7%BB%86%E7%B2%92%E5%BA%A6%E5%9C%B0%E6%8E%A7%E5%88%B6%20text%20%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9/README.md) -->  
+- [ ] [0019. 使用 tspan 更细粒度地控制 text 中的内容](https://github.com/Tdahuyou/svg/tree/main/0019.%20%E4%BD%BF%E7%94%A8%20tspan%20%E6%9B%B4%E7%BB%86%E7%B2%92%E5%BA%A6%E5%9C%B0%E6%8E%A7%E5%88%B6%20text%20%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9/README.md) <!-- [locale](./0019.%20%E4%BD%BF%E7%94%A8%20tspan%20%E6%9B%B4%E7%BB%86%E7%B2%92%E5%BA%A6%E5%9C%B0%E6%8E%A7%E5%88%B6%20text%20%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9/README.md) -->  
   - [1. 💻 demos.1 - tspan 的基本使用](https://github.com/Tdahuyou/svg/tree/main/0019.%20%E4%BD%BF%E7%94%A8%20tspan%20%E6%9B%B4%E7%BB%86%E7%B2%92%E5%BA%A6%E5%9C%B0%E6%8E%A7%E5%88%B6%20text%20%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9/README.md#1--demos1---tspan-的基本使用)
   - [2. 💻 demos.2 - tspan 的基本使用](https://github.com/Tdahuyou/svg/tree/main/0019.%20%E4%BD%BF%E7%94%A8%20tspan%20%E6%9B%B4%E7%BB%86%E7%B2%92%E5%BA%A6%E5%9C%B0%E6%8E%A7%E5%88%B6%20text%20%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9/README.md#2--demos2---tspan-的基本使用)
   - tspan 是 text 中的子元素，可以更细粒度地去控制文本内容。如果有控制一段文本中的一部分内容的需求，这玩意儿还是很有用的。
   
 
-- [x] [0018. 使用 textPath 实现按照指定路径绘制文本](https://github.com/Tdahuyou/svg/tree/main/0018.%20%E4%BD%BF%E7%94%A8%20textPath%20%E5%AE%9E%E7%8E%B0%E6%8C%89%E7%85%A7%E6%8C%87%E5%AE%9A%E8%B7%AF%E5%BE%84%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC/README.md) <!-- [locale](./0018.%20%E4%BD%BF%E7%94%A8%20textPath%20%E5%AE%9E%E7%8E%B0%E6%8C%89%E7%85%A7%E6%8C%87%E5%AE%9A%E8%B7%AF%E5%BE%84%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC/README.md) -->  
+- [ ] [0018. 使用 textPath 实现按照指定路径绘制文本](https://github.com/Tdahuyou/svg/tree/main/0018.%20%E4%BD%BF%E7%94%A8%20textPath%20%E5%AE%9E%E7%8E%B0%E6%8C%89%E7%85%A7%E6%8C%87%E5%AE%9A%E8%B7%AF%E5%BE%84%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC/README.md) <!-- [locale](./0018.%20%E4%BD%BF%E7%94%A8%20textPath%20%E5%AE%9E%E7%8E%B0%E6%8C%89%E7%85%A7%E6%8C%87%E5%AE%9A%E8%B7%AF%E5%BE%84%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC/README.md) -->  
   - [1. 💻 demos.1 - textPath 基本使用](https://github.com/Tdahuyou/svg/tree/main/0018.%20%E4%BD%BF%E7%94%A8%20textPath%20%E5%AE%9E%E7%8E%B0%E6%8C%89%E7%85%A7%E6%8C%87%E5%AE%9A%E8%B7%AF%E5%BE%84%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC/README.md#1--demos1---textpath-基本使用)
   - 看下文档中提供的 demo 效果，很容易理解其作用。效果蛮惊艳的，不过不太常见。
   
 
 ## 5. path 路径
 
-- [x] [0048. 认识 path 元素](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) <!-- [locale](./0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) -->  
+- [ ] [0048. 认识 path 元素](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) <!-- [locale](./0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md) -->  
   - [1. 📒 近乎万能的 path](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#1--近乎万能的-path)
   - [2. 📒 path 中一些常用的命令](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#2--path-中一些常用的命令)
   - [3. 📒 手写 SVG 与设计软件导出 SVG 的区别及适用场景](https://github.com/Tdahuyou/svg/tree/main/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.md#3--手写-svg-与设计软件导出-svg-的区别及适用场景)
@@ -220,7 +220,7 @@
   - 因此，在众多 svg 元素中，`<path>` 的参数也是最为复杂的。文中提到了不少关键字，这些关键字在后续的 demo 中大多都会结合实际的示例来介绍。要理解关键字，可以把切入点放在关键字的全称上，把英文单词先给看懂，知道每个关键字对应的英文全称是什么。
   
 
-- [x] [0012. 使用 path 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
+- [ ] [0012. 使用 path 绘制直线](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) <!-- [locale](./0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - 绘制直线的多种写法](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#1--demos1---绘制直线的多种写法)
   - [2. 💻 demos.2 - 一个 `<path>` 允许多个 `M`](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#2--demos2---一个-<path>-允许多个-m)
   - [3. 💻 demos.3 - 关键字的大小写有着不同的含义](https://github.com/Tdahuyou/svg/tree/main/0012.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.md#3--demos3---关键字的大小写有着不同的含义)
@@ -228,7 +228,7 @@
   - `<path>` 可以用于绘制直线，涉及到的关键字：`M/m`、`L/l`、`H`、`V`、`Z`。
   
 
-- [x] [0013. 绘制【扫码】图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
+- [ ] [0013. 绘制【扫码】图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
   - [1. 🔗 iconfont 图标库](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--iconfont-图标库)
   - [2. iconfont 扫码图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#2-iconfont-扫码图标)
   - [3. 💻 demos.1 - 绘制扫码图标](https://github.com/Tdahuyou/svg/tree/main/0013.%20%E7%BB%98%E5%88%B6%E3%80%90%E6%89%AB%E7%A0%81%E3%80%91%E5%9B%BE%E6%A0%87/README.md#3--demos1---绘制扫码图标)
@@ -237,7 +237,7 @@
   - 能够看懂代码就行。实现方式不唯一，做法有很多种，比如一条条地绘制 `<line>` 也行。
   
 
-- [x] [0011. 使用 path 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) <!-- [locale](./0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) -->  
+- [ ] [0011. 使用 path 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) <!-- [locale](./0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md) -->  
   - [1. 💻 demos.1 - 使用 `<path>` 绘制弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#1--demos1---使用-<path>-绘制弧)
   - [2. 💻 demos.2 - 椭圆旋转](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#2--demos2---椭圆旋转)
   - [3. 💻 demos.3 - 两点决定 4 条弧](https://github.com/Tdahuyou/svg/tree/main/0011.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E5%BC%A7/README.md#3--demos3---两点决定-4-条弧)
@@ -250,20 +250,20 @@
   - 通过思考结尾的 `Q&A` 部分提到的一些问题，有助于加深对本节内容的理解。
   
 
-- [x] [0036. 绘制【群】图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
+- [ ] [0036. 绘制【群】图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
   - [1. 💻 demos.1 - 绘制「群」图标](https://github.com/Tdahuyou/svg/tree/main/0036.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%BE%A4%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--demos1---绘制「群」图标)
   - 本节涉及的知识点：使用 `path` 标签来绘制弧。【svg.0011】
   - 能够理解这个群的图标其实就是通过几段弧绘制出来的即可。
   
 
-- [x] [0010. 使用 path 绘制二次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
+- [ ] [0010. 使用 path 绘制二次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - Q 绘制一个贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#1--demos1---q-绘制一个贝塞尔曲线)
   - [2. 💻 demos.2 - Q、T 绘制连续的贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#2--demos2---qt-绘制连续的贝塞尔曲线)
   - [3. 💻 demos.3 - Q、T 绘制连续的贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0010.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%BA%8C%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#3--demos3---qt-绘制连续的贝塞尔曲线)
   - 二次、三次贝塞尔曲线绘制原理，见 canvas.0025。
   
 
-- [x] [0014. 使用 path 绘制三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
+- [ ] [0014. 使用 path 绘制三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) <!-- [locale](./0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md) -->  
   - [1. 💻 demos.1 - C 绘制一个三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#1--demos1---c-绘制一个三次贝塞尔曲线)
   - [2. 💻 demos.2 - C、S 绘制连续平滑的三次贝塞尔曲线](https://github.com/Tdahuyou/svg/tree/main/0014.%20%E4%BD%BF%E7%94%A8%20path%20%E7%BB%98%E5%88%B6%E4%B8%89%E6%AC%A1%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/README.md#2--demos2---cs-绘制连续平滑的三次贝塞尔曲线)
   - 二次、三次贝塞尔曲线绘制原理，见 canvas.0025。
@@ -271,7 +271,7 @@
 
 ## 6. stroke 描边和 fill 填充
 
-- [x] [0028. 使用属性 stroke、stroke-width、stroke-opacity、stroke-linecap 设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) -->  
+- [ ] [0028. 使用属性 stroke、stroke-width、stroke-opacity、stroke-linecap 设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 💻 demos.1 - 使用 stroke 相关属性设置描边样式](https://github.com/Tdahuyou/svg/tree/main/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.md#1--demos1---使用-stroke-相关属性设置描边样式)
   - stroke：设置描边颜色（边框）
   - stroke-width：设置描边粗细
@@ -279,33 +279,33 @@
   - stroke-linecap：设置线段两端的形状
   
 
-- [x] [0027. 使用属性 stroke-linejoin 设置线条连接处样式](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) -->  
+- [ ] [0027. 使用属性 stroke-linejoin 设置线条连接处样式](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 💻 demos.1 - 使用属性 stroke-linejoin 设置线条连接处样式](https://github.com/Tdahuyou/svg/tree/main/0027.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-linejoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E6%A0%B7%E5%BC%8F/README.md#1--demos1---使用属性-stroke-linejoin-设置线条连接处样式)
   - miter	`>`	尖角
   - round `)` 圆角
   - bevel `]`	平角
   
 
-- [x] [0025. 使用属性 stroke-dasharray 设置虚线](https://github.com/Tdahuyou/svg/tree/main/0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) <!-- [locale](./0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) -->  
+- [ ] [0025. 使用属性 stroke-dasharray 设置虚线](https://github.com/Tdahuyou/svg/tree/main/0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) <!-- [locale](./0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md) -->  
   - [1. 📒 notes](https://github.com/Tdahuyou/svg/tree/main/0025.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dasharray%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README.md#1--notes)
   
 
-- [x] [0026. 使用属性 stroke-dashoffset 设置虚线的偏移](https://github.com/Tdahuyou/svg/tree/main/0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) <!-- [locale](./0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) -->  
+- [ ] [0026. 使用属性 stroke-dashoffset 设置虚线的偏移](https://github.com/Tdahuyou/svg/tree/main/0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) <!-- [locale](./0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md) -->  
   - [1. 💻 demos.1 - 使用属性 stroke-dashoffset 设置虚线的偏移](https://github.com/Tdahuyou/svg/tree/main/0026.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke-dashoffset%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF%E7%9A%84%E5%81%8F%E7%A7%BB/README.md#1--demos1---使用属性-stroke-dashoffset-设置虚线的偏移)
   - stroke-dashoffset、stroke-dasharray 这两个属性配合使用，可以实现一些常见的线条移动的动画效果。
   
 
-- [x] [0023. 使用 stroke-dasharray 模拟加载中动画效果](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) <!-- [locale](./0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) -->  
+- [ ] [0023. 使用 stroke-dasharray 模拟加载中动画效果](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) <!-- [locale](./0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md) -->  
   - [1. 💻 demos.1 - 使用 stroke-dasharray 模拟加载中动画效果](https://github.com/Tdahuyou/svg/tree/main/0023.%20%E4%BD%BF%E7%94%A8%20stroke-dasharray%20%E6%A8%A1%E6%8B%9F%E5%8A%A0%E8%BD%BD%E4%B8%AD%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/README.md#1--demos1---使用-stroke-dasharray-模拟加载中动画效果)
   
 
-- [x] [0015. 使用属性 fill、fill-opacity 设置填充样式](https://github.com/Tdahuyou/svg/tree/main/0015.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill%E3%80%81fill-opacity%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0015.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill%E3%80%81fill-opacity%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E6%A0%B7%E5%BC%8F/README.md) -->  
+- [ ] [0015. 使用属性 fill、fill-opacity 设置填充样式](https://github.com/Tdahuyou/svg/tree/main/0015.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill%E3%80%81fill-opacity%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0015.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill%E3%80%81fill-opacity%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. demos.1 - 使用属性 fill、fill-opacity 设置填充样式](https://github.com/Tdahuyou/svg/tree/main/0015.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill%E3%80%81fill-opacity%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E6%A0%B7%E5%BC%8F/README.md#1-demos1---使用属性-fillfill-opacity-设置填充样式)
   - fill 设置填充颜色
   - fill-opacity 设置填充透明度
   
 
-- [x] [0024. 使用属性 fill-rule 设置填充规则](https://github.com/Tdahuyou/svg/tree/main/0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README.md) <!-- [locale](./0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README.md) -->  
+- [ ] [0024. 使用属性 fill-rule 设置填充规则](https://github.com/Tdahuyou/svg/tree/main/0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README.md) <!-- [locale](./0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README.md) -->  
   - [1. 🔗 links](https://github.com/Tdahuyou/svg/tree/main/0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README.md#1--links)
   - [2. 📒 fill-rule 简介](https://github.com/Tdahuyou/svg/tree/main/0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README.md#2--fill-rule-简介)
   - [3. 💻 demos.1 - nonzero 规则](https://github.com/Tdahuyou/svg/tree/main/0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README.md#3--demos1---nonzero-规则)
@@ -318,20 +318,20 @@
     - 在 YouTube 上也有一些相关的视频教程讲解 nonzero 和 evenodd 填充规则。
   
 
-- [x] [0037. 绘制【眼睛】图标](https://github.com/Tdahuyou/svg/tree/main/0037.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%9C%BC%E7%9D%9B%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0037.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%9C%BC%E7%9D%9B%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
+- [ ] [0037. 绘制【眼睛】图标](https://github.com/Tdahuyou/svg/tree/main/0037.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%9C%BC%E7%9D%9B%E3%80%91%E5%9B%BE%E6%A0%87/README.md) <!-- [locale](./0037.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%9C%BC%E7%9D%9B%E3%80%91%E5%9B%BE%E6%A0%87/README.md) -->  
   - [1. 💻 demos.1 - 绘制【眼睛】图标](https://github.com/Tdahuyou/svg/tree/main/0037.%20%E7%BB%98%E5%88%B6%E3%80%90%E7%9C%BC%E7%9D%9B%E3%80%91%E5%9B%BE%E6%A0%87/README.md#1--demos1---绘制眼睛图标)
   - 绘制眼睛图标时，中心有一个镂空的圆环。要弄清楚为什么这块的内容是镂空的，需要理解填充规则 nonzero 和 evenodd。
   
 
 ## 7. 复用
 
-- [x] [0020. 使用 use 引用图形](https://github.com/Tdahuyou/svg/tree/main/0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md) <!-- [locale](./0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md) -->  
+- [ ] [0020. 使用 use 引用图形](https://github.com/Tdahuyou/svg/tree/main/0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md) <!-- [locale](./0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md) -->  
   - [1. 💻 demos.1 - 使用 use 引用图形](https://github.com/Tdahuyou/svg/tree/main/0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.md#1--demos1---使用-use-引用图形)
   - `<use>` 元素允许您在不同位置多次重用或引用同一个定义过的图形对象，如符号、形状、组合图形等，可以减少一些重复代码的书写，提高效率和文件的整洁度。在实际开发中，这玩意儿的使用频率是算蛮高的，更多时候会结合 g、defs 元素一起使用。
   - **注意事项**：use 中的 x 和 y 是基于引用图形的坐标，而不是坐标系。
   
 
-- [x] [0017. 使用 g 作为容器](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) <!-- [locale](./0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) -->  
+- [ ] [0017. 使用 g 作为容器](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) <!-- [locale](./0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md) -->  
   - [1. 🔗 links](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#1--links)
   - [2. 📒 `<g>` 标签简介](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#2--<g>-标签简介)
   - [3. 💻 demos.1 - 使用 `<g>` 包裹多个元素实现多次复用](https://github.com/Tdahuyou/svg/tree/main/0017.%20%E4%BD%BF%E7%94%A8%20g%20%E4%BD%9C%E4%B8%BA%E5%AE%B9%E5%99%A8/README.md#3--demos1---使用-<g>-包裹多个元素实现多次复用)
@@ -340,7 +340,7 @@
   - `<g>` 通常用于配合 `<use>`、`<defs>` 一起使用。
   
 
-- [x] [0016. 使用 defs 定义图形](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) <!-- [locale](./0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) -->  
+- [ ] [0016. 使用 defs 定义图形](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) <!-- [locale](./0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md) -->  
   - [1. 💻 demos.1 - 使用 defs 定义图形](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#1--demos1---使用-defs-定义图形)
   - [2. demos.2 - defs + g + use](https://github.com/Tdahuyou/svg/tree/main/0016.%20%E4%BD%BF%E7%94%A8%20defs%20%E5%AE%9A%E4%B9%89%E5%9B%BE%E5%BD%A2/README.md#2-demos2---defs-+-g-+-use)
   - `<defs>` 用于定义图形，使用 `<defs>` 定义的元素不会直接显示，除非被其他 SVG 元素通过引用使用，通常配合 `<use>`、`<g>` 一起使用。
@@ -348,7 +348,7 @@
 
 ## 8. svg + css
 
-- [x] [0021. 使用 css 控制 svg 样式](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) -->  
+- [ ] [0021. 使用 css 控制 svg 样式](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) <!-- [locale](./0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md) -->  
   - [1. 📒 使用 CSS 控制 SVG 样式的注意事项](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#1--使用-css-控制-svg-样式的注意事项)
   - [2. 💻 demos.1 - 在 svg 中嵌入 style](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#2--demos1---在-svg-中嵌入-style)
   - [3. 💻 demos.2 - 在 svg 上应用 css 中的动画过渡效果 - 1](https://github.com/Tdahuyou/svg/tree/main/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.md#3--demos2---在-svg-上应用-css-中的动画过渡效果---1)
@@ -358,7 +358,7 @@
 
 ## 9. svg + js
 
-- [x] [0022. 使用 js 控制 svg 实现 CRUD 操作](https://github.com/Tdahuyou/svg/tree/main/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md) <!-- [locale](./0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md) -->  
+- [ ] [0022. 使用 js 控制 svg 实现 CRUD 操作](https://github.com/Tdahuyou/svg/tree/main/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md) <!-- [locale](./0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md) -->  
   - [1. 🔗 snapsvg](https://github.com/Tdahuyou/svg/tree/main/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md#1--snapsvg)
   - [2. 💻 demos.1 - 使用 js 控制 svg 实现 CRUD 操作](https://github.com/Tdahuyou/svg/tree/main/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md#2--demos1---使用-js-控制-svg-实现-crud-操作)
   - [3. 🤔 问：CRUD 是什么？](https://github.com/Tdahuyou/svg/tree/main/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.md#3--问crud-是什么)

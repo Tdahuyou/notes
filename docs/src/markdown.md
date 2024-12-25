@@ -1,5 +1,11 @@
 # markdown
 
+<!-- region:toc -->
+- [markdown](#markdown)
+  - [1. github](#1-github)
+  - [2. 公式](#2-公式)
+  - [3. mermaid](#3-mermaid)
+<!-- endregion:toc -->
 
 ## 1. github
 

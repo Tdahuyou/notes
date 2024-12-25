@@ -1,5 +1,21 @@
 # nodejs
 
+<!-- region:toc -->
+- [nodejs](#nodejs)
+  - [1. 词库](#1-词库)
+  - [2. nodejs 学习资源](#2-nodejs-学习资源)
+    - [2.1. nodejs 书籍](#21-nodejs-书籍)
+    - [2.2. nodejs 掘金小册](#22-nodejs-掘金小册)
+    - [2.3. 其他免费在线学习资源](#23-其他免费在线学习资源)
+  - [3. nodejs 内置模块](#3-nodejs-内置模块)
+    - [3.1. process](#31-process)
+    - [3.2. crypto](#32-crypto)
+  - [4. koa](#4-koa)
+  - [5. npm 相关](#5-npm-相关)
+  - [6. nodejs 命令行操作](#6-nodejs-命令行操作)
+  - [7. 其他](#7-其他)
+  - [8. ⏰ 待分组](#8--待分组)
+<!-- endregion:toc -->
 
 ## 1. 词库
 
@@ -91,7 +107,7 @@
   - [1. ⏰ 待搬运](https://github.com/Tdahuyou/nodejs/tree/main/0009.%20koa-static/README.md#1--待搬运)
   
 
-- [x] [0021. minimist 基本使用](https://github.com/Tdahuyou/nodejs/tree/main/0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
+- [ ] [0021. minimist 基本使用](https://github.com/Tdahuyou/nodejs/tree/main/0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
   - [1. 🔗 minimist](https://github.com/Tdahuyou/nodejs/tree/main/0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--minimist)
   - [2. 🤖 `node 1.js args` 如何在 1.js 中获取到 args？](https://github.com/Tdahuyou/nodejs/tree/main/0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#2--node-1js-args-如何在-1js-中获取到-args)
   
@@ -203,7 +219,11 @@
   - ⏰ 语雀知识库中存储的视频中演示流程是安装旧版 nodejs 的步骤。最新版的 nodejs 的页面发生了一些变化，可以结合着最新版的 nodejs 来重新录制一下基本的安装流程。
   
 
+<<<<<<< HEAD
 - [x] [0021. minimist 基本使用](https://github.com/Tdahuyou/nodejs/tree/main/0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
+=======
+- [ ] [0021. minimist 基本使用](https://github.com/Tdahuyou/nodejs/tree/main/0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
+>>>>>>> c5d588a5cfd995ae4a21ceef54fc3169fd1e595d
   - [1. 🔗 minimist](https://github.com/Tdahuyou/nodejs/tree/main/0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--minimist)
   - [2. 🤖 `node 1.js args` 如何在 1.js 中获取到 args？](https://github.com/Tdahuyou/nodejs/tree/main/0021.%20minimist%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#2--node-1js-args-如何在-1js-中获取到-args)
   

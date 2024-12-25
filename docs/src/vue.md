@@ -2,6 +2,8 @@
 
 - vue 学习笔记。
 
+<!-- region:toc -->
+<!-- endregion:toc -->
 
 ## 1. 🔗 vuejs 相关链接
 

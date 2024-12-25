@@ -5,17 +5,36 @@
             <!-- <pre>{{ notesData[vpData.page.value.title] }}</pre> -->
         </template>
         <!-- <template #doc-bottom>doc-bottom</template> -->
-        <template #doc-footer-before>
+        <!-- <template #doc-footer-before>
             更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
-        </template>
+        </template> -->
         <template #doc-before>
-            <div class="doc-before-container">
-                <div class="copy-box">
-                    <span class="tip" v-show="isCopied">Copied!</span>
-                    <button class="copy-raw-file" @click="copyRawFile" title="Copy raw file">raw</button>
+            <div class="doc-before-container" v-show="notesmeta.repos_vitepress.includes(vpData.page.value.title)">
+                <div class="left-area">
+                    <div class="copy-box">
+                        <span class="tip" v-show="isCopied">Copied!</span>
+                        <button class="copy-raw-file" @click="copyRawFile" title="Copy raw file">
+                            <img class="icon" src="./icon__clipboard.svg" alt="icon__clipboard">
+                        </button>
+                    </div>
+                    <div class="github-box">
+                        <!-- <a :href="`https://github.com/Tdahuyou/${vpData.page.value.title.toLowerCase()}/blob/main/README.md`"
+                            title="to github repo">🔗 github</a> -->
+                        <a :href="`https://github.com/Tdahuyou/${vpData.page.value.title.toLowerCase()}/blob/main/README.md`"
+                            :aria-label="`Tdahuyou github - ${vpData.page.value.title.toLowerCase()} 笔记仓库链接`"
+                            :title="`Tdahuyou github - ${vpData.page.value.title.toLowerCase()} 笔记仓库链接`" target="_blank"
+                            rel="noopener">
+                            <img src="./icon__github.svg" alt="github icon">
+                        </a>
+                    </div>
                 </div>
-                <div class="github-box">
-                    <a :href="`https://github.com/Tdahuyou/${vpData.page.value.title.toLowerCase()}/blob/main/README.md`" title="to github repo">github</a>
+                <div class="right-area">
+                    <div class="notes-length">
+                        笔记数量：{{ notesLength }}
+                    </div>
+                    <div class="update-time">
+                        更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
+                    </div>
                 </div>
             </div>
         </template>
@@ -53,13 +72,15 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import { data as notesData } from '../../src/notes.data'
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import notesmeta from '../../../scripts/.notesmeta.json'
 
 const { Layout } = DefaultTheme
 const vpData = useData()
 // console.log('notesData:', notesData)
 // console.log('vpData:', vpData)
 
+const notesLength = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.notesLength);
 const isCopied = ref(false)
 
 const formatDate = (timestamp) => {
@@ -81,31 +102,53 @@ const formatDate = (timestamp) => {
 
 const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 const copyRawFile = () => {
-    const data = notesData[vpData.page.value.title.toLowerCase()]
+    const data = notesData[vpData.page.value.title.toLowerCase()].fileContent
     navigator.clipboard.writeText(data.replace('<MyGlobalComponent />', ''))
     isCopied.value = true
     setTimeout(() => isCopied.value = false, 1000);
 }
-
-
 </script>
 
 <style>
 .doc-before-container {
     display: flex;
     margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.doc-before-container .left-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .copy-box {
+    width: 1em;
+    height: 1em;
     position: relative;
 }
 
 .copy-box .tip {
     position: absolute;
     top: -1.5rem;
-    left: 0;
+    left: -1rem;
 }
 
-.github-box {
-    margin-left: 1rem;
+.copy-box .copy-raw-file {
+    vertical-align: top;
+}
+
+.right-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    font-style: italic;
+    font-size: .7rem;
+}
+
+.update-time {
+    vertical-align: middle;
 }
 </style>
