@@ -383,9 +383,9 @@ class ReadmeUpdater {
       const tocStartIdx = this.homeReadme.lines.indexOf(this.toc.startTag + (process.platform === 'win32' ? '\r' : ''));
       const tocEndIdx = this.homeReadme.lines.indexOf(this.toc.endTag + (process.platform === 'win32' ? '\r' : ''));
 
-      console.log(this.homeReadme.lines)
-      console.log('tocStartIdx', tocStartIdx)
-      console.log('tocEndIdx', tocEndIdx)
+      // console.log(this.homeReadme.lines)
+      // console.log('tocStartIdx', tocStartIdx)
+      // console.log('tocEndIdx', tocEndIdx)
       
       if (tocStartIdx !== -1 && tocEndIdx !== -1) {
         // 将 tocStartIdx 到 tocEndIdx 之间的内容给删除后再写入。
