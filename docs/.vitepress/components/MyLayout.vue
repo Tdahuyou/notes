@@ -20,18 +20,17 @@
                     <div class="github-box">
                         <!-- <a :href="`https://github.com/Tdahuyou/${vpData.page.value.title.toLowerCase()}/blob/main/README.md`"
                             title="to github repo">🔗 github</a> -->
-                        <a data-v-49bfb463="" data-v-9fb32fb0="" class="VPSocialLink no-icon"
-                            :href="`https://github.com/Tdahuyou/${vpData.page.value.title.toLowerCase()}/blob/main/README.md`"
+                        <a :href="`https://github.com/Tdahuyou/${vpData.page.value.title.toLowerCase()}/blob/main/README.md`"
                             :aria-label="`Tdahuyou github - ${vpData.page.value.title.toLowerCase()} 笔记仓库链接`"
                             :title="`Tdahuyou github - ${vpData.page.value.title.toLowerCase()} 笔记仓库链接`" target="_blank"
-                            rel="noopener"><span class="vpi-social-github"
-                                style="--icon: url('https://api.iconify.design/simple-icons/github.svg');"></span>
+                            rel="noopener">
+                            <img src="./icon__github.svg" alt="github icon">
                         </a>
                     </div>
                 </div>
                 <div class="right-area">
                     <div class="notes-length">
-                        笔记数量：{{ notesLength  }}
+                        笔记数量：{{ notesLength }}
                     </div>
                     <div class="update-time">
                         更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
@@ -125,18 +124,19 @@ const copyRawFile = () => {
 }
 
 .copy-box {
+    width: 1em;
+    height: 1em;
     position: relative;
 }
 
 .copy-box .tip {
     position: absolute;
     top: -1.5rem;
-    left: 0;
+    left: -1rem;
 }
 
 .copy-box .copy-raw-file {
-    width: 1.2rem;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .right-area {
