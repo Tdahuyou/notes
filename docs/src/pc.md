@@ -1,5 +1,29 @@
 # pc
 
+<!-- region:toc -->
+- [pc](#pc)
+  - [1. 仓库内容简介](#1-仓库内容简介)
+  - [2. 掌握 AI 的基本使用技巧](#2-掌握-ai-的基本使用技巧)
+  - [3. 工具分享系列](#3-工具分享系列)
+    - [3.1. snipaste](#31-snipaste)
+    - [3.2. wgesture](#32-wgesture)
+    - [3.3. 微信读书脚本](#33-微信读书脚本)
+    - [3.4. SimpRead](#34-simpread)
+    - [3.5. TypingClub](#35-typingclub)
+    - [3.6. Qwerty Learner](#36-qwerty-learner)
+    - [3.7. TTSmaker](#37-ttsmaker)
+    - [3.8. Deskpins windows](#38-deskpins-windows)
+    - [3.9. 语雀收藏助手](#39-语雀收藏助手)
+    - [3.10. screen brush](#310-screen-brush)
+    - [3.11. LICEcap](#311-licecap)
+  - [4. 系统常用快捷方式](#4-系统常用快捷方式)
+  - [5. 浏览器相关](#5-浏览器相关)
+    - [5.1. 浏览器插件](#51-浏览器插件)
+    - [5.2. 脚本](#52-脚本)
+    - [5.3. 插件开发](#53-插件开发)
+  - [6. B 站收藏](#6-b-站收藏)
+    - [6.1. 编程相关](#61-编程相关)
+<!-- endregion:toc -->
 
 ## 1. 仓库内容简介
 
@@ -54,7 +78,7 @@
     - ……
   
 
-- [x] [0017. 回复关于 snipaste 下载失败的问题](https://github.com/Tdahuyou/pc/tree/main/0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/README.md) <!-- [locale](./0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/README.md) -->  
+- [ ] [0017. 回复关于 snipaste 下载失败的问题](https://github.com/Tdahuyou/pc/tree/main/0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/README.md) <!-- [locale](./0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/README.md) -->  
   - [1. 💻 解决方案](https://github.com/Tdahuyou/pc/tree/main/0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/README.md#1--解决方案)
   - ![](https://raw.githubusercontent.com/Tdahuyou/pc/main/0017.%20%E5%9B%9E%E5%A4%8D%E5%85%B3%E4%BA%8E%20snipaste%20%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/assets%2F2024-12-14-21-47-53.png)
   
@@ -69,7 +93,7 @@
 
 ### 3.2. wgesture
 
-- [x] [0006. Wgesture 鼠标手势工具](https://github.com/Tdahuyou/pc/tree/main/0006.%20Wgesture%20%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E5%B7%A5%E5%85%B7/README.md) <!-- [locale](./0006.%20Wgesture%20%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E5%B7%A5%E5%85%B7/README.md) -->  
+- [ ] [0006. Wgesture 鼠标手势工具](https://github.com/Tdahuyou/pc/tree/main/0006.%20Wgesture%20%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E5%B7%A5%E5%85%B7/README.md) <!-- [locale](./0006.%20Wgesture%20%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E5%B7%A5%E5%85%B7/README.md) -->  
   - [1. 🔗 wgestures](https://github.com/Tdahuyou/pc/tree/main/0006.%20Wgesture%20%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E5%B7%A5%E5%85%B7/README.md#1--wgestures)
   - [2. 🔗 macos 上的窗口管理工具 - Tiles、Rectangle](https://github.com/Tdahuyou/pc/tree/main/0006.%20Wgesture%20%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E5%B7%A5%E5%85%B7/README.md#2--macos-上的窗口管理工具---tilesrectangle)
   - [3. 📺 bilibili](https://github.com/Tdahuyou/pc/tree/main/0006.%20Wgesture%20%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E5%B7%A5%E5%85%B7/README.md#3--bilibili)

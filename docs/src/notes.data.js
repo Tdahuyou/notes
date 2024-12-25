@@ -11,8 +11,23 @@ export default {
       // console.log('file:', file)
       // file: docs/src/canvas.md
       // file: docs/src/electron.md
+      // ...
+
       const title = file.split("/").pop().replace(/\.md$/, ""); // notes title
-      notesData[title] = fs.readFileSync(file, "utf-8");
+      const fileContent = fs.readFileSync(file, "utf-8");
+
+      const matches = fileContent.match(/\b(\d{4})\./g);
+
+      let notesID = [];
+
+      if (matches) {
+        notesID = [...new Set(matches.map(match => match.replace('.', '')))];
+      }
+      notesData[title] = {
+        fileContent,
+        notesID,
+        notesLength: notesID.length,
+      };
     });
     return notesData
   },
