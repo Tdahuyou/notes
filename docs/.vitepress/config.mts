@@ -44,7 +44,7 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'notes', link: `/${notesmeta.repos_vitepress[0]}` },
+      { text: 'notes', link: `/README` },
       { text: 'yuque', link: 'https://www.yuque.com/tdahuyou' },
       { text: 'bilibili', link: 'https://space.bilibili.com/407241004' },
     ],
@@ -55,7 +55,7 @@ export default defineConfig({
         items: [{ text: 'README', link: '/README' }],
       },
       {
-        text: '笔记大纲',
+        text: '笔记',
         collapsed: true,
         // items: notesmeta.repos_vitepress.map((item, i) => ({ text: `${i + 1}. ` + item, link: `/${item}` }))
         items: [
@@ -134,9 +134,17 @@ export default defineConfig({
         ],
       },
       {
+        text: '阅读',
+        collapsed: true,
+        items: [{ text: '📚 《女人的胜利》余华', link: '/books/1' }],
+      },
+      {
         text: '随笔',
         collapsed: true,
-        items: [{ text: '✍️ 地铁到站 - 围城', link: '/blog/1' }],
+        items: [
+          { text: '✍️ 地铁到站 - 围城', link: '/blog/1' },
+          { text: '✍️ 葛大爷语录', link: '/blog/2' }
+        ],
       },
       {
         text: '其他',
