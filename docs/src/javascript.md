@@ -2,110 +2,160 @@
 
 ⏰ 笔记内容待搬运。
 
-<!-- region:toc -->
-- [javascript](#javascript)
-  - [1. 待分组](#1-待分组)
-  - [2. ⏰ 待分组](#2--待分组)
-<!-- endregion:toc -->
 
 ## 1. 待分组
 
-- [ ] [0001. var 关键字和变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) <!-- [locale](./0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) -->  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#1--summary)
+- [x] [0001. var 关键字和变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) <!-- [locale](./0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md) -->  
+  - [1. 💡 思维导图](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#1--思维导图)
   - [2. 📒 理解变量、内存、值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#2--理解变量内存值)
-  - [3. 📒 不再推荐使用 `var` 来声明变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#3--不再推荐使用-var-来声明变量)
-  - [4. 📒 思维导图](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#4--思维导图)
-  - [5. 💻 demo - 理解变量和值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#5--demo---理解变量和值)
-  - [6. 💻 demo - 区分大小写](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#6--demo---区分大小写)
-  - [7. 💻 demo - 变量的声明、赋值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#7--demo---变量的声明赋值)
-  - [8. 💻 demo - 仅声明未赋值为 undefined](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#8--demo---仅声明未赋值为-undefined)
-  - [9. 💻 demo - 全局变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#9--demo---全局变量)
-  - [10. 💻 demo - 使用未声明的变量会报错](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#10--demo---使用未声明的变量会报错)
-  - [11. 💻 demo - 可一次声明多个变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#11--demo---可一次声明多个变量)
-  - [12. 💻 demo - 理解“动态”类型](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#12--demo---理解动态类型)
-  - [13. 💻 demo - 变量重复声明无效](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#13--demo---变量重复声明无效)
-  - [14. 💻 demo - 变量重复声明并重新赋值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#14--demo---变量重复声明并重新赋值)
+  - [3. 💻 demos.11 - `var` 关键字的作用域特性](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#3--demos11---var-关键字的作用域特性)
+  - [4. 📒 不再推荐使用 `var` 来声明变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#4--不再推荐使用-var-来声明变量)
+  - [5. 💻 demos.1 - 理解变量和值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#5--demos1---理解变量和值)
+  - [6. 💻 demos.2 - 区分大小写](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#6--demos2---区分大小写)
+  - [7. 💻 demos.3 - 变量的声明、赋值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#7--demos3---变量的声明赋值)
+  - [8. 💻 demos.4 - 仅声明未赋值为 undefined](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#8--demos4---仅声明未赋值为-undefined)
+  - [9. 💻 demos.5 - 全局变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#9--demos5---全局变量)
+  - [10. 💻 demos.6 - 使用未声明的变量会报错](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#10--demos6---使用未声明的变量会报错)
+  - [11. 💻 demos.7 - 可一次声明多个变量](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#11--demos7---可一次声明多个变量)
+  - [12. 💻 demos.8 - 理解“动态”类型](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#12--demos8---理解动态类型)
+  - [13. 💻 demos.9 - 变量重复声明无效](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#13--demos9---变量重复声明无效)
+  - [14. 💻 demos.10 - 变量重复声明并重新赋值](https://github.com/Tdahuyou/javascript/tree/main/0001.%20var%20%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8C%E5%8F%98%E9%87%8F/README.md#14--demos10---变量重复声明并重新赋值)
+  - 知识点：
+    - 理解变量、内存、值是什么
+    - 了解 var 关键字的基本使用
+    - 直到 var 关键字已被淘汰，不再推荐使用
   
 
-- [ ] [0002. 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) <!-- [locale](./0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) -->  
+- [x] [0002. 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) <!-- [locale](./0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#5--ai)
-  
-
-- [ ] [0003. let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#5--ai)
-  
-
-- [ ] [0004. const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#5--ai)
+  - [1. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#1--links)
+  - [2. 📒 变量声明提升和暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#2--变量声明提升和暂时性死区)
+  - [3. 💻 demos.1 - var 声明](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#3--demos1---var-声明)
+  - [4. 💻 demos.2 - let 和 const 声明](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#4--demos2---let-和-const-声明)
+  - [5. 💻 demos.3 - 函数声明](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#5--demos3---函数声明)
+  - [6. 💻 demos.4 - 函数表达式](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#6--demos4---函数表达式)
+  - [7. 💼 面试题.1 - 下面的代码输出什么？](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#7--面试题1---下面的代码输出什么)
+  - [8. 💼 面试题.2 - 下面的代码输出的结果是什么？](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#8--面试题2---下面的代码输出的结果是什么)
+  - [9. 💼 面试题.3 - 请谈谈什么是变量声明提升？](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#9--面试题3---请谈谈什么是变量声明提升)
+  - [10. 🤔 思考 - let、const 真的有被提升吗？](https://github.com/Tdahuyou/javascript/tree/main/0002.%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E6%8F%90%E5%8D%87%E5%92%8C%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%8C%BA/README.md#10--思考---letconst-真的有被提升吗)
+  - 知识点：
+    - 变量声明提升
+    - var、let、const 声明
+    - 函数声明
+    - 函数表达式
+    - 暂时性死区（TDZ）
+  - 变量声明提升可以算是面试题常客，需要知道变量声明提升是什么。
+  - 介绍了什么是变量声明提升、什么是暂时性死区，并通过一些示例，来了解在 JS 中不同类型的变量的声明和提升机制。
   
 
-- [ ] [0005. 区块](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md) <!-- [locale](./0005.%20%E5%8C%BA%E5%9D%97/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97/README.md#5--ai)
-  
-
-- [ ] [0006. 常见的两个 JS 运行环境：浏览器、NodeJS](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) <!-- [locale](./0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#5--ai)
-  
-
-- [ ] [0007. 语句和表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) <!-- [locale](./0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#5--ai)
+- [x] [0003. let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
+  - [1. 📒 let 关键字](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--let-关键字)
+  - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--demos1---块级作用域)
+  - [3. 💻 demos.2 - 对比 for 循环的循环变量使用 var 和 let 来定义](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--demos2---对比-for-循环的循环变量使用-var-和-let-来定义)
+  - [4. 💻 demos.3 - let 暂时性死区](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#4--demos3---let-暂时性死区)
+  - [5. 💻 demos.4 - 函数参数默认值中的死区](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#5--demos4---函数参数默认值中的死区)
+  - [6. 💻 demos.5 - 其他奇怪的报错](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#6--demos5---其他奇怪的报错)
+  - [7. 💻 demos.6 - 同一作用域内不允许重复声明](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#7--demos6---同一作用域内不允许重复声明)
+  - [8. 💻 demos.7 - for 循环的特别之处](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#8--demos7---for-循环的特别之处)
+  - [9. 💻 demos.8 - let 出现之前的一些历史问题](https://github.com/Tdahuyou/javascript/tree/main/0003.%20let%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#9--demos8---let-出现之前的一些历史问题)
+  - 知识点：
+    - let 关键字
+    - 块级作用域
+    - 暂时性死区（TDZ）
+    - 经典的“闭包陷阱”问题
+  - let 关键字的规则不多，也比较好理解。在 let、const 关键字出现之前，定义变量只能使用 var 关键字，var 这玩意儿存在不少问题，有很多经典的历史问题在 let、const 出现之后都引刃而解了。
   
 
-- [ ] [0008. 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#5--ai)
+- [x] [0004. const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) <!-- [locale](./0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md) -->  
+  - [1. 📒 const 关键字](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#1--const-关键字)
+  - [2. 📒 理解 const 的 “常量约束” 的本质](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#2--理解-const-的-常量约束-的本质)
+  - [3. 📒 栈内存、堆内存](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#3--栈内存堆内存)
+  - [4. 💻 demos.1 - 常量不允许重新赋值](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#4--demos1---常量不允许重新赋值)
+  - [5. 💻 demos.2 - 声明的同时完成初始化赋值](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#5--demos2---声明的同时完成初始化赋值)
+  - [6. 💻 demos.3 - 引用类型，确保地址不变](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#6--demos3---引用类型确保地址不变)
+  - [7. 💻 demos.4 - 对象冻结](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#7--demos4---对象冻结)
+  - [8. 💼 面试题.1 - 请谈谈 var、let、const](https://github.com/Tdahuyou/javascript/tree/main/0004.%20const%20%E5%85%B3%E9%94%AE%E5%AD%97/README.md#8--面试题1---请谈谈-varletconst)
+  - 知识点：
+    - const 关键字
+    - const 的 “常量约束” 的本质
+    - 栈内存、堆内存
+    - const 和 let 之间的区别
+    - 对象冻结 `Object.freeze`
+    - 对象深度冻结（递归）
+  - const 和 let 非常类似，区别在于 let 定义的是变量，const 定义的是常量。定义变量时首选 const 关键字，其次 let 关键字，放弃 var 关键字。
   
 
-- [ ] [0009. 条件语句 - if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#5--ai)
+- [x] [0005. 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) <!-- [locale](./0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) -->  
+  - [1. 📒 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#1--区块和块级作用域)
+  - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#2--demos1---块级作用域)
+  - [3. 💻 demos.2 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#3--demos2---if-结构)
+  - [4. 💻 demos.3 - 使用区块来隔离上下文](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#4--demos3---使用区块来隔离上下文)
+  - 知识点：
+    - 区块是什么
+    - 区块的创建
+    - 区块的作用
+    - 块级作用域
+    - 学会使用区块来隔离上下文
+  - 区块“block”可以简单地理解为一对大括号 `{}`。var 没有块级作用域，let、const 有块级作用域。
   
 
-- [ ] [0010. 条件语句 - switch 结构](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) -->  
+- [x] [0006. 常见的两个 JS 运行环境：浏览器、NodeJS](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) <!-- [locale](./0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md) -->  
+  - [1. 💻 demos.1 - 用浏览器来执行 JS 程序的基本流程](https://github.com/Tdahuyou/javascript/tree/main/0006.%20%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%A4%E4%B8%AA%20JS%20%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%EF%BC%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81NodeJS/README.md#1--demos1---用浏览器来执行-js-程序的基本流程)
+  - 知识点：
+    - 学会使用浏览器环境运行 JS
+    - 学会使用 NodeJS 环境运行 JS
+  - 在开始学习 JS 的内容之前，首先需要知道如何运行 JS 代码。这篇笔记介绍如何使用浏览器跑 JS 程序。
+  - 在 nodejs 的学习笔记中，会介绍如何使用 nodejs 来执行 JS 程序（其实非常简单，安装好 nodejs，然后使用 node 命令 👉 `node xxx.js` 就可以执行 `xxx.js` 了。）
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#5--ai)
+
+- [x] [0007. 语句和表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) <!-- [locale](./0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md) -->  
+  - [1. 📒 表达式（Expression）和语句（Statement）](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#1--表达式expression和语句statement)
+  - [2. 💻 demos.1 - 理解语句](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#2--demos1---理解语句)
+  - [3. 💻 demos.2 - 理解表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#3--demos2---理解表达式)
+  - [4. ✍️ 练习题](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4-✍-练习题)
+  - [5. 🤔 问：写在前面的语句一定先于后面的语句执行吗？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#5--问写在前面的语句一定先于后面的语句执行吗)
+  - [6. 🤔 问：如何区分表达式和语句？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#6--问如何区分表达式和语句)
+  - 知识点：
+    - 语句
+    - 表达式
+    - 问：如何区分表达式和语句？
+  - 这篇笔记介绍了什么是语句，什么是表达式。其实语句和表达式是非常类似的，从概念上不容易区分。并且从定义来看，它们之间的关系还不是互斥的，而是相交的关系。也就是说有以下可能：
+    - `xxx` 是语句，不是表达式
+    - `xxx` 是表达式，不是语句
+    - `xxx` 可能同时是语句和表达式
+  - **很多时候我们并没有必要严格区分开我们所写某一代码片段到底是“表达式”还是“语句”，更重要的是能够理解这玩意儿能否“产生”一个值。**
+  
+
+- [x] [0008. 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md) -->  
+  
+  - [1. 📒 条件语句 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#1--条件语句---if-结构)
+  - [2. 💻 demos.1 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#2--demos1---if-结构)
+  - [3. 💻 demos.2 - if 加大括号](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#3--demos2---if-加大括号)
+  - [4. 💻 demos.3 - 区分赋值和比较](https://github.com/Tdahuyou/javascript/tree/main/0008.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if%20%E7%BB%93%E6%9E%84/README.md#4--demos3---区分赋值和比较)
+  - 知识点：掌握 if 语句的使用。
+  - 笔记中除了介绍 if 语句的基本用法之外，还涉及到了一些和布尔运算、类型转换相关的知识点，这些也非常重要，详情会在其他笔记中介绍。
+  
+
+- [x] [0009. 条件语句 - if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md) -->  
+  - [1. 📒 if...else 基本结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#1--ifelse-基本结构)
+  - [2. 💻 demos.2 - 认识基本的 if...else 结构](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#2--demos2---认识基本的-ifelse-结构)
+  - [3. 💻 demos.3 - 多个 if...else 的情况](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#3--demos3---多个-ifelse-的情况)
+  - [4. 💻 demos.1 - else 和最近的 if 配对](https://github.com/Tdahuyou/javascript/tree/main/0009.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20if...else%20%E7%BB%93%E6%9E%84/README.md#4--demos1---else-和最近的-if-配对)
+  - 知识点：
+    - 掌握 if...else 基本结构
+    - 直到 if else 的配对规则
+  
+
+- [x] [0010. 条件语句 - switch 结构](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) <!-- [locale](./0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md) -->  
+  - [1. 📒 switch 基本结构](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#1--switch-基本结构)
+  - [2. 💻 demos.1 - switch 中的 break 语句](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#2--demos1---switch-中的-break-语句)
+  - [3. 💻 demos.2 - 使用表达式](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#3--demos2---使用表达式)
+  - [4. 💻 demos.3 - 匹配规则是严格相等](https://github.com/Tdahuyou/javascript/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20switch%20%E7%BB%93%E6%9E%84/README.md#4--demos3---匹配规则是严格相等)
+  - 知识点：
+    - switch 结构
+    - break 语句
+    - 匹配校验 - 严格相等 `===`
+  - JavaScript 提供 `if` 结构和 `switch` 结构，完成条件判断，即只有满足预设的条件，才会执行相应的语句。但是，相对于 `if` 语句而言，`switch` 语句是很罕见的（甚至有的公司禁止使用，可能是考虑到条件语句咋用 `if` 就完全足够了，没必要再来一个 `switch`）。
   
 
 - [ ] [0011. 条件语句 - 三元运算符](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) <!-- [locale](./0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) -->  
