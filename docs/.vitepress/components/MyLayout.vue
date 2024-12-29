@@ -47,7 +47,7 @@
             <!-- {{ vpData.page.value.title }} -->
         </template>
         <template #aside-outline-before>
-            <span @click="toTop" style="cursor: pointer;" title="回到顶部">{{ vpData.page.value.title }}</span>
+            <span @click="toTop" style="cursor: pointer; height: 1em; width: 1em;" title="回到顶部"><img src="./icon__totop.svg" alt="to top"></span>
         </template>
 
         <!-- <template #sidebar-nav-before>sidebar-nav-before</template> -->
