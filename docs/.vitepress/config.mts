@@ -44,7 +44,7 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'notes', link: `/README` },
+      { text: 'notes', link: `/README/README` },
       { text: 'yuque', link: 'https://www.yuque.com/tdahuyou' },
       { text: 'bilibili', link: 'https://space.bilibili.com/407241004' },
     ],
@@ -52,7 +52,16 @@ export default defineConfig({
     sidebar: [
       {
         text: '概述',
-        items: [{ text: 'README', link: '/README' }],
+        collapsed: true,
+        items: [
+          { text: '👀 README', link: '/README/README' },
+          { text: '🧑🏻‍💻 开源项目', link: '/README/my-project' },
+          { text: '⏰ 待办事项', link: '/README/todos' },
+          { text: '💻 笔记管理架构', link: '/README/notes-architecture' },
+          { text: '⚙️ notes 批处理脚本说明', link: '/README/scripts-introduction' },
+          { text: '🔍 emoji 规范', link: '/README/emoji' },
+          { text: '🤔 Q&A', link: '/README/Q&A' },
+        ],
       },
       {
         text: '笔记',
@@ -63,73 +72,73 @@ export default defineConfig({
             text: '📒 语言基础',
             collapsed: true,
             items: [
-              { text: 'HTML & CSS', link: '/html-css' },
-              { text: 'JavaScript', link: '/javascript' },
-              { text: 'TypeScript', link: '/typescript' },
-              { text: 'Node.js', link: '/nodejs' },
-              { text: 'Markdown', link: '/markdown' },
+              { text: 'HTML & CSS', link: '/notes/html-css' },
+              { text: 'JavaScript', link: '/notes/javascript' },
+              { text: 'TypeScript', link: '/notes/typescript' },
+              { text: 'Node.js', link: '/notes/nodejs' },
+              { text: 'Markdown', link: '/notes/markdown' },
             ],
           },
           {
             text: '📐 前端绘图',
             collapsed: true,
             items: [
-              { text: 'Canvas', link: '/canvas' },
-              { text: 'SVG', link: '/svg' },
+              { text: 'Canvas', link: '/notes/canvas' },
+              { text: 'SVG', link: '/notes/svg' },
             ],
           },
           {
             text: '🛠 工具系列',
             collapsed: true,
             items: [
-              { text: '工具分享及电脑使用', link: '/pc' },
-              { text: 'VSCode 编辑器', link: '/vscode' },
-              { text: 'Git 版本控制工具', link: '/git' },
+              { text: '工具分享及电脑使用', link: '/notes/pc' },
+              { text: 'VSCode 编辑器', link: '/notes/vscode' },
+              { text: 'Git 版本控制工具', link: '/notes/git' },
             ],
           },
           {
             text: '🌐 前端框架',
             collapsed: true,
             items: [
-              { text: 'Vue.js', link: '/vue' },
-              { text: 'React', link: '/react' },
-              { text: 'Electron 桌面应用开发', link: '/electron' },
+              { text: 'Vue.js', link: '/notes/vue' },
+              { text: 'React', link: '/notes/react' },
+              { text: 'Electron 桌面应用开发', link: '/notes/electron' },
             ],
           },
           {
             text: '📦 前端构建',
             collapsed: true,
             items: [
-              { text: 'Webpack', link: '/webpack' },
-              { text: 'Vite', link: '/vite' },
+              { text: 'Webpack', link: '/notes/webpack' },
+              { text: 'Vite', link: '/notes/vite' },
             ],
           },
           {
             text: '🛠 前端工具',
             collapsed: true,
             items: [
-              { text: 'Prettier 代码格式化工具', link: '/prettier' },
-              { text: 'ESLint 代码检查工具', link: '/eslint' },
-              { text: 'i18n 国际化', link: '/i18n' },
+              { text: 'Prettier 代码格式化工具', link: '/notes/prettier' },
+              { text: 'ESLint 代码检查工具', link: '/notes/eslint' },
+              { text: 'i18n 国际化', link: '/notes/i18n' },
             ],
           },
           {
             text: '🗣️ 学习外语',
             collapsed: true,
             items: [
-              { text: 'en-notes 英语笔记', link: '/en-notes' },
-              { text: 'en-words 英语词库', link: '/en-words' },
+              { text: 'en-notes 英语笔记', link: '/notes/en-notes' },
+              { text: 'en-words 英语词库', link: '/notes/en-words' },
             ],
           },
           {
             text: '🎮 小程序开发',
             collapsed: true,
-            items: [{ text: '微信小程序', link: '/miniprogram-wechat' }],
+            items: [{ text: '微信小程序', link: '/notes/miniprogram-wechat' }],
           },
           {
             text: '🔢 算法',
             collapsed: true,
-            items: [{ text: 'LeetCode 题解', link: '/leetcode' }],
+            items: [{ text: 'LeetCode 题解', link: '/notes/leetcode' }],
           },
         ],
       },

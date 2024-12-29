@@ -27,7 +27,7 @@ class ReadmeUpdater {
       dirNameList: this.getNoteDirNameList(), // 需要处理的笔记目录名称列表。
     };
 
-    this.vitepressDocPath = path.normalize(path.resolve(__dirname, "..", "docs", "src", `${this.repoName}.md`)),
+    this.vitepressDocPath = path.normalize(path.resolve(__dirname, "..", "docs", "src", 'notes', `${this.repoName}.md`)),
 
     this.homeReadme = {
       path: path.normalize(path.resolve(this.baseDir, "README.md")),
@@ -347,7 +347,7 @@ class ReadmeUpdater {
           .replace(/[\u{1F300}-\u{1F5FF}]/gu, "") // 移除符号与标点
           .replace(/[\u{1F680}-\u{1F6FF}]/gu, "") // 移除运输与地图符号
           .replace(/[\u{1F1E6}-\u{1F1FF}]/gu, "") // 移除旗帜符号
-          .replace(/[💻|📒|🤔|🤖|📝|⚙️|📚|❌|⏰|👨‍🏫]/g, "") // 根据笔记中用的的 emoji 来枚举
+          .replace(/[💻|📒|🤔|🤖|📝|⚙️|📚|❌|⏰|👨‍🏫|✍️|🔍]/g, "") // 根据笔记中用的的 emoji 来枚举
           // 删除 .
           .replace(/\./g, "")
           // 删除 `

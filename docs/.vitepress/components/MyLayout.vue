@@ -73,7 +73,7 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
-import { data as notesData } from '../../src/notes.data'
+import { data as notesData } from '../../src/notes/notes.data'
 import { ref, computed } from 'vue'
 import notesmeta from '../../../scripts/.notesmeta.json'
 
