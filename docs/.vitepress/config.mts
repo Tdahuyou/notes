@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/',
   title: 'Tdahuyou',
   description: 'Tdahuyou 学习笔记',
-  appearance: 'dark',
+  // appearance: 'dark',
   srcDir: './src',
   lastUpdated: true,
   ignoreDeadLinks: true,
