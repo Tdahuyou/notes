@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: README
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/Tdahuyou/notes
+      link: README/README
+    # - theme: alt
+    #   text: View on GitHub
+    #   link: https://github.com/Tdahuyou/notes
 
 features:
   - icon:
