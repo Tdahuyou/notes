@@ -118,7 +118,7 @@
   - [1. 📒 表达式（Expression）和语句（Statement）](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#1--表达式expression和语句statement)
   - [2. 💻 demos.1 - 理解语句](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#2--demos1---理解语句)
   - [3. 💻 demos.2 - 理解表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#3--demos2---理解表达式)
-  - [4. ✍️ 练习题](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4-✍-练习题)
+  - [4. ✍️ 练习题](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4--练习题)
   - [5. 🤔 问：写在前面的语句一定先于后面的语句执行吗？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#5--问写在前面的语句一定先于后面的语句执行吗)
   - [6. 🤔 问：如何区分表达式和语句？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#6--问如何区分表达式和语句)
   - 知识点：
@@ -295,22 +295,31 @@
   - 完成笔记中记录的相关练习题。
   
 
-- [ ] [0021. 注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md) <!-- [locale](./0021.%20%E6%B3%A8%E9%87%8A/README.md) -->  
-  
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#5--ai)
+- [x] [0021. 注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md) <!-- [locale](./0021.%20%E6%B3%A8%E9%87%8A/README.md) -->  
+  - [1. 🔗 JSDoc 官网](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#1--jsdoc-官网)
+  - [2. 📒 注释是什么](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#2--注释是什么)
+  - [3. 📒 注释的分类](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#3--注释的分类)
+  - [4. 📒 文档注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#4--文档注释)
+  - [5. 📒 区域注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#5--区域注释)
+  - [6. 💻 demos.1 - 单行注释和多行注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#6--demos1---单行注释和多行注释)
+  - [7. 💻 demos.2 - 特殊的单行注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#7--demos2---特殊的单行注释)
+  - [8. 💻 demos.3 - 文档注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#8--demos3---文档注释)
+  - [9. 💻 demos.4 - 区域注释](https://github.com/Tdahuyou/javascript/tree/main/0021.%20%E6%B3%A8%E9%87%8A/README.md#9--demos4---区域注释)
+  - 知识点：
+    - 单行注释
+    - 多行注释
+    - 文档注释
+    - 区域注释
   
 
-- [ ] [0022. 字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) <!-- [locale](./0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) -->  
+- [x] [0022. 字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) <!-- [locale](./0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#5--ai)
+  - [1. 🔗 MDN 对 字面量（Literal）的描述](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#1--mdn-对-字面量literal的描述)
+  - [2. 📒 字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#2--字面量)
+  - [3. 💻 demos.1 - 不同类型的字面量](https://github.com/Tdahuyou/javascript/tree/main/0022.%20%E5%AD%97%E9%9D%A2%E9%87%8F/README.md#3--demos1---不同类型的字面量)
+  - 知识点：
+    - 理解字面量是什么
+  - 字面量就是直接写在代码中的值。
   
 
 ## 7. 数据类型
@@ -441,13 +450,20 @@
   - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#5--ai)
   
 
-- [ ] [0037. 防抖、节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) <!-- [locale](./0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) -->  
+- [x] [0037. 防抖、节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) <!-- [locale](./0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#5--ai)
+  - [1. 🔗 leetcode 相关例题](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#1--leetcode-相关例题)
+  - [2. 📒 防抖](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#2--防抖)
+  - [3. 📒 节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#3--节流)
+  - [4. 📒 防抖 vs. 节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#4--防抖-vs-节流)
+  - [5. 💻 demos.1 - 防抖](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#5--demos1---防抖)
+  - [6. 💻 demos.2 - 节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md#6--demos2---节流)
+  - 知识点：
+    - 理解防抖
+    - 理解节流
+    - 完成 leetcode 算法题
+  - 防抖（debouncing）和节流（throttling）都是用来控制函数调用频率的技术解决方案。
+    - ![](https://raw.githubusercontent.com/Tdahuyou/javascript/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/assets%2F2024-12-31-17-34-54.png)
   
 
 - [ ] [0038. 数组类型【扩展】](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) <!-- [locale](./0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) -->  
