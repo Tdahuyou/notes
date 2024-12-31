@@ -1,3 +1,3 @@
-# [TNotes](https://tdahuyou.github.io/notes/)
+# [TNotes](https://notes.tdahuyou.github.io/notes/)
 
 ![foot print](https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/public/footprint.png)
