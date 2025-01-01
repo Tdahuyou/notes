@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import notesmeta from '../../scripts/.notesmeta.json'
+// import notesmeta from '../../scripts/.notesmeta.json'
 
 // doc => https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
