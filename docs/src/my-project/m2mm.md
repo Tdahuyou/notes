@@ -9,8 +9,6 @@
 ## 🔗 m2mm - github 仓库
 
 - https://github.com/Tdahuyou/m2mm
-- m2mm 是一款浏览器插件，用于将剪贴板中的 Markdown 内容转换为 markmap 思维导图的形式来呈现。
-- This is a Chrome browser extension that converts Markdown content from the clipboard into a Markmap.
 
 ## 🔗 网页版 - 在线使用
 
