@@ -4,7 +4,7 @@ import notesmeta from '../../scripts/.notesmeta.json'
 // doc => https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
   lang: 'zh-Hans',
-  base: '/',
+  base: '/notes/',
   title: 'Tdahuyou',
   description: 'Tdahuyou 学习笔记',
   appearance: 'dark',
