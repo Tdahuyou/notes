@@ -12,7 +12,7 @@
 
 ## 🔗 网页版 - 在线使用
 
-- https://m2mm.tdahuyou.cn/
+- https://tdahuyou.github.io/m2mm/
 - 可在电脑、平板、手机上访问。
 
 ## 🔗 chrome 插件版
