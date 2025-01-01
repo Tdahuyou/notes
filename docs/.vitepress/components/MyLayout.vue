@@ -31,8 +31,8 @@
                     </div>
                 </div>
                 <div class="right-area">
-                    <div class="notes-length" title="笔记数量">
-                        {{ notesLength }}｜
+                    <div class="notes-length" title="已完成笔记数量/所有笔记数量">
+                        {{ doneNotesLen }}/{{ allNotesLen }}｜
                     </div>
                     <div class="update-time">
                         更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
@@ -82,7 +82,8 @@ const vpData = useData()
 // console.log('notesData:', notesData)
 // console.log('vpData:', vpData)
 
-const notesLength = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.notesLength);
+const allNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.allNotesLen);
+const doneNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.doneNotesLen);
 const isCopied = ref(false)
 
 const formatDate = (timestamp) => {

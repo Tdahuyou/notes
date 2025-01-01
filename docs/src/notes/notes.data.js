@@ -16,19 +16,56 @@ export default {
       const title = file.split("/").pop().replace(/\.md$/, ""); // notes title
       const fileContent = fs.readFileSync(file, "utf-8");
 
-      const matches = fileContent.match(/\b(\d{4})\./g);
+      const allNotesID = getAllNotesID(fileContent);
+      const allNotesLen = allNotesID.length;
 
-      let notesID = [];
+      const doneNotesID = getDoneNotesID(fileContent);
+      const doneNotesLen = doneNotesID.length;
 
-      if (matches) {
-        notesID = [...new Set(matches.map(match => match.replace('.', '')))];
-      }
+      const pendingNotesID = getPendingNotesID(fileContent);
+      const pendingNotesLen = pendingNotesID.length;
+
       notesData[title] = {
         fileContent,
-        notesID,
-        notesLength: notesID.length,
+        allNotesID,
+        allNotesLen,
+        doneNotesID,
+        doneNotesLen,
+        pendingNotesID,
+        pendingNotesLen
       };
     });
     return notesData
   },
 };
+
+const NOTES_ID_TYPE = {
+  PENDING: "PENDING",
+  DONE: "DONE",
+  ALL: "ALL",
+};
+
+function getNotesID(type = NOTES_ID_TYPE.ALL, notesData) {
+  if (type === NOTES_ID_TYPE.ALL) {
+    const matches = notesData.match(/\b(\d{4})\./g);
+    return matches ? [...new Set(matches.map(match => match.replace('.', '')))] : [];
+  } else if (type === NOTES_ID_TYPE.DONE) {
+    const matches = notesData.match(/- \[x\]\s\[(\d{4})\./g);
+    return matches ? [...new Set(matches.map(match => match.slice(-5, -1)))] : [];
+  } else if (type === NOTES_ID_TYPE.PENDING) {
+    const matches = notesData.match(/- \[\s\]\s\[(\d{4})\./g);
+    return matches ? [...new Set(matches.map(match => match.slice(-5, -1)))] : [];
+  }
+}
+
+function getAllNotesID(notesData) {
+  return getNotesID(NOTES_ID_TYPE.ALL, notesData);
+}
+
+function getPendingNotesID(notesData) {
+  return getNotesID(NOTES_ID_TYPE.PENDING, notesData);
+}
+
+function getDoneNotesID(notesData) {
+  return getNotesID(NOTES_ID_TYPE.DONE, notesData);
+}

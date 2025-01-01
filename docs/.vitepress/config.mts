@@ -55,12 +55,18 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '👀 README', link: '/README/README' },
-          { text: '🧑🏻‍💻 开源项目', link: '/README/my-project' },
           { text: '⏰ 待办事项', link: '/README/todos' },
           { text: '💻 笔记管理架构', link: '/README/notes-architecture' },
           { text: '⚙️ notes 批处理脚本说明', link: '/README/scripts-introduction' },
           { text: '🔍 emoji 规范', link: '/README/emoji' },
           { text: '🤔 Q&A', link: '/README/Q&A' },
+        ],
+      },
+      {
+        text: '开源',
+        collapsed: true,
+        items: [
+          { text: '🧑🏻‍💻 m2mm', link: '/my-project/m2mm' },
         ],
       },
       {
