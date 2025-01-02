@@ -1,5 +1,37 @@
 # react
 
+<!-- region:toc -->
+- [react](#react)
+  - [1. 快速入门](#1-快速入门)
+    - [1.1. 认识 react](#11-认识-react)
+    - [1.2. 推荐安装的 VSCode 插件](#12-推荐安装的-vscode-插件)
+    - [1.3. 第一个 react 应用](#13-第一个-react-应用)
+    - [1.4. jsx](#14-jsx)
+      - [1.4.1. 条件渲染、列表渲染](#141-条件渲染列表渲染)
+  - [2. dangerouslySetInnerHTML](#2-dangerouslysetinnerhtml)
+  - [3. ref](#3-ref)
+  - [4. 组件篇](#4-组件篇)
+    - [4.1. 认识组件](#41-认识组件)
+    - [4.2. 组件名](#42-组件名)
+    - [4.3. 样式](#43-样式)
+    - [4.4. 属性](#44-属性)
+    - [4.5. 了解属性的基本使用](#45-了解属性的基本使用)
+    - [4.6. 通过 children 属性传递内容](#46-通过-children-属性传递内容)
+    - [4.7. 布尔属性](#47-布尔属性)
+    - [4.8. 属性校验](#48-属性校验)
+    - [4.9. 属性默认值](#49-属性默认值)
+    - [4.10. 状态](#410-状态)
+    - [4.11. 生命周期](#411-生命周期)
+    - [4.12. hooks](#412-hooks)
+    - [4.13. hoc](#413-hoc)
+    - [4.14. 内置组件](#414-内置组件)
+  - [5. 状态管理](#5-状态管理)
+    - [5.1. redux](#51-redux)
+  - [6. 第三方库](#6-第三方库)
+  - [7. 工程化](#7-工程化)
+  - [8. 小练习](#8-小练习)
+  - [9. UI 组件库](#9-ui-组件库)
+<!-- endregion:toc -->
 
 ## 1. 快速入门
 
@@ -460,6 +492,16 @@
   
   
 
+- [ ] [0038. react-intl 基本使用](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
+  - [1. 🔗 react-intl 官方文档](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--react-intl-官方文档)
+  - [2. 🔍 Message Syntax](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#2--message-syntax)
+  - [3. 📒 react-intl 简介](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#3--react-intl-简介)
+  - [4. 📒 认识 ICU (International Components for Unicode)](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#4--认识-icu-(international-components-for-unicode))
+  - [5. 💻 demos.1 - react-intl 基本使用](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#5--demos1---react-intl-基本使用)
+  - [6. 🔍 如何判断传入的 locale 是否是合法值](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#6--如何判断传入的-locale-是否是合法值)
+  - React-Intl 是一个强大的工具，可帮助开发人员轻松管理和本地化他们的 React 应用程序。
+  
+
 ## 7. 工程化
 
 - [ ] [0008. 使用 vite 快速初始化一个 react 工程](https://github.com/Tdahuyou/react/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.md) <!-- [locale](./0008.%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.md) -->  
@@ -491,7 +533,7 @@
   - 通过本节的 demo，强调了一个点 —— 由 `React.createElement` 创建的 react 元素对象是不可变的。
   
 
-## 9. ⏰ 待分组
+## 9. UI 组件库
 
 - [ ] [0037. 学习 antd Message 组件的使用](https://github.com/Tdahuyou/react/tree/main/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.md) -->  
   - [1. 🔗 Message 全局提示](https://github.com/Tdahuyou/react/tree/main/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.md#1--message-全局提示)
