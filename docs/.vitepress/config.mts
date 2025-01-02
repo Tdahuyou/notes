@@ -144,6 +144,9 @@ export default defineConfig({
       {
         text: '其他',
         items: [
+          { text: '🧑🏻‍💻 关于我', link: '/others/about-me' },
+          { text: '🐱 神兽', link: '/others/we' },
+          { text: '✍️ 创作', link: '/others/creation' },
           { text: '📮 邮箱', link: '/others/email' },
           { text: '🧑🏻‍💻 微信', link: '/others/we-chat' },
           { text: '💰 答疑', link: '/others/paid-consulting-service' },
