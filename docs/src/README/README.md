@@ -1,5 +1,7 @@
 # TNotes 笔记概述
 
+该站点是基于 github pages 和 vitepress 搭建的个人博客，目前主要存储一些个人的学习笔记。正在逐步将 yuque 上的笔记搬运到 github 上。
+
 ![foot print](https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/public/footprint.png)
 
 > - 大二（2019.06.14）去学校附近的海边拍的脚印。
