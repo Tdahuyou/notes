@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 // #region consts
 const EOL = '\n';
@@ -74,7 +74,7 @@ function distributeReadme(baseDir) {
   console.log('✅ All README.md files have been updated.');
 }
 
-module.exports = {
+export {
   mergeReadme,
   distributeReadme,
 };

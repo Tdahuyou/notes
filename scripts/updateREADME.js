@@ -5,9 +5,16 @@
  * - 读取笔记头部信息，更新 home README
  * - 自动将 home README 推送到 TNotes 中
  */
-const fs = require('fs');
-const path = require('path');
-const notesmeta = require("./.notesmeta.json");
+import fs from 'fs';
+import path from 'path';
+// import notesmeta from './.notesmeta.json' assert { type: 'json' }; // !ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+import GithubSlugger from 'github-slugger';
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const notesmeta = JSON.parse(fs.readFileSync(path.resolve(__dirname, '.notesmeta.json'), 'utf-8'));
+
+const slugger = new GithubSlugger();
 
 class ReadmeUpdater {
   constructor({repoName, baseDir, ignoreDirs, doneNoteIds}) {
@@ -337,30 +344,8 @@ class ReadmeUpdater {
       return [newTitle, plainTitle];
     }
 
-    // TODO 找一下已实现 anchor 解析的库
     function generateAnchor(label) {
-      return (
-        label
-          .toLowerCase()
-          // 删除标题中出现的 emoji
-          .replace(/[\u{1F600}-\u{1F64F}]/gu, "") // 移除表情符号
-          .replace(/[\u{1F300}-\u{1F5FF}]/gu, "") // 移除符号与标点
-          .replace(/[\u{1F680}-\u{1F6FF}]/gu, "") // 移除运输与地图符号
-          .replace(/[\u{1F1E6}-\u{1F1FF}]/gu, "") // 移除旗帜符号
-          .replace(/[💻|📒|🤔|🤖|📝|⚙️|📚|❌|⏰|👨‍🏫|✍️|🔍]/g, "") // 根据笔记中用的的 emoji 来枚举
-          // 删除 .
-          .replace(/\./g, "")
-          // 删除 `
-          .replace(/`/g, "")
-          // 删除 :
-          .replace(/:/g, "")
-          // 删除 /
-          .replace(/\//g, "")
-          // 删除中文符号
-          .replace(/[。，？！；：“”‘’（）【】《》…—、——]/g, "")
-          // 空格替换为 -
-          .replace(/\s/g, "-")
-      );
+      return slugger.slug(label);
     }
   }
 
@@ -407,4 +392,4 @@ class ReadmeUpdater {
   }
 }
 
-module.exports = ReadmeUpdater;
+export default ReadmeUpdater;

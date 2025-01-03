@@ -1,7 +1,11 @@
-const { exec } = require('child_process');
-const notesmeta = require('./.notesmeta.json');
-const fs = require('fs').promises;
-const path = require('path');
+import { exec } from 'child_process';
+// import notesmeta from './.notesmeta.json' assert { type: 'json' }; // !ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+import fs from 'fs/promises';
+import path from 'path';
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const notesmeta = JSON.parse(fs.readFileSync(path.resolve(__dirname, '.notesmeta.json'), 'utf-8'));
 
 const BASE_DIR = path.resolve(__dirname, '..', '..');
 const repos = notesmeta.repos.map(name => `https://github.com/Tdahuyou/${name}.git`);

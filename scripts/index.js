@@ -1,11 +1,14 @@
-const path = require("path");
-const minimist = require("minimist");
+import path from 'path';
+import minimist from 'minimist';
 
-const ReadmeUpdater = require("./updateREADME");
-const { mergeReadme, distributeReadme } = require('./notes-merge-distribute');
-const { syncLocalAndRemote, initPkg } = require('./utils');
-const notesmeta = require("./.notesmeta.json");
+import ReadmeUpdater from './updateREADME.js';
+import { mergeReadme, distributeReadme } from './notes-merge-distribute.js';
+import { syncLocalAndRemote, initPkg } from './utils.js';
+// import notesmeta from './.notesmeta.json' assert { type: 'json' };
+import { fileURLToPath } from "url";
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const notesmeta = JSON.parse(fs.readFileSync(path.resolve(__dirname, '.notesmeta.json'), 'utf-8'));
 
 (async () => {
   const args = minimist(process.argv.slice(2), {
