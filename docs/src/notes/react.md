@@ -493,12 +493,22 @@
   
 
 - [ ] [0038. react-intl 基本使用](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
-  - [1. 🔗 react-intl 官方文档](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--react-intl-官方文档)
-  - [2. 🔍 Message Syntax](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#2--message-syntax)
-  - [3. 📒 react-intl 简介](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#3--react-intl-简介)
-  - [4. 📒 认识 ICU (International Components for Unicode)](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#4--认识-icu-(international-components-for-unicode))
-  - [5. 💻 demos.1 - react-intl 基本使用](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#5--demos1---react-intl-基本使用)
-  - [6. 🔍 如何判断传入的 locale 是否是合法值](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#6--如何判断传入的-locale-是否是合法值)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--links)
+  - [2. 📒 react-intl 简介](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#2--react-intl-简介)
+  - [3. 🤔 ICU (International Components for Unicode) 是什么？有什么用？](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#3--icu-(international-components-for-unicode)-是什么有什么用)
+    - [3.1. ICU（International Components for Unicode）简介](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#31-icuinternational-components-for-unicode简介)
+    - [3.2. 核心功能](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#32-核心功能)
+    - [3.3. 国际化与本地化支持](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#33-国际化与本地化支持)
+    - [3.4. MessageFormat 功能](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#34-messageformat-功能)
+    - [3.5. 平台与兼容性](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#35-平台与兼容性)
+    - [3.6. 社区与维护](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#36-社区与维护)
+    - [3.7. 总结](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#37-总结)
+  - [4. 💻 demos.1 - react-intl 基本使用](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#4--demos1---react-intl-基本使用)
+  - [5. 🔍 如何判断传入的 locale 是否是合法值](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#5--如何判断传入的-locale-是否是合法值)
+  - [6. 💻 demos.1 - 特殊的 locale 值](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#6--demos1---特殊的-locale-值)
+  - [7. 💻 demos.1 - useIntl、injectIntl - 使用 defineMessages 定义消息](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#7--demos1---useintlinjectintl---使用-definemessages-定义消息)
+  - [8. 💻 demos.1 - 通过 intl 对象来获取国际化消息数据](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#8--demos1---通过-intl-对象来获取国际化消息数据)
+  - [9. 💻 demos.2 - IntlShape 在 .ts 中的应用](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#9--demos2---intlshape-在-ts-中的应用)
   - React-Intl 是一个强大的工具，可帮助开发人员轻松管理和本地化他们的 React 应用程序。
   
 
