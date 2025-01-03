@@ -38,7 +38,7 @@
 ### 1.1. 认识 react
 
 - [ ] [0032. 什么是 react](https://github.com/Tdahuyou/react/tree/main/0032.%20%E4%BB%80%E4%B9%88%E6%98%AF%20react/README.md) <!-- [locale](./0032.%20%E4%BB%80%E4%B9%88%E6%98%AF%20react/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0032.%20%E4%BB%80%E4%B9%88%E6%98%AF%20react/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0032.%20%E4%BB%80%E4%B9%88%E6%98%AF%20react/README.md#1--links-14)
   - [2. 📒 什么是 react](https://github.com/Tdahuyou/react/tree/main/0032.%20%E4%BB%80%E4%B9%88%E6%98%AF%20react/README.md#2--什么是-react)
   - [3. 📒 react 的特点](https://github.com/Tdahuyou/react/tree/main/0032.%20%E4%BB%80%E4%B9%88%E6%98%AF%20react/README.md#3--react-的特点)
   - [4. 📒 库 vs. 框架](https://github.com/Tdahuyou/react/tree/main/0032.%20%E4%BB%80%E4%B9%88%E6%98%AF%20react/README.md#4--库-vs-框架)
@@ -73,8 +73,8 @@
   
 
 - [ ] [0035. 在 vscode 中，让 Emmet 语法支持 JSX](https://github.com/Tdahuyou/react/tree/main/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.md) <!-- [locale](./0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.md#1--links)
-  - [2. 📒 notes](https://github.com/Tdahuyou/react/tree/main/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.md#2--notes)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.md#1--links-16)
+  - [2. 📒 notes](https://github.com/Tdahuyou/react/tree/main/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.md#2--notes-3)
   - [3. 💻 测试效果](https://github.com/Tdahuyou/react/tree/main/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.md#3--测试效果)
   - 介绍如何配置 VSCode，让 Emmet 语法支持 JSX。
   
@@ -93,11 +93,11 @@
   - [9. 🤔 思考：为什么一旦使用了 `JSX` 语法，就必须要引入 `react` 核心库？](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#9--思考为什么一旦使用了-jsx-语法就必须要引入-react-核心库)
   - [10. 🤔 思考：通过脚手架（比如 vite、umi、create-react-app）来搭建工程 vs. 通过（.html）页面的方式来直接引入 react 相关的库](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#10--思考通过脚手架比如-viteumicreate-react-app来搭建工程-vs-通过html页面的方式来直接引入-react-相关的库)
   - [11. 🤖 请介绍一下 script 标签身上的 type 属性](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#11--请介绍一下-script-标签身上的-type-属性)
-    - [11.1. **标准用法**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#111-**标准用法**)
-    - [11.2. **模块**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#112-**模块**)
-    - [11.3. **非 JavaScript 类型**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#113-**非-javascript-类型**)
-    - [11.4. **历史用法**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#114-**历史用法**)
-    - [11.5. **实用考虑**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#115-**实用考虑**)
+    - [11.1. **标准用法**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#111-标准用法)
+    - [11.2. **模块**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#112-模块)
+    - [11.3. **非 JavaScript 类型**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#113-非-javascript-类型)
+    - [11.4. **历史用法**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#114-历史用法)
+    - [11.5. **实用考虑**](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#115-实用考虑)
   - [12. 🤖 请介绍一下 script 标签身上的 crossorigin 属性](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#12--请介绍一下-script-标签身上的-crossorigin-属性)
     - [12.1. 值](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#121-值)
     - [12.2. 作用](https://github.com/Tdahuyou/react/tree/main/0001.%20Hello%20World/README.md#122-作用)
@@ -122,13 +122,13 @@
   
 
 - [ ] [0003. html to jsx 在线转换](https://github.com/Tdahuyou/react/tree/main/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.md) <!-- [locale](./0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.md#1--links-2)
   - [2. 📒 html-to-jsx 在线转换器](https://github.com/Tdahuyou/react/tree/main/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.md#2--html-to-jsx-在线转换器)
   - 本节介绍了一个实现 html 转 jsx 的在线工具站点，如果有 html 转 jsx 的需求，可以通过这个工具来快速转换。
   
 
 - [ ] [0015. 在 JSX 中使用注释](https://github.com/Tdahuyou/react/tree/main/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.md) <!-- [locale](./0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.md#1--links-9)
   - [2. 📒 JSX 中注释的写法](https://github.com/Tdahuyou/react/tree/main/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.md#2--jsx-中注释的写法)
   - [3. 💻 demo1 - 在 JSX 中使用注释](https://github.com/Tdahuyou/react/tree/main/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.md#3--demo1---在-jsx-中使用注释)
   - [4. 💻 demo2 - jsx-eslint 的智能提示](https://github.com/Tdahuyou/react/tree/main/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.md#4--demo2---jsx-eslint-的智能提示)
@@ -136,7 +136,7 @@
   
 
 - [ ] [0009. 动态插值 - 在 jsx 中使用大括号实现](https://github.com/Tdahuyou/react/tree/main/0009.%20%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC%20-%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0/README.md) <!-- [locale](./0009.%20%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC%20-%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0009.%20%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC%20-%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0009.%20%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC%20-%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0/README.md#1--links-4)
   - [2. 📒 在 JSX 中使用 JS 表达式](https://github.com/Tdahuyou/react/tree/main/0009.%20%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC%20-%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0/README.md#2--在-jsx-中使用-js-表达式)
   - [3. 🤖 Hedy Lamarr 是谁？](https://github.com/Tdahuyou/react/tree/main/0009.%20%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC%20-%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0/README.md#3--hedy-lamarr-是谁)
   - 在 jsx 中可以使用 `{}` 语法来动态插入 js 表达式。
@@ -156,7 +156,7 @@
 #### 1.4.1. 条件渲染、列表渲染
 
 - [ ] [0010. 条件渲染](https://github.com/Tdahuyou/react/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E6%B8%B2%E6%9F%93/README.md) <!-- [locale](./0010.%20%E6%9D%A1%E4%BB%B6%E6%B8%B2%E6%9F%93/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E6%B8%B2%E6%9F%93/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E6%B8%B2%E6%9F%93/README.md#1--links-5)
   - [2. 📝 条件渲染](https://github.com/Tdahuyou/react/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E6%B8%B2%E6%9F%93/README.md#2--条件渲染)
   - [3. 💻 demo - 条件渲染](https://github.com/Tdahuyou/react/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E6%B8%B2%E6%9F%93/README.md#3--demo---条件渲染)
   - [4. 📝 对比 vue](https://github.com/Tdahuyou/react/tree/main/0010.%20%E6%9D%A1%E4%BB%B6%E6%B8%B2%E6%9F%93/README.md#4--对比-vue)
@@ -165,7 +165,7 @@
   
 
 - [ ] [0011. 列表渲染](https://github.com/Tdahuyou/react/tree/main/0011.%20%E5%88%97%E8%A1%A8%E6%B8%B2%E6%9F%93/README.md) <!-- [locale](./0011.%20%E5%88%97%E8%A1%A8%E6%B8%B2%E6%9F%93/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0011.%20%E5%88%97%E8%A1%A8%E6%B8%B2%E6%9F%93/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0011.%20%E5%88%97%E8%A1%A8%E6%B8%B2%E6%9F%93/README.md#1--links-6)
   - [2. 🔗 en-words](https://github.com/Tdahuyou/react/tree/main/0011.%20%E5%88%97%E8%A1%A8%E6%B8%B2%E6%9F%93/README.md#2--en-words)
   - [3. 📝 doc - 列表渲染](https://github.com/Tdahuyou/react/tree/main/0011.%20%E5%88%97%E8%A1%A8%E6%B8%B2%E6%9F%93/README.md#3--doc---列表渲染)
   - [4. 💻 列表渲染](https://github.com/Tdahuyou/react/tree/main/0011.%20%E5%88%97%E8%A1%A8%E6%B8%B2%E6%9F%93/README.md#4--列表渲染)
@@ -194,12 +194,12 @@
 ## 2. dangerouslySetInnerHTML
 
 - [ ] [0016. dangerouslySetInnerHTML](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md) <!-- [locale](./0016.%20dangerouslySetInnerHTML/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#1--links)
-  - [2. 📒 notes](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#2--notes)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#1--links-10)
+  - [2. 📒 notes](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#2--notes-1)
   - [3. 💻 dangerouslySetInnerHTML 的基本使用](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#3--dangerouslysetinnerhtml-的基本使用)
   - [4. 🤖 请介绍一下 dangerouslySetInnerHTML](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#4--请介绍一下-dangerouslysetinnerhtml)
     - [4.1. 为什么需要 `dangerouslySetInnerHTML`？](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#41-为什么需要-dangerouslysetinnerhtml)
-    - [4.2. 基本用法](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#42-基本用法)
+    - [4.2. 基本用法](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#42-基本用法-1)
     - [4.3. 安全注意事项](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#43-安全注意事项)
     - [4.4. 使用示例](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#44-使用示例)
       - [4.4.1. 1. 1. 1. 1. 安装 `DOMPurify`](https://github.com/Tdahuyou/react/tree/main/0016.%20dangerouslySetInnerHTML/README.md#441-1-1-1-1-安装-dompurify)
@@ -256,7 +256,7 @@
 ### 4.2. 组件名
 
 - [ ] [0002. react 组件名的命名规则](https://github.com/Tdahuyou/react/tree/main/0002.%20react%20%E7%BB%84%E4%BB%B6%E5%90%8D%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/README.md) <!-- [locale](./0002.%20react%20%E7%BB%84%E4%BB%B6%E5%90%8D%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0002.%20react%20%E7%BB%84%E4%BB%B6%E5%90%8D%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0002.%20react%20%E7%BB%84%E4%BB%B6%E5%90%8D%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/README.md#1--links-1)
   - [2. 📒 notes](https://github.com/Tdahuyou/react/tree/main/0002.%20react%20%E7%BB%84%E4%BB%B6%E5%90%8D%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/README.md#2--notes)
   - [3. 💻 demo - react 组件名的命名规则](https://github.com/Tdahuyou/react/tree/main/0002.%20react%20%E7%BB%84%E4%BB%B6%E5%90%8D%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/README.md#3--demo---react-组件名的命名规则)
   - 知识点：
@@ -267,7 +267,7 @@
 ### 4.3. 样式
 
 - [ ] [0004. 使用 className 添加样式名](https://github.com/Tdahuyou/react/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F%E5%90%8D/README.md) <!-- [locale](./0004.%20%E4%BD%BF%E7%94%A8%20className%20%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F%E5%90%8D/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F%E5%90%8D/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F%E5%90%8D/README.md#1--links-3)
   - [2. 📒 添加样式](https://github.com/Tdahuyou/react/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F%E5%90%8D/README.md#2--添加样式)
   - [3. 🤔 问：为什么不直接使用 class 来添加样式，而是使用 className 呢？](https://github.com/Tdahuyou/react/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F%E5%90%8D/README.md#3--问为什么不直接使用-class-来添加样式而是使用-classname-呢)
   - [4. 💻 demo - className 基本使用](https://github.com/Tdahuyou/react/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F%E5%90%8D/README.md#4--demo---classname-基本使用)
@@ -339,11 +339,11 @@
 
 - [ ] [0027. 生命周期](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md) <!-- [locale](./0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md) -->  
   - [1. ⏰ TODO：待完善](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#1--todo待完善)
-  - [2. 📝 Summary](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#2--summary)
-  - [3. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#3--links)
-  - [4. 📒 notes](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#4--notes)
-  - [5. 💻 demo](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#5--demo)
-  - [6. 🤖 AI](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#6--ai)
+  - [2. 📝 Summary](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#2--summary-1)
+  - [3. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#3--links-1)
+  - [4. 📒 notes](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#4--notes-1)
+  - [5. 💻 demo](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#5--demo-1)
+  - [6. 🤖 AI](https://github.com/Tdahuyou/react/tree/main/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.md#6--ai-1)
   
 
 ### 4.12. hooks
@@ -353,14 +353,14 @@
 ### 4.14. 内置组件
 
 - [ ] [0014. React.Fragment](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md) <!-- [locale](./0014.%20React.Fragment/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#1--links-8)
   - [2. 💻 React.Fragment 并不会生成真实 DOM](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#2--reactfragment-并不会生成真实-dom)
   - [3. 💻 React.Fragment 渲染列表](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#3--reactfragment-渲染列表)
   - [4. 🤖 请介绍一下 React.Fragment](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#4--请介绍一下-reactfragment)
     - [4.1. 为什么使用 `React.Fragment`？](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#41-为什么使用-reactfragment)
     - [4.2. 基本用法](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#42-基本用法)
-      - [4.2.1. 1. 1. 1. 1. 使用 `<React.Fragment>` 标签](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#421-1-1-1-1-使用-<reactfragment>-标签)
-      - [4.2.2. 2. 2. 2. 2. 使用短语法 `<></>`](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#422-2-2-2-2-使用短语法-<><>)
+      - [4.2.1. 1. 1. 1. 1. 使用 `<React.Fragment>` 标签](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#421-1-1-1-1-使用-reactfragment-标签)
+      - [4.2.2. 2. 2. 2. 2. 使用短语法 `<></>`](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#422-2-2-2-2-使用短语法-)
     - [4.3. 传递属性](https://github.com/Tdahuyou/react/tree/main/0014.%20React.Fragment/README.md#43-传递属性)
   - 简写形式：`<></>`
   - 并不会实际被渲染到元素结构中，仅仅是起到一个占位的作用。
@@ -384,8 +384,8 @@
   - [6. 📒 本节会用到的一些依赖](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#6--本节会用到的一些依赖)
   - [7. 💻 demos.1 - 脱离 react 单独使用 redux 来管理状态数据](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#7--demos1---脱离-react-单独使用-redux-来管理状态数据)
   - [8. 💻 demos.2 - redux 的基本使用 - createStore 版](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#8--demos2---redux-的基本使用---createstore-版)
-  - [9. 💻 demos.2 - redux 的基本使用 - @reduxjs/toolkit 版](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#9--demos2---redux-的基本使用---@reduxjstoolkit-版)
-  - [10. 💻 demos.2 - redux 的基本使用 - @reduxjs/toolkit 版（模块化）](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#10--demos2---redux-的基本使用---@reduxjstoolkit-版模块化)
+  - [9. 💻 demos.2 - redux 的基本使用 - @reduxjs/toolkit 版](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#9--demos2---redux-的基本使用---reduxjstoolkit-版)
+  - [10. 💻 demos.2 - redux 的基本使用 - @reduxjs/toolkit 版（模块化）](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#10--demos2---redux-的基本使用---reduxjstoolkit-版模块化)
   - [11. 🤖 我想要深入了解有关 redux 的内容，应该问你哪些问题呢？](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#11--我想要深入了解有关-redux-的内容应该问你哪些问题呢)
     - [11.1. 基本概念](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#111-基本概念)
     - [11.2. 高级概念](https://github.com/Tdahuyou/react/tree/main/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#112-高级概念)
@@ -400,21 +400,21 @@
   
 
 - [ ] [0029. 为什么说前端的 mvc 已死](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md) <!-- [locale](./0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#1--links)
-  - [2. 📒 notes](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#2--notes)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#1--links-12)
+  - [2. 📒 notes](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#2--notes-2)
   - [3. 🤖 为什么说前端的 mvc 已死？](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#3--为什么说前端的-mvc-已死)
-    - [3.1. **复杂的状态管理**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#31-**复杂的状态管理**)
-    - [3.2. **组件化**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#32-**组件化**)
-    - [3.3. **单向数据流**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#33-**单向数据流**)
-    - [3.4. **虚拟 DOM**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#34-**虚拟-dom**)
-    - [3.5. **社区和生态系统**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#35-**社区和生态系统**)
-    - [3.6. **开发体验**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#36-**开发体验**)
+    - [3.1. **复杂的状态管理**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#31-复杂的状态管理)
+    - [3.2. **组件化**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#32-组件化)
+    - [3.3. **单向数据流**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#33-单向数据流)
+    - [3.4. **虚拟 DOM**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#34-虚拟-dom)
+    - [3.5. **社区和生态系统**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#35-社区和生态系统)
+    - [3.6. **开发体验**](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#36-开发体验)
     - [3.7. 总结](https://github.com/Tdahuyou/react/tree/main/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.md#37-总结)
   - 理解为什么前端不适用 mvc 模式。
   
 
 - [ ] [0030. redux 中的 action](https://github.com/Tdahuyou/react/tree/main/0030.%20redux%20%E4%B8%AD%E7%9A%84%20action/README.md) <!-- [locale](./0030.%20redux%20%E4%B8%AD%E7%9A%84%20action/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0030.%20redux%20%E4%B8%AD%E7%9A%84%20action/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0030.%20redux%20%E4%B8%AD%E7%9A%84%20action/README.md#1--links-13)
   - [2. 💻 脱离 react 单独使用 redux 来管理状态数据](https://github.com/Tdahuyou/react/tree/main/0030.%20redux%20%E4%B8%AD%E7%9A%84%20action/README.md#2--脱离-react-单独使用-redux-来管理状态数据)
   - [3. 📒 action 是什么？有什么用？](https://github.com/Tdahuyou/react/tree/main/0030.%20redux%20%E4%B8%AD%E7%9A%84%20action/README.md#3--action-是什么有什么用)
   - [4. 📒 redux 部分源码 - 判断 action 是否合法的逻辑](https://github.com/Tdahuyou/react/tree/main/0030.%20redux%20%E4%B8%AD%E7%9A%84%20action/README.md#4--redux-部分源码---判断-action-是否合法的逻辑)
@@ -454,17 +454,17 @@
   
 
 - [ ] [0012. react-monaco-editor 基本使用](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--links-7)
   - [2. 📒 先说说结论](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#2--先说说结论)
   - [3. 📒 单词 monaco](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#3--单词-monaco)
-  - [4. 📒 安装 @monaco-editor/react](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#4--安装-@monaco-editorreact)
+  - [4. 📒 安装 @monaco-editor/react](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#4--安装-monaco-editorreact)
   - [5. 💻 引入 Editor 组件](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#5--引入-editor-组件)
   - [6. 💻 Editor 组件的一些钩子 onChange、onMount、beforeMount、onValidate](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#6--editor-组件的一些钩子-onchangeonmountbeforemountonvalidate)
   - [7. 💻 获取编辑器的当前值的两种方式](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#7--获取编辑器的当前值的两种方式)
   - [8. 💻 将 Editor 组件设置为只读的](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#8--将-editor-组件设置为只读的)
   - [9. 💻 通过 editor 实例读写编辑器中的内容](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#9--通过-editor-实例读写编辑器中的内容)
   - [10. 💻 实战练习 - 模仿 matatastudio 的代码预览效果封装一个代码预览组件](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#10--实战练习---模仿-matatastudio-的代码预览效果封装一个代码预览组件)
-  - [11. 📒 相关业务背景信息 + 遇到的坑 + 解决方案](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#11--相关业务背景信息-+-遇到的坑-+-解决方案)
+  - [11. 📒 相关业务背景信息 + 遇到的坑 + 解决方案](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#11--相关业务背景信息--遇到的坑--解决方案)
     - [11.1. 解决办法 1 - 在线 - 使用代理](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#111-解决办法-1---在线---使用代理)
     - [11.2. 解决办法 2 - 在线 - 下载资源丢到自己的 CDN 上](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#112-解决办法-2---在线---下载资源丢到自己的-cdn-上)
     - [11.3. 解决办法 3 - 离线 - 手动下载相关模块](https://github.com/Tdahuyou/react/tree/main/0012.%20react-monaco-editor%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#113-解决办法-3---离线---手动下载相关模块)
@@ -481,7 +481,7 @@
   
 
 - [ ] [0033. react-tooltip 基本使用](https://github.com/Tdahuyou/react/tree/main/0033.%20react-tooltip%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0033.%20react-tooltip%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0033.%20react-tooltip%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0033.%20react-tooltip%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--links-15)
   - [2. 📒 react-tooltip 概述](https://github.com/Tdahuyou/react/tree/main/0033.%20react-tooltip%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#2--react-tooltip-概述)
   - [3. 📒 安装 react-tooltip](https://github.com/Tdahuyou/react/tree/main/0033.%20react-tooltip%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#3--安装-react-tooltip)
   - [4. 📒 核心依赖的版本](https://github.com/Tdahuyou/react/tree/main/0033.%20react-tooltip%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#4--核心依赖的版本)
@@ -493,16 +493,16 @@
   
 
 - [ ] [0038. react-intl 基本使用](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) <!-- [locale](./0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#1--links-17)
   - [2. 📒 react-intl 简介](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#2--react-intl-简介)
-  - [3. 🤔 ICU (International Components for Unicode) 是什么？有什么用？](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#3--icu-(international-components-for-unicode)-是什么有什么用)
+  - [3. 🤔 ICU (International Components for Unicode) 是什么？有什么用？](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#3--icu-international-components-for-unicode-是什么有什么用)
     - [3.1. ICU（International Components for Unicode）简介](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#31-icuinternational-components-for-unicode简介)
     - [3.2. 核心功能](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#32-核心功能)
     - [3.3. 国际化与本地化支持](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#33-国际化与本地化支持)
     - [3.4. MessageFormat 功能](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#34-messageformat-功能)
     - [3.5. 平台与兼容性](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#35-平台与兼容性)
     - [3.6. 社区与维护](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#36-社区与维护)
-    - [3.7. 总结](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#37-总结)
+    - [3.7. 总结](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#37-总结-1)
   - [4. 💻 demos.1 - react-intl 基本使用](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#4--demos1---react-intl-基本使用)
   - [5. 🔍 如何判断传入的 locale 是否是合法值](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#5--如何判断传入的-locale-是否是合法值)
   - [6. 💻 demos.1 - 特殊的 locale 值](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl%20%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.md#6--demos1---特殊的-locale-值)
@@ -520,7 +520,7 @@
   - [2. 📒 使用 pnpm 的实际操作流程](https://github.com/Tdahuyou/react/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.md#2--使用-pnpm-的实际操作流程)
   - [3. 📒 使用 vite 创建 react 工程](https://github.com/Tdahuyou/react/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.md#3--使用-vite-创建-react-工程)
   - [4. 📒 启动用 vite 创建的 react 工程](https://github.com/Tdahuyou/react/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.md#4--启动用-vite-创建的-react-工程)
-  - [5. 🤖 解释命令 - `npm create vite@latest my-react-app -- --template react`](https://github.com/Tdahuyou/react/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.md#5--解释命令---npm-create-vite@latest-my-react-app------template-react)
+  - [5. 🤖 解释命令 - `npm create vite@latest my-react-app -- --template react`](https://github.com/Tdahuyou/react/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.md#5--解释命令---npm-create-vitelatest-my-react-app------template-react)
     - [5.1. 整体流程](https://github.com/Tdahuyou/react/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.md#51-整体流程)
     - [5.2. 总结](https://github.com/Tdahuyou/react/tree/main/0008.%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.md#52-总结)
   - `npm create vite@latest my-react-app -- --template react` 这是 vite 官方提供的命令，用于创建一个 react 项目。
@@ -537,7 +537,7 @@
 ## 8. 小练习
 
 - [ ] [0018. demo-图片定时切换](https://github.com/Tdahuyou/react/tree/main/0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.md) <!-- [locale](./0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.md) -->  
-  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.md#1--links)
+  - [1. 🔗 links](https://github.com/Tdahuyou/react/tree/main/0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.md#1--links-11)
   - [2. 💻 demo](https://github.com/Tdahuyou/react/tree/main/0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.md#2--demo)
   - 实现一个图片定时切换的 demo，类似轮播效果。
   - 通过本节的 demo，强调了一个点 —— 由 `React.createElement` 创建的 react 元素对象是不可变的。
