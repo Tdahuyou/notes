@@ -142,6 +142,14 @@ export default defineConfig({
         ],
       },
       {
+        text: '做饭',
+        items: [
+          { text: '😋 蛋羹', link: '/cooking/dan-geng' },
+          { text: '😋 蛋挞', link: '/cooking/dan-ta' },
+          { text: '😋 鸡翅', link: '/cooking/ji-chi' },
+        ],
+      },
+      {
         text: '其他',
         items: [
           { text: '🧑🏻‍💻 关于我', link: '/others/about-me' },
@@ -264,6 +272,15 @@ export default defineConfig({
         items: [
           { text: '✍️ 地铁到站 - 围城', link: '/blog/1' },
           { text: '✍️ 葛大爷语录', link: '/blog/2' }
+        ],
+      },
+      {
+        text: '做饭',
+        collapsed: true,
+        items: [
+          { text: '😋 蛋羹', link: '/cooking/dan-geng' },
+          { text: '😋 蛋挞', link: '/cooking/dan-ta' },
+          { text: '😋 鸡翅', link: '/cooking/ji-chi' },
         ],
       },
       {
