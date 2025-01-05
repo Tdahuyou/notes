@@ -6,6 +6,7 @@ import { mergeReadme, distributeReadme } from './notes-merge-distribute.js';
 import { syncLocalAndRemote, initPkg } from './utils.js';
 // import notesmeta from './.notesmeta.json' assert { type: 'json' };
 import { fileURLToPath } from "url";
+import fs from 'fs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const notesmeta = JSON.parse(fs.readFileSync(path.resolve(__dirname, '.notesmeta.json'), 'utf-8'));
