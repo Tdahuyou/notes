@@ -2,18 +2,6 @@
 
 ⏰ 笔记内容待搬运。
 
-<!-- region:toc -->
-- [javascript](#javascript)
-  - [1. var、let、const](#1-varletconst)
-  - [2. 作用域](#2-作用域)
-  - [3. js 执行环境](#3-js-执行环境)
-  - [4. 语句和表达式](#4-语句和表达式)
-  - [5. 符号](#5-符号)
-  - [6. 流程控制语句](#6-流程控制语句)
-  - [7. 数据类型](#7-数据类型)
-  - [8. 模块化](#8-模块化)
-  - [9. ⚙️ window 对象](#9--window-对象)
-<!-- endregion:toc -->
 
 ## 1. var、let、const
 
@@ -101,7 +89,7 @@
 
 - [x] [0005. 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) <!-- [locale](./0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md) -->  
   - [1. 📒 区块和块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#1--区块和块级作用域)
-  - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#2--demos1---块级作用域)
+  - [2. 💻 demos.1 - 块级作用域](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#2--demos1---块级作用域-1)
   - [3. 💻 demos.2 - if 结构](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#3--demos2---if-结构)
   - [4. 💻 demos.3 - 使用区块来隔离上下文](https://github.com/Tdahuyou/javascript/tree/main/0005.%20%E5%8C%BA%E5%9D%97%E5%92%8C%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F/README.md#4--demos3---使用区块来隔离上下文)
   - 知识点：
@@ -130,7 +118,7 @@
   - [1. 📒 表达式（Expression）和语句（Statement）](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#1--表达式expression和语句statement)
   - [2. 💻 demos.1 - 理解语句](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#2--demos1---理解语句)
   - [3. 💻 demos.2 - 理解表达式](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#3--demos2---理解表达式)
-  - [4. ✍️ 练习题](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4--练习题)
+  - [4. ✍️ 练习题](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#4-️-练习题)
   - [5. 🤔 问：写在前面的语句一定先于后面的语句执行吗？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#5--问写在前面的语句一定先于后面的语句执行吗)
   - [6. 🤔 问：如何区分表达式和语句？](https://github.com/Tdahuyou/javascript/tree/main/0007.%20%E8%AF%AD%E5%8F%A5%E5%92%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.md#6--问如何区分表达式和语句)
   - 知识点：
@@ -165,8 +153,8 @@
   - [2. 🔗 wiki 对转义符的介绍](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#2--wiki-对转义符的介绍)
   - [3. 🤔 问：`escape character` 是什么意思？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#3--问escape-character-是什么意思)
   - [4. 💻 练习题.1 - 按照指定格式打印系统时间](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#4--练习题1---按照指定格式打印系统时间)
-  - [5. 🤔 问：在 js 的字符串中，\ 反斜杠表示转义，如何不转义，输入反斜杠呢？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#5--问在-js-的字符串中\-反斜杠表示转义如何不转义输入反斜杠呢)
-  - [6. 🤔 问：转义符 `\r\n` 诞生的背景](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#6--问转义符-\r\n-诞生的背景)
+  - [5. 🤔 问：在 js 的字符串中，\ 反斜杠表示转义，如何不转义，输入反斜杠呢？](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#5--问在-js-的字符串中-反斜杠表示转义如何不转义输入反斜杠呢)
+  - [6. 🤔 问：转义符 `\r\n` 诞生的背景](https://github.com/Tdahuyou/javascript/tree/main/0013.%20%E8%BD%AC%E4%B9%89%E7%AC%A6/README.md#6--问转义符-rn-诞生的背景)
   - 知识点：
     - 转义符是什么
     - 转义符有什么用
@@ -219,7 +207,7 @@
 
 - [x] [0011. 条件语句 - 三元运算符](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) <!-- [locale](./0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) -->  
   
-  - [1. 📒 三元运算符 `? :` 的基本语法](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#1--三元运算符-?--的基本语法)
+  - [1. 📒 三元运算符 `? :` 的基本语法](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#1--三元运算符---的基本语法)
   - [2. 💻 demos.1 - 判偶数](https://github.com/Tdahuyou/javascript/tree/main/0011.%20%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5%20-%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#2--demos1---判偶数)
   - 知识点：
     - 掌握三元运算符 `?:` 的基本语法
@@ -252,7 +240,7 @@
   - [1. 📒 while 循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#1--while-循环)
   - [2. 💻 demos.1 - while 循环的基本使用](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#2--demos1---while-循环的基本使用)
   - [3. 💻 demos.2 -  使用 break 跳出循环体](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#3--demos2----使用-break-跳出循环体)
-  - [4. 💻 demos.3 - 死循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#4--demos3---死循环)
+  - [4. 💻 demos.3 - 死循环](https://github.com/Tdahuyou/javascript/tree/main/0016.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20while%20%E5%BE%AA%E7%8E%AF/README.md#4--demos3---死循环-1)
   - 知识点：
     - while 循环的基本结构
   
@@ -290,15 +278,15 @@
 
 - [x] [0020. 循环语句 - 练习](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) <!-- [locale](./0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md) -->  
   
-  - [1. 💻 练习.1 - 在控制台中输出 100 个 `*`](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--练习1---在控制台中输出-100-个-*)
+  - [1. 💻 练习.1 - 在控制台中输出 100 个 `*`](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#1--练习1---在控制台中输出-100-个-)
   - [2. 💻 练习.2 - 输出 1-100 的所有数字](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#2--练习2---输出-1-100-的所有数字)
   - [3. 💻 练习.3 - 输出 1-100 的所有奇数](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#3--练习3---输出-1-100-的所有奇数)
   - [4. 💻 练习.4 - 求 1-100 之间所有数字之和](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#4--练习4---求-1-100-之间所有数字之和)
   - [5. 💻 练习.5 - 求 1-100 之间所有奇数之和](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#5--练习5---求-1-100-之间所有奇数之和)
   - [6. 💻 练习.6 - 求 1-10 之间所有数字的积](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#6--练习6---求-1-10-之间所有数字的积)
-  - [7. 💻 练习.7 - 输出一个 3 行 5 列的 `*` 号矩阵](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#7--练习7---输出一个-3-行-5-列的-*-号矩阵)
-  - [8. 💻 练习.8 - 用 `*` 号输出一个 5 行的直角三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#8--练习8---用-*-号输出一个-5-行的直角三角形)
-  - [9. 💻 练习.9 - 用 `*` 号输出一个 5 行的等腰三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#9--练习9---用-*-号输出一个-5-行的等腰三角形)
+  - [7. 💻 练习.7 - 输出一个 3 行 5 列的 `*` 号矩阵](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#7--练习7---输出一个-3-行-5-列的--号矩阵)
+  - [8. 💻 练习.8 - 用 `*` 号输出一个 5 行的直角三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#8--练习8---用--号输出一个-5-行的直角三角形)
+  - [9. 💻 练习.9 - 用 `*` 号输出一个 5 行的等腰三角形](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#9--练习9---用--号输出一个-5-行的等腰三角形)
   - [10. 💻 练习.10 - 判断数字 233 是不是素数](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#10--练习10---判断数字-233-是不是素数)
   - [11. 💻 练习.11 - 判断 1-100 哪些数是素数](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#11--练习11---判断-1-100-哪些数是素数)
   - [12. 💻 练习.12 - 求 1-100 之间的所有素数之和](https://github.com/Tdahuyou/javascript/tree/main/0020.%20%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%20-%20%E7%BB%83%E4%B9%A0/README.md#12--练习12---求-1-100-之间的所有素数之和)
@@ -347,119 +335,119 @@
 
 - [ ] [0024. 与数值相关的全局方法](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md) <!-- [locale](./0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#1--summary-1)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#2--links-1)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#3--notes-1)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#4--demo-1)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0024.%20%E4%B8%8E%E6%95%B0%E5%80%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%A8%E5%B1%80%E6%96%B9%E6%B3%95/README.md#5--ai-1)
   
 
 - [ ] [0025. 数值类型【扩展】](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) <!-- [locale](./0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#1--summary-2)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#2--links-2)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#3--notes-2)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#4--demo-2)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0025.%20%E6%95%B0%E5%80%BC%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#5--ai-2)
   
 
 - [ ] [0026. 字符串定义](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md) <!-- [locale](./0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#1--summary-3)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#2--links-3)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#3--notes-3)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#4--demo-3)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0026.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AE%9A%E4%B9%89/README.md#5--ai-3)
   
 
 - [ ] [0027. 模板字符串](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md) <!-- [locale](./0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#1--summary-4)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#2--links-4)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#3--notes-4)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#4--demo-4)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0027.%20%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2/README.md#5--ai-4)
   
 
 - [ ] [0028. 字符串与数组](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md) <!-- [locale](./0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#1--summary-5)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#2--links-5)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#3--notes-5)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#4--demo-5)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0028.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E7%BB%84/README.md#5--ai-5)
   
 
 - [ ] [0029. 字符串类型【扩展】](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) <!-- [locale](./0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#1--summary-6)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#2--links-6)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#3--notes-6)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#4--demo-6)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0029.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#5--ai-6)
   
 
 - [ ] [0030. null 和 undefined 类型](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md) <!-- [locale](./0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#1--summary-7)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#2--links-7)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#3--notes-7)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#4--demo-7)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0030.%20null%20%E5%92%8C%20undefined%20%E7%B1%BB%E5%9E%8B/README.md#5--ai-7)
   
 
 - [ ] [0031. 数组的本质](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md) <!-- [locale](./0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#1--summary-8)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#2--links-8)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#3--notes-8)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#4--demo-8)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0031.%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%AC%E8%B4%A8/README.md#5--ai-8)
   
 
 - [ ] [0032. 数组的索引和 length 属性](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#1--summary-9)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#2--links-9)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#3--notes-9)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#4--demo-9)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0032.%20%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%20length%20%E5%B1%9E%E6%80%A7/README.md#5--ai-9)
   
 
 - [ ] [0033. 数组空位](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md) <!-- [locale](./0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#1--summary-10)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#2--links-10)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#3--notes-10)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#4--demo-10)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0033.%20%E6%95%B0%E7%BB%84%E7%A9%BA%E4%BD%8D/README.md#5--ai-10)
   
 
 - [ ] [0034. 伪数组](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md) <!-- [locale](./0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#1--summary-11)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#2--links-11)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#3--notes-11)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#4--demo-11)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0034.%20%E4%BC%AA%E6%95%B0%E7%BB%84/README.md#5--ai-11)
   
 
 - [ ] [0035. 使用 in 运算符判断属性是否存在于数组中](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md) <!-- [locale](./0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#1--summary-12)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#2--links-12)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#3--notes-12)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#4--demo-12)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0035.%20%E4%BD%BF%E7%94%A8%20in%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%AD/README.md#5--ai-12)
   
 
 - [ ] [0036. 使用 for...in 循环遍历数组](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md) <!-- [locale](./0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#1--summary-13)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#2--links-13)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#3--notes-13)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#4--demo-13)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0036.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/README.md#5--ai-13)
   
 
 - [x] [0037. 防抖、节流](https://github.com/Tdahuyou/javascript/tree/main/0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) <!-- [locale](./0037.%20%E9%98%B2%E6%8A%96%E3%80%81%E8%8A%82%E6%B5%81/README.md) -->  
@@ -480,319 +468,319 @@
 
 - [ ] [0038. 数组类型【扩展】](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) <!-- [locale](./0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#1--summary-14)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#2--links-14)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#3--notes-14)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#4--demo-14)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0038.%20%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#5--ai-14)
   
 
 - [ ] [0039. 数组【练习-1】](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md) <!-- [locale](./0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#1--summary-15)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#2--links-15)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#3--notes-15)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#4--demo-15)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0039.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-1%E3%80%91/README.md#5--ai-15)
   
 
 - [ ] [0040. 数组【练习-2】](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md) <!-- [locale](./0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#1--summary-16)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#2--links-16)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#3--notes-16)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#4--demo-16)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0040.%20%E6%95%B0%E7%BB%84%E3%80%90%E7%BB%83%E4%B9%A0-2%E3%80%91/README.md#5--ai-16)
   
 
 - [ ] [0041. 对象属性读、写、删](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md) <!-- [locale](./0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#1--summary-17)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#2--links-17)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#3--notes-17)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#4--demo-17)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0041.%20%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E8%AF%BB%E3%80%81%E5%86%99%E3%80%81%E5%88%A0/README.md#5--ai-17)
   
 
 - [ ] [0042. 对象的字符串键名的多种写法](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md) <!-- [locale](./0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#1--summary-18)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#2--links-18)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#3--notes-18)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#4--demo-18)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0042.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%94%AE%E5%90%8D%E7%9A%84%E5%A4%9A%E7%A7%8D%E5%86%99%E6%B3%95/README.md#5--ai-18)
   
 
 - [ ] [0043. 判断某个属性是否存在于对象中](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md) <!-- [locale](./0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#1--summary-19)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#2--links-19)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#3--notes-19)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#4--demo-19)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0043.%20%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1%E4%B8%AD/README.md#5--ai-19)
   
 
 - [ ] [0044. 使用 for...in 循环遍历对象属性](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md) <!-- [locale](./0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#1--summary-20)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#2--links-20)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#3--notes-20)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#4--demo-20)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0044.%20%E4%BD%BF%E7%94%A8%20for...in%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7/README.md#5--ai-20)
   
 
 - [ ] [0045. 对象的引用](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md) <!-- [locale](./0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#1--summary-21)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#2--links-21)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#3--notes-21)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#4--demo-21)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0045.%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8/README.md#5--ai-21)
   
 
 - [ ] [0046. 对象类型【练习】](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md) <!-- [locale](./0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#1--summary-22)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#2--links-22)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#3--notes-22)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#4--demo-22)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0046.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91/README.md#5--ai-22)
   
 
 - [ ] [0047. 引用类型【面试题】](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md) <!-- [locale](./0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#1--summary-23)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#2--links-23)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#3--notes-23)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#4--demo-23)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0047.%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#5--ai-23)
   
 
 - [ ] [0048. 使用 instanceof 判断值的数据类型](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md) <!-- [locale](./0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#1--summary-24)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#2--links-24)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#3--notes-24)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#4--demo-24)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0048.%20%E4%BD%BF%E7%94%A8%20instanceof%20%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#5--ai-24)
   
 
 - [ ] [0049. 使用 typeof 运算符判断值的数据类型](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md) <!-- [locale](./0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#1--summary-25)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#2--links-25)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#3--notes-25)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#4--demo-25)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0049.%20%E4%BD%BF%E7%94%A8%20typeof%20%E8%BF%90%E7%AE%97%E7%AC%A6%E5%88%A4%E6%96%AD%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/README.md#5--ai-25)
   
 
 - [ ] [0050. 原型链](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md) <!-- [locale](./0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#1--summary-26)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#2--links-26)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#3--notes-26)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#4--demo-26)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0050.%20%E5%8E%9F%E5%9E%8B%E9%93%BE/README.md#5--ai-26)
   
 
 - [ ] [0051. 加法运算符](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) <!-- [locale](./0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#1--summary-27)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#2--links-27)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#3--notes-27)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#4--demo-27)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0051.%20%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6/README.md#5--ai-27)
   
 
 - [ ] [0052. 对象类型的加法运算【扩展】](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) <!-- [locale](./0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#1--summary-28)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#2--links-28)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#3--notes-28)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#4--demo-28)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0052.%20%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E6%89%A9%E5%B1%95%E3%80%91/README.md#5--ai-28)
   
 
 - [ ] [0053. 作用域【面试题】](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md) <!-- [locale](./0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#1--summary-29)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#2--links-29)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#3--notes-29)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#4--demo-29)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0053.%20%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%90%E9%9D%A2%E8%AF%95%E9%A2%98%E3%80%91/README.md#5--ai-29)
   
 
 - [ ] [0054. 使用 customElements 创建一个 myButton 自定义元素](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md) <!-- [locale](./0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#1--summary-30)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#2--links-30)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#3--notes-30)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#4--demo-30)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0054.%20%E4%BD%BF%E7%94%A8%20customElements%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%20myButton%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%83%E7%B4%A0/README.md#5--ai-30)
   
 
 - [ ] [0055. 使用 MessageChannel 实现不同模块之间的相互通信](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md) <!-- [locale](./0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#1--summary-31)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#2--links-31)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#3--notes-31)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#4--demo-31)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0055.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E9%80%9A%E4%BF%A1/README.md#5--ai-31)
   
 
 - [ ] [0056. 在 Worker 中使用 MessageChannel](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md) <!-- [locale](./0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#1--summary-32)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#2--links-32)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#3--notes-32)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#4--demo-32)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0056.%20%E5%9C%A8%20Worker%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20MessageChannel/README.md#5--ai-32)
   
 
 - [ ] [0057. 使用 MessageChannel 实现父子窗口之间的互相通信](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md) <!-- [locale](./0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#1--summary-33)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#2--links-33)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#3--notes-33)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#4--demo-33)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0057.%20%E4%BD%BF%E7%94%A8%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E7%88%B6%E5%AD%90%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.md#5--ai-33)
   
 
 - [ ] [0058. new 命令](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md) <!-- [locale](./0058.%20new%20%E5%91%BD%E4%BB%A4/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#1--summary-34)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#2--links-34)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#3--notes-34)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#4--demo-34)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0058.%20new%20%E5%91%BD%E4%BB%A4/README.md#5--ai-34)
   
 
 - [ ] [0059. 使用 Object.create() 创建实例对象](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md) <!-- [locale](./0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#1--summary-35)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#2--links-35)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#3--notes-35)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#4--demo-35)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0059.%20%E4%BD%BF%E7%94%A8%20Object.create()%20%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%E5%AF%B9%E8%B1%A1/README.md#5--ai-35)
   
 
 - [ ] [0060. 构造函数](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md) <!-- [locale](./0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#1--summary-36)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#2--links-36)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#3--notes-36)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#4--demo-36)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0060.%20%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/README.md#5--ai-36)
   
 
 ## 8. 模块化
 
 - [ ] [0061.doing. 前端模块化](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md) <!-- [locale](./0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#1--summary-37)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#2--links-37)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#3--notes-37)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#4--demo-37)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0061.doing.%20%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9D%97%E5%8C%96/README.md#5--ai-37)
   
 
 - [ ] [0062.doing. 前端设计模式](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md) <!-- [locale](./0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#1--summary-38)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#2--links-38)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#3--notes-38)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#4--demo-38)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0062.doing.%20%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/README.md#5--ai-38)
   
 
 - [ ] [0063. ESM 模块的基本导出、导入](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md) <!-- [locale](./0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#1--summary-39)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#2--links-39)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#3--notes-39)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#4--demo-39)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0063.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AF%BC%E5%87%BA%E3%80%81%E5%AF%BC%E5%85%A5/README.md#5--ai-39)
   
 
 - [ ] [0064. ESM 模块的默认导入、导出](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md) <!-- [locale](./0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#1--summary-40)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#2--links-40)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#3--notes-40)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#4--demo-40)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0064.%20ESM%20%E6%A8%A1%E5%9D%97%E7%9A%84%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E3%80%81%E5%AF%BC%E5%87%BA/README.md#5--ai-40)
   
 
 - [ ] [0065. ESM 依赖预加载和依赖延迟加载](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md) <!-- [locale](./0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#1--summary-41)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#2--links-41)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#3--notes-41)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#4--demo-41)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0065.%20ESM%20%E4%BE%9D%E8%B5%96%E9%A2%84%E5%8A%A0%E8%BD%BD%E5%92%8C%E4%BE%9D%E8%B5%96%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD/README.md#5--ai-41)
   
 
 - [ ] [0066. ESM - 练习 - 推箱子小游戏](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md) <!-- [locale](./0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#1--summary-42)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#2--links-42)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#3--notes-42)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#4--demo-42)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0066.%20ESM%20-%20%E7%BB%83%E4%B9%A0%20-%20%E6%8E%A8%E7%AE%B1%E5%AD%90%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#5--ai-42)
   
 
 - [ ] [0067. CMD](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md) <!-- [locale](./0067.%20CMD/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#1--summary-43)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#2--links-43)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#3--notes-43)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#4--demo-43)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0067.%20CMD/README.md#5--ai-43)
   
 
 - [ ] [0068. AMD](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md) <!-- [locale](./0068.%20AMD/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#1--summary-44)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#2--links-44)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#3--notes-44)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#4--demo-44)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0068.%20AMD/README.md#5--ai-44)
   
 
 - [ ] [0069. JS 导入断言](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md) <!-- [locale](./0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#1--summary-45)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#2--links-45)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#3--notes-45)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#4--demo-45)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0069.%20JS%20%E5%AF%BC%E5%85%A5%E6%96%AD%E8%A8%80/README.md#5--ai-45)
   
 
 - [ ] [0070. CommonJS 规范](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md) <!-- [locale](./0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#1--summary-46)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#2--links-46)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#3--notes-46)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#4--demo-46)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0070.%20CommonJS%20%E8%A7%84%E8%8C%83/README.md#5--ai-46)
   
 
 - [ ] [0071. 认识 nodejs 是如何实现 CommonJS 规范的](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md) <!-- [locale](./0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#1--summary-47)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#2--links-47)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#3--notes-47)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#4--demo-47)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0071.%20%E8%AE%A4%E8%AF%86%20nodejs%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%20CommonJS%20%E8%A7%84%E8%8C%83%E7%9A%84/README.md#5--ai-47)
   
 
 - [ ] [0072. CommonJS 模块缓存](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md) <!-- [locale](./0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#2--links)
-  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#3--notes)
-  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#4--demo)
-  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#5--ai)
+  - [1. 📝 summary](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#1--summary-48)
+  - [2. 🔗 links](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#2--links-48)
+  - [3. 📒 notes](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#3--notes-48)
+  - [4. 💻 demo](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#4--demo-48)
+  - [5. 🤖 AI](https://github.com/Tdahuyou/javascript/tree/main/0072.%20CommonJS%20%E6%A8%A1%E5%9D%97%E7%BC%93%E5%AD%98/README.md#5--ai-48)
   
 
 - [ ] [0073. CommonJS 练习 - 制作一个斗地主洗牌发牌的程序](https://github.com/Tdahuyou/javascript/tree/main/0073.%20CommonJS%20%E7%BB%83%E4%B9%A0%20-%20%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E6%96%97%E5%9C%B0%E4%B8%BB%E6%B4%97%E7%89%8C%E5%8F%91%E7%89%8C%E7%9A%84%E7%A8%8B%E5%BA%8F/README.md) <!-- [locale](./0073.%20CommonJS%20%E7%BB%83%E4%B9%A0%20-%20%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E6%96%97%E5%9C%B0%E4%B8%BB%E6%B4%97%E7%89%8C%E5%8F%91%E7%89%8C%E7%9A%84%E7%A8%8B%E5%BA%8F/README.md) -->  
@@ -824,7 +812,14 @@
 
 - [x] [0080. window.confirm](https://github.com/Tdahuyou/javascript/tree/main/0080.%20window.confirm/README.md) <!-- [locale](./0080.%20window.confirm/README.md) -->  
   - [1. 🔗 mdn - window.confirm](https://github.com/Tdahuyou/javascript/tree/main/0080.%20window.confirm/README.md#1--mdn---windowconfirm)
-  - [2. 💻 demos.1 - window.confirm()](https://github.com/Tdahuyou/javascript/tree/main/0080.%20window.confirm/README.md#2--demos1---windowconfirm())
+  - [2. 💻 demos.1 - window.confirm()](https://github.com/Tdahuyou/javascript/tree/main/0080.%20window.confirm/README.md#2--demos1---windowconfirm)
   - 在 Web 开发中，如果开发者想要在特定条件下触发类似的对话框，可以使用 `window.confirm()` 方法。
   - 这个方法会显示一个带有“确定”和“取消”按钮的基本对话框，并返回一个布尔值，表示用户的选择是“确定”（true）还是“取消”（false）。
+  
+
+## 10. ⏰ 待分组
+
+- [x] [0081. 使用 postMessage 实现跨标签页通信](https://github.com/Tdahuyou/javascript/tree/main/0081.%20%E4%BD%BF%E7%94%A8%20postMessage%20%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%80%9A%E4%BF%A1/README.md) <!-- [locale](./0081.%20%E4%BD%BF%E7%94%A8%20postMessage%20%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%80%9A%E4%BF%A1/README.md) -->  
+  - [1. 💻 demos.1 - 使用 postMessage 实现跨标签页通信](https://github.com/Tdahuyou/javascript/tree/main/0081.%20%E4%BD%BF%E7%94%A8%20postMessage%20%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%80%9A%E4%BF%A1/README.md#1--demos1---使用-postmessage-实现跨标签页通信)
+  - `postMessage` API 可用于实现不同窗口、标签页或 iframe 之间的安全通信。它允许你向另一个浏览上下文（如新打开的窗口、iframe 等）发送消息，并可以接收来自这些上下文的消息。
   

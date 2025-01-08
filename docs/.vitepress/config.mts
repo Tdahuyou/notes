@@ -5,7 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-Hans',
   base: '/notes/',
-  title: 'Tdahuyou',
+  title: 'TNotes',
   description: 'Tdahuyou 学习笔记',
   appearance: 'dark',
   srcDir: './src',
@@ -45,130 +45,17 @@ export default defineConfig({
 
     nav: [
       {
-        text: '概述',
-        items: [
-          { text: '👀 README', link: '/README/README' },
-          { text: '⏰ 待办事项', link: '/README/todos' },
-          { text: '💻 笔记管理架构', link: '/README/notes-architecture' },
-          { text: '⚙️ notes 批处理脚本说明', link: '/README/scripts-introduction' },
-          { text: '🔍 emoji 规范', link: '/README/emoji' },
-          { text: '🤔 Q&A', link: '/README/Q&A' },
-        ],
-      },
-      {
-        text: '开源',
-        items: [
-          { text: '🧑🏻‍💻 m2mm', link: '/my-project/m2mm' },
-        ],
-      },
-      {
-        text: '笔记',
-        // items: notesmeta.repos_vitepress.map((item, i) => ({ text: `${i + 1}. ` + item, link: `/${item}` }))
-        items: [
-          {
-            text: '📒 语言基础',
-            items: [
-              { text: 'HTML & CSS', link: '/notes/html-css' },
-              { text: 'JavaScript', link: '/notes/javascript' },
-              { text: 'TypeScript', link: '/notes/typescript' },
-              { text: 'Node.js', link: '/notes/nodejs' },
-              { text: 'Markdown', link: '/notes/markdown' },
-            ],
-          },
-          {
-            text: '📐 前端绘图',
-            items: [
-              { text: 'Canvas', link: '/notes/canvas' },
-              { text: 'SVG', link: '/notes/svg' },
-            ],
-          },
-          {
-            text: '🛠 工具系列',
-            items: [
-              { text: '工具分享及电脑使用', link: '/notes/pc' },
-              { text: 'VSCode 编辑器', link: '/notes/vscode' },
-              { text: 'Git 版本控制工具', link: '/notes/git' },
-            ],
-          },
-          {
-            text: '🌐 前端框架',
-            items: [
-              { text: 'Vue.js', link: '/notes/vue' },
-              { text: 'React', link: '/notes/react' },
-              { text: 'Electron 桌面应用开发', link: '/notes/electron' },
-            ],
-          },
-          {
-            text: '📦 前端构建',
-            items: [
-              { text: 'Webpack', link: '/notes/webpack' },
-              { text: 'Vite', link: '/notes/vite' },
-            ],
-          },
-          {
-            text: '🛠 前端工具',
-            items: [
-              { text: 'Prettier 代码格式化工具', link: '/notes/prettier' },
-              { text: 'ESLint 代码检查工具', link: '/notes/eslint' },
-              { text: 'i18n 国际化', link: '/notes/i18n' },
-            ],
-          },
-          {
-            text: '🗣️ 学习外语',
-            items: [
-              { text: 'en-notes 英语笔记', link: '/notes/en-notes' },
-              { text: 'en-words 英语词库', link: '/notes/en-words' },
-            ],
-          },
-          {
-            text: '🎮 小程序开发',
-            items: [{ text: '微信小程序', link: '/notes/miniprogram-wechat' }],
-          },
-          {
-            text: '🔢 算法',
-            items: [{ text: 'LeetCode 题解', link: '/notes/leetcode' }],
-          },
-        ],
-      },
-      {
-        text: '阅读',
-        items: [{ text: '📚 《女人的胜利》余华', link: '/books/1' }],
-      },
-      {
-        text: '随笔',
-        items: [
-          { text: '✍️ 地铁到站 - 围城', link: '/blog/1' },
-          { text: '✍️ 葛大爷语录', link: '/blog/2' }
-        ],
-      },
-      {
-        text: '做饭',
-        items: [
-          { text: '😋 蛋羹', link: '/cooking/dan-geng' },
-          { text: '😋 蛋挞', link: '/cooking/dan-ta' },
-          { text: '😋 鸡翅', link: '/cooking/ji-chi' },
-        ],
-      },
-      {
-        text: '其他',
-        items: [
-          { text: '🧑🏻‍💻 关于我', link: '/others/about-me' },
-          { text: '🐱 神兽', link: '/others/we' },
-          { text: '✍️ 创作', link: '/others/creation' },
-          { text: '📮 邮箱', link: '/others/email' },
-          { text: '🧑🏻‍💻 微信', link: '/others/we-chat' },
-          { text: '💰 Donate', link: '/others/donate' },
-        ],
-      },
+        text: '👀 README',
+        link: '/README/README'
+      }
     ],
 
     sidebar: [
+      { text: '👀 README', link: '/README/README' },
       {
-        text: '概述',
+        text: 'TNotes',
         collapsed: true,
         items: [
-          { text: '👀 README', link: '/README/README' },
-          { text: '⏰ 待办事项', link: '/README/todos' },
           { text: '💻 笔记管理架构', link: '/README/notes-architecture' },
           { text: '⚙️ notes 批处理脚本说明', link: '/README/scripts-introduction' },
           { text: '🔍 emoji 规范', link: '/README/emoji' },
@@ -262,37 +149,43 @@ export default defineConfig({
         ],
       },
       {
-        text: '阅读',
-        collapsed: true,
-        items: [{ text: '📚 《女人的胜利》余华', link: '/books/1' }],
-      },
-      {
-        text: '随笔',
-        collapsed: true,
-        items: [
-          { text: '✍️ 地铁到站 - 围城', link: '/blog/1' },
-          { text: '✍️ 葛大爷语录', link: '/blog/2' }
-        ],
-      },
-      {
-        text: '做饭',
-        collapsed: true,
-        items: [
-          { text: '😋 蛋羹', link: '/cooking/dan-geng' },
-          { text: '😋 蛋挞', link: '/cooking/dan-ta' },
-          { text: '😋 鸡翅', link: '/cooking/ji-chi' },
-        ],
-      },
-      {
         text: '其他',
         collapsed: true,
         items: [
-          { text: '🧑🏻‍💻 关于我', link: '/others/about-me' },
-          { text: '🐱 神兽', link: '/others/we' },
-          { text: '✍️ 创作', link: '/others/creation' },
-          { text: '📮 邮箱', link: '/others/email' },
-          { text: '🧑🏻‍💻 微信', link: '/others/we-chat' },
-          { text: '💰 Donate', link: '/others/donate' },
+          {
+            text: '随笔',
+            collapsed: true,
+            items: [
+              { text: '✍️ 地铁到站 - 围城', link: '/others/blog/1' },
+              { text: '✍️ 葛大爷语录', link: '/others/blog/2' }
+            ],
+          },
+          {
+            text: '做饭',
+            collapsed: true,
+            items: [
+              { text: '😋 蛋羹', link: '/others/cooking/dan-geng' },
+              { text: '😋 蛋挞', link: '/others/cooking/dan-ta' },
+              { text: '😋 鸡翅', link: '/others/cooking/ji-chi' },
+            ],
+          },
+          {
+            text: '阅读',
+            collapsed: true,
+            items: [{ text: '📚 《女人的胜利》余华', link: '/others/books/1' }],
+          },
+          {
+            text: '关于我',
+            collapsed: true,
+            items: [
+              { text: '🧑🏻‍💻 关于我', link: '/others/about-me/about-me' },
+              { text: '🐱 神兽', link: '/others/about-me/we' },
+              { text: '✍️ 创作', link: '/others/about-me/creation' },
+              { text: '📮 邮箱', link: '/others/about-me/email' },
+              { text: '🧑🏻‍💻 微信', link: '/others/about-me/we-chat' },
+              { text: '💰 Donate', link: '/others/about-me/donate' },
+            ],
+          },
         ],
       },
     ],
