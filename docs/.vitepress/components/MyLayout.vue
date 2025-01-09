@@ -16,7 +16,8 @@
                     <div class="copy-box">
                         <span class="tip" v-show="isCopied">Copied!</span>
                         <button class="copy-raw-file" @click="copyRawFile" title="Copy raw file">
-                            <img class="icon" src="./icon__clipboard.svg" alt="icon__clipboard">
+                            <!-- <img class="icon" src="./icon__clipboard.svg" alt="icon__clipboard"> -->
+                            <img class="icon" src="./m2mm.png" alt="icon__clipboard">
                         </button>
                     </div>
                     <div class="github-box">
@@ -105,10 +106,19 @@ const formatDate = (timestamp) => {
 
 const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 const copyRawFile = () => {
-    const data = notesData[vpData.page.value.title.toLowerCase()].fileContent
-    navigator.clipboard.writeText(data.replace('<MyGlobalComponent />', ''))
+    let data = notesData[vpData.page.value.title.toLowerCase()].fileContent
+    data = data.replace('<MyGlobalComponent />', '')
+    navigator.clipboard.writeText(data)
     isCopied.value = true
-    setTimeout(() => isCopied.value = false, 1000);
+    setTimeout(() => isCopied.value = false, 1000)
+
+    const targetWindow = window.open('https://tdahuyou.github.io/m2mm/', '_blank')
+    setTimeout(() => {
+        targetWindow.postMessage({
+            senderID: "__TNotes__",
+            message: data
+        }, '*') 
+    }, 1000)
 }
 </script>
 
