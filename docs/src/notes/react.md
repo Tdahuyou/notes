@@ -69,6 +69,7 @@
 
 - [x] [0003. html to jsx 在线转换](https://github.com/Tdahuyou/react/tree/main/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.md) <!-- [locale](./0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.md) -->  
   - [1. 🔗 transform - html 转 jsx 在线转换器](https://github.com/Tdahuyou/react/tree/main/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.md#1--transform---html-转-jsx-在线转换器)
+  - [2. 💻 html to jsx 转换示例](https://github.com/Tdahuyou/react/tree/main/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.md#2--html-to-jsx-转换示例)
   - 如果你有大量的 HTML 需要移植到 JSX 中，你可以使用 [transform 在线转换器](https://transform.tools/html-to-jsx) 来实现快速转换，参考转换后的结果来编写你的 JSX 模板。
   
 
