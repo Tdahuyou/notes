@@ -150,6 +150,9 @@ const copyRawFile = () => {
 
 .copy-box .copy-raw-file {
     vertical-align: top;
+    
+    height: 100%;
+    line-height: 100%;
 }
 
 .right-area {
