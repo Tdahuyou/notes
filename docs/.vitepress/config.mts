@@ -153,6 +153,13 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: '动态',
+            collapsed: true,
+            items: [
+              { text: '🗓 2025', link: '/dynamic/dynamic.25' },
+            ],
+          },
+          {
             text: '随笔',
             collapsed: true,
             items: [
@@ -217,7 +224,13 @@ export default defineConfig({
     // },
     // externalLinkIcon: true,
   },
-
+  // doc => https://vitepress.dev/zh/guide/markdown#image-lazy-loading
+  markdown: {
+    image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: true
+    }
+  }
   // async buildEnd(siteConfig) {
   //   console.log('buildEnd', siteConfig)
   // },
