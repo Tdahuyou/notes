@@ -52,6 +52,7 @@ export default defineConfig({
 
     sidebar: [
       { text: '👀 README', link: '/README/README' },
+      { text: '💭 留言版', link: '/message-board' },
       {
         text: 'TNotes',
         collapsed: true,
@@ -149,17 +150,22 @@ export default defineConfig({
         ],
       },
       {
+        text: '动态',
+        collapsed: true,
+        items: [
+          { text: '🗓 2025', link: '/dynamic/dynamic.25' },
+          { text: '🗓 2024', link: '/dynamic/dynamic.24' },
+          { text: '🗓 2023', link: '/dynamic/dynamic.23' },
+          { text: '🗓 2022', link: '/dynamic/dynamic.22' },
+          { text: '🗓 2021', link: '/dynamic/dynamic.21' },
+          { text: '🗓 2020', link: '/dynamic/dynamic.20' },
+          { text: '🗓 2019', link: '/dynamic/dynamic.19' },
+        ],
+      },
+      {
         text: '其他',
         collapsed: true,
         items: [
-          {
-            text: '动态',
-            collapsed: true,
-            items: [
-              { text: '🗓 2025', link: '/dynamic/dynamic.25' },
-              { text: '🗓 2024', link: '/dynamic/dynamic.24' },
-            ],
-          },
           {
             text: '随笔',
             collapsed: true,
