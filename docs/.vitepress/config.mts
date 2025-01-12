@@ -157,6 +157,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '🗓 2025', link: '/dynamic/dynamic.25' },
+              { text: '🗓 2024', link: '/dynamic/dynamic.24' },
             ],
           },
           {
