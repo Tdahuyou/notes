@@ -1,5 +1,12 @@
 import { defineConfig } from 'vitepress'
+import sidebar__react from '../src/notes/react/sidebar.json';
+import sidebar__canvas from '../src/notes/canvas/sidebar.json';
+import GithubSlugger from 'github-slugger';
+import markdownItTaskLists from 'markdown-it-task-lists';
+
 // import notesmeta from '../../scripts/.notesmeta.json'
+
+const slugger = new GithubSlugger();
 
 // doc => https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
@@ -90,7 +97,10 @@ export default defineConfig({
             text: '📐 前端绘图',
             collapsed: true,
             items: [
-              { text: 'Canvas', link: '/notes/canvas' },
+              { 
+                ...sidebar__canvas,
+                text: 'Canvas'
+              },
               { text: 'SVG', link: '/notes/svg' },
             ],
           },
@@ -108,7 +118,10 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Vue.js', link: '/notes/vue' },
-              { text: 'React', link: '/notes/react' },
+              {
+                ...sidebar__react,
+                text: 'React'
+              },
               { text: 'Electron 桌面应用开发', link: '/notes/electron' },
             ],
           },
@@ -233,6 +246,16 @@ export default defineConfig({
   },
   // doc => https://vitepress.dev/zh/guide/markdown#image-lazy-loading
   markdown: {
+    config(md) {
+      md.use(markdownItTaskLists); // 启用 markdown-it-task-lists 插件来处理复选框的渲染问题。
+    },
+    anchor: {
+      // !NOTE 需要跟和 \scripts\updateREADME.js 中的 markdown.anchor.slugify 的逻辑保持一致。
+      slugify: (label: string) => {
+        slugger.reset();
+        return slugger.slug(label);
+      }
+    },
     image: {
       // 默认禁用；设置为 true 可为所有图片启用懒加载。
       lazyLoading: true

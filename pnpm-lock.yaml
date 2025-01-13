@@ -18,6 +18,9 @@ importers:
         specifier: ^3.5.13
         version: 3.5.13
     devDependencies:
+      markdown-it-task-lists:
+        specifier: ^2.1.1
+        version: 2.1.1
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -825,6 +828,9 @@ packages:
 
   mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
+
+  markdown-it-task-lists@2.1.1:
+    resolution: {integrity: sha512-TxFAc76Jnhb2OUu+n3yz9RMu4CwGfaT788br6HhEDlvWfdeJcLUsxk1Hgw2yJio0OXsxv7pyIPmvECY7bMbluA==}
 
   mdast-util-to-hast@13.2.0:
     resolution: {integrity: sha512-QGYKEuUsYT9ykKBCMOEDLsU5JRObWQusAolFMeko/tYPufNkRffBAQjIE+99jbA87xv6FgmjLtwjh9wBWajwAA==}
@@ -2053,6 +2059,8 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.0
 
   mark.js@8.11.1: {}
+
+  markdown-it-task-lists@2.1.1: {}
 
   mdast-util-to-hast@13.2.0:
     dependencies:

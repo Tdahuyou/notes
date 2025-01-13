@@ -145,7 +145,7 @@ onMounted(() => {
 
 .__dynamic__image-container img {
   width: calc(33.33% - 10px);
-  height: 10rem;
+  aspect-ratio: 1; /* 设置宽高比为 1:1 */
   object-fit: cover;
   cursor: pointer;
   margin: .3rem;

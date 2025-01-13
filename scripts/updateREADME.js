@@ -6,9 +6,9 @@
  * - 自动将 home README 推送到 TNotes 中
  */
 import fs from 'fs';
-import path from 'path';
+import path, { dirname } from 'path';
 // import notesmeta from './.notesmeta.json' assert { type: 'json' }; // !ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
-import GithubSlugger from 'github-slugger';
+import GithubSlugger from 'github-slugger'; // doc: https://www.npmjs.com/package/github-slugger
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -35,7 +35,12 @@ class ReadmeUpdater {
       dirNameList: this.getNoteDirNameList(), // 需要处理的笔记目录名称列表。
     };
 
-    this.vitepressDocPath = path.normalize(path.resolve(__dirname, "..", "docs", "src", 'notes', `${this.repoName}.md`)),
+    const __vitepressBasedir = path.normalize(path.resolve(__dirname, "..", "docs", "src", 'notes'));
+    this.vitepress = {
+      baseDir: __vitepressBasedir,
+      homeReadmePath: path.normalize(path.resolve(__vitepressBasedir, this.repoName, `README.md`)),
+      githubPageUrl: `https://tdahuyou.github.io/notes/notes/${this.repoName}`
+    }
 
     this.homeReadme = {
       path: path.normalize(path.resolve(this.baseDir, "README.md")),
@@ -375,9 +380,118 @@ class ReadmeUpdater {
       return [newTitle, plainTitle];
     }
 
+    // !NOTE 需要跟和 \docs\.vitepress\config.mts 中的 markdown.anchor.slugify 的锚点要保持一致。
     function generateAnchor(label) {
+      slugger.reset();
       return slugger.slug(label);
     }
+  }
+
+  updateVitepressDocs() {
+    if (!notesmeta.repos_vitepress.includes(this.repoName)) return;
+
+    const initDirs = () => {
+      this.notes.dirNameList.forEach((dirName) => {
+        const vitepressNoteRepoDirPath = path.join(this.vitepress.baseDir, this.repoName);
+        if (!fs.existsSync(vitepressNoteRepoDirPath)) fs.mkdirSync(vitepressNoteRepoDirPath);
+
+        const vitepressNoteDirPath = path.join(this.vitepress.baseDir, this.repoName, dirName);
+        if (!fs.existsSync(vitepressNoteDirPath)) fs.mkdirSync(vitepressNoteDirPath);
+        
+        const noteDirPath = path.join(this.baseDir, dirName);
+        const noteDirAssetsPath = path.join(noteDirPath, 'assets');
+        const noteDirMdImgsPath = path.join(noteDirPath, 'md-imgs');
+        const noteDirReadmePath = path.join(noteDirPath, 'README.md');
+
+        // 如果 noteDirAssetsPath 存在，则将 noteDirAssetsPath 复制到 vitepressNoteDirPath 中。
+        if (fs.existsSync(noteDirAssetsPath)) {
+          const vitepressNoteDirAssetsPath = path.join(vitepressNoteDirPath, 'assets');
+          if (!fs.existsSync(vitepressNoteDirAssetsPath)) fs.mkdirSync(vitepressNoteDirAssetsPath);
+          // 复制 noteDirAssetsPath 中的文件到 vitepressNoteDirAssetsPath 中。
+          fs.readdirSync(noteDirAssetsPath).forEach((file) => {
+            fs.copyFileSync(path.join(noteDirAssetsPath, file), path.join(vitepressNoteDirAssetsPath, file));
+          })
+        }
+
+        // 如果 noteDirMdImgsPath 存在，则将 noteDirMdImgsPath 复制到 vitepressNoteDirPath 中。
+        if (fs.existsSync(noteDirMdImgsPath)) {
+          const vitepressNoteDirAssetsPath = path.join(vitepressNoteDirPath, 'md-imgs');
+          if (!fs.existsSync(vitepressNoteDirAssetsPath)) fs.mkdirSync(vitepressNoteDirAssetsPath);
+          // 复制 noteDirMdImgsPath 中的文件到 vitepressNoteDirAssetsPath 中。
+          fs.readdirSync(noteDirMdImgsPath).forEach((file) => {
+            fs.copyFileSync(path.join(noteDirMdImgsPath, file), path.join(vitepressNoteDirAssetsPath, file));
+          })
+        }
+
+        // 如果 noteDirReadmePath 存在，则将 noteDirReadmePath 复制到 vitepressNoteDirPath 中。
+        if (fs.existsSync(noteDirReadmePath)) {
+          fs.copyFileSync(noteDirReadmePath, path.join(vitepressNoteDirPath, 'README.md'));
+        }
+      });
+    }
+
+    const updateHomeReadme = () => {
+      const tocStartIdx = this.homeReadme.lines.indexOf(this.toc.startTag);
+      const tocEndIdx = this.homeReadme.lines.indexOf(this.toc.endTag);
+  
+      // console.log(this.homeReadme.lines)
+      // console.log('tocStartIdx', tocStartIdx)
+      // console.log('tocEndIdx', tocEndIdx)
+
+      // 尝试处理 vitepress 渲染复选框异常的问题。
+      // const lines = this.homeReadme.lines.map(line => line.replaceAll('- [ ]', '[ ]').replaceAll('- [x]', '[x]'))
+
+      // 处理路径问题
+      const lines = this.homeReadme.lines.map(line => line.replaceAll(this.repoUrl, this.vitepress.githubPageUrl));
+      
+      if (tocStartIdx !== -1 && tocEndIdx !== -1) {
+        // 将 tocStartIdx 到 tocEndIdx 之间的内容给删除后再写入。
+        fs.writeFileSync(
+          this.vitepress.homeReadmePath,
+          lines
+            .slice(0, tocStartIdx)
+            .concat(lines.slice(tocEndIdx + 1))
+            .join(this.EOL)
+        );
+      } else {
+        fs.writeFileSync(
+          this.vitepress.homeReadmePath,
+          lines.join(this.EOL)
+        );
+      }
+    }
+
+    const initSidebarJSON = () => {
+/* eg.
+{
+  "text": "react",
+  "link": "/notes/react/README",
+  "collapsed": true,
+  "items": [
+    {
+      "text": "0001. 第一个 react v19 程序 - 通过 CDN 引入 react、react-dom 在页面上渲染出 Hello World",
+      "link": "/notes/react/0001. 第一个 react v19 程序 - 通过 CDN 引入 react、react-dom 在页面上渲染出 Hello World/README"
+    }
+  ]
+}
+*/ 
+      fs.writeFileSync(
+        path.join(this.vitepress.baseDir, this.repoName, 'sidebar.json'),
+        JSON.stringify({
+          text: this.repoName,
+          link: `/notes/${this.repoName}/README`,
+          collapsed: true,
+          items: this.notes.dirNameList.map((dirName) => ({
+            text: dirName,
+            link: `/notes/${this.repoName}/${dirName}/README`
+          }))
+        })
+      );
+    }
+
+    initDirs();
+    updateHomeReadme();
+    initSidebarJSON();
   }
 
   updateReadme() {
@@ -395,32 +509,8 @@ class ReadmeUpdater {
       this.homeReadme.path,
       this.homeReadme.lines.join(this.EOL)
     );
-    if (notesmeta.repos_vitepress.includes(this.repoName)) {
-      const tocStartIdx = this.homeReadme.lines.indexOf(this.toc.startTag);
-      const tocEndIdx = this.homeReadme.lines.indexOf(this.toc.endTag);
-      // const tocStartIdx = this.homeReadme.lines.indexOf(this.toc.startTag + (process.platform === 'win32' ? '\r' : ''));
-      // const tocEndIdx = this.homeReadme.lines.indexOf(this.toc.endTag + (process.platform === 'win32' ? '\r' : ''));
-
-      // console.log(this.homeReadme.lines)
-      // console.log('tocStartIdx', tocStartIdx)
-      // console.log('tocEndIdx', tocEndIdx)
-      
-      if (tocStartIdx !== -1 && tocEndIdx !== -1) {
-        // 将 tocStartIdx 到 tocEndIdx 之间的内容给删除后再写入。
-        fs.writeFileSync(
-          this.vitepressDocPath,
-          this.homeReadme.lines
-            .slice(0, tocStartIdx)
-            .concat(this.homeReadme.lines.slice(tocEndIdx + 1))
-            .join(this.EOL)
-        );
-      } else {
-        fs.writeFileSync(
-          this.vitepressDocPath,
-          this.homeReadme.lines.join(this.EOL)
-        );
-      }
-    }
+    this.updateVitepressDocs();
+    
     console.log(`✅ ${this.repoName} \t README.md updated.`);
   }
 }
