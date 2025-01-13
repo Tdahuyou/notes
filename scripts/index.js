@@ -3,7 +3,7 @@ import minimist from 'minimist';
 
 import ReadmeUpdater from './updateREADME.js';
 import { mergeReadme, distributeReadme } from './notes-merge-distribute.js';
-import { syncLocalAndRemote, initPkg } from './utils.js';
+import { syncLocalAndRemote, initPkg, parseTnotesConfig } from './utils.js';
 // import notesmeta from './.notesmeta.json' assert { type: 'json' };
 import { fileURLToPath } from "url";
 import fs from 'fs';
@@ -26,18 +26,25 @@ const notesmeta = JSON.parse(fs.readFileSync(path.resolve(__dirname, '.notesmeta
 
   const baseDir = path.resolve(__dirname, "..", "..", repoName);
   const pkg = await initPkg(baseDir, repoName) || {};
-  if (!pkg.tnotesConfig) throw new Error(`❌ repoName: tnotesConfig is required, ${repoName} has no tnotesConfig in package.json`);
-  let ignoreDirs = pkg.ignoreDirs || [];
-  const doneNoteIds = pkg.tnotesConfig.doneNoteIds || [];
+  if (!pkg.tnotesConfig) throw new Error(`❌ repoName: tnotesConfig is required, ${repoName} has no tnotesConfig field in package.json`);
+  let {
+    ignoreDirs,
+    doneNoteIds,
+    bilibiliMap
+  } = parseTnotesConfig(pkg);
+  // console.log('ignoreDirs', ignoreDirs)
+  // console.log('doneNoteIds', doneNoteIds)
+  // console.log('bilibiliMap', bilibiliMap)
+
   ignoreDirs = [...ignoreDirs, ...notesmeta.common_ignore_dirs];
 
-  // console.log(args);
   if (args.updateREADME || args.update) {
     const updater = new ReadmeUpdater({
       repoName,
       baseDir,
       ignoreDirs,
-      doneNoteIds
+      doneNoteIds,
+      bilibiliMap
     });
     updater.updateReadme();
     await syncLocalAndRemote(baseDir);

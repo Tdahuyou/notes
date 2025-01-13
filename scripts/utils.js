@@ -58,7 +58,9 @@ async function initPkg(baseDir, repoName) {
   if (fs.existsSync(pkgPath)) {
     try {
       const pkgContent = fs.readFileSync(pkgPath, { encoding: "utf8" });
-      const pkg = JSON.parse(pkgContent);
+      let pkg = JSON.parse(pkgContent);
+      pkg = sortObjectKeys(pkg);
+      fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2));
       return pkg;
     } catch (error) {
       console.error(`❌ Error reading or parsing package.json: ${error.message}`);
@@ -76,7 +78,7 @@ async function initPkg(baseDir, repoName) {
           "docs:publish": `    node ./node_modules/tnotes/scripts/docs-publish.js`
       },
       "tnotesConfig": {
-        "ignoreDirs": []
+        "dirList": {}
       }
   };
   fs.writeFileSync(pkgPath, JSON.stringify(defaultPkg, null, 2));
@@ -84,7 +86,39 @@ async function initPkg(baseDir, repoName) {
   return defaultPkg;
 }
 
+function sortObjectKeys(obj) {
+  if (typeof obj !== 'object' || obj === null) return obj;
+
+  if (Array.isArray(obj)) return obj.map(sortObjectKeys);
+
+  const sortedKeys = Object.keys(obj).sort();
+  const sortedObj = {};
+  for (const key of sortedKeys) sortedObj[key] = sortObjectKeys(obj[key]);
+
+  return sortedObj;
+}
+
+function parseTnotesConfig(pkg) {
+  const dirListEntries = Object.entries(pkg.tnotesConfig.dirList || {});
+  const ignoreDirs = dirListEntries.map(([ID, config]) => config.ignore ? ID : '').filter(id => !!id);
+  const doneNoteIds = dirListEntries.map(([ID, config]) => config.done ? ID : '').filter(id => !!id);
+  const bilibiliMap = dirListEntries.map(([ID, config]) => {
+    if (config.bilibili && config.bilibili.length > 0) {
+      return { id: ID, bilibili: config.bilibili }
+    } else {
+      return null;
+    }
+  }).filter(item => !!item);
+
+  return {
+    ignoreDirs,
+    doneNoteIds,
+    bilibiliMap
+  }
+}
+
 export {
     syncLocalAndRemote,
-    initPkg
+    initPkg,
+    parseTnotesConfig
 };

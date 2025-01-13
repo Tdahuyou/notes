@@ -17,7 +17,7 @@ const notesmeta = JSON.parse(fs.readFileSync(path.resolve(__dirname, '.notesmeta
 const slugger = new GithubSlugger();
 
 class ReadmeUpdater {
-  constructor({repoName, baseDir, ignoreDirs, doneNoteIds}) {
+  constructor({repoName, baseDir, ignoreDirs, doneNoteIds, bilibiliMap}) {
     this.repoName = repoName;
     this.baseDir = baseDir;
     // fs.readdirSync(path.resolve(this.baseDir, 'notes.mata.json'), { encoding: 'utf8' });
@@ -25,6 +25,7 @@ class ReadmeUpdater {
     this.githubUsername = "Tdahuyou";
     this.ignoreDirs = ignoreDirs || [];
     this.doneNoteIds = doneNoteIds || [];
+    this.bilibiliMap = bilibiliMap || {};
     this.repoUrl = `https://github.com/${this.githubUsername}/${repoName}/tree/main`;
     this.repoBolbUrl = `https://raw.githubusercontent.com/${this.githubUsername}/${repoName}/main`; // for renderer img
 
@@ -84,6 +85,7 @@ class ReadmeUpdater {
   parseNoteContent() {
     const SEPARATOR_LEVEL_2 = "## ";
     for (let noteDirName of this.notes.dirNameList) {
+      const noteID = noteDirName.slice(0, 4); // 取前 4 个字符作为笔记 ID
       const notePath = path.resolve(this.baseDir, noteDirName, "README.md");
       const noteTitle = `# [${noteDirName}](${this.repoUrl}/${encodeURIComponent(noteDirName)})`;
       if (!fs.existsSync(notePath)) {
@@ -95,7 +97,7 @@ class ReadmeUpdater {
       lines[0] = noteTitle;
 
       // 更新笔记目录。
-      this.updateToc(lines);
+      this.updateNoteToc(noteID, lines);
       fs.writeFileSync(notePath, lines.join(this.EOL), "utf8");
 
       let firstHeading2Index = -1;
@@ -142,8 +144,7 @@ class ReadmeUpdater {
       );
       // console.log('topInfoLines:', topInfoLines);
 
-      // 获取目录编号和完整目录名称
-      const noteID = noteDirName.slice(0, 4); // 取前 4 个字符作为笔记 ID
+      // 以 notes ID 作为 key，初始化 notes map，value 为笔记头部信息。
       this.notes.map[noteID] = `[${noteDirName}](${
         this.repoUrl
       }/${encodeURIComponent(
@@ -252,11 +253,19 @@ class ReadmeUpdater {
     }
   }
 
-  /**
-   * - homeReadme 处理标题范围 1~6
-   * - 非 homeReadme 处理标题范围 2~6
-   */
-  updateToc(lines, isHome = false) {
+  updateNoteToc(id = '', contents = '') {
+    this.updateToc({ id, lines: contents });
+  }
+
+  updateHomeToc(contents = '') {
+    this.updateToc({ lines: contents, isHome: true });
+  }
+
+  updateToc({
+    id = '', // 如果是处理非 homeReadme，则需要具体的笔记 id。
+    lines = '', // required
+    isHome = false, // 是否是处理 homeReadme
+  }) {
     let startLineIdx = -1,
       endLineIdx = -1;
     lines.forEach((line, idx) => {
@@ -268,7 +277,7 @@ class ReadmeUpdater {
     // 收集标题，并更新编号。
     const titles = [];
     const headers = ["## ", "### ", "#### ", "##### ", "###### "]; // 2~6 级标题，忽略 1 级标题。
-    if (isHome) headers.push("# ");
+    if (isHome) headers.push("# "); // homeReadme 处理标题范围 1~6；非 homeReadme 处理标题范围 2~6。
     const titleNumbers = Array(7).fill(0); // 用于存储每个级别的编号
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
@@ -283,15 +292,37 @@ class ReadmeUpdater {
       }
     }
 
-    // 生成 toc
     const toc = generateToc(titles, this.EOL);
+    // console.log('toc =>', toc);
 
-    lines.splice(
-      startLineIdx + 1,
-      endLineIdx - startLineIdx - 1,
-      ...toc.split(this.EOL)
-    );
+    let bilibiliUrl = '';
+    if (!isHome) {
+      const bilibiliTarget = this.bilibiliMap.find(item => item.id === id);
+      // console.log('bilibiliTarget =>', bilibiliTarget);
+      if (bilibiliTarget) {
+        bilibiliUrl = bilibiliTarget.bilibili.map((url, i) => `[bilibili.${this.repoName}.${id}.${i + 1}](${url})`).join('、')
+        bilibiliUrl = `- ${bilibiliUrl}`;
+      }
+    }
+    // console.log('bilibiliUrl =>', bilibiliUrl);
 
+    if (bilibiliUrl) {
+      lines.splice(
+        startLineIdx + 1,
+        endLineIdx - startLineIdx - 1,
+        bilibiliUrl,
+        ...toc.split(this.EOL)
+      );
+    } else {
+      lines.splice(
+        startLineIdx + 1,
+        endLineIdx - startLineIdx - 1,
+        ...toc.split(this.EOL)
+      );
+    }
+  
+
+    // 生成 toc
     function generateToc(titles, EOL) {
       const toc = titles
         .map((title) => {
@@ -359,7 +390,7 @@ class ReadmeUpdater {
 
     this.printMissingNotes();
     this.handleUnassignedNotes();
-    this.updateToc(this.homeReadme.lines, true);
+    this.updateHomeToc(this.homeReadme.lines);
     fs.writeFileSync(
       this.homeReadme.path,
       this.homeReadme.lines.join(this.EOL)
