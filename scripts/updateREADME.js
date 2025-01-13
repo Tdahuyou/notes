@@ -442,7 +442,7 @@ class ReadmeUpdater {
       // const lines = this.homeReadme.lines.map(line => line.replaceAll('- [ ]', '[ ]').replaceAll('- [x]', '[x]'))
 
       // 处理路径问题
-      const lines = this.homeReadme.lines.map(line => line.replaceAll(this.repoUrl, this.vitepress.githubPageUrl));
+      const lines = this.homeReadme.lines.map(line => line.replaceAll(this.repoUrl, this.vitepress.githubPageUrl).replaceAll('README.md', 'README.html'));
       
       if (tocStartIdx !== -1 && tocEndIdx !== -1) {
         // 将 tocStartIdx 到 tocEndIdx 之间的内容给删除后再写入。

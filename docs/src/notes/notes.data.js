@@ -1,7 +1,7 @@
 import fs from "node:fs";
 
 export default {
-  watch: ["./*.md"],
+  watch: ["./*/README.md"],
   load(watchedFiles) {
     // watchFiles 是一个所匹配文件的绝对路径的数组。
     // 生成一个博客文章元数据数组
@@ -9,11 +9,11 @@ export default {
     const notesData = {};
     watchedFiles.forEach((file) => {
       // console.log('file:', file)
-      // file: docs/src/canvas.md
-      // file: docs/src/electron.md
+      // file: docs/src/notes/canvas/README.md
+      // file: docs/src/notes/electron/README.md
       // ...
 
-      const title = file.split("/").pop().replace(/\.md$/, ""); // notes title
+      const title = file.split("/")[3]; // notes title
       const fileContent = fs.readFileSync(file, "utf-8");
 
       const allNotesID = getAllNotesID(fileContent);

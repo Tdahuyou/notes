@@ -106,6 +106,9 @@ const formatDate = (timestamp) => {
 
 const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 const copyRawFile = () => {
+    const noteData = notesData[vpData.page.value.title.toLowerCase()]
+    // console.log(notesData, vpData.page.value.title.toLowerCase())
+    if (!noteData) return
     let data = notesData[vpData.page.value.title.toLowerCase()].fileContent
     data = data.replace('<MyGlobalComponent />', '')
     navigator.clipboard.writeText(data)
