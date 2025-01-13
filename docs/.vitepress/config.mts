@@ -3,6 +3,7 @@ import sidebar__react from '../src/notes/react/sidebar.json';
 import sidebar__canvas from '../src/notes/canvas/sidebar.json';
 import GithubSlugger from 'github-slugger';
 import markdownItTaskLists from 'markdown-it-task-lists';
+import mila from 'markdown-it-link-attributes';
 
 // import notesmeta from '../../scripts/.notesmeta.json'
 
@@ -247,7 +248,16 @@ export default defineConfig({
   // doc => https://vitepress.dev/zh/guide/markdown#image-lazy-loading
   markdown: {
     config(md) {
-      md.use(markdownItTaskLists); // 启用 markdown-it-task-lists 插件来处理复选框的渲染问题。
+      md.use(markdownItTaskLists) // 启用 markdown-it-task-lists 插件来处理复选框的渲染问题。
+      .use(mila, { // 启用 markdown-it-link-attributes 插件来处理超链接的跳转问题。
+        matcher(href, config) {
+          return !href.startsWith("https://tdahuyou.github.io/notes/notes");
+        },
+        attrs: {
+          target: "_blank",
+          rel: "noopener",
+        },
+      }); 
     },
     anchor: {
       // !NOTE 需要跟和 \scripts\updateREADME.js 中的 markdown.anchor.slugify 的逻辑保持一致。
