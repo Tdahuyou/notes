@@ -91,7 +91,8 @@
 
 然后... 有了这条视频...
   </template>
-  <video controls src="./assets/23-08-08.mp4" />
+  <!-- <video controls src="./assets/23-08-08.mp4" /> -->
+  <iframe style="width: 100%; height: 25rem;" src="//player.bilibili.com/player.html?isOutside=true&aid=1755521687&bvid=BV1544219774&cid=1582630210&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </MyDynamicComp>
 
 ## 2023 年 6 月 30 日 上午 12:19
