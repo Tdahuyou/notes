@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "TNotes"
-  text: "由 VitePress 和 Github Pages 搭建的笔记平台"
-  tagline: 
+  text: "Tdahuyou の Notes"
+  tagline: "个人笔记平台"
   image:
     src:  https://vitepress.dev/vitepress-logo-large.webp
     alt: notes logo

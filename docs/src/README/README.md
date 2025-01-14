@@ -10,8 +10,8 @@
 
 ::: tip TNotes 简介
 - TNotes 全称 👉 Tdahuyou の Notes
-- TNotes 是一个基于 [github pages](https://pages.github.com/) 和 [vitepress](https://vitepress.dev/) 搭建的个人笔记平台。
-- 汇总了个人写的一些笔记内容大纲（详情在 github 上），以便查阅、分享。笔记已开源在 [github](https://github.com/Tdahuyou) 上，有需要的可自行 clone。
+- TNotes 是一个基于开源项目和免费工具（比如：[github pages](https://pages.github.com/)、[vitepress](https://vitepress.dev/)、[giscus](https://giscus.app/zh-CN)、……）搭建的个人笔记平台。
+- TNotes 中汇总了个人写的一些笔记内容，以便查阅、分享。所有在 TNotes 中能看到的笔记均已开源在 [github](https://github.com/Tdahuyou) 上，若有需要，可自行 clone。
 :::
 
 ## TNotes 中都记录了哪些内容？

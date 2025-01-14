@@ -18,6 +18,8 @@
 ## 🔗 chrome 插件版
 
 - https://chromewebstore.google.com/detail/m2mm/efagcmmcgdofnhlpajgdpfdmicmkjkda?authuser=0&hl=zh-CN
+- sidebar 默认位置是从右边弹出，可以通过 chrome 浏览器设置修改 sidebar 的位置为左侧。
+  - ![](assets/2025-01-14-09-45-08.png)
 
 ## 💻 基本使用流程
 

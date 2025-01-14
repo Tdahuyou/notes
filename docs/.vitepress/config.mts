@@ -250,12 +250,9 @@ export default defineConfig({
     config(md) {
       md.use(markdownItTaskLists) // 启用 markdown-it-task-lists 插件来处理复选框的渲染问题。
       .use(mila, { // 启用 markdown-it-link-attributes 插件来处理超链接的跳转问题。
-        matcher(href, config) {
-          return !href.startsWith("https:");
-        },
         attrs: {
-          target: "_blank",
-          rel: "noopener",
+          target: "_self",  // 所有链接都将使用 _self，避免 _blank
+          rel: "noopener",  // 提供安全性 - 这是安全设置，防止新页面能够通过 JavaScript 访问当前页面的 window 对象，通常配合 target="_blank" 使用，但即便没有 target="_blank"，它也能增强安全性。
         },
       }); 
     },
