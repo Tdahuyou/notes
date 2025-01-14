@@ -31,10 +31,10 @@
     <script>
       // 通过 JS 来检查浏览器是否支持 canvas
       // 通过检查 canvas 元素的 getContext 方法是否存在来检测浏览器是否支持 canvas。
-      function checkCanvasSupport() { // [!code highlight]
-        var canvas = document.createElement('canvas') // 创建一个 canvas 元素 // [!code highlight] 
-        return !!canvas.getContext // 检查 getContext 方法是否存在 // [!code highlight]
-      } // [!code highlight]
+      function checkCanvasSupport() {
+        var canvas = document.createElement('canvas') // 创建一个canvas元素
+        return !!canvas.getContext // 检查getContext方法是否存在
+      }
       if (checkCanvasSupport()) {
         console.log('浏览器支持canvas')
       } else {

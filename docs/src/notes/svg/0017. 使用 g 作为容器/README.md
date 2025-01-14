@@ -16,7 +16,7 @@
 
 ## 2. 📒 `<g>` 标签简介
 
-[<g>](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/g) 元素用作一个容器，它可以将多个图形组合在一起作为一个组处理。
+[`<g>`](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/g) 元素用作一个容器，它可以将多个图形组合在一起作为一个组处理。
 
 这使得你可以对整个组应用变换、样式或事件，而不是单独对每个元素操作，从而提高效率和组织性。
 
