@@ -251,7 +251,7 @@ export default defineConfig({
       md.use(markdownItTaskLists) // 启用 markdown-it-task-lists 插件来处理复选框的渲染问题。
       .use(mila, { // 启用 markdown-it-link-attributes 插件来处理超链接的跳转问题。
         matcher(href, config) {
-          return !href.startsWith("https://tdahuyou.github.io/notes/notes");
+          return !href.startsWith("https:");
         },
         attrs: {
           target: "_blank",
