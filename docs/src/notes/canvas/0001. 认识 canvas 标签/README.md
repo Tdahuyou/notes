@@ -200,8 +200,7 @@ canvas 的 demos 可以看看 [4399 小游戏](https://www.4399.com/)。
 
 ![](md-imgs/2024-09-18-06-47-02.png)
 
-> <font style="color:rgb(29, 29, 31);">这里补充一嘴，实际上 echarts 图表，支持两种渲染模式 svg、canvas。默认情况下使用的是 canvas 来渲染。这样说明了一点，很多图形 svg、canvas 都可以绘制，并不是说某种图形就一定得使用某种技术来实现。</font>
->
+> 这里补充一嘴，实际上 echarts 图表，支持两种渲染模式 svg、canvas。默认情况下使用的是 canvas 来渲染。这样说明了一点，很多图形 svg、canvas 都可以绘制，并不是说某种图形就一定得使用某种技术来实现。
 
 ## 7. 🤖 对比 svg 和 canvas
 

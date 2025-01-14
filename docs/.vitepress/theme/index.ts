@@ -9,6 +9,7 @@ import "./custom.css";
 import MyLayout from "../components/MyLayout.vue";
 import MyDynamicComp from "../components/MyDynamicComp.vue";
 import MyGiscusComp from "../components/MyGiscusComp.vue";
+import BilibiliOutsidePlayer from "../components/BilibiliOutsidePlayer.vue";
 
 export default {
   extends: DefaultTheme,
@@ -27,5 +28,6 @@ export default {
     // 注册自定义全局组件
     app.component('MyDynamicComp', MyDynamicComp)
     app.component('MyGiscusComp', MyGiscusComp)
+    app.component('BilibiliOutsidePlayer', BilibiliOutsidePlayer)
   }
 } satisfies Theme;

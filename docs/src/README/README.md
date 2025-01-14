@@ -1,10 +1,8 @@
 # 📒 TNotes
 
-[[toc]]
-
 ![foot print](https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/public/footprint.png)
 
-> - 大二（2019.06.14）去学校附近的海边拍的脚印。
+> 这是大二（2019.06.14）去学校附近的海边拍的脚印，是第一条朋友圈发的图，也是朋友圈的封面，就暂且拿它来做 TNotes 的封面吧。
 
 ## TNotes 是什么？
 
@@ -25,5 +23,6 @@
   - 阅读过的书籍
   - 自己写的一些开源项目
   - ... 等等
-- 目前（25.01）正在逐步搬运个人的学习笔记到 TNotes 中。
+- **目前（25.01）正在逐步搬运个人的学习笔记到 TNotes 中。**
+  - 已完成搬运的，会在对应的笔记标题前边 ✅ 打勾。
 :::

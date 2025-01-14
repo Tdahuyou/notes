@@ -3,7 +3,7 @@
  * - 更新 note README 目录
  * - 目录编号自动更新
  * - 读取笔记头部信息，更新 home README
- * - 自动将 home README 推送到 TNotes 中
+ * - 自动将 notes 推送到 TNotes 中
  */
 import fs from 'fs';
 import path, { dirname } from 'path';
@@ -26,6 +26,7 @@ class ReadmeUpdater {
     this.ignoreDirs = ignoreDirs || [];
     this.doneNoteIds = doneNoteIds || [];
     this.bilibiliMap = bilibiliMap || {};
+    this.bilibiliVideoBaseUrl = "https://www.bilibili.com/video/";
     this.repoUrl = `https://github.com/${this.githubUsername}/${repoName}/tree/main`;
     this.repoBolbUrl = `https://raw.githubusercontent.com/${this.githubUsername}/${repoName}/main`; // for renderer img
 
@@ -301,12 +302,14 @@ class ReadmeUpdater {
     // console.log('toc =>', toc);
 
     let bilibiliUrl = '';
+    let BilibiliOutsidePlayerCompStr = '';
     if (!isHome) {
       const bilibiliTarget = this.bilibiliMap.find(item => item.id === id);
       // console.log('bilibiliTarget =>', bilibiliTarget);
       if (bilibiliTarget) {
-        bilibiliUrl = bilibiliTarget.bilibili.map((url, i) => `[bilibili.${this.repoName}.${id}.${i + 1}](${url})`).join('、')
+        bilibiliUrl = bilibiliTarget.bilibili.map((bvid, i) => `[bilibili.${this.repoName}.${id}.${i + 1}](${this.bilibiliVideoBaseUrl + bvid})`).join('、');
         bilibiliUrl = `- ${bilibiliUrl}`;
+        BilibiliOutsidePlayerCompStr = bilibiliTarget.bilibili.map((bvid, i) => `<BilibiliOutsidePlayer id="${bvid}" />`).join(this.EOL);
       }
     }
     // console.log('bilibiliUrl =>', bilibiliUrl);
@@ -315,6 +318,8 @@ class ReadmeUpdater {
       lines.splice(
         startLineIdx + 1,
         endLineIdx - startLineIdx - 1,
+        BilibiliOutsidePlayerCompStr,
+        this.EOL,
         bilibiliUrl,
         ...toc.split(this.EOL)
       );
@@ -431,8 +436,10 @@ class ReadmeUpdater {
     }
 
     const updateHomeReadme = () => {
-      const tocStartIdx = this.homeReadme.lines.indexOf(this.toc.startTag);
-      const tocEndIdx = this.homeReadme.lines.indexOf(this.toc.endTag);
+      let tocStartIdx = this.homeReadme.lines.indexOf(this.toc.startTag);
+      tocStartIdx = tocStartIdx === -1 ? this.homeReadme.lines.indexOf(this.toc.startTag + '\r') : tocStartIdx;
+      let tocEndIdx = this.homeReadme.lines.indexOf(this.toc.endTag);
+      tocEndIdx = tocEndIdx === -1 ? this.homeReadme.lines.indexOf(this.toc.endTag + '\r') : tocEndIdx;
   
       // console.log(this.homeReadme.lines)
       // console.log('tocStartIdx', tocStartIdx)
@@ -475,13 +482,18 @@ class ReadmeUpdater {
   ]
 }
 */ 
+      const dirNameList = [];
+      this.homeReadme.ids.forEach(id => {
+        const dirName = this.notes.dirNameList.find((dirName) => dirName.startsWith(id));
+        dirName && dirNameList.push(dirName);
+      })
       fs.writeFileSync(
         path.join(this.vitepress.baseDir, this.repoName, 'sidebar.json'),
         JSON.stringify({
           text: this.repoName,
           link: `/notes/${this.repoName}/README`,
           collapsed: true,
-          items: this.notes.dirNameList.map((dirName) => ({
+          items: dirNameList.map((dirName) => ({
             text: dirName,
             link: `/notes/${this.repoName}/${dirName}/README`
           }))

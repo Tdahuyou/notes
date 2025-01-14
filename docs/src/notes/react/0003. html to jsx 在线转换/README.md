@@ -16,9 +16,9 @@
 
 ## 2. 💻 html to jsx 转换示例
 
-- html
+::: code-group
 
-```html
+```html [html]
 <!-- Hello world -->
 <div class="awesome" style="border: 1px solid red">
   <label for="name">Enter your name: </label>
@@ -27,9 +27,7 @@
 <p>Enter your HTML here</p>
 ```
 
-- jsx
-
-```js
+```js [jsx]
 <>
   {/* Hello world */}
   <div className="awesome" style={{ border: "1px solid red" }}>
@@ -39,3 +37,5 @@
   <p>Enter your HTML here</p>
 </>
 ```
+
+:::
