@@ -27,14 +27,14 @@
 
 ### 3.1. qwerty learner 词典目录
 
-![Alt text](image.png)
+<!-- ![Alt text](image.png) -->
 
 ### 3.2. 脚本使用说明
 
 - `index1.js` 将单词按照单词本来整理，并生成自测列表。
 - `index2.js` 将单词按照单词本名称为目录，写入到对应的目录中
 - `index3.js` 按照字母来提取所有单词数据
-  - ![2.zip](2.zip.png)
+  <!-- - ![2.zip](2.zip.png) -->
   - 将所有单词本中的词汇提取出来，按照字母为文件夹进行分组。
 - `index4.js` 将所有词汇按照一个个文件汇总到一起。
 - `index4_gen_all_words.js` 将所有词汇按照一个个文件汇总到一起。（格式 2）
