@@ -75,35 +75,31 @@ export default defineConfig({
     nav: [
       {
         text: '👀 README',
-        link: '/README/README',
+        link: '/README',
       },
     ],
 
     sidebar: [
-      { text: '👀 README', link: '/README/README' },
+      { text: '👀 README', link: '/README' },
       {
         text: 'TNotes',
         collapsed: true,
         items: [
-          { text: '💻 笔记管理架构', link: '/README/notes-architecture' },
+          { text: '🔨 TNotes 基本架构', link: '/tnotes/architecture' },
           {
-            text: '⚙️ notes 批处理脚本说明',
-            link: '/README/scripts-introduction',
+            text: '⚙️ TNotes 核心脚本功能简介',
+            link: '/tnotes/scripts-introduction',
           },
-          { text: '🔍 emoji 规范', link: '/README/emoji' },
-          { text: '🤔 Q&A', link: '/README/Q&A' },
+          { text: '🔍 emoji 规范', link: '/tnotes/emoji' },
+          { text: '🤔 Q&A', link: '/tnotes/Q&A' },
         ],
-      },
-      {
-        text: '开源',
-        collapsed: true,
-        items: [{ text: '🧑🏻‍💻 m2mm', link: '/my-project/m2mm' }],
       },
       {
         text: '笔记',
         collapsed: true,
         // items: notesmeta.repos_vitepress.map((item, i) => ({ text: `${i + 1}. ` + item, link: `/${item}` }))
         items: [
+          { text: '👀 README', link: '/notes/README' },
           {
             ...sidebar__html_css,
             text: '📒 语言基础 - HTML & CSS',
@@ -195,9 +191,18 @@ export default defineConfig({
         ],
       },
       {
+        text: '开源',
+        collapsed: true,
+        items: [
+          { text: '👀 README', link: '/my-project/README' },
+          { text: '🧑🏻‍💻 m2mm', link: '/my-project/m2mm' }
+        ],
+      },
+      {
         text: '动态',
         collapsed: true,
         items: [
+          { text: '👀 README', link: '/dynamic/README' },
           { text: '🗓 2025', link: '/dynamic/dynamic.25' },
           { text: '🗓 2024', link: '/dynamic/dynamic.24' },
           { text: '🗓 2023', link: '/dynamic/dynamic.23' },
