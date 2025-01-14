@@ -13,7 +13,7 @@
 
 在「杨辉三角」中，每个数是它左上方和右上方的数的和。
 
-![](./PascalTriangleAnimated2.gif)
+![](./assets/PascalTriangleAnimated2.gif)
 
 **示例 1:**
 ```
