@@ -32,12 +32,13 @@
 
       // 将 H1 元素渲染到 root 容器中
       const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(h1);
 
-      // ❌ 不再兼容的早期写法 - 使用 ReactDOM.render() 方法
-      // ReactDOM.render(h1, document.getElementById("root"));
-      // 在目前（2025年1月10日11:14:49）的最新版 react v19 中，render API 已被移除。
-      // 实际上在 v18 中就已经不再支持了。
-      // 在查阅 react 的相关教程时，需要注意 react 的版本，在 v18 版本（含）之后，不要再去用这种旧版的错误写法了。
+      // ❌ 不再兼容的早期写法 - 使用 ReactDOM.render() 方法 // [!code error]
+      // ReactDOM.render(h1, document.getElementById("root")); // [!code error]
+      // 在目前（2025年1月10日11:14:49）的最新版 react v19 中，render API 已被移除。 // [!code error]
+      // 实际上在 v18 中就已经不再支持了。 // [!code error]
+      // 在查阅 react 的相关教程时，需要注意 react 的版本，在 v18 版本（含）之后，不要再去用这种旧版的错误写法了。 // [!code error]
     </script>
   </body>
 </html>

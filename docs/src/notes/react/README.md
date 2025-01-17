@@ -64,13 +64,19 @@
 ## 4. Describing the UI
 
 - [x] [0013. JSX 概述](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html) <!-- [locale](./0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html) -->  
-  - [1. 📒 JSX 是什么？](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#1--jsx-是什么)
+  - [1. 📒 JSX 是什么](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#1--jsx-是什么)
   - [2. 📒 JSX 的本质](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#2--jsx-的本质)
-  - [3. 📒 必须单根](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#3--必须单根)
+  - [3. 📒 JSX 必须单根](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#3--jsx-必须单根)
   - [4. 📒 必须要有结束标记](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#4--必须要有结束标记)
-  - [5. 📒 JSX 的基本特点](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#5--jsx-的基本特点)
-  - [6. 💻 demos.1 - 一个简单的 React 组件示例](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#6--demos1---一个简单的-react-组件示例)
-  - 简单介绍了 JSX 的一些基础知识点，有关 JSX 的更多细节，会在其他笔记中介绍。
+  - [5. 💻 demos.1 - 一个简单的 React 组件示例](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#5--demos1---一个简单的-react-组件示例)
+  - 关于 JSX，我们大概需要知道以下这些点：
+    1. **声明式**：JSX 是声明式的，这意味着你可以描述你的应用应该显示什么，而不是如何进行 DOM 操作来改变应用的状态。这使得代码更容易理解和维护。
+    2. **嵌入表达式**：你可以在 JSX 中使用大括号 `{}` 来嵌入任何有效的 JavaScript 表达式。例如，变量、函数调用或计算结果都可以被嵌入到 JSX 中。
+    3. **属性**：JSX 属性和 HTML 属性非常相似，但有一些不同之处。例如，`class` 在 HTML 中对应 `className` 在 JSX 中，因为 `class` 是 JavaScript 的保留字。
+    4. **事件处理**：JSX 中的事件处理函数是以驼峰命名法（camelCase）来写的，比如 `onClick` 而不是 `onclick`。这些事件处理函数接收一个事件对象作为参数。
+    5. **自闭合标签**：对于没有内容的元素，如 `<img>` 或 `<input>`，JSX 支持自闭合标签，即 `<img src={imageSrc} />`。
+    6. **注释**：在 JSX 中添加注释需要使用花括号 `{/* ... */}`。
+  - 这篇笔记简单介绍了 JSX 的一些基础知识点，有关 JSX 的更多细节，会在其他笔记中介绍。
   
 
 - [x] [0003. html to jsx 在线转换](https://tdahuyou.github.io/notes/notes/react/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.html) <!-- [locale](./0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.html) -->  
@@ -79,22 +85,24 @@
   - 如果你有大量的 HTML 需要移植到 JSX 中，你可以使用 [transform 在线转换器](https://transform.tools/html-to-jsx) 来实现快速转换，参考转换后的结果来编写你的 JSX 模板。
   
 
-- [ ] [0015. 在 JSX 中使用注释](https://tdahuyou.github.io/notes/notes/react/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html) <!-- [locale](./0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html#1--links)
+- [x] [0015. 在 JSX 中使用注释](https://tdahuyou.github.io/notes/notes/react/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html) <!-- [locale](./0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html) -->  
+  - [1. 🔗 jsx eslint 注释格式检测](https://tdahuyou.github.io/notes/notes/react/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html#1--jsx-eslint-注释格式检测)
   - [2. 📒 JSX 中注释的写法](https://tdahuyou.github.io/notes/notes/react/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html#2--jsx-中注释的写法)
-  - [3. 💻 demo1 - 在 JSX 中使用注释](https://tdahuyou.github.io/notes/notes/react/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html#3--demo1---在-jsx-中使用注释)
-  - [4. 💻 demo2 - jsx-eslint 的智能提示](https://tdahuyou.github.io/notes/notes/react/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html#4--demo2---jsx-eslint-的智能提示)
+  - [3. 💻 demos.1 - `//` - 错误的注释格式](https://tdahuyou.github.io/notes/notes/react/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html#3--demos1------错误的注释格式)
+  - [4. 💻 demos.2 - 可以使用 jsx-eslint 检查错误的注释格式 `//`](https://tdahuyou.github.io/notes/notes/react/0015.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A/README.html#4--demos2---可以使用-jsx-eslint-检查错误的注释格式-)
   - 在 JSX 中，注释应该被包含在特殊的注释标签中，即 `{/* 这里边是注释内容 */}`。
   
 
-- [x] [0009. 在 jsx 中使用大括号实现动态插值](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC/README.html) <!-- [locale](./0009.%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC/README.html) -->  
-  - [1. 📒 在 JSX 中使用 JS 表达式](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC/README.html#1--在-jsx-中使用-js-表达式)
-  - [2. 🔍 Hedy Lamarr 是谁？](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC/README.html#2--hedy-lamarr-是谁)
+- [x] [0009. 在 JSX 中使用 JS 表达式](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html) <!-- [locale](./0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html) -->  
+  - [1. 📒 在 JSX 中使用 JS 表达式](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#1--在-jsx-中使用-js-表达式)
+  - [2. 💻 demos.1 - 完整示例](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#2--demos1---完整示例)
+  - [3. 🔍 扩展 - Hedy Lamarr 是谁？](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#3--扩展---hedy-lamarr-是谁)
   - 在 jsx 中可以使用 `{}` 语法来动态插入 js 表达式。
   - 类似于 vue 中的指令 v-bind 的作用。
   - JSX 让你可以在 Jaavascript 中嵌入 HTML 语法。而大括号可以让你在 JSX 中 “回到” JavaScript 中，这样你就可以从你的代码中嵌入一些变量并展示给用户。
-  - 在 JSX 的大括号中插入 null、undefined、false 这些值，是不会显示的，如果要显示的话则不应该丢到大括号中，应该直接书写，将其事做普通的字符串来显示。
-  - 在 JSX 的大括号中插入普通对象（比如 `{ foo: 123, bar: 'abc' }`）是无法渲染的，会报错。
+  - 注意：
+    - 在 JSX 的大括号中插入 `null`、`undefined`、`false`、`ture`、`""`、`[]`、`注释` 这些值是不会显示的，如果要显示的话则不应该丢到大括号中，应该直接书写，将其事做普通的字符串来显示。
+    - 在 JSX 的大括号中插入普通对象（比如 `{ foo: 123, bar: 'abc' }`）是无法渲染的，会报错。
   
 
 - [ ] [0017. 在 JSX 中书写内联样式 style](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html) <!-- [locale](./0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html) -->  

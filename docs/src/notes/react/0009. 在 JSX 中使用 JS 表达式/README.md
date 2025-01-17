@@ -1,4 +1,4 @@
-# [0009. 在 jsx 中使用大括号实现动态插值](https://github.com/Tdahuyou/react/tree/main/0009.%20%E5%9C%A8%20jsx%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%8B%AC%E5%8F%B7%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%8F%92%E5%80%BC)
+# [0009. 在 JSX 中使用 JS 表达式](https://github.com/Tdahuyou/react/tree/main/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F)
 
 <!-- region:toc -->
 - [1. 📒 在 JSX 中使用 JS 表达式](#1--在-jsx-中使用-js-表达式)
@@ -65,7 +65,6 @@ export default function Profile() {
 ```
 
 ## 2. 💻 demos.1 - 完整示例
-
 
 ::: code-group
 
