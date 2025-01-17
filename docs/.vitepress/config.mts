@@ -3,27 +3,28 @@ import GithubSlugger from 'github-slugger'
 import markdownItTaskLists from 'markdown-it-task-lists'
 import mila from 'markdown-it-link-attributes'
 
-import sidebar__react from '../src/notes/react/sidebar.json'
 import sidebar__canvas from '../src/notes/canvas/sidebar.json'
+import sidebar__chrome from '../src/notes/chrome/sidebar.json'
 import sidebar__electron from '../src/notes/electron/sidebar.json'
-import sidebar__html_css from '../src/notes/html-css/sidebar.json'
-import sidebar__javascript from '../src/notes/javascript/sidebar.json'
-import sidebar__typescript from '../src/notes/typescript/sidebar.json'
-import sidebar__nodejs from '../src/notes/nodejs/sidebar.json'
-import sidebar__markdown from '../src/notes/markdown/sidebar.json'
-import sidebar__svg from '../src/notes/svg/sidebar.json'
-import sidebar__pc from '../src/notes/pc/sidebar.json'
-import sidebar__vscode from '../src/notes/vscode/sidebar.json'
-import sidebar__git from '../src/notes/git/sidebar.json'
-import sidebar__prettier from '../src/notes/prettier/sidebar.json'
-import sidebar__eslint from '../src/notes/eslint/sidebar.json'
 import sidebar__en_notes from '../src/notes/en-notes/sidebar.json'
-import sidebar__miniprogram_wechat from '../src/notes/miniprogram-wechat/sidebar.json'
-import sidebar__leetcode from '../src/notes/leetcode/sidebar.json'
-import sidebar__vue from '../src/notes/vue/sidebar.json'
-import sidebar__vite from '../src/notes/vite/sidebar.json'
-import sidebar__webpack from '../src/notes/webpack/sidebar.json'
+import sidebar__eslint from '../src/notes/eslint/sidebar.json'
+import sidebar__git from '../src/notes/git/sidebar.json'
+import sidebar__html_css from '../src/notes/html-css/sidebar.json'
 import sidebar__i18n from '../src/notes/i18n/sidebar.json'
+import sidebar__javascript from '../src/notes/javascript/sidebar.json'
+import sidebar__leetcode from '../src/notes/leetcode/sidebar.json'
+import sidebar__markdown from '../src/notes/markdown/sidebar.json'
+import sidebar__miniprogram_wechat from '../src/notes/miniprogram-wechat/sidebar.json'
+import sidebar__nodejs from '../src/notes/nodejs/sidebar.json'
+import sidebar__pc from '../src/notes/pc/sidebar.json'
+import sidebar__prettier from '../src/notes/prettier/sidebar.json'
+import sidebar__react from '../src/notes/react/sidebar.json'
+import sidebar__svg from '../src/notes/svg/sidebar.json'
+import sidebar__typescript from '../src/notes/typescript/sidebar.json'
+import sidebar__vite from '../src/notes/vite/sidebar.json'
+import sidebar__vscode from '../src/notes/vscode/sidebar.json'
+import sidebar__vue from '../src/notes/vue/sidebar.json'
+import sidebar__webpack from '../src/notes/webpack/sidebar.json'
 
 // import notesmeta from '../../scripts/.notesmeta.json'
 
@@ -131,6 +132,10 @@ export default defineConfig({
           {
             ...sidebar__pc,
             text: '🛠 工具分享及电脑使用',
+          },
+          {
+            ...sidebar__chrome,
+            text: '🛠 chrome 浏览器',
           },
           {
             ...sidebar__vscode,

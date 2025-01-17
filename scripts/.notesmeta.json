@@ -11,6 +11,7 @@
     "git",
     "html-css",
     "i18n",
+    "chrome",
     "javascript",
     "leetcode",
     "markdown",
@@ -30,6 +31,7 @@
   ],
   "repos_vitepress": [
     "canvas",
+    "chrome",
     "electron",
     "en-notes",
     "eslint",
