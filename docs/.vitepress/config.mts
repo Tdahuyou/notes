@@ -35,7 +35,7 @@ export default defineConfig({
   lang: 'zh-Hans',
   base: '/notes/',
   title: 'TNotes',
-  description: 'Tdahuyou 学习笔记',
+  description: 'Tdahuyou の Notes',
   appearance: 'dark',
   srcDir: './src',
   lastUpdated: true,

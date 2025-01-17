@@ -482,10 +482,16 @@ class ReadmeUpdater {
   ]
 }
 */ 
-      const dirNameList = [];
+      const dirNameList = []; // [ { dirName: '...', done: false } ]
       this.homeReadme.ids.forEach(id => {
         const dirName = this.notes.dirNameList.find((dirName) => dirName.startsWith(id));
-        dirName && dirNameList.push(dirName);
+        if (dirName) {
+          const done = this.doneNoteIds.includes(id) ? true : false;
+          dirNameList.push({
+            dirName,
+            done
+          });
+        }
       })
       fs.writeFileSync(
         path.join(this.vitepress.baseDir, this.repoName, 'sidebar.json'),
@@ -493,8 +499,8 @@ class ReadmeUpdater {
           text: this.repoName,
           link: `/notes/${this.repoName}/README`,
           collapsed: true,
-          items: dirNameList.map((dirName) => ({
-            text: dirName,
+          items: dirNameList.map(({ dirName, done }) => ({
+            text: (done ? '✅ ' : '⏰ ') + dirName,
             link: `/notes/${this.repoName}/${dirName}/README`
           }))
         })

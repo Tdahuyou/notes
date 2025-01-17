@@ -20,11 +20,24 @@
 - 【2】点击 logo 旁边的版本号，可查看 react 的历史版本。
   - 这里边包含了一系列的 react 版本。从 `v0.3.0 (May 2013)` 开始一直到目前的最新版。
    - ![](assets/2024-12-01-02-26-46.png)
- - 用于了解每个版本的变更和新特性。
+  - 用于了解每个版本的变更和新特性。
+  - **🤔 什么时候我们可能会查阅这部分内容呢？**
+  - 当你用到的 react 版本和官方最新版不一致的时候。
+  - 比如你在看某人的 react 视频教程或者 react 相关书籍等其他 react 学习资料，但是你发现你所看的 react 资料的版本（比如是 react v18）和当前（2025年1月17日）官网的最新版（react v19）不一致，那么你可能需要查阅旧版本的文档。在这里边你可以切换到之前的任意版本，确保版本的一致性。
 - 【3】搜索区，可通过 cmd/ctrl K 来搜索官方文档中的相关内容。
 - 【4】教程区
    - 这里边包括一系列逐步指导的教程，帮助初学者从零开始构建 React 应用程序。
-   - 该教程中介绍的内容涵盖了日常开发中会用到的 80% 的知识点。
+   - **该教程中介绍的内容涵盖了日常开发中会用到的 `80%` 的知识点。**
+   - `80%` 不是乱说的，是官方的原话：
+     - ![](assets/2025-01-17-16-00-13.png)
+     - 实际上在开发 react 项目时，最常用到的知识点确实也就是官方文档提到的这么一些点了。
+       - How to create and nest components
+       - How to add markup and styles
+       - How to display data
+       - How to render conditions and lists
+       - How to respond to events and update the screen
+       - How to share data between components
+     - 在上手 react 项目之前，掌握这些要点是必要的。
 - 【5】参考区：用于查阅的详细的 API 文档。
 - 【6】React 开发者社区
 - 【7】React 博客：用于发布一些重要通知。

@@ -3,10 +3,14 @@
 
 ## 1. 认识 react
 
-- [ ] [0032. react 是什么](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) <!-- [locale](./0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#1--links)
-  - [2. 📒 什么是 react](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#2--什么是-react)
+- [x] [0032. react 是什么](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) <!-- [locale](./0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) -->  
+  - [1. 🔗 参考链接](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#1--参考链接)
+  - [2. 📒 react 概述](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#2--react-概述)
   - [3. 📒 react 的特点](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#3--react-的特点)
+    - [3.1. 轻量](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#31-轻量)
+    - [3.2. 原生](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#32-原生)
+    - [3.3. 灵活](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#33-灵活)
+    - [3.4. 单向数据流](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#34-单向数据流)
   - [4. 📒 库 vs. 框架](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#4--库-vs-框架)
   - 了解什么是 react
   - 了解 react 都有哪些特点
@@ -30,22 +34,24 @@
 
 ## 2. 开发 react 推荐安装的 VSCode 插件
 
-- [ ] [0034. eslint 插件](https://tdahuyou.github.io/notes/notes/react/0034.%20eslint%20%E6%8F%92%E4%BB%B6/README.html) <!-- [locale](./0034.%20eslint%20%E6%8F%92%E4%BB%B6/README.html) -->  
-  - [1. 📒 eslint 是啥？有啥用？](https://tdahuyou.github.io/notes/notes/react/0034.%20eslint%20%E6%8F%92%E4%BB%B6/README.html#1--eslint-是啥有啥用)
-  - [2. 📒 安装 ESLint 插件](https://tdahuyou.github.io/notes/notes/react/0034.%20eslint%20%E6%8F%92%E4%BB%B6/README.html#2--安装-eslint-插件)
-  - [3. 📒 配置 ESLint 基本流程](https://tdahuyou.github.io/notes/notes/react/0034.%20eslint%20%E6%8F%92%E4%BB%B6/README.html#3--配置-eslint-基本流程)
-  - [4. 💻 约束只能使用单引号，不能使用双引号](https://tdahuyou.github.io/notes/notes/react/0034.%20eslint%20%E6%8F%92%E4%BB%B6/README.html#4--约束只能使用单引号不能使用双引号)
-  - [5. 📒 注意事项](https://tdahuyou.github.io/notes/notes/react/0034.%20eslint%20%E6%8F%92%E4%BB%B6/README.html#5--注意事项)
-  - 认识 vscode 中的 eslint 插件
-  - 知道 eslint 是用来解决什么问题的
-  - 知道如何引入并使用 eslint
+- [x] [0034. 开发 react 项目之前推荐安装的 vscode 插件 - eslint](https://tdahuyou.github.io/notes/notes/react/0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html) <!-- [locale](./0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html) -->  
+  - [1. 📒 eslint 概述](https://tdahuyou.github.io/notes/notes/react/0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html#1--eslint-概述)
+  - [2. 📒 安装 ESLint 插件](https://tdahuyou.github.io/notes/notes/react/0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html#2--安装-eslint-插件)
+  - [3. 📒 配置 ESLint 基本流程](https://tdahuyou.github.io/notes/notes/react/0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html#3--配置-eslint-基本流程)
+  - [4. 💻 demos.1 - 约束只能使用单引号，不能使用双引号](https://tdahuyou.github.io/notes/notes/react/0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html#4--demos1---约束只能使用单引号不能使用双引号)
+  - [5. 📒 注意事项](https://tdahuyou.github.io/notes/notes/react/0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html#5--注意事项)
+  - vscode 中的 eslint 插件有什么用
+  - 如何引入并使用 eslint
   
 
-- [ ] [0035. 在 vscode 中，让 Emmet 语法支持 JSX](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html) <!-- [locale](./0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html#1--links)
-  - [2. 📒 notes](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html#2--notes)
-  - [3. 💻 测试效果](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html#3--测试效果)
+- [x] [0035. 在 vscode 中，让 Emmet 语法支持 JSX](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html) <!-- [locale](./0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html) -->  
+  - [1. 🔗 参考资料](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html#1--参考资料)
+  - [2. 📒 具体配置流程](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html#2--具体配置流程)
+    - [2.1. 做法 1：通过设置面板来配置](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html#21-做法-1通过设置面板来配置)
+    - [2.2. 做法 2：通过配置文件 `.vscode/settings.json` 来配置](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html#22-做法-2通过配置文件-vscodesettingsjson-来配置)
+  - [3. 💻 demos.1 - 在 vscode 中，让 Emmet 语法支持 JSX](https://tdahuyou.github.io/notes/notes/react/0035.%20%E5%9C%A8%20vscode%20%E4%B8%AD%EF%BC%8C%E8%AE%A9%20Emmet%20%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%20JSX/README.html#3--demos1---在-vscode-中让-emmet-语法支持-jsx)
   - 介绍如何配置 VSCode，让 Emmet 语法支持 JSX。
+  - JSX 是在 React 中用于描述页面结构的 JS 扩展语法。
   
 
 ## 3. 第一个 react 应用
@@ -57,19 +63,19 @@
 
 ## 4. Describing the UI
 
-- [ ] [0013. JSX 是什么](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) <!-- [locale](./0013.%20JSX%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) -->  
-  - [1. 📒 JSX 是什么？](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#1--jsx-是什么)
-  - [2. 📒 JSX 的本质](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#2--jsx-的本质)
-  - [3. 📒 必须单根](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#3--必须单根)
-  - [4. 📒 必须要有结束标记](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#4--必须要有结束标记)
-  - [5. 📒 JSX 的基本特点](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#5--jsx-的基本特点)
-  - [6. 💻 一个简单的 React 组件示例](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#6--一个简单的-react-组件示例)
-  - 简单介绍了 JSX 的一些基础知识点。
+- [x] [0013. JSX 概述](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html) <!-- [locale](./0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html) -->  
+  - [1. 📒 JSX 是什么？](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#1--jsx-是什么)
+  - [2. 📒 JSX 的本质](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#2--jsx-的本质)
+  - [3. 📒 必须单根](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#3--必须单根)
+  - [4. 📒 必须要有结束标记](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#4--必须要有结束标记)
+  - [5. 📒 JSX 的基本特点](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#5--jsx-的基本特点)
+  - [6. 💻 demos.1 - 一个简单的 React 组件示例](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#6--demos1---一个简单的-react-组件示例)
+  - 简单介绍了 JSX 的一些基础知识点，有关 JSX 的更多细节，会在其他笔记中介绍。
   
 
 - [x] [0003. html to jsx 在线转换](https://tdahuyou.github.io/notes/notes/react/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.html) <!-- [locale](./0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.html) -->  
   - [1. 🔗 transform - html 转 jsx 在线转换器](https://tdahuyou.github.io/notes/notes/react/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.html#1--transform---html-转-jsx-在线转换器)
-  - [2. 💻 html to jsx 转换示例](https://tdahuyou.github.io/notes/notes/react/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.html#2--html-to-jsx-转换示例)
+  - [2. 💻 一个简单的 html to jsx 转换示例](https://tdahuyou.github.io/notes/notes/react/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.html#2--一个简单的-html-to-jsx-转换示例)
   - 如果你有大量的 HTML 需要移植到 JSX 中，你可以使用 [transform 在线转换器](https://transform.tools/html-to-jsx) 来实现快速转换，参考转换后的结果来编写你的 JSX 模板。
   
 
