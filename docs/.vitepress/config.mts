@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import GithubSlugger from 'github-slugger'
 import markdownItTaskLists from 'markdown-it-task-lists'
 import mila from 'markdown-it-link-attributes'
+import markdownItContainer from 'markdown-it-container'
 
 import sidebar__canvas from '../src/notes/canvas/sidebar.json'
 import sidebar__chrome from '../src/notes/chrome/sidebar.json'
@@ -309,6 +310,34 @@ export default defineConfig({
           attrs: {
             target: '_self', // 所有链接都将使用 _self，避免 _blank
             rel: 'noopener', // 提供安全性 - 这是安全设置，防止新页面能够通过 JavaScript 访问当前页面的 window 对象，通常配合 target="_blank" 使用，但即便没有 target="_blank"，它也能增强安全性。
+          },
+        })
+        .use(markdownItContainer, 'swiper', {
+          render: (tokens, idx) => {
+            // 缓存默认的图片渲染规则，在 :::swiper ... ::: 内部使用自定义渲染规则，处理 Markdown 中的图片并转化为 Swiper Slide。
+            const defaultRenderRulesImage = md.renderer.rules.image!
+            // console.log(defaultRenderRulesImage)
+            const defaultRenderRulesParagraphOpen = md.renderer.rules.paragraph_open!
+            const defaultRenderRulesParagraphClose = md.renderer.rules.paragraph_close!
+            if (tokens[idx].nesting === 1) {
+              // 重新指定渲染规则
+
+              // 禁用段落 <p>，以免在最终返回的图片容器 div.swiper-slide 的外层多出一个 <p> 标签。p 包裹 div 是不规范的。
+              md.renderer.rules.paragraph_open = () => ''
+              md.renderer.rules.paragraph_close = () => ''
+              // 将图片直接包裹到 `<div class="swiper-slide">` 中，具体元素格式，参照 Swiper.js 官方文档。
+              md.renderer.rules.image = (tokens, idx, options, env, slf) => `<div class="swiper-slide">${defaultRenderRulesImage(tokens, idx, options, env, slf)}</div>`
+
+              // 开始标签，创建 swiper 容器和 wrapper
+              return `<div class="swiper-container"><div class="swiper-wrapper">\n`
+            } else {
+              md.renderer.rules.paragraph_open = defaultRenderRulesParagraphOpen
+              md.renderer.rules.paragraph_close = defaultRenderRulesParagraphClose
+              md.renderer.rules.image = defaultRenderRulesImage // reset image renderer
+              // 结束标签，关闭 wrapper 和 container
+              return '</div><div class="swiper-button-next"></div><div class="swiper-button-prev"></div><div class="swiper-pagination"></div></div>\n'
+              // return '</div><div class="swiper-pagination"></div></div>\n'
+            }
           },
         })
     },

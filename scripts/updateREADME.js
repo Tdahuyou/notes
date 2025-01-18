@@ -59,8 +59,6 @@ class ReadmeUpdater {
     this.EOL = "\n";
   }
 
-
-
   /**
    * 获取笔记目录列表
    * 笔记目录的判定逻辑 - 确保是目录，并且目录名称开头的 4 个字符是数字。
@@ -397,40 +395,41 @@ class ReadmeUpdater {
 
     const initDirs = () => {
       this.notes.dirNameList.forEach((dirName) => {
-        const vitepressNoteRepoDirPath = path.join(this.vitepress.baseDir, this.repoName);
-        if (!fs.existsSync(vitepressNoteRepoDirPath)) fs.mkdirSync(vitepressNoteRepoDirPath);
+        const vpNoteRepoDirPath = path.join(this.vitepress.baseDir, this.repoName); // docs/src/notes/repoName
 
-        const vitepressNoteDirPath = path.join(this.vitepress.baseDir, this.repoName, dirName);
-        if (!fs.existsSync(vitepressNoteDirPath)) fs.mkdirSync(vitepressNoteDirPath);
+        if (!fs.existsSync(vpNoteRepoDirPath)) fs.mkdirSync(vpNoteRepoDirPath);
+
+        const vpNoteDirPath = path.join(this.vitepress.baseDir, this.repoName, dirName); // docs/src/notes/repoName/xxxx. note-title
+        if (!fs.existsSync(vpNoteDirPath)) fs.mkdirSync(vpNoteDirPath);
         
         const noteDirPath = path.join(this.baseDir, dirName);
         const noteDirAssetsPath = path.join(noteDirPath, 'assets');
         const noteDirMdImgsPath = path.join(noteDirPath, 'md-imgs');
         const noteDirReadmePath = path.join(noteDirPath, 'README.md');
 
-        // 如果 noteDirAssetsPath 存在，则将 noteDirAssetsPath 复制到 vitepressNoteDirPath 中。
+        // 如果 noteDirAssetsPath 存在，则将 noteDirAssetsPath 复制到 vpNoteDirPath 中。
         if (fs.existsSync(noteDirAssetsPath)) {
-          const vitepressNoteDirAssetsPath = path.join(vitepressNoteDirPath, 'assets');
-          if (!fs.existsSync(vitepressNoteDirAssetsPath)) fs.mkdirSync(vitepressNoteDirAssetsPath);
-          // 复制 noteDirAssetsPath 中的文件到 vitepressNoteDirAssetsPath 中。
+          const vpNoteDirAssetsPath = path.join(vpNoteDirPath, 'assets');
+          if (!fs.existsSync(vpNoteDirAssetsPath)) fs.mkdirSync(vpNoteDirAssetsPath);
+          // 复制 noteDirAssetsPath 中的文件到 vpNoteDirAssetsPath 中。
           fs.readdirSync(noteDirAssetsPath).forEach((file) => {
-            fs.copyFileSync(path.join(noteDirAssetsPath, file), path.join(vitepressNoteDirAssetsPath, file));
+            fs.copyFileSync(path.join(noteDirAssetsPath, file), path.join(vpNoteDirAssetsPath, file));
           })
         }
 
-        // 如果 noteDirMdImgsPath 存在，则将 noteDirMdImgsPath 复制到 vitepressNoteDirPath 中。
+        // 如果 noteDirMdImgsPath 存在，则将 noteDirMdImgsPath 复制到 vpNoteDirPath 中。
         if (fs.existsSync(noteDirMdImgsPath)) {
-          const vitepressNoteDirAssetsPath = path.join(vitepressNoteDirPath, 'md-imgs');
-          if (!fs.existsSync(vitepressNoteDirAssetsPath)) fs.mkdirSync(vitepressNoteDirAssetsPath);
-          // 复制 noteDirMdImgsPath 中的文件到 vitepressNoteDirAssetsPath 中。
+          const vpNoteDirAssetsPath = path.join(vpNoteDirPath, 'md-imgs');
+          if (!fs.existsSync(vpNoteDirAssetsPath)) fs.mkdirSync(vpNoteDirAssetsPath);
+          // 复制 noteDirMdImgsPath 中的文件到 vpNoteDirAssetsPath 中。
           fs.readdirSync(noteDirMdImgsPath).forEach((file) => {
-            fs.copyFileSync(path.join(noteDirMdImgsPath, file), path.join(vitepressNoteDirAssetsPath, file));
+            fs.copyFileSync(path.join(noteDirMdImgsPath, file), path.join(vpNoteDirAssetsPath, file));
           })
         }
 
-        // 如果 noteDirReadmePath 存在，则将 noteDirReadmePath 复制到 vitepressNoteDirPath 中。
+        // 如果 noteDirReadmePath 存在，则将 noteDirReadmePath 复制到 vpNoteDirPath 中。
         if (fs.existsSync(noteDirReadmePath)) {
-          fs.copyFileSync(noteDirReadmePath, path.join(vitepressNoteDirPath, 'README.md'));
+          fs.copyFileSync(noteDirReadmePath, path.join(vpNoteDirPath, 'README.md'));
         }
       });
     }

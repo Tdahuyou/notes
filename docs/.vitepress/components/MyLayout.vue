@@ -48,7 +48,8 @@
             <!-- {{ vpData.page.value.title }} -->
         </template>
         <template #aside-outline-before>
-            <span @click="toTop" style="cursor: pointer; height: 1em; width: 1em;" title="回到顶部"><img src="./icon__totop.svg" alt="to top"></span>
+            <span @click="toTop" style="cursor: pointer; height: 1em; width: 1em;" title="回到顶部"><img
+                    src="./icon__totop.svg" alt="to top"></span>
         </template>
 
         <!-- <template #sidebar-nav-before>sidebar-nav-before</template> -->
@@ -75,8 +76,70 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import { data as notesData } from '../../src/notes/notes.data'
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import notesmeta from '../../../scripts/.notesmeta.json'
+
+// --------------------------------------------------------------
+// #region - swiper
+// --------------------------------------------------------------
+// doc: https://swiperjs.com/demos
+
+import Swiper from 'swiper'
+import { Navigation, Pagination } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+
+onMounted(() => {
+    new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        // Keyboard control !无效
+        // keyboard: {
+        //     enabled: true,
+        // },
+        // Mousewheel control !无效
+        // mousewheel: true,
+        loop: true,
+        modules: [Navigation, Pagination],
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            // Pagination custom
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + (index + 1) + "</span>";
+            },
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
+})
+
+// <!-- Slider main container -->
+// <div class="swiper">
+//   <!-- Additional required wrapper -->
+//   <div class="swiper-wrapper">
+//     <!-- Slides -->
+//     <div class="swiper-slide">Slide 1</div>
+//     <div class="swiper-slide">Slide 2</div>
+//     <div class="swiper-slide">Slide 3</div>
+//     ...
+//   </div>
+//   <!-- If we need pagination -->
+//   <div class="swiper-pagination"></div>
+
+//   <!-- If we need navigation buttons -->
+//   <div class="swiper-button-prev"></div>
+//   <div class="swiper-button-next"></div>
+
+//   <!-- If we need scrollbar -->
+//   <div class="swiper-scrollbar"></div>
+// </div>
+// --------------------------------------------------------------
+// #endregion - swiper
+// --------------------------------------------------------------
 
 const { Layout } = DefaultTheme
 const vpData = useData()
@@ -120,7 +183,7 @@ const copyRawFile = () => {
         targetWindow.postMessage({
             senderID: "__TNotes__",
             message: data
-        }, '*') 
+        }, '*')
     }, 1000)
 }
 </script>
@@ -153,7 +216,7 @@ const copyRawFile = () => {
 
 .copy-box .copy-raw-file {
     vertical-align: top;
-    
+
     height: 100%;
     line-height: 100%;
 }
@@ -174,5 +237,50 @@ const copyRawFile = () => {
     text-align: right;
     font-style: italic;
     font-size: .7rem;
+}
+
+/* add some custom styles to set Swiper size */
+.swiper-container {
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.swiper-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.swiper-container .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+    color: #fff;
+    background: var(--vp-c-brand-1);
+}
+
+.swiper-container .swiper-button-prev:after,.swiper-container .swiper-button-next:after {
+    font-size: 1.5rem;
+}
+
+.swiper-container .swiper-button-prev,.swiper-container .swiper-button-next {
+    transition: all .3s;
+    opacity: .5;
+}
+.swiper-container .swiper-button-prev:hover,.swiper-container .swiper-button-next:hover {
+    transform: scale(1.5);
+    opacity: 1;
 }
 </style>

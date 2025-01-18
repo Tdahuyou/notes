@@ -50,15 +50,37 @@
 
 ## 2. 💻 题解.1 - 双指针暴力求解
 
-![](assets/2024-09-25-07-26-04.png)
+::: swiper
+![](assets/2025-01-18-23-36-52.png)
+![](assets/2025-01-18-23-36-56.png)
+![](assets/2025-01-18-23-37-00.png)
+:::
 
-```js
+::: code-group
+
+```js [js]
 var twoSum = function (nums, target) {
   for (let i = 0; i < nums.length - 1; i++)
     for (let j = i + 1; j < nums.length; j++)
       if (target === nums[j] + nums[i]) return [i, j]
 }
 ```
+
+```ts [ts]
+var twoSum = function (nums, target) {
+  const map = new Map();
+  for (let i = 0; i < nums.length; i++) {
+    const item = nums[i];
+    const anotherNum = target - item;
+    if (map.has(anotherNum)) {
+      return [i, map.get(anotherNum)];
+    }
+    map.set(item, i);
+  }
+};
+```
+
+:::
 
 - 时间复杂度：`O(n^2)`
 - 空间复杂度：`O(1)`
