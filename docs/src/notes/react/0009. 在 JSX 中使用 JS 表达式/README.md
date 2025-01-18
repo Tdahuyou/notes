@@ -4,6 +4,8 @@
 - [1. 📒 在 JSX 中使用 JS 表达式](#1--在-jsx-中使用-js-表达式)
 - [2. 💻 demos.1 - 完整示例](#2--demos1---完整示例)
 - [3. 🔍 扩展 - Hedy Lamarr 是谁？](#3--扩展---hedy-lamarr-是谁)
+- [4. 💻 demos.2 - 在表达式中无法渲染的一些特殊值](#4--demos2---在表达式中无法渲染的一些特殊值)
+- [5. 💻 demos.3 - 无法渲染普通对象，可以渲染 react 元素对象](#5--demos3---无法渲染普通对象可以渲染-react-元素对象)
 <!-- endregion:toc -->
 - 在 jsx 中可以使用 `{}` 语法来动态插入 js 表达式。
 - 类似于 vue 中的指令 v-bind 的作用。
@@ -129,3 +131,110 @@ createRoot(document.getElementById('root')).render(
 - 在美国，Lamarr 更名为 Hedy Lamarr 并开始了她的好莱坞生涯。她出演了许多成功的电影，包括《齐格菲女郎》（Ziegfeld Girl, 1941）和《塞缪尔·戈德温的天堂》（Heavenly Partners, 1947）等。
 - 除了她的演艺事业外，Lamarr 还是一名才华横溢的发明家。她对技术非常感兴趣，并与音乐家乔治·安泰尔共同开发了一种称为“频率跳变”（frequency hopping）的技术，这项技术最初是为了帮助盟军在第二次世界大战期间对抗德国潜艇的干扰信号。虽然当时这项专利没有被广泛使用，但它的原理后来成为了现代无线通信技术的基础之一，包括Wi-Fi、蓝牙以及手机网络等。
 - 直到晚年，Hedy Lamarr 的科学贡献才逐渐被人们所认识。1997年，她获得了电子前沿基金会（Electronic Frontier Foundation, EFF）颁发的先锋奖，以表彰她在扩展频谱通信领域的贡献。尽管她的名字可能不如她的银幕形象那样广为人知，但她作为一位先驱女性科学家的地位是不可否认的。
+
+## 4. 💻 demos.2 - 在表达式中无法渲染的一些特殊值
+
+```jsx
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+
+// 表达式的值如果是以下这些特殊值，则不会渲染。
+const x1 = null
+const x2 = undefined
+const x3 = false
+const x4 = true
+const x5 = ''
+const x6 = <>{/* 注释内容 */}</>
+const x7 = []
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    {/* 下面这些特殊值不会渲染到页面上 */}
+    <div>x1: {x1}</div>
+    <div>x2: {x2}</div>
+    <div>x3: {x3}</div>
+    <div>x4: {x4}</div>
+    <div>x5: {x5}</div>
+    <div>x6: {x6}</div>
+    <div>x7: {x7}</div>
+
+    <hr />
+
+    {/* 如果要在页面上展示这些特殊值，可以直接书写对应的字符串形式。 */}
+    <div>x1: null</div>
+    <div>x2: undefined</div>
+    <div>x3: false</div>
+    <div>x4: true</div>
+    <div>x5: ''</div>
+    <div>x6: {"<>{/* 注释内容 */}</>"}</div>
+    <div>x7: []</div>
+  </StrictMode>
+)
+```
+
+- 最终渲染结果如下：
+- ![](assets/2025-01-18-07-42-02.png)
+- ![](assets/2025-01-18-07-42-31.png)
+
+## 5. 💻 demos.3 - 无法渲染普通对象，可以渲染 react 元素对象
+
+::: code-group
+
+```jsx [❌ 无法渲染普通对象]
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+
+const userInfo = {
+  name: 'Tdahuyou',
+  age: 25,
+}
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    {userInfo} // [!code error]
+    {/*
+      ❌ 这种写法会报错
+      Objects are not valid as a React child (found: object with keys {name, age}).
+    */}
+  </StrictMode>
+)
+```
+
+```jsx [✅ 可以渲染 react 元素对象]
+import { StrictMode, createElement } from 'react'
+import { createRoot } from 'react-dom/client'
+
+const userInfo = {
+  name: 'Tdahuyou',
+  age: 25,
+}
+
+// 创建 react element 对象
+
+// 写法 1：jsx 式写法：【更常见】
+const userInfoContainer = <div>
+  <p>name: {userInfo.name}</p>
+  <p>age: {userInfo.age}</p>
+</div>
+
+// 写法 2：createElement 式写法：【更写法 1 是等效的】
+// const userInfoContainer = createElement('div', null,
+//   createElement('p', null, `name: ${userInfo.name}`),
+//   createElement('p', null, `age: ${userInfo.age}`),
+// )
+
+console.log(typeof userInfoContainer) // => object
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    {/* ✅ 可以渲染 react 元素对象 */}
+    {userInfoContainer}
+  </StrictMode>
+)
+```
+
+:::
+
+- 最终渲染结果如下：
+- ![](assets/2025-01-18-07-52-37.png)
+- ![](assets/2025-01-18-07-52-50.png)

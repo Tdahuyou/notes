@@ -56,12 +56,58 @@
 
 ## 3. 第一个 react 应用
 
+
+- [x] [0042. 第一个 react v16 程序 - 通过 CDN 引入 react、react-dom 在页面上渲染出 Hello World](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html) <!-- [locale](./0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html) -->  
+  - [1. 🔗 相关链接](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#1--相关链接)
+  - [2. 📒 通过 CDN 的方式引入相关依赖](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#2--通过-cdn-的方式引入相关依赖)
+  - [3. 📒 API 简介 - `React.createElement`](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#3--api-简介---reactcreateelement)
+  - [4. 📒 API 简介 - `React.render`](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#4--api-简介---reactrender)
+  - [5. 💻 demos.1 - 在页面上渲染出 Hello World](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#5--demos1---在页面上渲染出-hello-world)
+  - [6. 💻 demos.2 - 初步认识 React.createElement 和 JSX](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#6--demos2---初步认识-reactcreateelement-和-jsx)
+  - [7. 🤔 `React.createElement` 跟 `document.createElement` 是一样的吗？](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#7--reactcreateelement-跟-documentcreateelement-是一样的吗)
+  - [8. 🤔 `react` 核心库和 `react-dom` 库之间的关系是？](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#8--react-核心库和-react-dom-库之间的关系是)
+  - [9. 🤔 为什么一旦使用了 `JSX` 语法，就必须要引入 `react` 核心库？](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#9--为什么一旦使用了-jsx-语法就必须要引入-react-核心库)
+  - [10. 🤔 通过脚手架（比如 vite、umi、create-react-app）来搭建工程 vs. 通过（.html）页面的方式来直接引入 react 相关的库](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#10--通过脚手架比如-viteumicreate-react-app来搭建工程-vs-通过html页面的方式来直接引入-react-相关的库)
+  - [11. 📒 补充说明 - script 标签身上的 type 属性](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#11--补充说明---script-标签身上的-type-属性)
+  - [12. 📒 补充说明 - script 标签身上的 crossorigin 属性](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#12--补充说明---script-标签身上的-crossorigin-属性)
+  - 知识点
+    - 了解 React.createElement 的基本使用
+    - 了解 ReactDOM.render 的基本使用
+    - 了解 JSX 其实就是 React.createElement 的简写，是一个语法糖。
+  - 本节不使用任何脚手架工具，通过 CDN 引入 react、react-dom，直接在（.html）页面上使用 react，实现一个 demo - 在页面上渲染出 Hello World。并借此 demo 来熟悉 React.createElement 和 ReactDOM.render 的基本用法。
+  
+
 - [x] [0001. 第一个 react v19 程序 - 通过 CDN 引入 react、react-dom 在页面上渲染出 Hello World](https://tdahuyou.github.io/notes/notes/react/0001.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html) <!-- [locale](./0001.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html) -->  
   - [1. 💻 demos.1 - Hello World](https://tdahuyou.github.io/notes/notes/react/0001.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#1--demos1---hello-world)
   - 通过 esm 的方式引入 react、react-dom，并使用 ReactDOM.createRoot() 方法将 react 元素渲染到页面上。
   
 
-## 4. Describing the UI
+## 4. 需要注意的一些和版本相关的问题
+
+- [x] [0043. ReactDOM.render](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html) <!-- [locale](./0043.%20ReactDOM.render/README.html) -->  
+  - [1. ⚠️ 兼容性问题 - 从 v18 开始，不再支持 ReactDOM.render 这个 API](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#1-️-兼容性问题---从-v18-开始不再支持-reactdomrender-这个-api)
+  - [2. 📒 ReactDOM.render 的基本语法](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#2--reactdomrender-的基本语法)
+  - [3. 📒 ReactDOM.render 的作用 - 渲染 react 组件到 DOM 中](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#3--reactdomrender-的作用---渲染-react-组件到-dom-中)
+  - [4. 💻 demos.1 - ReactDOM.render 的基本使用示例](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#4--demos1---reactdomrender-的基本使用示例)
+  - [5. 📒 ReactDOM.render 的替代品：ReactDOM.createRoot](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#5--reactdomrender-的替代品reactdomcreateroot)
+  - [6. 💻 demos.2 - ReactDOM.createRoot 的基本使用示例](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#6--demos2---reactdomcreateroot-的基本使用示例)
+  - [7. 🤔 为什么弃用 ReactDOM.render？](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#7--为什么弃用-reactdomrender)
+  - **`ReactDOM.render` 是 React 17 及之前版本的核心 API**，用于将 React 元素渲染到 DOM 中。
+  - **在 React 18 中，它被废弃，推荐使用 `ReactDOM.createRoot`**，以支持更现代化的并发渲染特性。
+  - 如果你正在使用 React 18 或更高版本，请迁移到新的 API，以利用 React 的性能优化和新特性。
+  
+
+- [x] [0041. 在 react v19 中，移除了 UMD，推荐使用 ESM](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html) <!-- [locale](./0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html) -->  
+  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#1--links)
+  - [2. 🤔 什么是 UMD？](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#2--什么是-umd)
+  - [3. 🤔 为什么移除 UMD？](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#3--为什么移除-umd)
+  - [4. 📒 React 19 中的相关的变化及影响](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#4--react-19-中的相关的变化及影响)
+  - [5. 📒 替代方案：使用 ESM](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#5--替代方案使用-esm)
+  - React 19 不再支持 UMD 构建，推动开发者使用更现代的 ESM 模块加载方式。
+  - 这种变化有助于减少复杂性，提高性能，并与现代 JavaScript 开发实践保持一致。如果您的项目仍在使用 UMD，需要尽快切换到 ESM。
+  
+
+## 5. Describing the UI
 
 - [x] [0013. JSX 概述](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html) <!-- [locale](./0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html) -->  
   - [1. 📒 JSX 是什么](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#1--jsx-是什么)
@@ -97,6 +143,8 @@
   - [1. 📒 在 JSX 中使用 JS 表达式](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#1--在-jsx-中使用-js-表达式)
   - [2. 💻 demos.1 - 完整示例](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#2--demos1---完整示例)
   - [3. 🔍 扩展 - Hedy Lamarr 是谁？](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#3--扩展---hedy-lamarr-是谁)
+  - [4. 💻 demos.2 - 在表达式中无法渲染的一些特殊值](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#4--demos2---在表达式中无法渲染的一些特殊值)
+  - [5. 💻 demos.3 - 无法渲染普通对象，可以渲染 react 元素对象](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#5--demos3---无法渲染普通对象可以渲染-react-元素对象)
   - 在 jsx 中可以使用 `{}` 语法来动态插入 js 表达式。
   - 类似于 vue 中的指令 v-bind 的作用。
   - JSX 让你可以在 Jaavascript 中嵌入 HTML 语法。而大括号可以让你在 JSX 中 “回到” JavaScript 中，这样你就可以从你的代码中嵌入一些变量并展示给用户。
@@ -105,10 +153,11 @@
     - 在 JSX 的大括号中插入普通对象（比如 `{ foo: 123, bar: 'abc' }`）是无法渲染的，会报错。
   
 
-- [ ] [0017. 在 JSX 中书写内联样式 style](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html) <!-- [locale](./0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html) -->  
-  - [1. 💻 demo - 在 JSX 中书写内联样式 style](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html#1--demo---在-jsx-中书写内联样式-style)
-  - [2. 💻 demo - 在 JSX 中的 style 不能写成字符串形式](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html#2--demo---在-jsx-中的-style-不能写成字符串形式)
-  - [3. 🤖 在 JSX 中书写内联样式 style](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html#3--在-jsx-中书写内联样式-style)
+- [x] [0017. 在 JSX 中书写内联样式 style](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html) <!-- [locale](./0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html) -->  
+  - [1. 📒 在 JSX 中书写内联样式 style](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html#1--在-jsx-中书写内联样式-style)
+  - [2. 💻 demos.1 - ❌ 错误写法 - 在 JSX 中的 style 写成字符串形式](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html#2--demos1----错误写法---在-jsx-中的-style-写成字符串形式)
+  - [3. 💻 demos.2 - ✅ 正确写法 - 采用对象的形式来写，属性名使用小驼峰的形式](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html#3--demos2----正确写法---采用对象的形式来写属性名使用小驼峰的形式)
+  - [4. 💻 demos.3 - 动态样式](https://tdahuyou.github.io/notes/notes/react/0017.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%B9%A6%E5%86%99%E5%86%85%E8%81%94%E6%A0%B7%E5%BC%8F%20style/README.html#4--demos3---动态样式)
   - 本文介绍了在 JSX 中书写内联样式 style 的一些注意事项。
   
 
@@ -147,7 +196,7 @@
   - 如果要渲染的列表（数组）中包含普通对象，比如 `{ title: 'Cabbage', isFruit: false, id: 1 }`，那么会报错，对象无法直接渲染。通常会使用 `arr.map` 来对对象数组 `arr` 做一个映射处理，将每一个对象映射为对应的 React 元素，然后渲染 React 元素列表。
   
 
-## 5. dangerouslySetInnerHTML
+## 6. dangerouslySetInnerHTML
 
 - [ ] [0016. dangerouslySetInnerHTML](https://tdahuyou.github.io/notes/notes/react/0016.%20dangerouslySetInnerHTML/README.html) <!-- [locale](./0016.%20dangerouslySetInnerHTML/README.html) -->  
   - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0016.%20dangerouslySetInnerHTML/README.html#1--links)
@@ -166,15 +215,15 @@
   - 在 JSX 中，使用 dangerouslySetInnerHTML 可以在组件中直接插入 html 标签。
   
 
-## 6. ref
+## 7. ref
 
 - [ ] [0007. ref](https://tdahuyou.github.io/notes/notes/react/0007.%20ref/README.html) <!-- [locale](./0007.%20ref/README.html) -->  
   - [1. ⏰](https://tdahuyou.github.io/notes/notes/react/0007.%20ref/README.html#1-)
   
 
-## 7. 组件篇
+## 8. 组件篇
 
-### 7.1. 认识组件
+### 8.1. 认识组件
 
 - [ ] [0021. 在 React 中，一个组件都有哪些部分组成？](https://tdahuyou.github.io/notes/notes/react/0021.%20%E5%9C%A8%20React%20%E4%B8%AD%EF%BC%8C%E4%B8%80%E4%B8%AA%E7%BB%84%E4%BB%B6%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B%E9%83%A8%E5%88%86%E7%BB%84%E6%88%90%EF%BC%9F/README.html) <!-- [locale](./0021.%20%E5%9C%A8%20React%20%E4%B8%AD%EF%BC%8C%E4%B8%80%E4%B8%AA%E7%BB%84%E4%BB%B6%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B%E9%83%A8%E5%88%86%E7%BB%84%E6%88%90%EF%BC%9F/README.html) -->  
   - [1. 🤖 在 React 中，一个组件都有哪些部分组成？](https://tdahuyou.github.io/notes/notes/react/0021.%20%E5%9C%A8%20React%20%E4%B8%AD%EF%BC%8C%E4%B8%80%E4%B8%AA%E7%BB%84%E4%BB%B6%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B%E9%83%A8%E5%88%86%E7%BB%84%E6%88%90%EF%BC%9F/README.html#1--在-react-中一个组件都有哪些部分组成)
@@ -209,7 +258,7 @@
   - ⏰ pending
   
 
-### 7.2. 组件名
+### 8.2. 组件名
 
 - [x] [0002. react 组件名的命名规则](https://tdahuyou.github.io/notes/notes/react/0002.%20react%20%E7%BB%84%E4%BB%B6%E5%90%8D%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/README.html) <!-- [locale](./0002.%20react%20%E7%BB%84%E4%BB%B6%E5%90%8D%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/README.html) -->  
   - [1. 🔍 查看 react 官方对组件名的命名规则的描述](https://tdahuyou.github.io/notes/notes/react/0002.%20react%20%E7%BB%84%E4%BB%B6%E5%90%8D%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/README.html#1--查看-react-官方对组件名的命名规则的描述)
@@ -217,7 +266,7 @@
   - **React component names must always start with a capital letter, while HTML tags must be lowercase.**
   
 
-### 7.3. 样式
+### 8.3. 样式
 
 - [x] [0004. 使用 className 给元素添加 class](https://tdahuyou.github.io/notes/notes/react/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E7%BB%99%E5%85%83%E7%B4%A0%E6%B7%BB%E5%8A%A0%20class/README.html) <!-- [locale](./0004.%20%E4%BD%BF%E7%94%A8%20className%20%E7%BB%99%E5%85%83%E7%B4%A0%E6%B7%BB%E5%8A%A0%20class/README.html) -->  
   - [1. 🔗 react 官网 - adding-styles](https://tdahuyou.github.io/notes/notes/react/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E7%BB%99%E5%85%83%E7%B4%A0%E6%B7%BB%E5%8A%A0%20class/README.html#1--react-官网---adding-styles)
@@ -229,9 +278,9 @@
     - ❌ `<img class="avatar" />`
   
 
-### 7.4. 属性
+### 8.4. 属性
 
-### 7.5. 了解属性的基本使用
+### 8.5. 了解属性的基本使用
 
 - [ ] [0019. 组件属性的传递和接收](https://tdahuyou.github.io/notes/notes/react/0019.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E4%BC%A0%E9%80%92%E5%92%8C%E6%8E%A5%E6%94%B6/README.html) <!-- [locale](./0019.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E4%BC%A0%E9%80%92%E5%92%8C%E6%8E%A5%E6%94%B6/README.html) -->  
   - [1. 💻 函数组件和类组件的属性传递](https://tdahuyou.github.io/notes/notes/react/0019.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E4%BC%A0%E9%80%92%E5%92%8C%E6%8E%A5%E6%94%B6/README.html#1--函数组件和类组件的属性传递)
@@ -242,7 +291,7 @@
   - 对于类组件，属性会作为一个对象的属性，传递给构造函数的参数。
   
 
-### 7.6. 通过 children 属性传递内容
+### 8.6. 通过 children 属性传递内容
 - [x] [0005. 通过 props 和 children 来传递元素内容](https://tdahuyou.github.io/notes/notes/react/0005.%20%E9%80%9A%E8%BF%87%20props%20%E5%92%8C%20children%20%E6%9D%A5%E4%BC%A0%E9%80%92%E5%85%83%E7%B4%A0%E5%86%85%E5%AE%B9/README.html) <!-- [locale](./0005.%20%E9%80%9A%E8%BF%87%20props%20%E5%92%8C%20children%20%E6%9D%A5%E4%BC%A0%E9%80%92%E5%85%83%E7%B4%A0%E5%86%85%E5%AE%B9/README.html) -->  
   - [1. 📒 react 组件中的 props.children 相当于 vue 组件中的 slot 插槽](https://tdahuyou.github.io/notes/notes/react/0005.%20%E9%80%9A%E8%BF%87%20props%20%E5%92%8C%20children%20%E6%9D%A5%E4%BC%A0%E9%80%92%E5%85%83%E7%B4%A0%E5%86%85%E5%AE%B9/README.html#1--react-组件中的-propschildren-相当于-vue-组件中的-slot-插槽)
   - [2. 📒 传递元素内容](https://tdahuyou.github.io/notes/notes/react/0005.%20%E9%80%9A%E8%BF%87%20props%20%E5%92%8C%20children%20%E6%9D%A5%E4%BC%A0%E9%80%92%E5%85%83%E7%B4%A0%E5%86%85%E5%AE%B9/README.html#2--传递元素内容)
@@ -252,7 +301,7 @@
     - 除了 `children`，还可以使用其他 `props`（如 `content1` 和 `content2`）来传递特定的内容，并为这些 `props` 定义默认值。
   
 
-### 7.7. 布尔属性
+### 8.7. 布尔属性
 - [ ] [0025. 布尔属性是什么](https://tdahuyou.github.io/notes/notes/react/0025.%20%E5%B8%83%E5%B0%94%E5%B1%9E%E6%80%A7%E6%98%AF%E4%BB%80%E4%B9%88/README.html) <!-- [locale](./0025.%20%E5%B8%83%E5%B0%94%E5%B1%9E%E6%80%A7%E6%98%AF%E4%BB%80%E4%B9%88/README.html) -->  
   - [1. 📒 什么是布尔属性](https://tdahuyou.github.io/notes/notes/react/0025.%20%E5%B8%83%E5%B0%94%E5%B1%9E%E6%80%A7%E6%98%AF%E4%BB%80%E4%B9%88/README.html#1--什么是布尔属性)
   - [2. 📒 布尔属性名称的由来](https://tdahuyou.github.io/notes/notes/react/0025.%20%E5%B8%83%E5%B0%94%E5%B1%9E%E6%80%A7%E6%98%AF%E4%BB%80%E4%B9%88/README.html#2--布尔属性名称的由来)
@@ -274,7 +323,7 @@
     - `{'true'}` 可以正常渲染。
   
 
-### 7.8. 属性校验
+### 8.8. 属性校验
 - [ ] [0020. 组件属性的校验](https://tdahuyou.github.io/notes/notes/react/0020.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E6%A0%A1%E9%AA%8C/README.html) <!-- [locale](./0020.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E6%A0%A1%E9%AA%8C/README.html) -->  
   - [1. ⏰ TODO](https://tdahuyou.github.io/notes/notes/react/0020.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E6%A0%A1%E9%AA%8C/README.html#1--todo)
   - [2. 📝 Summary](https://tdahuyou.github.io/notes/notes/react/0020.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E6%A0%A1%E9%AA%8C/README.html#2--summary)
@@ -284,11 +333,11 @@
   - [6. 🤖 AI](https://tdahuyou.github.io/notes/notes/react/0020.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E6%A0%A1%E9%AA%8C/README.html#6--ai)
   
 
-### 7.9. 属性默认值
+### 8.9. 属性默认值
 
-### 7.10. 状态
+### 8.10. 状态
 
-### 7.11. 生命周期
+### 8.11. 生命周期
 
 - [ ] [0027. 生命周期](https://tdahuyou.github.io/notes/notes/react/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.html) <!-- [locale](./0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.html) -->  
   - [1. ⏰ TODO：待完善](https://tdahuyou.github.io/notes/notes/react/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.html#1--todo待完善)
@@ -299,11 +348,11 @@
   - [6. 🤖 AI](https://tdahuyou.github.io/notes/notes/react/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.html#6--ai)
   
 
-### 7.12. hooks
+### 8.12. hooks
 
-### 7.13. hoc
+### 8.13. hoc
 
-### 7.14. 内置组件
+### 8.14. 内置组件
 
 - [ ] [0014. React.Fragment](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html) <!-- [locale](./0014.%20React.Fragment/README.html) -->  
   - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#1--links)
@@ -324,9 +373,9 @@
   - 当你在循环中渲染多个元素时，你需要为每一个元素分配一个 key。如果这个元素为 Fragment 时，则需要使用普通的 JSX 语法来提供 key 属性。
   
 
-## 8. 状态管理
+## 9. 状态管理
 
-### 8.1. redux
+### 9.1. redux
 
 - [ ] [0028. redux 的基本使用](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html) <!-- [locale](./0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html) -->  
   - [1. 🔗 redux 官方文档](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#1--redux-官方文档)
@@ -393,7 +442,7 @@
   - 了解 redux 中的 3 个核心组成部分 store、reducer、action，并清楚它们之间的关系。
   
 
-## 9. 第三方库
+## 10. 第三方库
 
 - [x] [0006. react-modal](https://tdahuyou.github.io/notes/notes/react/0006.%20react-modal/README.html) <!-- [locale](./0006.%20react-modal/README.html) -->  
   - [1. 💻 demos.1 - 认识 contentLabel 属性](https://tdahuyou.github.io/notes/notes/react/0006.%20react-modal/README.html#1--demos1---认识-contentlabel-属性)
@@ -465,7 +514,7 @@
   - React-Intl 是一个强大的工具，可帮助开发人员轻松管理和本地化他们的 React 应用程序。
   
 
-## 10. 工程化
+## 11. 工程化
 
 - [x] [0008. npm create vite 使用 vite 快速初始化一个 react 工程](https://tdahuyou.github.io/notes/notes/react/0008.%20npm%20create%20vite%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.html) <!-- [locale](./0008.%20npm%20create%20vite%20%E4%BD%BF%E7%94%A8%20vite%20%E5%BF%AB%E9%80%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%20react%20%E5%B7%A5%E7%A8%8B/README.html) -->  
   
@@ -483,7 +532,7 @@
   - [3. 💻 demos.1 - 测试按钮组件的使用](https://tdahuyou.github.io/notes/notes/react/0036.%20%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20vite%E3%80%81antd%20%E7%9A%84%20react%20%E9%A1%B9%E7%9B%AE/README.html#3--demos1---测试按钮组件的使用)
   
 
-## 11. 小练习
+## 12. 小练习
 
 - [ ] [0018. demo-图片定时切换](https://tdahuyou.github.io/notes/notes/react/0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.html) <!-- [locale](./0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.html) -->  
   - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.html#1--links)
@@ -492,68 +541,11 @@
   - 通过本节的 demo，强调了一个点 —— 由 `React.createElement` 创建的 react 元素对象是不可变的。
   
 
-## 12. UI 组件库
+## 13. UI 组件库
 
 - [ ] [0037. 学习 antd Message 组件的使用](https://tdahuyou.github.io/notes/notes/react/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html) <!-- [locale](./0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html) -->  
   - [1. 🔗 Message 全局提示](https://tdahuyou.github.io/notes/notes/react/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html#1--message-全局提示)
   - [2. 💻 demos.1 - 了解 Message 的基本使用](https://tdahuyou.github.io/notes/notes/react/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html#2--demos1---了解-message-的基本使用)
   - [3. 💻 demos.2 - 理解 contextHolder 的作用](https://tdahuyou.github.io/notes/notes/react/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html#3--demos2---理解-contextholder-的作用)
   - [4. 🔗 来自官方文档的回复：为什么 message 不能获取 context、redux 的内容和 ConfigProvider 的 locale/prefixCls/theme 等配置？](https://tdahuyou.github.io/notes/notes/react/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html#4--来自官方文档的回复为什么-message-不能获取-contextredux-的内容和-configprovider-的-localeprefixclstheme-等配置)
-  
-
-## 13. React v19
-
-- [x] [0041. 在 react v19 中，移除了 UMD，推荐使用 ESM](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html) <!-- [locale](./0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#1--links)
-  - [2. 🤔 什么是 UMD？](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#2--什么是-umd)
-  - [3. 🤔 为什么移除 UMD？](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#3--为什么移除-umd)
-  - [4. 📒 React 19 中的相关的变化及影响](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#4--react-19-中的相关的变化及影响)
-  - [5. 📒 替代方案：使用 ESM](https://tdahuyou.github.io/notes/notes/react/0041.%20%E5%9C%A8%20react%20v19%20%E4%B8%AD%EF%BC%8C%E7%A7%BB%E9%99%A4%E4%BA%86%20UMD%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20ESM/README.html#5--替代方案使用-esm)
-  - React 19 不再支持 UMD 构建，推动开发者使用更现代的 ESM 模块加载方式。
-  - 这种变化有助于减少复杂性，提高性能，并与现代 JavaScript 开发实践保持一致。如果您的项目仍在使用 UMD，需要尽快切换到 ESM。
-  
-
-## 14. react-dom
-
-- [x] [0043. ReactDOM.render](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html) <!-- [locale](./0043.%20ReactDOM.render/README.html) -->  
-  - [1. ⚠️ 兼容性问题 - 从 v18 开始，不再支持 ReactDOM.render 这个 API](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#1-️-兼容性问题---从-v18-开始不再支持-reactdomrender-这个-api)
-  - [2. 📒 ReactDOM.render 的基本语法](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#2--reactdomrender-的基本语法)
-  - [3. 📒 ReactDOM.render 的作用 - 渲染 react 组件到 DOM 中](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#3--reactdomrender-的作用---渲染-react-组件到-dom-中)
-  - [4. 💻 demos.1 - ReactDOM.render 的基本使用示例](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#4--demos1---reactdomrender-的基本使用示例)
-  - [5. 📒 ReactDOM.render 的替代品：ReactDOM.createRoot](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#5--reactdomrender-的替代品reactdomcreateroot)
-  - [6. 💻 demos.2 - ReactDOM.createRoot 的基本使用示例](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#6--demos2---reactdomcreateroot-的基本使用示例)
-  - [7. 🤔 为什么弃用 ReactDOM.render？](https://tdahuyou.github.io/notes/notes/react/0043.%20ReactDOM.render/README.html#7--为什么弃用-reactdomrender)
-  - **`ReactDOM.render` 是 React 17 及之前版本的核心 API**，用于将 React 元素渲染到 DOM 中。
-  - **在 React 18 中，它被废弃，推荐使用 `ReactDOM.createRoot`**，以支持更现代化的并发渲染特性。
-  - 如果你正在使用 React 18 或更高版本，请迁移到新的 API，以利用 React 的性能优化和新特性。
-  
-
-## 15. ⏰ 待分组
-
-- [ ] [0042. 第一个 react v19 程序 - 通过 CDN 引入 react、react-dom 在页面上渲染出 Hello World](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html) <!-- [locale](./0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#1--links)
-  - [2. 📒 通过 CDN 的方式引入相关依赖](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#2--通过-cdn-的方式引入相关依赖)
-  - [3. 📒 API 描述](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#3--api-描述)
-  - [4. 💻 demo - 在页面上渲染出 Hello World](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#4--demo---在页面上渲染出-hello-world)
-  - [5. 💻 demo - 熟悉 React.createElement 的参数](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#5--demo---熟悉-reactcreateelement-的参数)
-  - [6. 💻 demo - 使用 JSX 来简写](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#6--demo---使用-jsx-来简写)
-  - [7. 🤔 思考：`React.createElement` 跟 `document.createElement` 是一样的吗？](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#7--思考reactcreateelement-跟-documentcreateelement-是一样的吗)
-  - [8. 🤔 思考：`react` 核心库和 `react-dom` 库之间的关系是？](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#8--思考react-核心库和-react-dom-库之间的关系是)
-  - [9. 🤔 思考：为什么一旦使用了 `JSX` 语法，就必须要引入 `react` 核心库？](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#9--思考为什么一旦使用了-jsx-语法就必须要引入-react-核心库)
-  - [10. 🤔 思考：通过脚手架（比如 vite、umi、create-react-app）来搭建工程 vs. 通过（.html）页面的方式来直接引入 react 相关的库](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#10--思考通过脚手架比如-viteumicreate-react-app来搭建工程-vs-通过html页面的方式来直接引入-react-相关的库)
-  - [11. 🤖 请介绍一下 script 标签身上的 type 属性](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#11--请介绍一下-script-标签身上的-type-属性)
-    - [11.1. **标准用法**](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#111-标准用法)
-    - [11.2. **模块**](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#112-模块)
-    - [11.3. **非 JavaScript 类型**](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#113-非-javascript-类型)
-    - [11.4. **历史用法**](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#114-历史用法)
-    - [11.5. **实用考虑**](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#115-实用考虑)
-  - [12. 🤖 请介绍一下 script 标签身上的 crossorigin 属性](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#12--请介绍一下-script-标签身上的-crossorigin-属性)
-    - [12.1. 值](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#121-值)
-    - [12.2. 作用](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#122-作用)
-    - [12.3. 示例](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v19%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#123-示例)
-  - 知识点
-    - 了解 React.createElement 的基本使用
-    - 了解 ReactDOM.render 的基本使用
-    - 了解 JSX 其实就是 React.createElement 的简写，是一个语法糖。
-  - 本节不使用任何脚手架工具，通过 CDN 引入 react、react-dom，直接在（.html）页面上使用 react，实现一个 demo - 在页面上渲染出 Hello World。并借此 demo 来熟悉 React.createElement 和 ReactDOM.render 的基本用法。
   
