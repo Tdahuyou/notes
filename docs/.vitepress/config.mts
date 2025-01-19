@@ -219,45 +219,26 @@ export default defineConfig({
         ],
       },
       {
-        text: '其他',
+        text: '做饭',
         collapsed: true,
         items: [
-          {
-            text: '随笔',
-            collapsed: true,
-            items: [
-              { text: '✍️ 地铁到站 - 围城', link: '/others/blog/1' },
-              { text: '✍️ 葛大爷语录', link: '/others/blog/2' },
-            ],
-          },
-          {
-            text: '做饭',
-            collapsed: true,
-            items: [
-              { text: '😋 蛋羹', link: '/others/cooking/dan-geng' },
-              { text: '😋 蛋挞', link: '/others/cooking/dan-ta' },
-              { text: '😋 鸡翅', link: '/others/cooking/ji-chi' },
-            ],
-          },
-          {
-            text: '阅读',
-            collapsed: true,
-            items: [{ text: '📚 《女人的胜利》余华', link: '/others/books/1' }],
-          },
-          {
-            text: '关于我',
-            collapsed: true,
-            items: [
-              { text: '🧑🏻‍💻 关于我', link: '/others/about-me/about-me' },
-              { text: '🐱 神兽', link: '/others/about-me/we' },
-              { text: '✍️ 创作', link: '/others/about-me/creation' },
-              { text: '📮 邮箱', link: '/others/about-me/email' },
-              { text: '🧑🏻‍💻 微信', link: '/others/about-me/we-chat' },
-              { text: '💰 Donate', link: '/others/about-me/donate' },
-            ],
-          },
+          { text: '😋 蛋羹', link: '/cooking/dan-geng' },
+          { text: '😋 蛋挞', link: '/cooking/dan-ta' },
+          { text: '😋 鸡翅', link: '/cooking/ji-chi' },
         ],
       },
+      {
+        text: '关于我',
+        collapsed: true,
+        items: [
+          { text: '🧑🏻‍💻 关于我', link: '/about-me/about-me' },
+          { text: '🐱 神兽', link: '/about-me/we' },
+          { text: '✍️ 创作', link: '/about-me/creation' },
+          { text: '📮 邮箱', link: '/about-me/email' },
+          { text: '🧑🏻‍💻 微信', link: '/about-me/we-chat' },
+        ],
+      },
+      { text: '💰 Donate', link: '/donate' },
       { text: '💭 留言版', link: '/message-board' },
     ],
 

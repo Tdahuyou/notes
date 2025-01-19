@@ -61,9 +61,9 @@ const isExpandable = ref(false); // 是否需要显示“全文”按钮
 // 计算文本高度并判断是否需要“全文”按钮
 const checkTextHeight = () => {
   if (textContainer.value) {
-    const maxHeight = parseFloat(getComputedStyle(textContainer.value).lineHeight) * 5; // 计算 6rem 高度
-    console.log(textContainer.value.scrollHeight, maxHeight);
-    isExpandable.value = textContainer.value.scrollHeight > maxHeight; // 如果内容高度超出 5rem，则可以展开
+    const maxHeight = parseFloat(getComputedStyle(textContainer.value).lineHeight) * 6;
+    // console.log(textContainer.value.scrollHeight, maxHeight);
+    isExpandable.value = textContainer.value.scrollHeight > maxHeight; // 如果内容高度超出 6rem，则可以展开
   }
 };
 
@@ -97,6 +97,10 @@ onMounted(() => {
       :isModalVisible="isModalVisible"></slot>
   </div>
 
+  <div class="__dynamic__time-container">
+    <slot name="time"></slot>
+  </div>
+
   <div class="__dynamic__modal" v-show="isModalVisible" @click.self="closeModal">
     <span class="__dynamic__close" @click="closeModal">&times;</span>
     <img class="__dynamic__modal-content" :src="currentImage" alt="Preview" />
@@ -106,6 +110,11 @@ onMounted(() => {
 </template>
 
 <style>
+.__dynamic__time-container {
+  font-size: .6rem;
+  color: gray;
+}
+
 .__dynamic__text-container {
   position: relative;
   margin-bottom: 1rem;
@@ -118,7 +127,7 @@ onMounted(() => {
 
 .__dynamic__text-content.collapsed {
   /* 折叠状态的最大高度 */
-  max-height: 5rem;
+  max-height: 6rem;
 }
 
 .__dynamic__toggle-button {
