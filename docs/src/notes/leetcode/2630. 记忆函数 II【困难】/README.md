@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 现给定一个函数 `fn` ，返回该函数的一个 **记忆化** 版本。
 
 一个 **记忆化** 的函数是一个函数，它不会被相同的输入调用两次。而是会返回一个缓存的值。
@@ -93,6 +95,8 @@ function memoize(fn: Fn): Fn {
  * console.log(callCount) // 1
  */
 ```
+
+
 
 
 

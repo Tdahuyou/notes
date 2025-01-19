@@ -326,7 +326,7 @@ export default defineConfig({
               md.renderer.rules.paragraph_open = () => ''
               md.renderer.rules.paragraph_close = () => ''
               // 将图片直接包裹到 `<div class="swiper-slide">` 中，具体元素格式，参照 Swiper.js 官方文档。
-              md.renderer.rules.image = (tokens, idx, options, env, slf) => `<div class="swiper-slide">${defaultRenderRulesImage(tokens, idx, options, env, slf)}</div>`
+              md.renderer.rules.image = (tokens, idx, options, env, slf) => `<div class="swiper-slide">${defaultRenderRulesImage(tokens, idx, options, env, slf).replaceAll('<div class="swiper-slide">', '').replaceAll('</div>', '')}</div>`
 
               // 开始标签，创建 swiper 容器和 wrapper
               return `<div class="swiper-container"><div class="swiper-wrapper">\n`

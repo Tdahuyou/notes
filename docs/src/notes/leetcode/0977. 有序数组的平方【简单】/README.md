@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给你一个按 **非递减顺序** 排序的整数数组 `nums`，返回 **每个数字的平方** 组成的新数组，要求也按 **非递减顺序** 排序。
 
 **示例 1：**
@@ -70,6 +72,8 @@ var sortedSquares = function (nums) {
 - 🤔 问：在这种解法中，将 `while (l <= r) { ... }` 改为 `while (l < r) { ... }` 可以吗？
   - 不行。
   - 每次 while 循环遍历一遍，left 或者 right 指针挪动一步，为了确保每个元素都被遍历到，循环条件不能改为 `l < r`，否则会漏掉一个元素（俩指针相撞 `l == r` 的时候）。
+
+
 
 
 

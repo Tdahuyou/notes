@@ -22,6 +22,8 @@ new ArrayWrapper(...)
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 创建一个名为 `ArrayWrapper` 的类，它在其构造函数中接受一个整数数组作为参数。该类应具有以下两个特性：
 
 - 当使用 `+` 运算符将两个该类的实例相加时，结果值为两个数组中所有元素的总和。
@@ -104,6 +106,8 @@ ArrayWrapper.prototype.toString = function() {
  * String(obj2); // "[3,4]"
  */
 ```
+
+
 
 
 

@@ -13,6 +13,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定一个包含红色、白色和蓝色、共 `n` 个元素的数组 `nums` ，**[原地](https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95)** 对它们进行排序，使得相同颜色的元素相邻，并按照红色、白色、蓝色顺序排列。
 
 我们使用整数 `0`、 `1` 和 `2` 分别表示红色、白色和蓝色。
@@ -127,6 +129,8 @@ var sortColors = function (nums) {
 - **思路：**
   1. 用一个辅助数组 `arr` 记录下 `nums` 中的 0，1，2 的出现次数。
   2. 根据 `arr` 来重写 `nums`
+
+
 
 
 

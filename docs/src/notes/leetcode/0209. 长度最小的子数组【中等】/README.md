@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定一个含有 `n` 个正整数的数组和一个正整数 `target` **。**
 
 找出该数组中满足其总和大于等于 `target` 的长度最小的
@@ -51,6 +53,8 @@
 ```
 
 ```
+
+
 
 
 

@@ -11,6 +11,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定一个 `n` 个元素有序的（升序）整型数组 `nums` 和一个目标值 `target`  ，写一个函数搜索 `nums` 中的 `target`，如果目标值存在返回下标，否则返回 `-1`。
 
 
@@ -96,6 +98,8 @@ var search = function(nums, target) {
   - 练习算法题：手写 indexOf
   - 练习算法题，主要是锻炼思维，思考思考 indexOf 的实现逻辑。解决实际问题的时候，推荐直接使用 indexOf API 来处理，一方面是简单，只需要一行就搞定了，另外一方面是原生 API 的性能表现很可能会比我们手写的逻辑更好一些。
   - 从本题的提交记录来看，indexOf 的执行时间和消耗的内存都是上述题解中最小的。
+
+
 
 
 

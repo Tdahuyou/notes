@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 设计实现双端队列。
 
 实现 `MyCircularDeque` 类:
@@ -54,6 +56,8 @@ circularDeque.getFront();				// 返回 4
 ```
 
 ```
+
+
 
 
 

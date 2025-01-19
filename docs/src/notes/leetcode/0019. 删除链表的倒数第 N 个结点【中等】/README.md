@@ -4,11 +4,11 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 三指针暴力解法](#2--题解1---三指针暴力解法)
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/)
-
 - 本文的题解中提到了一个概念【哑节点（dummy node）、哨兵节点（sentinel node）】这个东西在处理链表中还是蛮常用的，如果不清楚什么是【哑节点（dummy node）、哨兵节点（sentinel node）】，可以结合这道题来了解一下。
 
 ## 1. 📝 Description
+
+::: details [leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/)
 
 给你一个链表，删除链表的倒数第 `n` 个结点，并且返回链表的头结点。
 
@@ -44,6 +44,8 @@
 
 **进阶：** 你能尝试使用一趟扫描实现吗？
 
+:::
+
 ## 2. 💻 题解.1 - 三指针暴力解法
 
 ```javascript
@@ -78,6 +80,8 @@ var removeNthFromEnd = function (head, n) {
     - 最后，返回 `p3.next` 作为新的头节点。
   - 这样做之后，无论删除的是哪个节点，你都可以通过 `p3.next` 返回正确的链表头部，而不需要考虑特殊情况。
   - 如果你不使用哑节点，那么你需要在删除头节点时单独处理这种情况，这会使代码变得更复杂且容易出错。因此，**使用哑节点是一种常见且有效的方法来简化链表操作。**
+
+
 
 
 

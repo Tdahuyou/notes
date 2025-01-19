@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定函数 `fn` 和数组 `args`，返回一个函数 `partialFn`。
 
 `args` 中的占位符 `"_"` 需要用 `restArgs` 中索引从 `0` 开始的值替换。 `restArgs` 中剩余的值则添加到 `args` 的末尾。
@@ -96,6 +98,8 @@ var partial = function (fn, args) {
 在参数处理过程中，需要创建一个长度为 `n` 的数组 `arr`，因此空间复杂度为 `O(n)`。
 
 该解法的时间复杂度和空间复杂度都与输入参数的长度有关。
+
+
 
 
 

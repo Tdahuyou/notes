@@ -74,10 +74,12 @@
 
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import { useData } from 'vitepress'
+import { useData, useRoute } from 'vitepress'
 import { data as notesData } from '../../src/notes/notes.data'
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import notesmeta from '../../../scripts/.notesmeta.json'
+
+const route = useRoute()
 
 // --------------------------------------------------------------
 // #region - swiper
@@ -90,8 +92,13 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
-onMounted(() => {
-    new Swiper('.swiper-container', {
+const swiperInstance = ref(null)
+// window.swiperInstance = swiperInstance
+
+const initSwiper = () => {
+    // destroySwiper();
+    console.log('initSwiper')
+    swiperInstance.value = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 30,
         // Keyboard control !无效
@@ -115,7 +122,41 @@ onMounted(() => {
             prevEl: '.swiper-button-prev',
         },
     })
+}
+window.initSwiper = initSwiper
+
+function destroySwiper() {
+    // ! unknow error
+    if (swiperInstance.value && swiperInstance.value.destroy) {
+        try {
+            swiperInstance.value.destroy(true, true)
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
+    // document.querySelectorAll('.swiper-container').forEach(el => el.remove())
+    // swiperInstance.value = null
+}
+
+onMounted(() => {
+    nextTick(() => {
+        initSwiper()
+    })
 })
+
+onBeforeUnmount(destroySwiper)
+
+watch(
+    () => route.path,
+    (newPath, oldPath) => {
+        if (newPath !== oldPath) {
+            nextTick(() => {
+                initSwiper()
+            })
+        }
+    }
+)
 
 // <!-- Slider main container -->
 // <div class="swiper">
@@ -262,24 +303,33 @@ const copyRawFile = () => {
     line-height: 20px;
     font-size: 12px;
     color: #000;
-    opacity: 1;
+    opacity: .2;
     background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-container .swiper-pagination-bullet:hover {
+    opacity: .8;
 }
 
 .swiper-container .swiper-pagination-bullet-active {
     color: #fff;
     background: var(--vp-c-brand-1);
+    opacity: .8;
 }
 
-.swiper-container .swiper-button-prev:after,.swiper-container .swiper-button-next:after {
+.swiper-container .swiper-button-prev:after,
+.swiper-container .swiper-button-next:after {
     font-size: 1.5rem;
 }
 
-.swiper-container .swiper-button-prev,.swiper-container .swiper-button-next {
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
     transition: all .3s;
     opacity: .5;
 }
-.swiper-container .swiper-button-prev:hover,.swiper-container .swiper-button-next:hover {
+
+.swiper-container .swiper-button-prev:hover,
+.swiper-container .swiper-button-next:hover {
     transform: scale(1.5);
     opacity: 1;
 }

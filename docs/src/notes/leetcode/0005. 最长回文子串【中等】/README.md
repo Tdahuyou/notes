@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.中心扩散](#2--题解中心扩散)
+- [2. 💻 题解.1 - 中心扩散](#2--题解1---中心扩散)
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/longest-palindromic-substring/)
-
 
 ## 1. 📝 Description
+
+::: details [leetcode](https://leetcode.cn/problems/longest-palindromic-substring/)
 
 给你一个字符串 `s`，找到 `s` 中最长的 **回文** **子串**。
 
@@ -27,7 +27,9 @@
 - `1 <= s.length <= 1000`
 - `s` 仅由数字和英文字母组成
 
-## 2. 💻 题解.中心扩散
+:::
+
+## 2. 💻 题解.1 - 中心扩散
 
 ```javascript
 var longestPalindrome = function (s) {
@@ -101,6 +103,8 @@ function centerSpread(s, l, r) {
 **特殊情况：**
 
 s 的长度是 1，直接返回 s 即可。
+
+
 
 
 

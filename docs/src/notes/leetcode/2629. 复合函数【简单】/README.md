@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 请你编写一个函数，它接收一个函数数组 `[f1, f2, f3，…， fn]` ，并返回一个新的函数 `fn` ，它是函数数组的 **复合函数** 。
 
 `[f(x)， g(x)， h(x)]` 的 **复合函数** 为 `fn(x) = f(g(h(x)))` 。
@@ -95,6 +97,8 @@ var compose = function (functions) {
 **【注意】**
 
 - **空函数列表的复合函数就是恒等函数：**若入参 `functions` 为空数组 `[]`，那么直接将传入的 `x` 返回即可。
+
+
 
 
 

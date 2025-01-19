@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定一个非负索引 `rowIndex`，返回「杨辉三角」的第 `rowIndex` 行。
 
 在「杨辉三角」中，每个数是它左上方和右上方的数的和。
@@ -101,6 +103,8 @@ var getRow = function (rowIndex) {
   - ![](assets/2024-11-10-22-31-54.png)
 - **注意：**
   - **内层循环从 `c = r - 1` 到 `c = 1`，表示从右向左更新当前行的值。这样可以避免在更新过程中覆盖未计算的值。**
+
+
 
 
 

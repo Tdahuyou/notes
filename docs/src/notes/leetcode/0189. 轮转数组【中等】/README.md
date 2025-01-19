@@ -15,6 +15,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定一个整数数组 `nums`，将数组中的元素向右轮转 `k` 个位置，其中 `k` 是非负数。
 
 **示例 1:**
@@ -168,6 +170,8 @@ var rotate = function (nums, k) {
 
 - 这解法，勉勉强强算是双指针吧，就是封装了一个 reverseArr 函数，实现原理前边的都差不多。
 - 这种解法比前边的做法的性能都好。
+
+
 
 
 

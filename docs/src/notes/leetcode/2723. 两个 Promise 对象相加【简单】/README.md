@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定两个 promise 对象 `promise1` 和 `promise2`，返回一个新的 promise。`promise1` 和 `promise2` 都会被解析为一个数字。返回的 Promise 应该解析为这两个数字的和。
 
 **示例 1：**
@@ -57,6 +59,8 @@ var addTwoPromises = async function(promise1, promise2) {
  *   .then(console.log); // 4
  */
 ```
+
+
 
 
 

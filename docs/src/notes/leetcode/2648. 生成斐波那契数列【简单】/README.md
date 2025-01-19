@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 请你编写一个生成器函数，并返回一个可以生成 **斐波那契数列** 的生成器对象。
 
 **斐波那契数列** 的递推公式为 `Xn = Xn-1 + Xn-2` 。
@@ -57,6 +59,8 @@ var fibGenerator = function* () {
  * gen.next().value; // 1
  */
 ```
+
+
 
 
 

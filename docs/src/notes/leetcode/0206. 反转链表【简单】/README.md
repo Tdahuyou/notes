@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给你单链表的头节点 `head` ，请你反转链表，并返回反转后的链表。
 
 **示例 1：**
@@ -73,6 +75,8 @@ var reverseList = function(head) {
   - 归
     - 接收到原链表的尾节点，赋值给 newHead，newHead 将作为最终返回的新链表的表头节点；
     - 将当前节点的下一个节点的指针指向自身，同时将当前节点指向空；（不断地重复，直到原链表的首节点）
+
+
 
 
 

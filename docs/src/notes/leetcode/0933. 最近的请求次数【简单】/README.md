@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 写一个 `RecentCounter` 类来计算特定时间范围内最近的请求。
 
 请你实现 `RecentCounter` 类：
@@ -64,6 +66,8 @@ RecentCounter.prototype.ping = function (t) {
 ```
 
 - `this.queue.shift()` 移除第一个成员（第二个成员将变为第一个成员，继续判断是否需要移除新的第一个成员。）
+
+
 
 
 

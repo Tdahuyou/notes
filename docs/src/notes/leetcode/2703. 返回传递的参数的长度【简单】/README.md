@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 请你编写一个函数 `argumentsLength`，返回传递给该函数的参数数量。
 
 **示例 1：**
@@ -42,6 +44,8 @@ var argumentsLength = function(...args) {
 
 - 评论区点个赞～
   - ![](assets/2024-09-26-22-26-49.png)
+
+
 
 
 

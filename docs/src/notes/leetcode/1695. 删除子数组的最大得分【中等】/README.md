@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给你一个正整数数组 `nums` ，请你从中删除一个含有 **若干不同元素** 的子数组。删除子数组的 **得分** 就是子数组各元素之 **和** 。
 
 返回 **只删除一个** 子数组可获得的 **最大得分**。
@@ -61,6 +63,8 @@ var maximumUniqueSubarray = function(nums) {
 ```
 
 题解参考：0003. 无重复字符的最长子串
+
+
 
 
 
