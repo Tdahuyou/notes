@@ -1,7 +1,5 @@
 # html-css
 
-pending
-
 
 ## 1. css 属性
 

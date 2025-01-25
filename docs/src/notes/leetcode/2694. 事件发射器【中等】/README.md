@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 设计一个 `EventEmitter` 类。这个接口与 Node.js 或 DOM 的 Event Target 接口相似，但有一些差异。`EventEmitter` 应该允许订阅事件和触发事件。
 
 你的 `EventEmitter` 类应该有以下两个方法：
@@ -156,6 +158,8 @@ class EventEmitter {
  * emitter.emit('onClick'); // []
  */
 ```
+
+
 
 
 

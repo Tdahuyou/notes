@@ -12,6 +12,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定一个二进制数组 `nums` ， 计算其中最大连续 `1` 的个数。
 
 **示例 1：**
@@ -104,6 +106,8 @@ var findMaxConsecutiveOnes = function (nums) { // => [1, 1, 0, 1, 1, 1]
 ```
 
 - 转为字符串，结合正则表达式中的“正向预查”来实现。
+
+
 
 
 

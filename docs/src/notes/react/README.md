@@ -77,10 +77,9 @@
   - [11. 📒 补充说明 - script 标签身上的 type 属性](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#11--补充说明---script-标签身上的-type-属性)
   - [12. 📒 补充说明 - script 标签身上的 crossorigin 属性](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#12--补充说明---script-标签身上的-crossorigin-属性)
   - 知识点
-    - React.createElement 的基本使用
-    - React Element 是不可变的
-    - ReactDOM.render 的基本使用
-    - JSX 其实就是 React.createElement 的简写，是一个语法糖。
+    - 了解 React.createElement 的基本使用
+    - 了解 ReactDOM.render 的基本使用
+    - 了解 JSX 其实就是 React.createElement 的简写，是一个语法糖。
   - 本节不使用任何脚手架工具，通过 CDN 引入 react、react-dom，直接在（.html）页面上使用 react，实现一个 demo - 在页面上渲染出 Hello World。并借此 demo 来熟悉 React.createElement 和 ReactDOM.render 的基本用法。
   
 
@@ -152,14 +151,8 @@
   - [3. 🔍 扩展 - Hedy Lamarr 是谁？](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#3--扩展---hedy-lamarr-是谁)
   - [4. 💻 demos.2 - 在表达式中无法渲染的一些特殊值](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#4--demos2---在表达式中无法渲染的一些特殊值)
   - [5. 💻 demos.3 - 无法渲染普通对象，可以渲染 react 元素对象](https://tdahuyou.github.io/notes/notes/react/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F/README.html#5--demos3---无法渲染普通对象可以渲染-react-元素对象)
-  - 嵌入表达式的表示的是将表达式的值作为 jsx 内容的一部分插入进去。
-    - 类似于 vue 中的指令 v-bind 的作用。
-  - 嵌入表达式的语法非常简单，使用一对大括号来包裹即可 `{xxx}`，xxx 就是我们嵌入的表达式。
-  - 注意：如果表达式是对象类型。
-    - ❌ 普通对象，不可以作为子元素。
-    - ✅ React 元素对象是 ok 的。
-  - 表达式除了可以作为内容丢到 jsx 中之外，也可以将表达式作为元素属性值传入。
-    - 注意：属性使用小驼峰命名法
+  - 在 jsx 中可以使用 `{}` 语法来动态插入 js 表达式。
+  - 类似于 vue 中的指令 v-bind 的作用。
   - JSX 让你可以在 Jaavascript 中嵌入 HTML 语法。而大括号可以让你在 JSX 中 “回到” JavaScript 中，这样你就可以从你的代码中嵌入一些变量并展示给用户。
   - 注意：
     - 在 JSX 的大括号中插入 `null`、`undefined`、`false`、`ture`、`""`、`[]`、`注释` 这些值是不会显示的，如果要显示的话则不应该丢到大括号中，应该直接书写，将其事做普通的字符串来显示。
@@ -479,17 +472,22 @@
   
 
 - [ ] [0038. react-intl](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html) <!-- [locale](./0038.%20react-intl/README.html) -->  
-  - [1. 🔗 react-intl 相关资料](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#1--react-intl-相关资料)
-  - [2. 🔗 ICU 相关资料](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#2--icu-相关资料)
-  - [3. 📒 react-intl 简介](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#3--react-intl-简介)
-  - [4. 📒 react-intl 库中的一些常用模块](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#4--react-intl-库中的一些常用模块)
-  - [5. 🤔 ICU (International Components for Unicode) 是什么？有什么用？](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#5--icu-international-components-for-unicode-是什么有什么用)
-  - [6. 💻 demos.1 - react-intl 基本使用](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#6--demos1---react-intl-基本使用)
-  - [7. 🔍 如何判断传入的 locale 是否是合法值](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#7--如何判断传入的-locale-是否是合法值)
-  - [8. 💻 demos.3 - 特殊的 locale 值](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#8--demos3---特殊的-locale-值)
-  - [9. 💻 demos.4 - useIntl、injectIntl - 使用 defineMessages 定义消息](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#9--demos4---useintlinjectintl---使用-definemessages-定义消息)
-  - [10. 💻 demos.5 - 通过 intl 对象来获取国际化消息数据](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#10--demos5---通过-intl-对象来获取国际化消息数据)
-  - [11. 💻 demos.2 - IntlShape 在 .ts 中的应用](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#11--demos2---intlshape-在-ts-中的应用)
+  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#1--links)
+  - [2. 📒 react-intl 简介](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#2--react-intl-简介)
+  - [3. 🤔 ICU (International Components for Unicode) 是什么？有什么用？](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#3--icu-international-components-for-unicode-是什么有什么用)
+    - [3.1. ICU（International Components for Unicode）简介](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#31-icuinternational-components-for-unicode简介)
+    - [3.2. 核心功能](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#32-核心功能)
+    - [3.3. 国际化与本地化支持](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#33-国际化与本地化支持)
+    - [3.4. MessageFormat 功能](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#34-messageformat-功能)
+    - [3.5. 平台与兼容性](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#35-平台与兼容性)
+    - [3.6. 社区与维护](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#36-社区与维护)
+    - [3.7. 总结](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#37-总结)
+  - [4. 💻 demos.1 - react-intl 基本使用](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#4--demos1---react-intl-基本使用)
+  - [5. 🔍 如何判断传入的 locale 是否是合法值](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#5--如何判断传入的-locale-是否是合法值)
+  - [6. 💻 demos.1 - 特殊的 locale 值](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#6--demos1---特殊的-locale-值)
+  - [7. 💻 demos.1 - useIntl、injectIntl - 使用 defineMessages 定义消息](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#7--demos1---useintlinjectintl---使用-definemessages-定义消息)
+  - [8. 💻 demos.1 - 通过 intl 对象来获取国际化消息数据](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#8--demos1---通过-intl-对象来获取国际化消息数据)
+  - [9. 💻 demos.2 - IntlShape 在 .ts 中的应用](https://tdahuyou.github.io/notes/notes/react/0038.%20react-intl/README.html#9--demos2---intlshape-在-ts-中的应用)
   - React-Intl 是一个强大的工具，可帮助开发人员轻松管理和本地化他们的 React 应用程序。
   
 
@@ -528,7 +526,3 @@
   - [3. 💻 demos.2 - 理解 contextHolder 的作用](https://tdahuyou.github.io/notes/notes/react/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html#3--demos2---理解-contextholder-的作用)
   - [4. 🔗 来自官方文档的回复：为什么 message 不能获取 context、redux 的内容和 ConfigProvider 的 locale/prefixCls/theme 等配置？](https://tdahuyou.github.io/notes/notes/react/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html#4--来自官方文档的回复为什么-message-不能获取-contextredux-的内容和-configprovider-的-localeprefixclstheme-等配置)
   
-
-## 13. ⏰ 待分组
-
-- [ ] [0045. react element 是只读的](https://tdahuyou.github.io/notes/notes/react/0045.%20react%20element%20%E6%98%AF%E5%8F%AA%E8%AF%BB%E7%9A%84/README.html) <!-- [locale](./0045.%20react%20element%20%E6%98%AF%E5%8F%AA%E8%AF%BB%E7%9A%84/README.html) -->

@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定一个字符串 `s` ，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
 
 **示例 1：**
@@ -86,6 +88,8 @@ var reverseWords = function (s) {
 
 - `newArr = new Array(len)`
   - 由于 JavaScript 中 String 是不可变的，所以这里就换成了 Array 来替代一下，实现原理上和 `344. 反转字符串` 都是一样的。
+
+
 
 
 

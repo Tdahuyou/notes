@@ -9,8 +9,6 @@
 - [6. 💻 题解.2 - 暴力解法](#6--题解2---暴力解法)
 - [7. 💻 题解.3 - KMP](#7--题解3---kmp)
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
-
 - 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。在查阅资料的过程中，了解到这貌似是考研、竞赛题。
 
 ## 1. 🔗 links
@@ -24,6 +22,8 @@
   - 理解 next 数组（next 数组有什么用？如何构建 next 数组？）是 KMP 算法的核心，可以多看看视屏中的动画演示。
 
 ## 2. 📝 Description
+
+::: details [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 给你两个字符串 `haystack` 和 `needle` ，请你在 `haystack` 字符串中找出 `needle` 字符串的第一个匹配项的下标（下标从 0 开始）。如果 `needle` 不是 `haystack` 的一部分，则返回  `-1` 。
 
@@ -44,6 +44,8 @@
 
 - `1 <= haystack.length, needle.length <= 10^4`
 - `haystack` 和 `needle` 仅由小写英文字符组成
+
+:::
 
 ## 3. 📒 学习一个短语 - Find needle in haystack
 
@@ -199,6 +201,8 @@ for (let i = 0, j = 0; i < n; i++) {
 - `while (j > 0 && needle[j] !== haystack[i]) j = next[j - 1]` 失配，`j` 回退到 `next[j - 1]` 的位置。
 - `if (haystack[i] === needle[j]) j++` 匹配，j 向后移动一位。
 - `if (j === m) return i - m + 1` 一旦条件成立，表示在主串中找到了满足条件的连续子串，将匹配的起始位置返回。
+
+
 
 
 

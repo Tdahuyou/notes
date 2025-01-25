@@ -6,10 +6,10 @@
 - [3. 💻 题解.1 - 迭代](#3--题解1---迭代)
 - [4. 💻 题解.2 - 递归](#4--题解2---递归)
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/merge-two-sorted-lists/)
-
 
 ## 1. 📝 Description
+
+::: details [leetcode](https://leetcode.cn/problems/merge-two-sorted-lists/)
 
 将两个升序链表合并为一个新的 **升序** 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
 
@@ -34,6 +34,8 @@
 - 两个链表的节点数目范围是 `[0, 50]`
 - `-100 <= Node.val <= 100`
 - `l1` 和 `l2` 均按 **非递减顺序** 排列
+
+:::
 
 ## 2. 📒 测试代码
 
@@ -168,6 +170,8 @@ var mergeTwoLists = function(list1, list2) {
 ```
 
 - 如果使用递归的方式来写，代码确实会更加简洁，不过性能貌似并没有迭代好。
+
+
 
 
 

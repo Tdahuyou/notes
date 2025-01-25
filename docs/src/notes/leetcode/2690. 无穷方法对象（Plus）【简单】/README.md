@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 请你编写一个函数，返回一个 **无穷方法对象** 。
 
 **无穷方法对象** 被定义为一个对象，它允许您调用任何方法，并始终返回方法的名称。
@@ -57,6 +59,8 @@ var createInfiniteObject = function () {
 **原理简述：**
 
 返回一个 Proxy 代理，包装一层 get，每次访问某个属性的时候，都会被这个 get 拦截，然后我们在这个拦截器里面丢一个 `return () => prop` 函数回去，当函数被调用的时候，将 `prop` 给返回即可。
+
+
 
 
 

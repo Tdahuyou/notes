@@ -11,6 +11,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 请你编写一个函数 `fn`，它接收另一个函数作为输入，并返回该函数的 **记忆化** 后的结果。
 
 **记忆函数** 是一个对于相同的输入永远不会被调用两次的函数。相反，它将返回一个缓存值。
@@ -168,6 +170,8 @@ function memoize(fn: Fn): Fn {
  * console.log(callCount) // 1
  */
 ```
+
+
 
 
 

@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定数组 `people` 。`people[i]`表示第 `i` 个人的体重 ，**船的数量不限**，每艘船可以承载的最大重量为 `limit`。
 
 每艘船最多可同时载两人，但条件是这些人的重量之和最多为 `limit`。
@@ -85,6 +87,8 @@ var numRescueBoats = function(people, limit) {
 > - ... 等等
 >
 > 但是这些最优解都有一个共同点，浪费的资源量都是一样的。
+
+
 
 
 

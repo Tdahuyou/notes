@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 我们定义，在以下情况时，单词的大写用法是正确的：
 
 - 全部字母都是大写，比如 `"USA"` 。
@@ -64,6 +66,8 @@ var detectCapitalUse = function(word) {
   }
 };
 ```
+
+
 
 
 

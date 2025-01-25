@@ -11,6 +11,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 请你写一个函数 `createCounter`。这个函数接收一个初始的整数值 `init`。并返回一个包含三个函数的对象。
 
 这三个函数是：
@@ -76,6 +78,8 @@ var createCounter = function (init) {
  * counter.decrement(); // 4
  */
 ```
+
+
 
 
 

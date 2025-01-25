@@ -8,6 +8,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 不使用任何内建的哈希表库设计一个哈希集合（HashSet）。
 
 实现 `MyHashSet` 类：
@@ -41,6 +43,8 @@ myHashSet.contains(2); // 返回 False ，（已移除）
 
 - `0 <= key <= 10^6`
 - 最多调用 `10^4` 次 `add`、`remove` 和 `contains`
+
+
 
 
 

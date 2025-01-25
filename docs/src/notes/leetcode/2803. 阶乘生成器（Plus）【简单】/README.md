@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 编写一个生成器函数，该函数以一个整数 `n` 作为参数，并返回一个生成器对象，该生成器对象可以生成 **阶乘序列** 。
 
 **阶乘序列** 的定义如下：`n! = n * (n-1) * (n-2) * ... * 2 * 1` 。
@@ -79,6 +81,8 @@ function* factorial(n) {
  * gen.next().value; // 2
  */
 ```
+
+
 
 
 

@@ -15,10 +15,9 @@
 - [12. 📒 补充说明 - script 标签身上的 crossorigin 属性](#12--补充说明---script-标签身上的-crossorigin-属性)
 <!-- endregion:toc -->
 - 知识点
-  - React.createElement 的基本使用
-  - React Element 是不可变的
-  - ReactDOM.render 的基本使用
-  - JSX 其实就是 React.createElement 的简写，是一个语法糖。
+  - 了解 React.createElement 的基本使用
+  - 了解 ReactDOM.render 的基本使用
+  - 了解 JSX 其实就是 React.createElement 的简写，是一个语法糖。
 - 本节不使用任何脚手架工具，通过 CDN 引入 react、react-dom，直接在（.html）页面上使用 react，实现一个 demo - 在页面上渲染出 Hello World。并借此 demo 来熟悉 React.createElement 和 ReactDOM.render 的基本用法。
 
 ## 1. 🔗 相关链接
@@ -47,11 +46,6 @@
 - 参数2：元素属性，比如 id、class、style、onClick 等等，可以以一个对象的形式传入
 - 参数3 ~ 参数n：子元素列表，比如 h1 标签中的文本内容，可以以一个字符串的形式传入，也可以传入由 React.createElement 创建的 React 元素
 - 返回值是一个 React 元素，这个元素可以作为 ReactDOM.render 的第一个参数，表示要渲染的内容。
-- **牢记由 React.createElement 创建的 react 元素是不可变的**
-  - 虽然 JSX 元素是一个对象，但是该对象中的所有属性都是不可更改的。
-  - 如果确实需要更改元素的属性，需要重新创建 JSX 元素。
-  - 注：`react 元素 == JSX == React.createElement 创建的元素`
-  - 当我们在口语表述 “react 元素”、“jsx”、“React.createElement 创建的元素”…… 这些内容的时候，大多时候想要表达的都是一个意思。
 
 ## 4. 📒 API 简介 - `React.render`
 

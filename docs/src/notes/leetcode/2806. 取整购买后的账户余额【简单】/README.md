@@ -12,6 +12,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 一开始，你的银行账户里有 `100` 块钱。
 
 给你一个整数`purchaseAmount` ，它表示你在一次购买中愿意支出的金额。
@@ -127,6 +129,8 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
   return 100 - Math.floor((purchaseAmount + 5) / 10) * 10;
 }
 ```
+
+
 
 
 

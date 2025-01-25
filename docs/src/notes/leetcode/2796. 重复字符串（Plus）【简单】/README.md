@@ -13,6 +13,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 编写代码实现字符串方法 `string.replicate(x)` ，它将返回重复的字符串 `x` 次。
 
 请尝试在不使用内置方法 `string.repeat` 的情况下实现它。
@@ -104,6 +106,8 @@ String.prototype.replicate = function (times) {
 - 首次见到的双百的提交，记录一下……
   - https://leetcode.cn/problems/repeat-string/submissions/539803907
   - ![](assets/2024-09-26-22-49-34.png)
+
+
 
 
 

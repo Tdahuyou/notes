@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 请你编写一个有关日期对象的方法，使得任何日期对象都可以调用 `date.nextDay()` 方法，然后返回调用日期对象的下一天，格式为 YYYY-MM-DD 。
 
 **示例 1：**
@@ -58,6 +60,8 @@ Date.prototype.nextDay = function () {
 ```
 
 `const nextDate = new Date(this.valueOf())`，创建一个新的日期对象以避免修改原始日期。
+
+
 
 
 

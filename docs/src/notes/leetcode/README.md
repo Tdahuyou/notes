@@ -29,6 +29,8 @@
   
   
   
+  
+  
 
 - [ ] [9998. leetcode 刷题指南 - 新手快速入门 - 数据结构、算法](https://tdahuyou.github.io/notes/notes/leetcode/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.html) <!-- [locale](./9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.html) -->  
   - [1. 📒 LeetCode 刷题指南 - 新手快速入门](https://tdahuyou.github.io/notes/notes/leetcode/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.html#1--leetcode-刷题指南---新手快速入门)
@@ -40,7 +42,7 @@
 
 ## 3. 题目列表
 
-- [ ] [0001. 两数之和【简单】](https://tdahuyou.github.io/notes/notes/leetcode/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) <!-- [locale](./0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) -->  
+- [x] [0001. 两数之和【简单】](https://tdahuyou.github.io/notes/notes/leetcode/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) <!-- [locale](./0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) -->  
   <BilibiliOutsidePlayer id="BV1DivNejEb1" />
 <BilibiliOutsidePlayer id="BV1DivNejEb1" />
 <BilibiliOutsidePlayer id="BV1DivNejEb1" />
@@ -51,24 +53,17 @@
   - [2. 💻 题解.1 - 双指针暴力求解](https://tdahuyou.github.io/notes/notes/leetcode/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#2--题解1---双指针暴力求解)
   - [3. 💻 题解.2 - 静态哈希表](https://tdahuyou.github.io/notes/notes/leetcode/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#3--题解2---静态哈希表)
   - [4. 💻 题解.3 - 动态哈希表](https://tdahuyou.github.io/notes/notes/leetcode/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#4--题解3---动态哈希表)
-  - [5. 📒 对比“静态”哈希表和“动态”哈希表之间的差异](https://tdahuyou.github.io/notes/notes/leetcode/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#5--对比静态哈希表和动态哈希表之间的差异)
-  - [leetcode](https://leetcode.cn/problems/two-sum/)
-  
   
 
 - [ ] [0003. 无重复字符的最长子串【中等】](https://tdahuyou.github.io/notes/notes/leetcode/0003.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) <!-- [locale](./0003.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) -->  
   - [1. 📝 Description](https://tdahuyou.github.io/notes/notes/leetcode/0003.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#1--description)
   - [2. 💻 题解.1 - 暴力解法](https://tdahuyou.github.io/notes/notes/leetcode/0003.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#2--题解1---暴力解法)
   - [3. 💻 题解.2 - 滑动窗口](https://tdahuyou.github.io/notes/notes/leetcode/0003.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#3--题解2---滑动窗口)
-  - [leetcode](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
-  
   
 
 - [ ] [0005. 最长回文子串【中等】](https://tdahuyou.github.io/notes/notes/leetcode/0005.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) <!-- [locale](./0005.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) -->  
   - [1. 📝 Description](https://tdahuyou.github.io/notes/notes/leetcode/0005.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#1--description)
-  - [2. 💻 题解.中心扩散](https://tdahuyou.github.io/notes/notes/leetcode/0005.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#2--题解中心扩散)
-  - [leetcode](https://leetcode.cn/problems/longest-palindromic-substring/)
-  
+  - [2. 💻 题解.1 - 中心扩散](https://tdahuyou.github.io/notes/notes/leetcode/0005.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#2--题解1---中心扩散)
   
 
 - [ ] [0007. 整数反转【中等】](https://tdahuyou.github.io/notes/notes/leetcode/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) <!-- [locale](./0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) -->  
@@ -83,8 +78,6 @@
     - [5.4. 示例](https://tdahuyou.github.io/notes/notes/leetcode/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#54-示例)
   - [6. 🤖 整数位数和它的大小之间对数关系](https://tdahuyou.github.io/notes/notes/leetcode/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#6--整数位数和它的大小之间对数关系)
   - [7. 🤖 对比 $O(log_{10} N)$ 和 $O(log N)$](https://tdahuyou.github.io/notes/notes/leetcode/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#7--对比-olog_10-n-和-olog-n)
-  - [leetcode](https://leetcode.cn/problems/reverse-integer/)
-  
   
 
 - [ ] [0009. 回文数【简单】](https://tdahuyou.github.io/notes/notes/leetcode/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) <!-- [locale](./0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) -->  
@@ -92,8 +85,6 @@
   - [2. 💻 题解.1 - 暴力解法（转为字符串来比较）](https://tdahuyou.github.io/notes/notes/leetcode/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#2--题解1---暴力解法转为字符串来比较)
   - [3. 💻 题解.2 - 先反转再比较](https://tdahuyou.github.io/notes/notes/leetcode/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#3--题解2---先反转再比较)
   - [4. 💻 题解.3 - 二分对比](https://tdahuyou.github.io/notes/notes/leetcode/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#4--题解3---二分对比)
-  - [leetcode](https://leetcode.cn/problems/palindrome-number/)
-  
   
 
 - [ ] [0011. 盛最多水的容器【中等】](https://tdahuyou.github.io/notes/notes/leetcode/0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) <!-- [locale](./0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) -->  
@@ -103,16 +94,12 @@
   - [4. 💻 题解.2 - 碰撞指针](https://tdahuyou.github.io/notes/notes/leetcode/0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#4--题解2---碰撞指针)
   - [5. ❌ 问题解法 - 栈溢出](https://tdahuyou.github.io/notes/notes/leetcode/0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#5--问题解法---栈溢出)
   - [6. ❌ 问题解法 - 超时](https://tdahuyou.github.io/notes/notes/leetcode/0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#6--问题解法---超时)
-  - [leetcode](https://leetcode.cn/problems/container-with-most-water/)
-  
   
 
 - [ ] [0013. 罗马数字转整数【简单】](https://tdahuyou.github.io/notes/notes/leetcode/0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) <!-- [locale](./0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) -->  
   - [1. 📝 Description](https://tdahuyou.github.io/notes/notes/leetcode/0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#1--description)
   - [2. 💻 题解.1 - 基于哈希表的逐字符解析法（1）](https://tdahuyou.github.io/notes/notes/leetcode/0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#2--题解1---基于哈希表的逐字符解析法1)
   - [3. 💻 题解.2 - 基于哈希表的逐字符解析法（2）](https://tdahuyou.github.io/notes/notes/leetcode/0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#3--题解2---基于哈希表的逐字符解析法2)
-  - [leetcode](https://leetcode.cn/problems/roman-to-integer)
-  
   - 备注：本文介绍的两种题解，都是基于哈希表来实现的。
   
 
@@ -121,31 +108,22 @@
   - [2. 💻 题解.1 - 暴力解法](https://tdahuyou.github.io/notes/notes/leetcode/0014.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#2--题解1---暴力解法)
   - [3. 💻 题解.2 - 横向扫描](https://tdahuyou.github.io/notes/notes/leetcode/0014.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#3--题解2---横向扫描)
   - [4. 💻 题解.3 - 纵向扫描](https://tdahuyou.github.io/notes/notes/leetcode/0014.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#4--题解3---纵向扫描)
-  - [leetcode](https://leetcode.cn/problems/longest-common-prefix)
-  
   
 
 - [ ] [0015. 三数之和【中等】](https://tdahuyou.github.io/notes/notes/leetcode/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) <!-- [locale](./0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) -->  
   - [1. 📝 Description](https://tdahuyou.github.io/notes/notes/leetcode/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#1--description)
   - [2. 💻 题解.1 - 排序 + 双指针【📺 leetcode.0015.1】](https://tdahuyou.github.io/notes/notes/leetcode/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#2--题解1---排序--双指针-leetcode00151)
-  - [leetcode](https://leetcode.cn/problems/3sum/description/)
-  
-  
   
 
 - [ ] [0019. 删除链表的倒数第 N 个结点【中等】](https://tdahuyou.github.io/notes/notes/leetcode/0019.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC%20N%20%E4%B8%AA%E7%BB%93%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) <!-- [locale](./0019.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC%20N%20%E4%B8%AA%E7%BB%93%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) -->  
   - [1. 📝 Description](https://tdahuyou.github.io/notes/notes/leetcode/0019.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC%20N%20%E4%B8%AA%E7%BB%93%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#1--description)
   - [2. 💻 题解.1 - 三指针暴力解法](https://tdahuyou.github.io/notes/notes/leetcode/0019.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC%20N%20%E4%B8%AA%E7%BB%93%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#2--题解1---三指针暴力解法)
-  - [leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/)
-  
   - 本文的题解中提到了一个概念【哑节点（dummy node）、哨兵节点（sentinel node）】这个东西在处理链表中还是蛮常用的，如果不清楚什么是【哑节点（dummy node）、哨兵节点（sentinel node）】，可以结合这道题来了解一下。
   
 
 - [ ] [0020. 有效的括号【简单】](https://tdahuyou.github.io/notes/notes/leetcode/0020.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) <!-- [locale](./0020.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) -->  
   - [1. 📝 Description](https://tdahuyou.github.io/notes/notes/leetcode/0020.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#1--description)
   - [2. 💻 题解.1 - 栈](https://tdahuyou.github.io/notes/notes/leetcode/0020.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#2--题解1---栈)
-  - [leetcode](https://leetcode.cn/problems/valid-parentheses/)
-  
   - ⏰ TODO：本节的 gif 图看起来很不直观，重新制作。
   
 
@@ -154,23 +132,17 @@
   - [2. 📒 测试代码](https://tdahuyou.github.io/notes/notes/leetcode/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#2--测试代码)
   - [3. 💻 题解.1 - 迭代](https://tdahuyou.github.io/notes/notes/leetcode/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#3--题解1---迭代)
   - [4. 💻 题解.2 - 递归](https://tdahuyou.github.io/notes/notes/leetcode/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#4--题解2---递归)
-  - [leetcode](https://leetcode.cn/problems/merge-two-sorted-lists/)
-  
   
 
 - [ ] [0022. 括号生成【中等】](https://tdahuyou.github.io/notes/notes/leetcode/0022.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) <!-- [locale](./0022.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html) -->  
   - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/leetcode/0022.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#1--links)
   - [2. 📝 Description](https://tdahuyou.github.io/notes/notes/leetcode/0022.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#2--description)
   - [3. 💻 题解.1 - 回溯算法](https://tdahuyou.github.io/notes/notes/leetcode/0022.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.html#3--题解1---回溯算法)
-  - [leetcode](https://leetcode.cn/problems/generate-parentheses/)
-  
   
 
 - [ ] [0026. 删除有序数组中的重复项【简单】](https://tdahuyou.github.io/notes/notes/leetcode/0026.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) <!-- [locale](./0026.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) -->  
   - [1. 📝 Description](https://tdahuyou.github.io/notes/notes/leetcode/0026.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#1--description)
   - [2. 💻 题解.1 - 双指针](https://tdahuyou.github.io/notes/notes/leetcode/0026.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#2--题解1---双指针)
-  - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
-  
   
 
 - [ ] [0027. 移除元素【简单】](https://tdahuyou.github.io/notes/notes/leetcode/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) <!-- [locale](./0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html) -->  
@@ -192,8 +164,6 @@
   - [5. 📒 KMP 算法简介](https://tdahuyou.github.io/notes/notes/leetcode/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#5--kmp-算法简介)
   - [6. 💻 题解.2 - 暴力解法](https://tdahuyou.github.io/notes/notes/leetcode/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#6--题解2---暴力解法)
   - [7. 💻 题解.3 - KMP](https://tdahuyou.github.io/notes/notes/leetcode/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.html#7--题解3---kmp)
-  - [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
-  
   - 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。在查阅资料的过程中，了解到这貌似是考研、竞赛题。
   
 

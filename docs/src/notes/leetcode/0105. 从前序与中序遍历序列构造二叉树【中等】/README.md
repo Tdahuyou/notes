@@ -9,6 +9,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给定两个整数数组 `preorder` 和 `inorder` ，其中 `preorder` 是二叉树的**先序遍历**， `inorder` 是同一棵树的**中序遍历**，请构造二叉树并返回其根节点。
 
 **示例 1:**
@@ -61,6 +63,8 @@ var buildTree = function(preorder, inorder) {
   return root
 }
 ```
+
+
 
 
 

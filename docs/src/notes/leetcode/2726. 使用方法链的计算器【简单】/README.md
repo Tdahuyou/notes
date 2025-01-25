@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 设计一个类 `Calculator` 。该类应提供加法、减法、乘法、除法和乘方等数学运算功能。同时，它还应支持连续操作的方法链式调用。`Calculator` 类的构造函数应接受一个数字作为 `result` 的初始值。
 
 你的 `Calculator` 类应包含以下方法：
@@ -141,6 +143,8 @@ class Calculator {
 
 - 链式调用，每次 `return this` 即可。
 - 除法运算时校验 value 不能为 0，否则抛出错误 `throw new Error('Division by zero is not allowed')`
+
+
 
 
 

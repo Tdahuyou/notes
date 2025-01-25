@@ -10,6 +10,8 @@
 
 ## 1. 📝 Description
 
+::: details [leetcode](https://leetcode.cn)
+
 给你两棵二叉树： `root1` 和 `root2` 。
 
 想象一下，当你将其中一棵覆盖到另一棵之上时，两棵树上的一些节点将会重叠（而另一些不会）。你需要将这两棵树合并成一棵新二叉树。合并的规则是：如果两个节点重叠，那么将这两个节点的值相加作为合并后节点的新值；否则，**不为** null 的节点将直接作为新二叉树的节点。
@@ -59,6 +61,8 @@ var mergeTrees = function (root1, root2) {
 - 优先处理 root1，优先返回 root1。
   - `return root1 || root2;`
   - 只要 root1 一开始不是空，那么，最后一次 return 时，会将 root1 返回。所以在 if 条件分支中，都是对二叉树 root1 做处理。
+
+
 
 
 
