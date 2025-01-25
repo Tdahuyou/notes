@@ -58,7 +58,8 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: '/notes/cover-image.png' }],
     ['meta', { property: 'og:url', content: 'https://tdahuyou.github.io/notes' }],
     // ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['link', { rel: 'icon', href: '/notes/favicon.ico' }],
+    // ['link', { rel: 'icon', href: '/notes/favicon.ico' }],
+    ['link', { rel: 'icon', href: 'https://tdahuyou.github.io/notes/favicon.ico' }],
     // [
     //   'link',
     //   {
