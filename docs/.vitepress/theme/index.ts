@@ -10,6 +10,7 @@ import MyLayout from "../components/MyLayout.vue";
 import MyDynamicComp from "../components/MyDynamicComp.vue";
 import MyGiscusComp from "../components/MyGiscusComp.vue";
 import BilibiliOutsidePlayer from "../components/BilibiliOutsidePlayer.vue";
+import TNotesDir from "../components/TNotesDir.vue";
 
 export default {
   extends: DefaultTheme,
@@ -29,5 +30,6 @@ export default {
     app.component('MyDynamicComp', MyDynamicComp)
     app.component('MyGiscusComp', MyGiscusComp)
     app.component('BilibiliOutsidePlayer', BilibiliOutsidePlayer)
+    app.component('TNotesDir', TNotesDir)
   }
 } satisfies Theme;

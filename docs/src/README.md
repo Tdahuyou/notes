@@ -1,8 +1,7 @@
 # 📒 TNotes
 
-![foot print](/cover-image.png)
-
-> 这是大二（2019.06.14）去学校附近的海边拍的脚印，是第一条朋友圈发的图，也是朋友圈的封面，就暂且拿它来做 TNotes 的 logo 吧。
+<img src="/cover-image-2.png" alt="foot print" title="TNotes logo" style="display: block; margin: -5rem auto;" />
+<!-- ![foot print]() -->
 
 ## TNotes 是什么？
 
@@ -25,4 +24,10 @@
   - ... 等等
 - **目前（25.01）正在逐步搬运个人的学习笔记到 TNotes 中。**
   - 已完成搬运的，会在对应的笔记标题前边 ✅ 打勾。
+:::
+
+::: details TNotes logo
+![foot print](/cover-image.png)
+
+> 这是大二（2019.06.14）去学校附近的海边拍的脚印，是第一条朋友圈发的图，也是朋友圈的封面，就暂且拿它来做 TNotes 的 logo 吧。
 :::

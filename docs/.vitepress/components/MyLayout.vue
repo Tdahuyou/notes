@@ -1,6 +1,8 @@
 <template>
     <Layout>
         <template #doc-top>
+            <!-- <pre>{{ vscodeNoteDir }}</pre> -->
+            <!-- <pre>{{ vpData.page.value.relativePath }}</pre> -->
             <!-- <button @click="copyRawFile" title="Copy raw file">raw</button> -->
             <!-- <pre>{{ notesData[vpData.page.value.title] }}</pre> -->
         </template>
@@ -11,16 +13,22 @@
             </div>
         </template>
         <template #doc-before>
-            <div class="doc-before-container" v-show="notesmeta.repos_vitepress.includes(vpData.page.value.title)">
+            <div class="doc-before-container">
                 <div class="left-area">
-                    <div class="copy-box">
+                    <div class="vscode-box" v-show="vscodeNoteDir">
+                        <a :href="vscodeNoteDir"
+                            aria-label="open in vscode" title="open in vscode" target="_blank">
+                            <img src="./icon__vscode.svg" alt="open in vscode">
+                        </a>
+                    </div>
+                    <div class="copy-box" v-show="notesmeta.repos_vitepress.includes(vpData.page.value.title)">
                         <span class="tip" v-show="isCopied">Copied!</span>
                         <button class="copy-raw-file" @click="copyRawFile" title="Copy raw file">
                             <!-- <img class="icon" src="./icon__clipboard.svg" alt="icon__clipboard"> -->
                             <img class="icon" src="./m2mm.png" alt="icon__clipboard">
                         </button>
                     </div>
-                    <div class="github-box">
+                    <div class="github-box" v-show="notesmeta.repos_vitepress.includes(vpData.page.value.title)">
                         <!-- <a :href="`https://github.com/Tdahuyou/${vpData.page.value.title.toLowerCase()}/blob/main/README.md`"
                             title="to github repo">🔗 github</a> -->
                         <a :href="`https://github.com/Tdahuyou/${vpData.page.value.title.toLowerCase()}/blob/main/README.md`"
@@ -31,7 +39,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="right-area">
+                <div class="right-area" v-show="notesmeta.repos_vitepress.includes(vpData.page.value.title)">
                     <div class="notes-length" title="已完成笔记数量/所有笔记数量">
                         {{ doneNotesLen }}/{{ allNotesLen }}｜
                     </div>
@@ -187,6 +195,13 @@ const vpData = useData()
 // console.log('notesData:', notesData)
 // console.log('vpData:', vpData)
 
+const vscodeNoteDir = computed(() => {
+    if (!(vpData.page.value.relativePath.startsWith('notes/'))) return ''
+    const TNotesDir = localStorage.getItem('TNotesDir')
+    const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '')
+    const result = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : ''
+    return result
+});
 const allNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.allNotesLen);
 const doneNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.doneNotesLen);
 const isCopied = ref(false)
@@ -242,6 +257,11 @@ const copyRawFile = () => {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.vscode-box {
+    width: 1em;
+    height: 1em;
 }
 
 .copy-box {
