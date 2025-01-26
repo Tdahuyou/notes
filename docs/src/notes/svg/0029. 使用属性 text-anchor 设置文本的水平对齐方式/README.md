@@ -18,9 +18,9 @@ end     以 (x, y) 坐标为【结束】位置
 -->
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
 
-  <text font-size="8" x="50" y="30" text-anchor="start">Tdahuyou</text>
-  <text font-size="8" x="50" y="50" text-anchor="middle">Tdahuyou</text>
-  <text font-size="8" x="50" y="70" text-anchor="end">Tdahuyou</text>
+  <text font-size="8" x="50" y="30" text-anchor="start">Tdahuyou</text> <!-- [!code highlight] -->
+  <text font-size="8" x="50" y="50" text-anchor="middle">Tdahuyou</text> <!-- [!code highlight] -->
+  <text font-size="8" x="50" y="70" text-anchor="end">Tdahuyou</text> <!-- [!code highlight] -->
 
   <!-- 辅助点 -->
   <circle cx="50" cy="30" r="1" fill="red" />

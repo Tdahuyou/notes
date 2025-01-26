@@ -11,7 +11,12 @@
   <!--
   多边形与折线的绘制类似，不同在于终端节点和起始节点自动联通，完成闭合，并有默认颜色填充。
   -->
-  <polygon points="20 20, 90 90, 90 10, 20 90" stroke="blue" stroke-width="1" opacity=".3" />
+  <polygon // [!code highlight]
+    points="20 20, 90 90, 90 10, 20 90" // [!code highlight]
+    stroke="blue" // [!code highlight]
+    stroke-width="1" // [!code highlight]
+    opacity=".3" // [!code highlight]
+  /> <!-- [!code highlight] -->
 </svg>
 ```
 

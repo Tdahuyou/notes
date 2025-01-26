@@ -44,14 +44,14 @@ font-variant：设置文字变体
   small-caps 转大写，不过是小型的大写字母
 -->
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-
-  <text x="10" y="30">T1</text>
-  <text x="10" y="50" font-size="20" font-family="楷体" font-style="italic" font-weight="bold" text-decoration="underline"
-    letter-spacing="10" word-spacing="10">T2</text>
-  <text x="10" y="70" font-size="10">a b</text>
-  <text x="10" y="80" font-size="10" word-spacing="10">a b</text>
-  <text x="10" y="90" font-size="10" word-spacing="10">A B</text>
-  <text x="10" y="100" font-size="10" word-spacing="10" font-variant="small-caps">a b</text>
+  <text x="10" y="30">T1</text> <!-- [!code highlight] -->
+  <text x="10" y="50" // [!code highlight]
+    font-size="20" font-family="楷体" font-style="italic" font-weight="bold" text-decoration="underline" // [!code highlight]
+    letter-spacing="10" word-spacing="10">T2</text> <!-- [!code highlight] -->
+  <text x="10" y="70" font-size="10">a b</text> <!-- [!code highlight] -->
+  <text x="10" y="80" font-size="10" word-spacing="10">a b</text> <!-- [!code highlight] -->
+  <text x="10" y="90" font-size="10" word-spacing="10">A B</text> <!-- [!code highlight] -->
+  <text x="10" y="100" font-size="10" word-spacing="10" font-variant="small-caps">a b</text> <!-- [!code highlight] -->
 </svg>
 ```
 

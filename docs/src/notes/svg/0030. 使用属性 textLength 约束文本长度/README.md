@@ -22,11 +22,11 @@ textLength 设置文本书写的空间的长度。
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
 
   <!-- 正常 宽度自适应文本 -->
-  <text font-size="8" x="10" y="25">Tdahuyou</text>
+  <text font-size="8" x="10" y="25">Tdahuyou</text> <!-- [!code highlight] -->
   <!-- 文本长度 < 空间长度 -->
-  <text font-size="8" x="10" y="55" textLength="80">Tdahuyou</text>
+  <text font-size="8" x="10" y="55" textLength="80">Tdahuyou</text> <!-- [!code highlight] -->
   <!-- 文本长度 > 空间长度 -->
-  <text font-size="8" x="10" y="85" textLength="20">Tdahuyou</text>
+  <text font-size="8" x="10" y="85" textLength="20">Tdahuyou</text> <!-- [!code highlight] -->
 
   <!-- 辅助框 -->
   <rect x="10" y="10" width="35" height="20" fill="none" stroke="red" stroke-width=".5" />

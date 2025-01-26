@@ -1,4 +1,4 @@
-# [0002. 根元素 svg 的数量](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F)
+# [0002. 在 .html 和 .svg 文件中，根元素 svg 的数量](https://github.com/Tdahuyou/svg/tree/main/0002.%20%E5%9C%A8%20.html%20%E5%92%8C%20.svg%20%E6%96%87%E4%BB%B6%E4%B8%AD%EF%BC%8C%E6%A0%B9%E5%85%83%E7%B4%A0%20svg%20%E7%9A%84%E6%95%B0%E9%87%8F)
 
 <!-- region:toc -->
 - [1. 💻 demos.1 - 在 .html 文件中书写多个 svg](#1--demos1---在-html-文件中书写多个-svg)

@@ -18,11 +18,11 @@ textPath 用于将文本沿着指定的路径进行排列，使文本能够遵�
 <textPath> 使用 href 属性，链接指定 id 的 path 图形。
 -->
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <path id="MyPath" fill="none" stroke="pink"
-    d="M10,90 Q90,90 90,45 Q90,10 50,10 Q10,10 10,40 Q10,70 45,70 Q70,70 75,50" />
+  <path id="MyPath" fill="none" stroke="pink" // [!code highlight]
+    d="M10,90 Q90,90 90,45 Q90,10 50,10 Q10,10 10,40 Q10,70 45,70 Q70,70 75,50" /> <!-- [!code highlight] -->
 
   <text fill="lightblue" font-size="8">
-    <textPath href="#MyPath">
+    <textPath href="#MyPath"> <!-- [!code highlight] -->
       Tdahuyou
       Tdahuyou
       Tdahuyou

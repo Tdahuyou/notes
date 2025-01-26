@@ -15,7 +15,7 @@
   points 设置多个点的坐标值集合。
   每一对表示一个点在坐标，每一个值可以使用【空格】或【逗号】隔开。
   -->
-  <polyline points="20 20, 90 90, 90 10, 20 90" fill="none" stroke="blue" stroke-width="1"/>
+  <polyline points="20 20, 90 90, 90 10, 20 90" fill="none" stroke="blue" stroke-width="1"/> <!-- [!code highlight] -->
 </svg>
 ```
 
@@ -31,7 +31,7 @@
     折线 polyline 的各个点，可以组成一个闭合的多边形，而线段 line 是两个点之间的直线。
     因此 fill 属性对于折线来说是有效的，而对于线段来说是无效的。
   -->
-  <polyline points="20 20, 90 90, 90 10, 20 90" fill="blue" opacity=".3" />
+  <polyline points="20 20, 90 90, 90 10, 20 90" fill="blue" opacity=".3" /> <!-- [!code highlight] -->
 </svg>
 ```
 

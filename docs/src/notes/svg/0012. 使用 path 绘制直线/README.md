@@ -31,7 +31,7 @@ L/l（Line To）
 从当前坐标点到指定的坐标点绘制直线。
 -->
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <path d="M30 30 L60 30" fill="none" stroke="blue" stroke-width="2" />
+  <path d="M30 30 L60 30" fill="none" stroke="blue" stroke-width="2" /> <!-- [!code highlight] -->
   <line x1="30" y1="40" x2="60" y2="40" stroke="green" stroke-width="2" />
   <polyline points="30 50,60 50" stroke="red" stroke-width="2" />
   <!--
@@ -56,17 +56,16 @@ L/l（Line To）
 -->
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
   <path
-    d="M40 30 L60 30 M30 50 L70 50 M50 30 L50 70"
+    d="M30 30 L70 30 M50 30 L50 70" // [!code highlight]
     fill="none" stroke="blue" stroke-width="2"
   />
   <!-- 辅助点 -->
-  <circle cx="40" cy="30" r="1" fill="red"/>
-  <circle cx="30" cy="50" r="1" fill="red"/>
+  <circle cx="30" cy="30" r="1" fill="red"/>
   <circle cx="50" cy="30" r="1" fill="red"/>
 </svg>
 ```
 
-![](assets/2024-12-10-09-01-45.png)
+![](assets/2025-01-26-14-44-08.png)
 
 ## 3. 💻 demos.3 - 关键字的大小写有着不同的含义
 
@@ -86,9 +85,9 @@ M10 10 l40 20
 也就是基于 (10, 10) 点偏移，x 轴距离加 40，y 轴距离加 20
 -->
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <path d="M10 10 L40 20" fill="none" stroke="blue" stroke-width="2" />
-  <path d="M10 10 l40 20" fill="none" stroke="green" stroke-width="2" />
-  <path d="M50 50 L60 60 m-10 0 L60 50" fill="none" stroke="red" stroke-width="2" />
+  <path d="M10 10 L40 20" fill="none" stroke="blue" stroke-width="2" /> <!-- [!code highlight] -->
+  <path d="M10 10 l40 20" fill="none" stroke="green" stroke-width="2" /> <!-- [!code highlight] -->
+  <path d="M50 50 L60 60 m-10 0 L60 50" fill="none" stroke="red" stroke-width="2" /> <!-- [!code highlight] -->
 </svg>
 ```
 
@@ -100,7 +99,11 @@ M10 10 l40 20
 - H 关键字 - horizontal - 表示水平的。
 - V 关键字 - vertical - 表示垂直的。
 - Z 关键字 - 表示 "Closepath"（闭合路径）。
-  - Z 这玩意儿没有直接从字母本身的含义来。一方面是为了简洁；另一方面也是为了和其他的关键字区分开，毕竟 C 关键字已经被用了 —— C 代表 "Cubic Bézier Curve"（三次贝塞尔曲线）。
+  - Z 这玩意儿比较奇怪，Closepath 首字母是 C，而这里却使用 Z。
+  - 一方面是为了简洁、统一，都使用一个字母来表示关键字；
+  - 另一方面也是为了和其他的关键字区分开；
+    - 毕竟 C 关键字已经被用了 —— C 代表 "Cubic Bézier Curve"（三次贝塞尔曲线）。
+    - 这也是为何不使用 C 来表示闭合路径关键字的原因。
 
 ```xml
 <!--
@@ -110,7 +113,7 @@ V 只需要指定纵坐标，表示纵向画线。
 Z 放在最后，不需要跟坐标，表示首尾坐标闭合。
 -->
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <path d="M30 30 H70 V70 H30 Z" fill="none" stroke="blue" stroke-width="2" />
+  <path d="M30 30 H70 V70 H30 Z" fill="none" stroke="blue" stroke-width="2" /> <!-- [!code highlight] -->
   <!-- H70 表示从当前位置横向画线到 x=70。 -->
   <!-- V70 表示从当前位置纵向画线到 y=70。 -->
   <!-- H30 表示从当前位置横向画线到 x=30。 -->

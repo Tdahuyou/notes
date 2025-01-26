@@ -24,8 +24,8 @@
 
   提示：如果将 rx 和 ry 设置为相同的值，那么就会绘制一个圆形。
   -->
-  <ellipse cx="50" cy="50" rx="20" ry="20" fill="none" stroke="blue" opacity=".3" />
-  <ellipse cx="50" cy="50" rx="20" ry="30" fill="none" stroke="red" opacity=".3" />
+  <ellipse cx="50" cy="50" rx="20" ry="20" fill="none" stroke="blue" opacity=".3" /> <!-- [!code highlight] -->
+  <ellipse cx="50" cy="50" rx="20" ry="30" fill="none" stroke="red" opacity=".3" /> <!-- [!code highlight] -->
 </svg>
 ```
 

@@ -5,17 +5,15 @@
 - [2. 💻 demos.2 - 指定 viewBox 正好装下图形](#2--demos2---指定-viewbox-正好装下图形)
 - [3. 💻 demos.3 - 指定的 viewBox 区域看不到图形](#3--demos3---指定的-viewbox-区域看不到图形)
 - [4. 💻 demos.4 - 根据 demos.3 中的图形位置修改 viewBox 的值](#4--demos4---根据-demos3-中的图形位置修改-viewbox-的值)
-- [5. 🤔 Q&A](#5--qa)
-  - [5.1. 问：svg 中坐标系有多大？](#51-问svg-中坐标系有多大)
-  - [5.2. 问：`<svg>` 的 width、height 有什么用？](#52-问svg-的-widthheight-有什么用)
-  - [5.3. 问：`<svg>` 的 width、height 都设置为 500，那么看到的坐标系是哪块区域呢？](#53-问svg-的-widthheight-都设置为-500那么看到的坐标系是哪块区域呢)
+- [5. 🤔 问：svg 中坐标系有多大？](#5--问svg-中坐标系有多大)
+- [6. 🤔 问：`<svg>` 的 width、height 有什么用？](#6--问svg-的-widthheight-有什么用)
+- [7. 🤔 问：`<svg>` 的 width、height 都设置为 500，那么看到的坐标系是哪块区域呢？](#7--问svg-的-widthheight-都设置为-500那么看到的坐标系是哪块区域呢)
 <!-- endregion:toc -->
 - viewBox 视口，这是一个对于 svg 初学者来说不那么好理解的属性。
 - 其实 viewBox 这个词已经描述得很到位了，view 看，box 盒子，其中盒子可以理解为一个矩形区域 —— viewBox 表示你要看哪一块矩形区域。
 - 可以结合着 `Q&A` 中提到的问题来理解 viewBox 属性。
 
 ## 1. 💻 demos.1 - 省略 `viewBox`
-
 
 ```xml
 <!--
@@ -90,24 +88,23 @@ viewBox 决定了我们想要展示给用户看的那块坐标区域。
 </svg>
 ```
 
-- ![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1716309202141-18bb57b9-4464-4841-bb71-36e6e816aab6.png)
+- ![](assets/2024-12-09-15-55-18.png)
 
-## 5. 🤔 Q&A
-
-### 5.1. 问：svg 中坐标系有多大？
+## 5. 🤔 问：svg 中坐标系有多大？
 
 答：无限大～
 
-### 5.2. 问：`<svg>` 的 width、height 有什么用？
+## 6. 🤔 问：`<svg>` 的 width、height 有什么用？
 
 svg 的 width、height 属性，决定了页面上最终渲染的 svg 的宽度和高度。
 
 也就是我们看到的画布的大小。
 
-### 5.3. 问：`<svg>` 的 width、height 都设置为 500，那么看到的坐标系是哪块区域呢？
+## 7. 🤔 问：`<svg>` 的 width、height 都设置为 500，那么看到的坐标系是哪块区域呢？
 
+答：不要问这个问题，该问题的提问本身就存在问题。
 
-答：不要问这个问题，该问题的提问本身就存在问题。记住一点：看到的坐标系区域跟 `<svg>` 的 width、height 没有任何关系，具体得看 `viewBox` 设置的是什么值，`viewBox` 属性才决定了我们想要展示给用户看的那块坐标区域。
+记住一点：**看到的坐标系区域跟 `<svg>` 的 width、height 没有任何关系，具体得看 `viewBox` 设置的是什么值，`viewBox` 属性才决定了我们想要展示给用户看的那块坐标区域。**
 
 - 在没有写 `viewBox` 的情况下（或者 `viewBox="0 0 500 500"`），看到的坐标系区域是 `(0, 0) 到 (500, 500)`，我们所绘制的图形将按照 `1:1` 的效果来显示。也就是绘制的是多大，看到的就是多大。
   - ![](assets/2024-12-09-16-02-21.png)
@@ -118,5 +115,6 @@ svg 的 width、height 属性，决定了页面上最终渲染的 svg 的宽度�
   - **假如 `viewBox="0 0 100 100"`，那么看到的图形将会放大到原来的 5 倍。**
     - 100 个点，被放到 500 的区域中显示，每个点会被拉伸到原来的 5 倍大小，这时候看到的图也是不完整的。
 - **上面讨论的场景，刻意规避掉了一种情况：宽高比不同**
-  - 会发现上述举的示例，都是 `viewBox 的 width/height = svg 的 width/height`。至于俩不相等的情况，需要设计到另外一个属性 —— `preserveAspectRatio`。
-  - 有关 `preserveAspectRatio` 的内容，会在后续介绍到，到时候再来看，对于 width/height 不一致的情况下，页面会如何渲染。
+  - 会发现上述举的示例，都满足一个条件：`viewBox 的宽高比 width/height 等于 svg 的宽高比 width/height`。
+  - 至于俩不相等的情况，需要设计到另外一个属性 —— `preserveAspectRatio`。
+  - 有关 `preserveAspectRatio` 的内容，会在后续介绍到，到时候再来看，对于 `width/height` 不一致的情况下，页面会如何渲染。

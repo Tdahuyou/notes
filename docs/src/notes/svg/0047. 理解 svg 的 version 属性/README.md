@@ -1,21 +1,18 @@
 # [0047. 理解 svg 的 version 属性](https://github.com/Tdahuyou/svg/tree/main/0047.%20%E7%90%86%E8%A7%A3%20svg%20%E7%9A%84%20version%20%E5%B1%9E%E6%80%A7)
 
 <!-- region:toc -->
-- [1. 🔗 MDN - 对 svg version 属性的描述](#1--mdn---对-svg-version-属性的描述)
-- [2. 📒 认识 version 属性](#2--认识-version-属性)
+- [1. svg 的 version 属性](#1-svg-的-version-属性)
 <!-- endregion:toc -->
 - version 属性的值只有两种情况：`1.0` 和 `1.1`。
-- **version 属性已经被抛弃了，你可以认为它是一个无效属性。**
+- **🗑 version 属性已经被抛弃了，你可以认为它是一个无效属性。**
 
-## 1. 🔗 MDN - 对 svg version 属性的描述
+## 1. svg 的 version 属性
 
-- https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/version
-  - Deprecated
-  - version 属性已经被标记为弃用了。
-
-## 2. 📒 认识 version 属性
-
-- `version` 属性在 SVG（可缩放矢量图形）中用于指定文档遵循的 SVG 规范版本。然而，随着 Web 技术的发展，特别是 HTML5 的普及，`version` 属性的重要性逐渐减弱，并且在现代浏览器中不再强制要求使用。
+- 🔍 查看 MDN 对 svg version 属性的描述
+  - https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/version
+  - Deprecated - version 属性已经被标记为弃用了。
+- `version` 属性在 SVG（可缩放矢量图形）中用于指定文档遵循的 SVG 规范版本。
+- 然而，随着 Web 技术的发展，特别是 HTML5 的普及，`version` 属性的重要性逐渐减弱，并且在现代浏览器中不再强制要求使用。
 - 在 SVG 1.1 及更早版本中，`version` 属性是必需的，用来明确指出 SVG 文档所遵循的标准版本。例如：
 
 ```xml

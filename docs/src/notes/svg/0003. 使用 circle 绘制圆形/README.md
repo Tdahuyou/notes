@@ -24,10 +24,10 @@
     opacity 设置透明度
     stroke 设置边框颜色
     -->
-  <circle cx="40" cy="40" r="20" fill="red" opacity=".3" stroke="blue" />
+  <circle cx="40" cy="40" r="20" fill="red" opacity=".3" stroke="blue" /> <!-- [!code highlight] -->
 
   <!-- 标注出圆心 -->
-  <circle cx="40" cy="40" r="1" fill="#000"/>
+  <circle cx="40" cy="40" r="1" fill="#000"/> <!-- [!code highlight] -->
 </svg>
 ```
 
@@ -38,11 +38,11 @@
 ```xml
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
   <!-- 绘制一个圆角矩形，rx 和 ry 设置为 10 -->
-  <rect x="10" y="10" width="50" height="50" fill="none" stroke="blue" rx="10" ry="10" />
+  <rect x="10" y="10" width="50" height="50" fill="none" stroke="blue" rx="10" ry="10" /> <!-- [!code highlight] -->
   <!-- 在圆角矩形的左上角绘制一个半径也是 10 的圆 -->
-  <circle cx="20" cy="20" r="10" fill="red" opacity=".3" />
+  <circle cx="20" cy="20" r="10" fill="red" opacity=".3" /> <!-- [!code highlight] -->
   <!-- 标注出圆的圆心 -->
-  <circle cx="20" cy="20" r="1" fill="black" />
+  <circle cx="20" cy="20" r="1" fill="black" /> <!-- [!code highlight] -->
 </svg>
 ```
 

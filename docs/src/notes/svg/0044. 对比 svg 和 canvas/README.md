@@ -1,25 +1,15 @@
 # [0044. 对比 svg 和 canvas](https://github.com/Tdahuyou/svg/tree/main/0044.%20%E5%AF%B9%E6%AF%94%20svg%20%E5%92%8C%20canvas)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links)
-- [2. 📒 对比 svg 和 canvas](#2--对比-svg-和-canvas)
-- [3. 📒 svg、canvas 的应用场景](#3--svgcanvas-的应用场景)
+- [1. 📒 对比 svg 和 canvas](#1--对比-svg-和-canvas)
+- [2. 📒 svg、canvas 的应用场景](#2--svgcanvas-的应用场景)
 <!-- endregion:toc -->
 - 文档中提供了一张表格，记录了这俩玩意儿之间的一些差异。可以等学完了 svg、canvas 的内容之后再来回看这篇文档中提到的内容。
-- 总结：
+- 如何选择 svg、canvas？
   - **如果你需要高质量的图形，如图标和矢量图，且希望它们具有良好的缩放性和可访问性，那么 SVG 可能是更好的选择。**
   - **如果你的项目涉及到复杂的动画、游戏或需要大量动态图形处理，Canvas 将可能提供更好的性能和灵活性。**
 
-## 1. 🔗 links
-
-- http://snapsvg.io/demos/
-  - snapsvg demos
-- https://www.4399.com/
-  - 4399 小游戏
-- https://echarts.apache.org/examples/zh/index.html#chart-type-line
-  - echarts demos
-
-## 2. 📒 对比 svg 和 canvas
+## 1. 📒 对比 svg 和 canvas
 
 | SVG                                     | Canvas                                      |
 | --------------------------------------- | ------------------------------------------- |
@@ -54,7 +44,7 @@
     - **SVG**：非常适合需要高度可缩放性的应用，如图标、图表和其他复杂的交互式界面元素。
     - **Canvas**：更适合需要大量计算和重新绘制的应用，如视频游戏、图像编辑和实时视频处理。
 
-## 3. 📒 svg、canvas 的应用场景
+## 2. 📒 svg、canvas 的应用场景
 
 - 想要了解 svg、canvas 都能做什么，一个不错的法子就是上网找案例，看看使用 svg、canvas 技术实现的成品。比如，快速了解一下它们能够实现什么效果。
 - svg 的 demos 可以看看 [snapsvg demos](http://snapsvg.io/demos/)

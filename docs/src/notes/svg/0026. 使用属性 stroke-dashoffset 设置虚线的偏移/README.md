@@ -19,10 +19,14 @@ stroke-dashoffset：配合虚线描边属性，设置虚线开始的位置（偏
 3. 可以用来实现其他线条移动的动画效果。
 -->
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <path d="M20 20H80" fill="none" stroke="red" stroke-width="1" stroke-dasharray="10" />
-  <path d="M20 30H80" fill="none" stroke="red" stroke-width="1" stroke-dashoffset="-5" stroke-dasharray="10" />
-  <path d="M20 40H80" fill="none" stroke="red" stroke-width="1" stroke-dashoffset="5" stroke-dasharray="10" />
-  <path d="M20 50H80" fill="none" stroke="red" stroke-width="1" stroke-dashoffset="45" stroke-dasharray="60" />
+  <path d="M20 20H80" fill="none" stroke="red"
+    stroke-width="1" stroke-dasharray="10" /> <!-- [!code highlight] -->
+  <path d="M20 30H80" fill="none" stroke="red"
+    stroke-width="1" stroke-dashoffset="-5" stroke-dasharray="10" /> <!-- [!code highlight] -->
+  <path d="M20 40H80" fill="none" stroke="red"
+    stroke-width="1" stroke-dashoffset="5" stroke-dasharray="10" /> <!-- [!code highlight] -->
+  <path d="M20 50H80" fill="none" stroke="red"
+    stroke-width="1" stroke-dashoffset="45" stroke-dasharray="60" /> <!-- [!code highlight] -->
 </svg>
 ```
 

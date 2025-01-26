@@ -15,8 +15,8 @@
 
   <!-- x1 y1 和 x2 y2 设置线段的两个坐标点，两点之间绘制线段。 -->
   <!-- fill 属性是无效的，因为线段没有填充区域。 -->
-  <line x1="0" y1="0" x2="100" y2="100" stroke="black" stroke-width="1" opacity=".3" />
-  <line x1="0" y1="50" x2="50" y2="0" stroke="red" stroke-width="2" opacity=".3" />
+  <line x1="0" y1="0" x2="100" y2="100" stroke="black" stroke-width="1" opacity=".3" /> <!-- [!code highlight] -->
+  <line x1="0" y1="50" x2="50" y2="0" stroke="red" stroke-width="2" opacity=".3" /> <!-- [!code highlight] -->
 </svg>
 ```
 

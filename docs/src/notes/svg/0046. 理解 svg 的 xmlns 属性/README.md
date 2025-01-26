@@ -10,19 +10,19 @@
 - [7. 💻 demos.4 - 在线搬运的 .svg 需要注意 xmlns 声明是否缺失](#7--demos4---在线搬运的-svg-需要注意-xmlns-声明是否缺失)
 <!-- endregion:toc -->
 - 本节介绍的是 xmlns，这是一个属性，用于指定 XML 文档的命名空间。它决定了 svg 文件是否能够被正常渲染，在正式开始学习 svg 的绘图规则之前，有必要了解一下 `xmlns="http://www.w3.org/2000/svg"` 这条声明的作用。
-- 本节内容：模拟一个要求 - 在 100*100 的视口中，渲染一个圆心位置是 `(50, 50)`，半径是 `20` 的红色圆形，然后通过 demos 来对比带命名空间和不带命名空间的区别。
+- 本节内容：模拟一个要求 - 在 `100*100` 的视口中，渲染一个圆心位置是 `(50, 50)`，半径是 `20` 的红色圆形，然后通过 demos 来对比带命名空间和不带命名空间的区别。
 
 ## 1. 🔗 菜鸟教程 - xml 命名空间
 
 - https://www.runoob.com/xml/xml-namespaces.html
   - 菜鸟教程 - xml 命名空间
-  - 如果不清楚 xml 命名空间是什么，可以参考这篇文章。
+  - 如果不清楚 xml 命名空间是什么，可以快速过一下这篇文章。
 
 ## 2. 💻 demos.1 - 带有命名空间 `xmlns="http://www.w3.org/2000/svg"`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"> <!-- [!code highlight] -->
   <circle cx="50" cy="50" r="20" fill="red" />
 </svg>
 ```
@@ -35,7 +35,7 @@
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100" height="100">
+<svg width="100" height="100"> <!-- [!code highlight] -->
   <circle cx="50" cy="50" r="20" fill="red" />
 </svg>
 ```
@@ -64,14 +64,14 @@
     <div class="svg-box">
       <p>svg-1 带 xmlns</p>
       <?xml version="1.0" encoding="UTF-8"?>
-      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"> <!-- [!code highlight] -->
         <circle cx="50" cy="50" r="20" fill="red" />
       </svg>
     </div>
     <div class="svg-box">
       <p>svg-2 不带 xmlns</p>
       <?xml version="1.0" encoding="UTF-8"?>
-      <svg width="100" height="100">
+      <svg width="100" height="100"> <!-- [!code highlight] -->
         <circle cx="50" cy="50" r="20" fill="red" />
       </svg>
     </div>
@@ -97,23 +97,26 @@
 - ![](assets/2024-12-09-14-53-23.png)
 - 假如你要自行去 vue 官网获取 vue 的 logo，只需要把这部分 svg 给复制过来即可，但是复制过来的内容是没法正常渲染的，还需要加上 xlmns 声明。
 - 在 vue 官网中之所以可以正常渲染，是因为官网是一个 HTML5 文档，在对应的上下文中已经做了声明。但是在独立的 .svg 文件中是没法正常被浏览器渲染的。
-- 下面是 1.svg，是搬运过来的原始内容，用浏览器打开后看到的内容如下：
+- `1.svg` 是搬运过来的原始内容，用浏览器打开后看到的内容如下：
   - ![](assets/2024-12-09-15-01-53.png)
+- `2.svg` 是在 1.svg 的基础上加上了 xmlns 声明，用浏览器打开后看到的内容如下：
+  - ![](assets/2024-12-09-15-01-49.png)
 
-```xml
+::: code-group
+
+```xml [1.svg 无命名空间]
 <svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-f32e683e="">
     <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-f32e683e=""></path>
     <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-f32e683e=""></path>
 </svg>
 ```
 
-- 下面是 2.svg，在 1.svg 的基础上加上了 xmlns 声明，用浏览器打开后看到的内容如下：
-  - ![](assets/2024-12-09-15-01-49.png)
-
-```xml
-<svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-f32e683e="" xmlns="http://www.w3.org/2000/svg">
+```xml [2.svg 有命名空间]
+<svg class="logo" viewBox="0 0 128 128" width="24" height="24" data-v-f32e683e=""
+  xmlns="http://www.w3.org/2000/svg"> <!-- [!code highlight] -->
     <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-f32e683e=""></path>
     <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-f32e683e=""></path>
 </svg>
 ```
 
+:::

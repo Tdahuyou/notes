@@ -23,8 +23,8 @@ dx 和 dy 相对于这部分文字原来的位置，重新设置新位置。
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
   <text x="10" y="50" font-size="10" fill="blue">
     123
-    <tspan dy="-5" font-size="20" fill="red" text-decoration="line-through">abc</tspan>
-    <tspan x="10" y="30" font-size="10" fill="orange">ABC</tspan>
+    <tspan dy="-5" font-size="20" fill="red" text-decoration="line-through">abc</tspan> <!-- [!code highlight] -->
+    <tspan x="10" y="30" font-size="10" fill="orange">ABC</tspan> <!-- [!code highlight] -->
   </text>
 </svg>
 ```
@@ -53,7 +53,7 @@ dx 和 dy 相对于这部分文字原来的位置，重新设置新位置。
 
   <!-- 结构 2 -->
   <text x="10" y="80" font-size="10">
-    T<tspan fill="red">da</tspan>huyou
+    T<tspan fill="red">da</tspan>huyou <!-- [!code highlight] -->
   </text>
 </svg>
 ```

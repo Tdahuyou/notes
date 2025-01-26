@@ -24,11 +24,11 @@
     width="50" height="50" 设置矩形的宽和高。
     由于没有设置 fill，所以默认为黑色填充。
   -->
-  <rect x="10" y="10" width="50" height="50" />
+  <rect x="10" y="10" width="50" height="50" /> <!-- [!code highlight] -->
 </svg>
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1713948221441-b6fe175c-a101-4f7b-a807-e3b520e20148.png)
+![](assets/2025-01-26-14-17-35.png)
 
 
 ## 2. 💻 demos.2 - 绘制圆角矩形
@@ -38,9 +38,8 @@
   <!--
   使用 rx 和 ry 设置圆角半径
    -->
-  <rect x="10" y="10" width="50" height="50" fill="none" stroke="blue" rx="10" ry="10" />
+  <rect x="10" y="10" width="50" height="50" fill="none" stroke="blue" rx="10" ry="10" /> <!-- [!code highlight] -->
 </svg>
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1713949574625-03fe5d08-c05e-41c9-9d74-0d8e4a7ffecb.png)
-
+![](assets/2025-01-26-14-17-45.png)

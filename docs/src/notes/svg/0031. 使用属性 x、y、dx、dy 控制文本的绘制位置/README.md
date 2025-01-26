@@ -18,8 +18,8 @@ dx：表示文本左边相对于 x 值的距离（如果 x 是 20，那么 dx="1
 dy：表示文本底边相对于 y 值的距离（如果 y 是 30，那么 dy="10" 意味着文本将在 y 为 40 处开始绘制）
 -->
 <svg style="margin: 3rem;" width="500px" height="500px" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <text x="20" y="30" font-size="10">Text1</text>
-  <text x="20" y="30" dx="10" dy="10" font-size="10">Text2</text>
+  <text x="20" y="30" font-size="10">Text1</text> <!-- [!code highlight] -->
+  <text x="20" y="30" dx="10" dy="10" font-size="10">Text2</text> <!-- [!code highlight] -->
 </svg>
 ```
 
