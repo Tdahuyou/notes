@@ -96,7 +96,7 @@ export default defineConfig({
   themeConfig: {
     // aside: false, // 隐藏侧边栏
     outline: {
-      level: [2, 3],
+      // level: [2, 3],
       label: '目录',
     },
     search: {

@@ -347,7 +347,9 @@
   - `<defs>` 用于定义图形，使用 `<defs>` 定义的元素不会直接显示，除非被其他 SVG 元素通过引用使用，通常配合 `<use>`、`<g>` 一起使用。
   
 
-## 8. svg + html
+## 8. svg 与传统前端技术相结合
+
+### 8.1. svg + html
 
 - [x] [0001. 在 html 中嵌入 svg](https://tdahuyou.github.io/notes/notes/svg/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.html) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.html) -->  
   - [1. 💻 demos.1 - 准备测试用的 svg 图形](https://tdahuyou.github.io/notes/notes/svg/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.html#1--demos1---准备测试用的-svg-图形)
@@ -363,7 +365,7 @@
   - 如果你写好了一个 svg 文件，想要知道如何将其引入到前端页面上，可以参考下文中提到的一些做法。
   
 
-## 9. svg + css
+### 8.2. svg + css
 
 - [ ] [0021. 使用 css 控制 svg 样式](https://tdahuyou.github.io/notes/notes/svg/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.html) <!-- [locale](./0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.html) -->  
   - [1. 📒 使用 CSS 控制 SVG 样式的注意事项](https://tdahuyou.github.io/notes/notes/svg/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.html#1--使用-css-控制-svg-样式的注意事项)
@@ -373,7 +375,7 @@
   - 不是很重要，快速过～
   
 
-## 10. svg + js
+### 8.3. svg + js
 
 - [ ] [0022. 使用 js 控制 svg 实现 CRUD 操作](https://tdahuyou.github.io/notes/notes/svg/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.html) <!-- [locale](./0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.html) -->  
   - [1. 🔗 snapsvg](https://tdahuyou.github.io/notes/notes/svg/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.html#1--snapsvg)
@@ -385,7 +387,7 @@
   - 如果不清楚 CRUD 是什么，可以见结尾的 Q&A。
   
 
-## 11. 练习
+## 9. 练习
 
 - 0013
 - 0023

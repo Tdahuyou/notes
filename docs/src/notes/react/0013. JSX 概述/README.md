@@ -33,6 +33,10 @@
 - 每个 JSX 表达式，有且仅有一个根节点。
 - 如果有多个根，可以使用 `<React.Fragment></React.Fragment>` 来包裹这些根节点。
 - `<React.Fragment></React.Fragment>` 可以简写为 `<></>`。
+- **🤔 为什么 jsx 必须单根？**
+  - jsx 表达式 -> 等效的 React.createElement 函数调用。
+  - 调用 React.createElement 必须有一个根，如果有多个根，没法调，都不知道咋传参。
+  - jsx 表达式会被 babel 编译，转为等效的 React.createElement 写法。如果 jsx 有多个根节点，那显然是没法转的，因为 React.createElement 这个 API 创建的是一棵树，在创建这棵树的时候传入的第一个参数 type 表示的是根节点的类型。
 
 ## 4. 📒 必须要有结束标记
 

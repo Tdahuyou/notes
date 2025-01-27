@@ -47,8 +47,17 @@ class ReadmeUpdater {
       path: path.normalize(path.resolve(this.baseDir, "README.md")),
       contents: "",
       lines: [],
+      titles: [], // [ '# svg', '## 1. 词库', '## 2. svg 在线免费教程', '## 3. svg 起步', ... ]
+      titlesNotesCount: [], // [ 0, 1, 0, 10, ... ]
+      // sidebarJson: {
+      //   text: this.repoName,
+      //   link: `/notes/${this.repoName}/README`,
+      //   collapsed: true,
+      //   items: [],
+      // },
       noteTitleReg: /(\s*-\s*\[\s*x?\s*\]\s*)(\[?)(\d{4})(.*)/,
-      ids: new Set(), // 存在于 Home Readme 中的笔记 id 集合。
+      ids: new Set(), // 存在于 Home Readme 中的笔记 id 集合。（去重）
+      idList: [], // 存在于 Home Readme 中的笔记 id 集合。（未去重，id 按照出现的先后次序排序。）
     };
 
     this.toc = {
@@ -207,6 +216,7 @@ class ReadmeUpdater {
       if (match) {
         const noteID = match[3];
         this.homeReadme.ids.add(noteID);
+        this.homeReadme.idList.push(noteID);
         if (noteID in this.notes.map) {
           let prefixSymbol = match[1];
           if (this.doneNoteIds.includes(noteID)) {
@@ -279,13 +289,20 @@ class ReadmeUpdater {
     if (startLineIdx === -1 || endLineIdx === -1) return;
 
     // 收集标题，并更新编号。
-    const titles = [];
+    const titles = isHome ? this.homeReadme.titles : [];
     const headers = ["## ", "### ", "#### ", "##### ", "###### "]; // 2~6 级标题，忽略 1 级标题。
     if (isHome) headers.push("# "); // homeReadme 处理标题范围 1~6；非 homeReadme 处理标题范围 2~6。
     const titleNumbers = Array(7).fill(0); // 用于存储每个级别的编号
+    let notesCount = 0; // 统计每个标题下的直属笔记数量
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
-      if (headers.some((header) => line.startsWith(header))) {
+      const isHeader = headers.some((header) => line.startsWith(header));
+      const match = line.match(this.homeReadme.noteTitleReg);
+      if (isHeader) {
+        if (isHome) {
+          this.homeReadme.titlesNotesCount.push(notesCount);
+          notesCount = 0;
+        }
         const [numberedTitle, plainTitle] = addNumberToTitle(
           line,
           titleNumbers
@@ -293,21 +310,29 @@ class ReadmeUpdater {
         titles.push(numberedTitle);
         lines[i] = numberedTitle; // 更新原行内容
         // console.log('lines[i] =>', numberedTitle)
+      } else if (isHome && match) {
+        // const noteID = match[3];
+        notesCount++;
       }
+    }
+    if (isHome) {
+      this.homeReadme.titlesNotesCount.push(notesCount);
+      notesCount = 0;
+      this.homeReadme.titlesNotesCount.splice(0, 1);
     }
 
     const toc = generateToc(titles, this.EOL);
     // console.log('toc =>', toc);
 
     let bilibiliUrl = '';
-    let BilibiliOutsidePlayerCompStr = '';
+    // let BilibiliOutsidePlayerCompStr = '';
     if (!isHome) {
       const bilibiliTarget = this.bilibiliMap.find(item => item.id === id);
       // console.log('bilibiliTarget =>', bilibiliTarget);
       if (bilibiliTarget) {
         bilibiliUrl = bilibiliTarget.bilibili.map((bvid, i) => `[bilibili.${this.repoName}.${id}.${i + 1}](${this.bilibiliVideoBaseUrl + bvid})`).join('、');
         bilibiliUrl = `- ${bilibiliUrl}`;
-        BilibiliOutsidePlayerCompStr = bilibiliTarget.bilibili.map((bvid, i) => `<BilibiliOutsidePlayer id="${bvid}" />`).join(this.EOL);
+        // BilibiliOutsidePlayerCompStr = bilibiliTarget.bilibili.map((bvid, i) => `<BilibiliOutsidePlayer id="${bvid}" />`).join(this.EOL);
       }
     }
     // console.log('bilibiliUrl =>', bilibiliUrl);
@@ -316,7 +341,7 @@ class ReadmeUpdater {
       lines.splice(
         startLineIdx + 1,
         endLineIdx - startLineIdx - 1,
-        BilibiliOutsidePlayerCompStr,
+        // BilibiliOutsidePlayerCompStr,
         this.EOL,
         bilibiliUrl,
         ...toc.split(this.EOL)
@@ -468,21 +493,8 @@ class ReadmeUpdater {
     }
 
     const initSidebarJSON = () => {
-/* eg.
-{
-  "text": "react",
-  "link": "/notes/react/README",
-  "collapsed": true,
-  "items": [
-    {
-      "text": "0001. 第一个 react v19 程序 - 通过 CDN 引入 react、react-dom 在页面上渲染出 Hello World",
-      "link": "/notes/react/0001. 第一个 react v19 程序 - 通过 CDN 引入 react、react-dom 在页面上渲染出 Hello World/README"
-    }
-  ]
-}
-*/ 
-      const dirNameList = []; // [ { dirName: '...', done: false } ]
-      this.homeReadme.ids.forEach(id => {
+      const dirNameList = [];
+      this.homeReadme.idList.forEach(id => {
         const dirName = this.notes.dirNameList.find((dirName) => dirName.startsWith(id));
         if (dirName) {
           const done = this.doneNoteIds.includes(id) ? true : false;
@@ -491,21 +503,112 @@ class ReadmeUpdater {
             done
           });
         }
-      })
+      });
+    
+      // Prepare note items
+      const items_ = dirNameList.map(({ dirName, done }) => ({
+        text: (done ? '✅ ' : '⏰ ') + dirName,
+        link: `/notes/${this.repoName}/${dirName}/README`
+      }));
+    
+      console.log('this.homeReadme.titles', this.homeReadme.titles);
+      console.log('this.homeReadme.titlesNotesCount', this.homeReadme.titlesNotesCount);
+    
+      // Helper function to parse titles into hierarchical structure
+      const parseTitles = (titles, notesCount) => {
+        const stack = [];
+        const root = [];
+    
+        titles.forEach((title, i) => {
+          const level = title.match(/^#+/)[0].length; // Get the level from the number of `#`
+          const text = title.replace(/^#+\s*/, ''); // Remove the `#` and leading spaces
+          const noteItems = items_.splice(0, notesCount[i]); // Get corresponding notes
+    
+          const node = {
+            text,
+            collapsed: true,
+            items: noteItems.length > 0 ? noteItems : []
+          };
+    
+          // Ignore the first H1 (most outer title)
+          if (i === 0 && level === 1) return; // Skip the top-level title
+    
+          while (stack.length > 0 && stack[stack.length - 1].level >= level) {
+            stack.pop(); // Pop until the correct parent level
+          }
+    
+          if (stack.length === 0) {
+            root.push(node); // Top-level node
+          } else {
+            const parent = stack[stack.length - 1].node;
+            if (!parent.items) parent.items = [];
+            parent.items.push(node); // Add as child to the parent
+          }
+    
+          stack.push({ level, node });
+        });
+    
+        return root;
+      };
+    
+      const hierarchicalItems = parseTitles(this.homeReadme.titles, this.homeReadme.titlesNotesCount);
+    
+      // Write the final JSON to file
       fs.writeFileSync(
         path.join(this.vitepress.baseDir, this.repoName, 'sidebar.json'),
         JSON.stringify({
-          // text: `${this.repoName} ${this.doneNoteIds.length}/${this.notes.ids.size}`,
           text: `${this.repoName} (${this.doneNoteIds.length}/${this.notes.ids.size})`,
           link: `/notes/${this.repoName}/README`,
           collapsed: true,
-          items: dirNameList.map(({ dirName, done }) => ({
-            text: (done ? '✅ ' : '⏰ ') + dirName,
-            link: `/notes/${this.repoName}/${dirName}/README`
-          }))
+          items: hierarchicalItems
         })
       );
-    }
+    };
+    
+
+//     const initSidebarJSON = () => {
+// /* eg.
+// {
+//   "text": "react",
+//   "link": "/notes/react/README",
+//   "collapsed": true,
+//   "items": [
+//     {
+//       "text": "0001. 第一个 react v19 程序 - 通过 CDN 引入 react、react-dom 在页面上渲染出 Hello World",
+//       "link": "/notes/react/0001. 第一个 react v19 程序 - 通过 CDN 引入 react、react-dom 在页面上渲染出 Hello World/README"
+//     }
+//   ]
+// }
+// */ 
+//       const dirNameList = []; // [ { dirName: '...', done: false } ]
+//       this.homeReadme.idList.forEach(id => {
+//         const dirName = this.notes.dirNameList.find((dirName) => dirName.startsWith(id));
+//         if (dirName) {
+//           const done = this.doneNoteIds.includes(id) ? true : false;
+//           dirNameList.push({
+//             dirName,
+//             done
+//           });
+//         }
+//       })
+//       const items_ = dirNameList.map(({ dirName, done }) => ({
+//         text: (done ? '✅ ' : '⏰ ') + dirName,
+//         link: `/notes/${this.repoName}/${dirName}/README`
+//       }));
+//       console.log('this.homeReadme.titles', this.homeReadme.titles)
+//       console.log('this.homeReadme.titlesNotesCount', this.homeReadme.titlesNotesCount)
+//       const items = this.homeReadme.titles.map((title, i) => ({ text: title.replace(/#+ /, ''), collapsed: true, items: items_.splice(0, this.homeReadme.titlesNotesCount[i]) }))
+//       fs.writeFileSync(
+//         path.join(this.vitepress.baseDir, this.repoName, 'sidebar.json'),
+//         JSON.stringify({
+//           // text: `${this.repoName} ${this.doneNoteIds.length}/${this.notes.ids.size}`,
+//           text: `${this.repoName} (${this.doneNoteIds.length}/${this.notes.ids.size})`,
+//           link: `/notes/${this.repoName}/README`,
+//           collapsed: true,
+//           items
+//         })
+//       );
+//     }
 
     initDirs();
     updateHomeReadme();

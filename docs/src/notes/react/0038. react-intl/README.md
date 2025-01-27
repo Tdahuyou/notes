@@ -1,31 +1,29 @@
 # [0038. react-intl](https://github.com/Tdahuyou/react/tree/main/0038.%20react-intl)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links)
-- [2. 📒 react-intl 简介](#2--react-intl-简介)
-- [3. 🤔 ICU (International Components for Unicode) 是什么？有什么用？](#3--icu-international-components-for-unicode-是什么有什么用)
-  - [3.1. ICU（International Components for Unicode）简介](#31-icuinternational-components-for-unicode简介)
-  - [3.2. 核心功能](#32-核心功能)
-  - [3.3. 国际化与本地化支持](#33-国际化与本地化支持)
-  - [3.4. MessageFormat 功能](#34-messageformat-功能)
-  - [3.5. 平台与兼容性](#35-平台与兼容性)
-  - [3.6. 社区与维护](#36-社区与维护)
-  - [3.7. 总结](#37-总结)
-- [4. 💻 demos.1 - react-intl 基本使用](#4--demos1---react-intl-基本使用)
-- [5. 🔍 如何判断传入的 locale 是否是合法值](#5--如何判断传入的-locale-是否是合法值)
-- [6. 💻 demos.1 - 特殊的 locale 值](#6--demos1---特殊的-locale-值)
-- [7. 💻 demos.1 - useIntl、injectIntl - 使用 defineMessages 定义消息](#7--demos1---useintlinjectintl---使用-definemessages-定义消息)
-- [8. 💻 demos.1 - 通过 intl 对象来获取国际化消息数据](#8--demos1---通过-intl-对象来获取国际化消息数据)
-- [9. 💻 demos.2 - IntlShape 在 .ts 中的应用](#9--demos2---intlshape-在-ts-中的应用)
+- [1. 🔗 react-intl 相关资料](#1--react-intl-相关资料)
+- [2. 🔗 ICU 相关资料](#2--icu-相关资料)
+- [3. 📒 react-intl 简介](#3--react-intl-简介)
+- [4. 📒 react-intl 库中的一些常用模块](#4--react-intl-库中的一些常用模块)
+- [5. 🤔 ICU (International Components for Unicode) 是什么？有什么用？](#5--icu-international-components-for-unicode-是什么有什么用)
+- [6. 💻 demos.1 - react-intl 基本使用](#6--demos1---react-intl-基本使用)
+- [7. 🔍 如何判断传入的 locale 是否是合法值](#7--如何判断传入的-locale-是否是合法值)
+- [8. 💻 demos.3 - 特殊的 locale 值](#8--demos3---特殊的-locale-值)
+- [9. 💻 demos.4 - useIntl、injectIntl - 使用 defineMessages 定义消息](#9--demos4---useintlinjectintl---使用-definemessages-定义消息)
+- [10. 💻 demos.5 - 通过 intl 对象来获取国际化消息数据](#10--demos5---通过-intl-对象来获取国际化消息数据)
+- [11. 💻 demos.2 - IntlShape 在 .ts 中的应用](#11--demos2---intlshape-在-ts-中的应用)
 <!-- endregion:toc -->
 - React-Intl 是一个强大的工具，可帮助开发人员轻松管理和本地化他们的 React 应用程序。
 
-## 1. 🔗 links
+## 1. 🔗 react-intl 相关资料
 
 - https://formatjs.github.io/docs/getting-started/installation/
   - react-intl 官方文档
 - https://formatjs.github.io/docs/core-concepts/icu-syntax/
   - react-intl 官方文档 - 核心概念 - Message Syntax
+
+## 2. 🔗 ICU 相关资料
+
 - https://icu.unicode.org/
   - ICU-TC Home Page
   - ICU (International Components for Unicode)
@@ -34,7 +32,7 @@
 - https://unicode-org.github.io/icu/userguide/format_parse/messages/
   - 用于查阅 ICU Message syntax
 
-## 2. 📒 react-intl 简介
+## 3. 📒 react-intl 简介
 
 - React-Intl 是一个开源 JavaScript 库，用于在 React 应用程序中实现国际化。它提供了一组工具来处理应用程序中的本地化需求，包括日期、时间、货币和消息等。
 - React-Intl 的主要功能之一是支持多语言翻译。它允许开发人员将应用程序的文本和消息存储在一个外部文件中，并使用相应的语言代码来加载正确的翻译版本。这使得开发人员可以轻松地为不同的语言环境创建本地化的应用程序，而无需手动编写每个字符串的翻译。
@@ -48,56 +46,52 @@
       - `"当前时间：今天是 {ts, date, ::yyyy年M月d日 hh:mm:ss}"`
       - 其中的 `{ts, date, ::yyyy年M月d日 hh:mm:ss}` 就是一个 ICU Message Syntax 的格式，它表示一个日期格式，其中 `ts` 是一个占位符，表示日期和时间的值，`date` 是一个类型，表示一个日期，`::yyyy年M月d日 hh:mm:ss` 是一个格式，表示日期的格式。
     - 通过使用 `{key, type, format}` 格式，我们可以根据不同的条件选择输出不同的字符串，从而实现更灵活的消息显示方式。
-- react-intl 库中的一些常用模块
-  - **IntlProvider**
-    - 这是一个高阶组件，用于为应用程序提供国际化（i18n）环境。
-    - 它需要一个 `locale` 属性来指定语言环境，并且可以包含 `messages` 属性来提供翻译信息。
-    - **IntlProvider 组件是用来提供数据的。**
-  - **FormattedMessage**
-    - 用于在 JSX 中插入已格式化的消息。
-    - 通过 id 属性来指定使用 IntlProvider 提供的 messages 中的哪条消息。
-    - 通过 values 属性来提供消息的参数。
-  - **defineMessages**
-    - 用于定义多个消息对象，通常在一个单独的文件中定义并导出，以便集中管理所有的国际化消息。
-    - 在 node_modules/react-intl/index.js 中可以查看到 defineMessages 的实现源码：
-      - `function defineMessages(msgs) { return msgs; }`
-      - 源代码非常简单，就是将传入的 `msgs` 对象直接返回，没有做任何处理。
-  - **injectIntl**
-    - 这是一个高阶组件，用于将 `intl` 对象注入到组件的 props 中。这使得组件可以直接访问 `intl` 提供的方法和属性。
-    - 在导出组件 `MyComponent` 的时候，使用 `injectIntl` 高阶组件包裹一下 `export default injectIntl(MyComponent);`，这会将 `intl` 对象注入到组件的 props 中。
-  - **IntlShape**、**intlShape**
-    - 定义了 `intl` 对象的形状（shape），通常用于类型检查或 prop 类型验证，确保传递给组件的 `intl` 对象符合预期结构。
-    - `MyComponent.propTypes = { intl: intlShape.isRequired };`
-    - `intlShape` 是一个相对早期（比如 v2.x）的 API，在当前（2025年1月3日13:27:11）的最新版 `"react-intl": "^7.1.0"` 中，这玩意儿已经被移除了。如果是 ts 项目，可以导入 `IntlShape` 类型。
+
+## 4. 📒 react-intl 库中的一些常用模块
+
+- **IntlProvider**
+  - 这是一个高阶组件，用于为应用程序提供国际化（i18n）环境。
+  - 它需要一个 `locale` 属性来指定语言环境，并且可以包含 `messages` 属性来提供翻译信息。
+  - **IntlProvider 组件是用来提供数据的。**
+- **FormattedMessage**
+  - 用于在 JSX 中插入已格式化的消息。
+  - 通过 id 属性来指定使用 IntlProvider 提供的 messages 中的哪条消息。
+  - 通过 values 属性来提供消息的参数。
+- **defineMessages**
+  - 用于定义多个消息对象，通常在一个单独的文件中定义并导出，以便集中管理所有的国际化消息。
+  - 在 node_modules/react-intl/index.js 中可以查看到 defineMessages 的实现源码：
+    - `function defineMessages(msgs) { return msgs; }`
+    - 源代码非常简单，就是将传入的 `msgs` 对象直接返回，没有做任何处理。
+- **injectIntl**
+  - 这是一个高阶组件，用于将 `intl` 对象注入到组件的 props 中。这使得组件可以直接访问 `intl` 提供的方法和属性。
+  - 在导出组件 `MyComponent` 的时候，使用 `injectIntl` 高阶组件包裹一下 `export default injectIntl(MyComponent);`，这会将 `intl` 对象注入到组件的 props 中。
+- **IntlShape**、**intlShape**
+  - 定义了 `intl` 对象的形状（shape），通常用于类型检查或 prop 类型验证，确保传递给组件的 `intl` 对象符合预期结构。
+  - `MyComponent.propTypes = { intl: intlShape.isRequired };`
+  - `intlShape` 是一个相对早期（比如 v2.x）的 API，在当前（2025年1月3日13:27:11）的最新版 `"react-intl": "^7.1.0"` 中，这玩意儿已经被移除了。如果是 ts 项目，可以导入 `IntlShape` 类型。
     - ⚠️ 注意：`intlShape` 已经被废弃，和目前很多库的版本不兼容，使用它会有不少坑。
 
-## 3. 🤔 ICU (International Components for Unicode) 是什么？有什么用？
+## 5. 🤔 ICU (International Components for Unicode) 是什么？有什么用？
 
-### 3.1. ICU（International Components for Unicode）简介
-
-ICU 是一个功能强大、跨平台的 C/C++ 和 Java 库，专为国际化（i18n）和本地化（l10n）开发设计。它提供了一整套工具，帮助软件开发者处理全球化的语言和地区需求。
-
-### 3.2. 核心功能
-
-1. **文本处理与字符集转换**
-   - 支持 Unicode 字符编码和字符串操作。
-   - 提供从一种字符集到另一种字符集的高效转换。
-2. **格式化**
-   - **数字和货币**：根据地区规范格式化数字和货币。
-   - **日期与时间**：支持全球多种日历系统（如公历、农历、伊斯兰历）和地区特定的日期格式。
-   - **消息模板**：使用动态、多语言的消息模板生成符合用户语言环境的内容。
-3. **排序与查找**
-   - 基于 Unicode 排序规则 (Collation) 进行多语言文本排序。
-   - 支持全文搜索、子串匹配和文本比较等操作，确保语言环境敏感性。
-
-### 3.3. 国际化与本地化支持
-
-- **适配多语言环境：** 提供工具帮助开发者轻松适配全球各地的语言、文化和地区规范。
-- **全球化支持：** 包括语言方向（如从右到左的阿拉伯文）和复杂脚本（如印度语和泰语）。
-
-### 3.4. MessageFormat 功能
-
-ICU 提供了强大的 **MessageFormat**，允许开发者动态生成语言环境敏感的文本。例如：
+- **ICU (International Components for Unicode) 是用于解决国际化问题的工具。**
+- ICU 是一个功能强大、跨平台的 C/C++ 和 Java 库，专为国际化（i18n）和本地化（l10n）开发设计。
+- ICU 提供了一整套工具，帮助软件开发者 **处理全球化的语言和地区需求**。
+- **核心功能**
+  1. **文本处理与字符集转换**
+     - 支持 Unicode 字符编码和字符串操作。
+     - **提供从一种字符集到另一种字符集的高效转换方案。**
+  2. **格式化**
+     - **数字和货币**：根据地区规范格式化数字和货币。
+     - **日期与时间**：支持全球多种日历系统（如公历、农历、伊斯兰历）和地区特定的日期格式。
+     - **消息模板**：使用动态、多语言的消息模板生成符合用户语言环境的内容。
+  3. **排序与查找**
+     - 基于 Unicode 排序规则 (Collation) 进行多语言文本排序。
+     - 支持全文搜索、子串匹配和文本比较等操作，确保语言环境敏感性。
+- **国际化与本地化支持**
+  - **适配多语言环境：** 提供工具帮助开发者轻松适配全球各地的语言、文化和地区规范。
+  - **全球化支持：** 包括语言方向（如从右到左的阿拉伯文）和复杂脚本（如印度语和泰语）。
+- **MessageFormat 功能**
+  - ICU 提供了强大的 **MessageFormat**，允许开发者动态生成语言环境敏感的文本。例如：
 
 ```java
 MessageFormat msgFmt = new MessageFormat(
@@ -105,27 +99,21 @@ MessageFormat msgFmt = new MessageFormat(
 String result = msgFmt.format(new Object[] { 5 });
 System.out.println(result);
 // 输出：在 5 小时后，任务将完成
+// 它支持变量插值、性别/复数处理（如“1 item” vs “2 items”）和条件逻辑，使得创建动态、多语言内容变得简单高效。
 ```
 
-它支持变量插值、性别/复数处理（如“1 item” vs “2 items”）和条件逻辑，使得创建动态、多语言内容变得简单高效。
-
-### 3.5. 平台与兼容性
-
-- **跨平台支持：** ICU 可运行在多种操作系统（Windows、Linux、macOS）上。
-- **多语言接口：** 提供 C/C++ 和 Java 的核心实现，并扩展到其他语言（如 Python 和 .NET）。
-
-### 3.6. 社区与维护
-
-- ICU 由 Unicode 联盟维护，并拥有一个全球开发者社区。
-- 定期更新以确保与 Unicode 标准和地区规范保持一致。
-- 广泛应用于现代软件（如浏览器、操作系统和数据库）中，具有极高的稳定性和可靠性。
-
-### 3.7. 总结
-
-ICU 是现代软件开发中不可或缺的国际化工具，它的功能涵盖文本处理、格式化、排序和多语言支持，为开发者解决了语言和地区适配的复杂问题。在需要支持全球化用户的项目中，ICU 是最佳选择之一。
+- **平台与兼容性**
+  - **跨平台支持：** ICU 可运行在多种操作系统（Windows、Linux、macOS）上。
+  - **多语言接口：** 提供 C/C++ 和 Java 的核心实现，并扩展到其他语言（如 Python 和 .NET）。
+- **社区与维护**
+  - ICU 由 Unicode 联盟维护，并拥有一个全球开发者社区。
+  - 定期更新以确保与 Unicode 标准和地区规范保持一致。
+  - 广泛应用于现代软件（如浏览器、操作系统和数据库）中，具有极高的稳定性和可靠性。
+- **总结**
+  - ICU 是现代软件开发中不可或缺的国际化工具，它的功能涵盖文本处理、格式化、排序和多语言支持，为开发者解决了语言和地区适配的复杂问题。在需要支持全球化用户的项目中，ICU 是最佳选择之一。
 
 
-## 4. 💻 demos.1 - react-intl 基本使用
+## 6. 💻 demos.1 - react-intl 基本使用
 
 ```js
 import { StrictMode, useState, useEffect } from 'react';
@@ -218,12 +206,15 @@ createRoot(document.getElementById('root')).render(
     - date 是 ICU 的一个格式化类型，它表示一个日期。（除了 date，还有 number、time 等等）
       - docs：https://formatjs.github.io/docs/core-concepts/icu-syntax/
     - 最后一部分 `::yyyy年M月d日 hh:mm:ss` 用于指定日期的格式。
+      - 格式的书写模式，可以查阅 ICU 文档。
+      - Format Pattern: https://unicode-org.github.io/icu/userguide/format_parse/datetime/
+      - ![](assets/2025-01-23-16-42-46.png)
     - 上述这种结构 `{key, type, format}` 是通用的，其中 key 是必填的，其他的都是根据需求可选的。
   - `Formatted*` 有很多，比如这里的 FormattedNumber
     - docs：https://formatjs.github.io/docs/intl/
     - 小结：其实用一个 FormattedMessage 基本就够了，其他的 `Formatted*` 都可以基于 `FormattedMessage` 来实现，如果有一些简单的格式化的逻辑需求，完全可以自己实现。
 
-## 5. 🔍 如何判断传入的 locale 是否是合法值
+## 7. 🔍 如何判断传入的 locale 是否是合法值
 
 - https://github.com/formatjs/formatjs/blob/%40formatjs/intl%403.0.4/packages/intl/src/create-intl.ts#L77
 - @formatjs/intl@3.0.4/packages/intl/src/create-intl.ts 源码
@@ -260,7 +251,7 @@ Intl.NumberFormat.supportedLocalesOf('ja') // => ['ja']
 Intl.NumberFormat.supportedLocalesOf('zh-250102') // => ['zh-250102']
 ```
 
-## 6. 💻 demos.1 - 特殊的 locale 值
+## 8. 💻 demos.3 - 特殊的 locale 值
 
 ```js
 import { StrictMode, useState } from 'react';
@@ -307,7 +298,7 @@ createRoot(document.getElementById('root')).render(
 );
 ```
 
-## 7. 💻 demos.1 - useIntl、injectIntl - 使用 defineMessages 定义消息
+## 9. 💻 demos.4 - useIntl、injectIntl - 使用 defineMessages 定义消息
 
 ```js
 import React, { StrictMode, useState, useEffect } from 'react';
@@ -441,12 +432,12 @@ createRoot(document.getElementById('root')).render(
 - ![](assets/2025-01-03-10-56-42.png)
 - ![](assets/2025-01-03-10-56-52.png)
 
-## 8. 💻 demos.1 - 通过 intl 对象来获取国际化消息数据
+## 10. 💻 demos.5 - 通过 intl 对象来获取国际化消息数据
 
 ```js
-import React, { StrictMode, useState } from 'react';
-import { createRoot } from 'react-dom/client';
-import { IntlProvider, defineMessages, useIntl, injectIntl } from 'react-intl';
+import React, { StrictMode, useState } from 'react'
+import { createRoot } from 'react-dom/client'
+import { IntlProvider, defineMessages, useIntl, injectIntl } from 'react-intl'
 
 const msg = defineMessages({
   welcome: {
@@ -459,14 +450,14 @@ const msg = defineMessages({
     defaultMessage: 'Goodbye, {name}!',
     description: '告别用户的消息',
   },
-});
+})
 
 function Greeting({ name, intl }) {
   // 通过 useIntl(); 来获取 intl 对象
-  const intl2 = useIntl();
+  const intl2 = useIntl()
 
   // 通过 injectIntl 和 useIntl() 获取到的 intl 是同一个对象。
-  // console.log(intl === intl2); // true
+  console.log(intl === intl2) // true
 
   return (
     <>
@@ -482,7 +473,7 @@ function Greeting({ name, intl }) {
         {intl.formatMessage(msg.goodbye, { name })}
       </div>
     </>
-  );
+  )
 }
 
 const localeMessages = {
@@ -494,13 +485,13 @@ const localeMessages = {
     'app.welcome': '欢迎，{name}！',
     'app.goodbye': '再见，{name}！',
   },
-};
+}
 
 function App() {
-  const [locale, setLocale] = useState('en');
-  const messages = localeMessages[locale];
+  const [locale, setLocale] = useState('en')
+  const messages = localeMessages[locale]
 
-  const GreetingContainer = injectIntl(Greeting); // 注入 intl 对象
+  const GreetingContainer = injectIntl(Greeting) // 注入 intl 对象
 
   return (
     <IntlProvider locale={locale} messages={messages}>
@@ -512,22 +503,22 @@ function App() {
         <GreetingContainer name="Tdahuyou" />
       </div>
     </IntlProvider>
-  );
+  )
 }
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-  </StrictMode>,
-);
+  </StrictMode>
+)
 ```
 
 - ![](assets/2025-01-03-10-56-42.png)
 - ![](assets/2025-01-03-10-56-52.png)
 
-## 9. 💻 demos.2 - IntlShape 在 .ts 中的应用
+## 11. 💻 demos.2 - IntlShape 在 .ts 中的应用
 
-```ts
+```tsx
 import { StrictMode, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { IntlProvider, defineMessages, useIntl, injectIntl, IntlShape } from 'react-intl';
