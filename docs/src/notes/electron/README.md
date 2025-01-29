@@ -1,5 +1,57 @@
 # electron
 
+<!-- region:toc -->
+- [electron](#electron)
+  - [1. electron 笔记内容简介](#1-electron-笔记内容简介)
+  - [2. electron 概述](#2-electron-概述)
+  - [3. electron 的一些学习资源](#3-electron-的一些学习资源)
+    - [3.1. electron 书籍](#31-electron-书籍)
+    - [3.2. electron 掘金小册](#32-electron-掘金小册)
+  - [4. 认识 electron](#4-认识-electron)
+    - [4.1. electron 都能用来开发什么类型的应用程序？](#41-electron-都能用来开发什么类型的应用程序)
+    - [4.2. 了解 electron 的核心概念](#42-了解-electron-的核心概念)
+  - [5. 打通主进程和渲染进程](#5-打通主进程和渲染进程)
+    - [5.1. 上下文桥接 contextBridge](#51-上下文桥接-contextbridge)
+    - [5.2. IPC 基础](#52-ipc-基础)
+      - [5.2.1. 认识 IPC 相关模块](#521-认识-ipc-相关模块)
+      - [5.2.2. 渲染进程 -> 主进程](#522-渲染进程---主进程)
+      - [5.2.3. 主进程 -> 渲染进程](#523-主进程---渲染进程)
+      - [5.2.4. 渲染进程 <-> 主进程](#524-渲染进程---主进程)
+    - [5.3. IPC 进阶](#53-ipc-进阶)
+      - [5.3.1. 渲染进程 <-> 渲染进程](#531-渲染进程---渲染进程)
+      - [5.3.2. MessageChannel](#532-messagechannel)
+  - [6. 窗口](#6-窗口)
+    - [6.1. 不同系统的窗口行为兼容适配](#61-不同系统的窗口行为兼容适配)
+    - [6.2. 窗口首次加载的白屏问题](#62-窗口首次加载的白屏问题)
+    - [6.3. 无边框窗口](#63-无边框窗口)
+    - [6.4. 窗口层级](#64-窗口层级)
+  - [7. 菜单](#7-菜单)
+    - [7.1. 不同系统的菜单适配](#71-不同系统的菜单适配)
+    - [7.2. 页面右键菜单](#72-页面右键菜单)
+    - [7.3. Dock 菜单](#73-dock-菜单)
+    - [7.4. 自定义菜单](#74-自定义菜单)
+    - [7.5. Tray 菜单](#75-tray-菜单)
+  - [8. app](#8-app)
+    - [8.1. 路径](#81-路径)
+  - [9. 快捷键](#9-快捷键)
+    - [9.1. 页面级别](#91-页面级别)
+    - [9.2. 全局级别](#92-全局级别)
+  - [10. 剪切板](#10-剪切板)
+  - [11. 系统通知](#11-系统通知)
+  - [12. 桌面视频流](#12-桌面视频流)
+  - [13. 插件化](#13-插件化)
+    - [13.1. 集成浏览器插件](#131-集成浏览器插件)
+  - [14. 其它功能](#14-其它功能)
+    - [14.1. webContents startDrag 原生文件拖放](#141-webcontents-startdrag-原生文件拖放)
+  - [15. 第三方库](#15-第三方库)
+    - [15.1. electron-reload](#151-electron-reload)
+    - [15.2. electron-builder](#152-electron-builder)
+  - [16. 小练习](#16-小练习)
+    - [16.1. 桌面时钟](#161-桌面时钟)
+    - [16.2. 微信读书助手](#162-微信读书助手)
+    - [16.3. 自动定时截图工具](#163-自动定时截图工具)
+  - [17. 📺 bilibili](#17--bilibili)
+  <!-- endregion:toc -->
 
 ## 1. electron 笔记内容简介
 
@@ -110,7 +162,6 @@
 ### 4.2. 了解 electron 的核心概念
 
 - [x] [0001. Electron 应用的最小组成](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html) <!-- [locale](./0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0001.1](https://www.bilibili.com/video/BV1544219774)
@@ -208,7 +259,6 @@
 #### 5.2.2. 渲染进程 -> 主进程
 
 - [ ] [0037. 使用 ipcRenderer.send、ipcMain.on 实现从渲染进程到主进程的单向 IPC 通信](https://tdahuyou.github.io/notes/notes/electron/0037.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0037.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0037.1](https://www.bilibili.com/video/BV1544219774)
@@ -216,7 +266,6 @@
   
 
 - [ ] [0035. 使用 ipcRenderer.invoke、ipcMain.handle 实现从渲染进程到主进程的单向 IPC 通信](https://tdahuyou.github.io/notes/notes/electron/0035.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0035.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0035.1](https://www.bilibili.com/video/BV1544219774)
@@ -233,7 +282,6 @@
 #### 5.2.4. 渲染进程 <-> 主进程
 
 - [ ] [0038. 使用 ipcRenderer.send、ipcMain.on 实现主进程和渲染进程之间的双向 IPC 通信](https://tdahuyou.github.io/notes/notes/electron/0038.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0038.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0038.1](https://www.bilibili.com/video/BV1544219774)
@@ -241,7 +289,6 @@
   
 
 - [ ] [0039. 使用 ipcRenderer.sendSync、ipcMain.on 实现主进程和渲染进程之间的双向 IPC 通信](https://tdahuyou.github.io/notes/notes/electron/0039.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.sendSync%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0039.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.sendSync%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0039.1](https://www.bilibili.com/video/BV1544219774)
@@ -275,7 +322,6 @@
   
 
 - [ ] [0042. 通过主进程转发消息的方式实现两个渲染进程之间互相通信](https://tdahuyou.github.io/notes/notes/electron/0042.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%BD%AC%E5%8F%91%E6%B6%88%E6%81%AF%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0042.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%BD%AC%E5%8F%91%E6%B6%88%E6%81%AF%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0042.1](https://www.bilibili.com/video/BV1544219774)
@@ -288,7 +334,6 @@
   
 
 - [ ] [0041. 通过主进程获取另一个渲染进程的 ID 来实现两个渲染进程之间的通信](https://tdahuyou.github.io/notes/notes/electron/0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0041.1](https://www.bilibili.com/video/BV1544219774)
@@ -302,7 +347,6 @@
   
 
 - [ ] [0040. 使用 MessagePort 实现两个渲染进程之间的互相通信](https://tdahuyou.github.io/notes/notes/electron/0040.%20%E4%BD%BF%E7%94%A8%20MessagePort%20%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0040.%20%E4%BD%BF%E7%94%A8%20MessagePort%20%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0040.1](https://www.bilibili.com/video/BV1544219774)
@@ -337,7 +381,6 @@
   
 
 - [ ] [0003. 比较消息端口 MessageChannel 和 ipcRenderer.invoke、ipcMain.handle 的性能](https://tdahuyou.github.io/notes/notes/electron/0003.%20%E6%AF%94%E8%BE%83%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%20MessageChannel%20%E5%92%8C%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E7%9A%84%E6%80%A7%E8%83%BD/README.html) <!-- [locale](./0003.%20%E6%AF%94%E8%BE%83%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%20MessageChannel%20%E5%92%8C%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E7%9A%84%E6%80%A7%E8%83%BD/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0003.1](https://www.bilibili.com/video/BV1544219774)
@@ -386,7 +429,6 @@
   
 
 - [ ] [0018. 创建一个无边框窗口](https://tdahuyou.github.io/notes/notes/electron/0018.%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%97%A0%E8%BE%B9%E6%A1%86%E7%AA%97%E5%8F%A3/README.html) <!-- [locale](./0018.%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%97%A0%E8%BE%B9%E6%A1%86%E7%AA%97%E5%8F%A3/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0018.1](https://www.bilibili.com/video/BV1544219774)
@@ -397,7 +439,6 @@
   
 
 - [ ] [0019. 让无边框的窗口可以被拖拽](https://tdahuyou.github.io/notes/notes/electron/0019.%20%E8%AE%A9%E6%97%A0%E8%BE%B9%E6%A1%86%E7%9A%84%E7%AA%97%E5%8F%A3%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%8B%96%E6%8B%BD/README.html) <!-- [locale](./0019.%20%E8%AE%A9%E6%97%A0%E8%BE%B9%E6%A1%86%E7%9A%84%E7%AA%97%E5%8F%A3%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%8B%96%E6%8B%BD/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0019.1](https://www.bilibili.com/video/BV1544219774)
@@ -426,7 +467,6 @@
 ### 7.1. 不同系统的菜单适配
 
 - [ ] [0010. macos 应用菜单第一项的问题](https://tdahuyou.github.io/notes/notes/electron/0010.%20macos%20%E5%BA%94%E7%94%A8%E8%8F%9C%E5%8D%95%E7%AC%AC%E4%B8%80%E9%A1%B9%E7%9A%84%E9%97%AE%E9%A2%98/README.html) <!-- [locale](./0010.%20macos%20%E5%BA%94%E7%94%A8%E8%8F%9C%E5%8D%95%E7%AC%AC%E4%B8%80%E9%A1%B9%E7%9A%84%E9%97%AE%E9%A2%98/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0010.1](https://www.bilibili.com/video/BV1544219774)
@@ -577,7 +617,6 @@
 ## 13. 插件化
 
 - [ ] [0014. 使用 BrowserView 加载外部资源](https://tdahuyou.github.io/notes/notes/electron/0014.%20%E4%BD%BF%E7%94%A8%20BrowserView%20%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90/README.html) <!-- [locale](./0014.%20%E4%BD%BF%E7%94%A8%20BrowserView%20%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0014.1](https://www.bilibili.com/video/BV1544219774)
@@ -589,7 +628,6 @@
   
 
 - [ ] [0013. 基于 BrowserView 实现插件化能力](https://tdahuyou.github.io/notes/notes/electron/0013.%20%E5%9F%BA%E4%BA%8E%20BrowserView%20%E5%AE%9E%E7%8E%B0%E6%8F%92%E4%BB%B6%E5%8C%96%E8%83%BD%E5%8A%9B/README.html) <!-- [locale](./0013.%20%E5%9F%BA%E4%BA%8E%20BrowserView%20%E5%AE%9E%E7%8E%B0%E6%8F%92%E4%BB%B6%E5%8C%96%E8%83%BD%E5%8A%9B/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0013.1](https://www.bilibili.com/video/BV1544219774)
@@ -603,7 +641,6 @@
 
 - 其它第三方插件的集成方案基本都类似，集成 vue 调试工具 vue-devtools 的示例可以作为一个参考。
 - [ ] [0006. 使用 vue-remote-devtools](https://tdahuyou.github.io/notes/notes/electron/0006.%20%E4%BD%BF%E7%94%A8%20vue-remote-devtools/README.html) <!-- [locale](./0006.%20%E4%BD%BF%E7%94%A8%20vue-remote-devtools/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0006.1](https://www.bilibili.com/video/BV1544219774)
@@ -641,7 +678,6 @@
 ### 14.1. webContents startDrag 原生文件拖放
 
 - [ ] [0027. 原生文件拖 & 放](https://tdahuyou.github.io/notes/notes/electron/0027.%20%E5%8E%9F%E7%94%9F%E6%96%87%E4%BB%B6%E6%8B%96%20%26%20%E6%94%BE/README.html) <!-- [locale](./0027.%20%E5%8E%9F%E7%94%9F%E6%96%87%E4%BB%B6%E6%8B%96%20%26%20%E6%94%BE/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0027.1](https://www.bilibili.com/video/BV1544219774)
@@ -658,7 +694,6 @@
 ### 15.1. electron-reload
 
 - [ ] [0031. 使用 electron-reload 实现热更](https://tdahuyou.github.io/notes/notes/electron/0031.%20%E4%BD%BF%E7%94%A8%20electron-reload%20%E5%AE%9E%E7%8E%B0%E7%83%AD%E6%9B%B4/README.html) <!-- [locale](./0031.%20%E4%BD%BF%E7%94%A8%20electron-reload%20%E5%AE%9E%E7%8E%B0%E7%83%AD%E6%9B%B4/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
   
 
   - [bilibili.electron.0031.1](https://www.bilibili.com/video/BV1544219774)
@@ -678,7 +713,7 @@
   - 使用 electron-builder 出包
   
 
-## 16. 项目练习
+## 16. 小练习
 
 ### 16.1. 桌面时钟
 
@@ -729,241 +764,7 @@
 
 ## 17. 📺 bilibili
 
-- 视频链接：https://www.bilibili.com/video/BV1544219774
 
-下面这些是已经录制了视频的内容：
-
-- [x] [0001. Electron 应用的最小组成](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html) <!-- [locale](./0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0001.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#1--links)
-  - [2. 📒 electron 应用的最小组成](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#2--electron-应用的最小组成)
-  - [3. 📒 最终效果展示](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#3--最终效果展示)
-  - [4. 💻 demo - 实现步骤](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#4--demo---实现步骤)
-    - [4.1. 安装 Node.js 和 npm](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#41-安装-nodejs-和-npm)
-    - [4.2. 安装 Electron](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#42-安装-electron)
-    - [4.3. 准备入口文件（主进程）](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#43-准备入口文件主进程)
-    - [4.4. 准备页面（渲染进程，非必需）](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#44-准备页面渲染进程非必需)
-    - [4.5. 配置启动命令（非必需）](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#45-配置启动命令非必需)
-    - [4.6. 启动 Electron 应用](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#46-启动-electron-应用)
-  - [5. 🤔 问：主进程加载的入口文件是？](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#5--问主进程加载的入口文件是)
-  - 实现一个 demo - 从 0 到 1 搭建一个 hello world 应用
-    - 知道 Electron 应用的最小组成，要求能够做到快速搭建一个简单的 Electron 学习环境，全程耗时控制在 1min ~ 3min（不算下载依赖耗时）实现一个小 demo，为接下来的 Electron 相关知识点的学习做准备。
-  - 本节内容，主要就是仨文件：
-    - package.json 指定入口
-    - index.js 主进程
-    - index.html 渲染进程（非必需）
-  
-
-- [ ] [0003. 比较消息端口 MessageChannel 和 ipcRenderer.invoke、ipcMain.handle 的性能](https://tdahuyou.github.io/notes/notes/electron/0003.%20%E6%AF%94%E8%BE%83%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%20MessageChannel%20%E5%92%8C%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E7%9A%84%E6%80%A7%E8%83%BD/README.html) <!-- [locale](./0003.%20%E6%AF%94%E8%BE%83%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%20MessageChannel%20%E5%92%8C%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E7%9A%84%E6%80%A7%E8%83%BD/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0003.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 💻 demo - MessageChannel vs. ipcRenderer.invoke、ipcMain.handle](https://tdahuyou.github.io/notes/notes/electron/0003.%20%E6%AF%94%E8%BE%83%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%20MessageChannel%20%E5%92%8C%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E7%9A%84%E6%80%A7%E8%83%BD/README.html#1--demo---messagechannel-vs-ipcrendererinvokeipcmainhandle)
-  - 本文通过一个 Electron 应用示例对比了 `MessageChannel` 和 `ipcRenderer.invoke`/`ipcMain.handle` 两种 IPC 通信方式的性能，结果显示在单向通信中两者差异不大，但在双向通信中 `MessageChannel` 的性能明显优于 `ipcRenderer.invoke`。
-  - 这篇文档写了一个 demo 来比较两种 IPC 通信方式的性能差异。
-  - 该 demo 仅仅作为一个参考，实际需求往往会更加复杂，比如通信过程中会携带大量数据。本 demo 的测试用例比较简单，仅仅是传递一个写死的字符串。
-  - 建议先读源码，再看视频的后半段测试结果演示。从最终表现出来的结果来看，单向通信几乎没差，但如果是双向通信的话，MessageChannel 比 invoke 快了 3～5 倍。
-  
-
-- [ ] [0006. 使用 vue-remote-devtools](https://tdahuyou.github.io/notes/notes/electron/0006.%20%E4%BD%BF%E7%94%A8%20vue-remote-devtools/README.html) <!-- [locale](./0006.%20%E4%BD%BF%E7%94%A8%20vue-remote-devtools/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0006.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0006.%20%E4%BD%BF%E7%94%A8%20vue-remote-devtools/README.html#1--links)
-  - [2. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0006.%20%E4%BD%BF%E7%94%A8%20vue-remote-devtools/README.html#2--demo)
-  - 介绍 vue-remote-devtools 的基本使用
-  - 本文介绍如何让基于 Electron 搭建的 Vue 工程，能够远程地使用 Vue 调试工具。本节介绍的其实是一个通用的法子，那些在非浏览器环境下搭建的 Vue 工程，如果想要使用 vue-devtools 的能力，都可以参考文中提到的这种方式。
-  - 其它第三方插件的集成方案基本都类似，集成 vue 调试工具 vue-devtools 的示例可以作为一个参考。
-  
-
-- [ ] [0010. macos 应用菜单第一项的问题](https://tdahuyou.github.io/notes/notes/electron/0010.%20macos%20%E5%BA%94%E7%94%A8%E8%8F%9C%E5%8D%95%E7%AC%AC%E4%B8%80%E9%A1%B9%E7%9A%84%E9%97%AE%E9%A2%98/README.html) <!-- [locale](./0010.%20macos%20%E5%BA%94%E7%94%A8%E8%8F%9C%E5%8D%95%E7%AC%AC%E4%B8%80%E9%A1%B9%E7%9A%84%E9%97%AE%E9%A2%98/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0010.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0010.%20macos%20%E5%BA%94%E7%94%A8%E8%8F%9C%E5%8D%95%E7%AC%AC%E4%B8%80%E9%A1%B9%E7%9A%84%E9%97%AE%E9%A2%98/README.html#1--links)
-  - [2. 💻 demo1](https://tdahuyou.github.io/notes/notes/electron/0010.%20macos%20%E5%BA%94%E7%94%A8%E8%8F%9C%E5%8D%95%E7%AC%AC%E4%B8%80%E9%A1%B9%E7%9A%84%E9%97%AE%E9%A2%98/README.html#2--demo1)
-  - [3. 💻 demo2](https://tdahuyou.github.io/notes/notes/electron/0010.%20macos%20%E5%BA%94%E7%94%A8%E8%8F%9C%E5%8D%95%E7%AC%AC%E4%B8%80%E9%A1%B9%E7%9A%84%E9%97%AE%E9%A2%98/README.html#3--demo2)
-  - [4. 🤔 问：在 macos 中，第一项菜单的名称如何自定义呢？](https://tdahuyou.github.io/notes/notes/electron/0010.%20macos%20%E5%BA%94%E7%94%A8%E8%8F%9C%E5%8D%95%E7%AC%AC%E4%B8%80%E9%A1%B9%E7%9A%84%E9%97%AE%E9%A2%98/README.html#4--问在-macos-中第一项菜单的名称如何自定义呢)
-  - macos 应用菜单第一项的有什么问题【demo1】
-  - 如何解决 macos 应用菜单第一项的有什么问题【demo2】
-  - 【demo1】介绍了 macos 应用菜单第一项的问题 —— 始终显示应用程序的名称，我们配置的 label 不生效。
-  - 【demo2】介绍了让我们配置的菜单项信息能够完整展示出来的一种解决方案 —— 对 macos 特殊处理，往菜单列表中 unshift 一项内容作为第一项。
-  - Q：实际开发中会存在这个问题吗？应该如何解决呢？
-  - A：不存在，解决方式也很简单。
-  - 在实际开发中会使用一些主流工具（比如 electron-builder）来出包，这时候 macos 菜单的第一项可以很方便地自定义配置，只需要配置 pageage.json 中的 productName 即可。
-  
-  ```json
-  {
-    // ...
-    "productName": "xxx", // 在这里配置你的应用名称
-    // ...
-  }
-  ```
-  
-
-- [ ] [0013. 基于 BrowserView 实现插件化能力](https://tdahuyou.github.io/notes/notes/electron/0013.%20%E5%9F%BA%E4%BA%8E%20BrowserView%20%E5%AE%9E%E7%8E%B0%E6%8F%92%E4%BB%B6%E5%8C%96%E8%83%BD%E5%8A%9B/README.html) <!-- [locale](./0013.%20%E5%9F%BA%E4%BA%8E%20BrowserView%20%E5%AE%9E%E7%8E%B0%E6%8F%92%E4%BB%B6%E5%8C%96%E8%83%BD%E5%8A%9B/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0013.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0013.%20%E5%9F%BA%E4%BA%8E%20BrowserView%20%E5%AE%9E%E7%8E%B0%E6%8F%92%E4%BB%B6%E5%8C%96%E8%83%BD%E5%8A%9B/README.html#1--links)
-  - [2. 💻 demo - BrowserView 实现插件化](https://tdahuyou.github.io/notes/notes/electron/0013.%20%E5%9F%BA%E4%BA%8E%20BrowserView%20%E5%AE%9E%E7%8E%B0%E6%8F%92%E4%BB%B6%E5%8C%96%E8%83%BD%E5%8A%9B/README.html#2--demo---browserview-实现插件化)
-  - 基于 BrowserView 实现插件化能力
-  - 该 demo 模拟了使用 BrowserView 模块来加载第三方资源并注入 preload 脚本，使其具备原生能力。
-  
-
-- [ ] [0014. 使用 BrowserView 加载外部资源](https://tdahuyou.github.io/notes/notes/electron/0014.%20%E4%BD%BF%E7%94%A8%20BrowserView%20%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90/README.html) <!-- [locale](./0014.%20%E4%BD%BF%E7%94%A8%20BrowserView%20%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0014.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. ⏰ TODO 为啥 BrowserView 被废弃掉了](https://tdahuyou.github.io/notes/notes/electron/0014.%20%E4%BD%BF%E7%94%A8%20BrowserView%20%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90/README.html#1--todo-为啥-browserview-被废弃掉了)
-  - [2. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0014.%20%E4%BD%BF%E7%94%A8%20BrowserView%20%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90/README.html#2--links)
-  - [3. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0014.%20%E4%BD%BF%E7%94%A8%20BrowserView%20%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90/README.html#3--demo)
-  - 如何使用 BrowserView 加载外部资源
-  - 这个 demo 使用 BrowserView 模块来加载第三方资源（掘金主页）到渲染进程的页面上。
-  
-
-- [ ] [0018. 创建一个无边框窗口](https://tdahuyou.github.io/notes/notes/electron/0018.%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%97%A0%E8%BE%B9%E6%A1%86%E7%AA%97%E5%8F%A3/README.html) <!-- [locale](./0018.%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%97%A0%E8%BE%B9%E6%A1%86%E7%AA%97%E5%8F%A3/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0018.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0018.%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%97%A0%E8%BE%B9%E6%A1%86%E7%AA%97%E5%8F%A3/README.html#1--links)
-  - [2. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0018.%20%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%97%A0%E8%BE%B9%E6%A1%86%E7%AA%97%E5%8F%A3/README.html#2--demo)
-  - 创建无边框窗口 frame: false
-  - 无边框窗口的特点
-  
-
-- [ ] [0019. 让无边框的窗口可以被拖拽](https://tdahuyou.github.io/notes/notes/electron/0019.%20%E8%AE%A9%E6%97%A0%E8%BE%B9%E6%A1%86%E7%9A%84%E7%AA%97%E5%8F%A3%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%8B%96%E6%8B%BD/README.html) <!-- [locale](./0019.%20%E8%AE%A9%E6%97%A0%E8%BE%B9%E6%A1%86%E7%9A%84%E7%AA%97%E5%8F%A3%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%8B%96%E6%8B%BD/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0019.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0019.%20%E8%AE%A9%E6%97%A0%E8%BE%B9%E6%A1%86%E7%9A%84%E7%AA%97%E5%8F%A3%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%8B%96%E6%8B%BD/README.html#1--links)
-  - [2. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0019.%20%E8%AE%A9%E6%97%A0%E8%BE%B9%E6%A1%86%E7%9A%84%E7%AA%97%E5%8F%A3%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%8B%96%E6%8B%BD/README.html#2--demo)
-  - 通过 css 来解决无边框的窗口的拖拽问题
-  
-
-- [ ] [0027. 原生文件拖 & 放](https://tdahuyou.github.io/notes/notes/electron/0027.%20%E5%8E%9F%E7%94%9F%E6%96%87%E4%BB%B6%E6%8B%96%20%26%20%E6%94%BE/README.html) <!-- [locale](./0027.%20%E5%8E%9F%E7%94%9F%E6%96%87%E4%BB%B6%E6%8B%96%20%26%20%E6%94%BE/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0027.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0027.%20%E5%8E%9F%E7%94%9F%E6%96%87%E4%BB%B6%E6%8B%96%20%26%20%E6%94%BE/README.html#1--links)
-  - [2. 📒本文要实现一个什么样的效果](https://tdahuyou.github.io/notes/notes/electron/0027.%20%E5%8E%9F%E7%94%9F%E6%96%87%E4%BB%B6%E6%8B%96%20%26%20%E6%94%BE/README.html#2-本文要实现一个什么样的效果)
-  - [3. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0027.%20%E5%8E%9F%E7%94%9F%E6%96%87%E4%BB%B6%E6%8B%96%20%26%20%E6%94%BE/README.html#3--demo)
-  - 原生文件拖 & 放是什么
-  - 如何实现原生文件拖 & 放效果
-    - 从视频的 0:50～2:30 开始展示最终的效果，可以从这开始看，快速了解下本节要实现的效果。
-  
-
-- [ ] [0031. 使用 electron-reload 实现热更](https://tdahuyou.github.io/notes/notes/electron/0031.%20%E4%BD%BF%E7%94%A8%20electron-reload%20%E5%AE%9E%E7%8E%B0%E7%83%AD%E6%9B%B4/README.html) <!-- [locale](./0031.%20%E4%BD%BF%E7%94%A8%20electron-reload%20%E5%AE%9E%E7%8E%B0%E7%83%AD%E6%9B%B4/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0031.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0031.%20%E4%BD%BF%E7%94%A8%20electron-reload%20%E5%AE%9E%E7%8E%B0%E7%83%AD%E6%9B%B4/README.html#1--links)
-  - [2. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0031.%20%E4%BD%BF%E7%94%A8%20electron-reload%20%E5%AE%9E%E7%8E%B0%E7%83%AD%E6%9B%B4/README.html#2--demo)
-  - 如何使用 electron-reload 实现热更
-  - 使用 electron-reload 监听主进程和渲染进程内容的变更，一旦内容变化，就自动重启 electron。
-  - 额，这功能确实有点儿用，不过感觉也是可有可无，因为手动启动的成本也不算太高。
-  
-
-- [ ] [0035. 使用 ipcRenderer.invoke、ipcMain.handle 实现从渲染进程到主进程的单向 IPC 通信](https://tdahuyou.github.io/notes/notes/electron/0035.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0035.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0035.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0035.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.invoke%E3%80%81ipcMain.handle%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html#1--demo)
-  
-
-- [ ] [0037. 使用 ipcRenderer.send、ipcMain.on 实现从渲染进程到主进程的单向 IPC 通信](https://tdahuyou.github.io/notes/notes/electron/0037.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0037.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0037.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0037.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%BB%8E%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E5%88%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%8D%95%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html#1--demo)
-  
-
-- [ ] [0038. 使用 ipcRenderer.send、ipcMain.on 实现主进程和渲染进程之间的双向 IPC 通信](https://tdahuyou.github.io/notes/notes/electron/0038.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0038.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0038.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0038.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.send%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html#1--demo)
-  
-
-- [ ] [0039. 使用 ipcRenderer.sendSync、ipcMain.on 实现主进程和渲染进程之间的双向 IPC 通信](https://tdahuyou.github.io/notes/notes/electron/0039.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.sendSync%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0039.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.sendSync%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0039.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0039.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.sendSync%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1/README.html#1--demo)
-  - 通过对比 `ipcRenderer.send`、`ipcRenderer.sendSync` 来熟悉 `sendSync` API 的一些特点和基本用法。
-  - 注意：ipcRenderer.sendSync 非必要，不建议使用。
-  
-
-- [ ] [0040. 使用 MessagePort 实现两个渲染进程之间的互相通信](https://tdahuyou.github.io/notes/notes/electron/0040.%20%E4%BD%BF%E7%94%A8%20MessagePort%20%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0040.%20%E4%BD%BF%E7%94%A8%20MessagePort%20%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0040.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0040.%20%E4%BD%BF%E7%94%A8%20MessagePort%20%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html#1--links)
-  - [2. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0040.%20%E4%BD%BF%E7%94%A8%20MessagePort%20%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html#2--demo)
-  - 如何使用 MessagePort 来实现两个渲染进程之间的相互通信
-  
-
-- [ ] [0041. 通过主进程获取另一个渲染进程的 ID 来实现两个渲染进程之间的通信](https://tdahuyou.github.io/notes/notes/electron/0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0041.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1/README.html#1--links)
-  - [2. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1/README.html#2--demo)
-  - 本文介绍了两个渲染进程之间实现互相通信的一种方式 —— 通过主进程获取另一个渲染进程的 ID 来实现两个渲染进程之间的通信。
-  - 本文介绍的这种通信方式需要依赖 ipcRenderer 模块中的 ipcRenderer.sendTo方法，这个方法在 Electron 的 v28 版本中已经被丢弃了，如果要使用这种通信方案的话，需要注意 Electron 的版本问题。
-  - 这种方式在最新版的 Electron 中已经被淘汰了。
-  
-  ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1/md-imgs%2F2024-10-05-22-05-41.png)
-  
-
-- [ ] [0042. 通过主进程转发消息的方式实现两个渲染进程之间互相通信](https://tdahuyou.github.io/notes/notes/electron/0042.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%BD%AC%E5%8F%91%E6%B6%88%E6%81%AF%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0042.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%BD%AC%E5%8F%91%E6%B6%88%E6%81%AF%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1544219774" />
-  
-
-  - [bilibili.electron.0042.1](https://www.bilibili.com/video/BV1544219774)
-  - [1. 💻 demo1](https://tdahuyou.github.io/notes/notes/electron/0042.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%BD%AC%E5%8F%91%E6%B6%88%E6%81%AF%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html#1--demo1)
-  - [2. 💻 demo2](https://tdahuyou.github.io/notes/notes/electron/0042.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%BD%AC%E5%8F%91%E6%B6%88%E6%81%AF%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html#2--demo2)
-  - 理解 demo1 的写法存在的问题
-  - 理解 demo2 的实现原理
-  - 一共有 2 个 demo，其中 demo1 的写法是存在一些问题的，demo2 对 demo1 的问题进行了处理。
-  - 类似于 demo2 的效果，在工作中实践过，使用起来感觉没啥问题，还 OK。需要注意的是 channel 的语义化，如果 channel 的数量比较多，那么可以尝试通过一些特殊的自定义命名规则来区分哪些 channel 是用于在两个渲染进程之间互相通信的。当然，除了通过自定义命名规范来区分，还可以单独写一个全局对象来存储 channel，比如 `CHANNEL_LIST.r2r.xxx`、`CHANNEL_LIST.r2m.xxx`、`CHANNEL_LIST.m2r.xxx`。
-  
-
-- [ ] [0050. 《Electron 实战：入门、进阶与性能优化》](https://tdahuyou.github.io/notes/notes/electron/0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/README.html) <!-- [locale](./0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/README.html) -->  
-  - 该笔记存放了 [《Electron 实战：入门、进阶与性能优化》](https://tdahuyou.github.io/notes/notes/electron/0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/%E3%80%8AElectron%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B.pdf) 这本书的 pdf 版本。
-  - 这本书还没读完，记得读了其中的一小部分，现在（24.10）electron 已经升级到 v33 了，书中的版本记得应该是蛮低的，在阅读的时候需要注意一下版本。书中（20.05）的版本是 8 左右。差了 25 个大版本，变化的内容还是挺多的。
-    - ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/md-imgs%2F2024-10-20-01-17-04.png)
-  
-  
-  
-  
-  
-  
-
-- [ ] [0056. 实现一个桌面时钟-2](https://tdahuyou.github.io/notes/notes/electron/0056.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F-2/README.html) <!-- [locale](./0056.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F-2/README.html) -->  
-  - [1. 📒 demo 功能简介](https://tdahuyou.github.io/notes/notes/electron/0056.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F-2/README.html#1--demo-功能简介)
-  - [2. 📒 编写这个 demo 的初衷](https://tdahuyou.github.io/notes/notes/electron/0056.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F-2/README.html#2--编写这个-demo-的初衷)
-  - [3. 📒 启动 `npm start` 和出包 `npm run build`](https://tdahuyou.github.io/notes/notes/electron/0056.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F-2/README.html#3--启动-npm-start-和出包-npm-run-build)
-  - [4. 📒 图标背景色 `#9feaf9`](https://tdahuyou.github.io/notes/notes/electron/0056.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F-2/README.html#4--图标背景色-9feaf9)
-  - 从 0 到 1 实现一个简易的桌面时钟应用。
-  - 一共没几行代码，直接看 src 下边的源码即可。
-  - 在 0032 也练习了一个桌面时钟的应用，0032 是一个桌面时钟摆件，展示效果是以钟表形式来呈现的。
+- [x] [0061. electron bilibili 视频列表](https://tdahuyou.github.io/notes/notes/electron/0061.%20electron%20bilibili%20%E8%A7%86%E9%A2%91%E5%88%97%E8%A1%A8/README.html) <!-- [locale](./0061.%20electron%20bilibili%20%E8%A7%86%E9%A2%91%E5%88%97%E8%A1%A8/README.html) -->  
+  - [1. 📺 bilibili](https://tdahuyou.github.io/notes/notes/electron/0061.%20electron%20bilibili%20%E8%A7%86%E9%A2%91%E5%88%97%E8%A1%A8/README.html#1--bilibili)
   

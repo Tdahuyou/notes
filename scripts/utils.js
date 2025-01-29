@@ -16,38 +16,61 @@ async function runCommand(command, dir) {
   });
 }
 
-/**
- * 同步本地和远程仓库
- * @param {String} dir 需要同步的笔记仓库路径
- */
 async function syncLocalAndRemote(dir) {
   try {
-    // 1. 在当前 dir 中执行 git pull
-    await runCommand("git pull --verbose", dir);
+    // 确保是 Git 仓库
+    const isGitRepo = await runCommand("git rev-parse --is-inside-work-tree", dir).catch(() => false);
+    if (!isGitRepo) {
+      throw new Error(`${dir} 不是一个有效的 Git 仓库。`);
+    }
 
-    // 2. 在当前 dir 中执行 git status 来检查是否有未提交的更改
+    // #region pull 之前的预处理 - 策略一 stash
+    // 处理未暂存更改
     const statusOutput = await runCommand("git status --porcelain", dir);
-    // console.log('statusOutput', statusOutput, 'dir', dir);
-    if (!statusOutput) {
-      // console.log(`${dir} 没有未提交的更改，跳过提交和推送`);
+    if (statusOutput) {
+      console.log(`${dir} 存在未暂存的更改，先 stash...`);
+      await runCommand("git stash", dir);
+    }
+    
+    // 拉取远程更新
+    await runCommand("git pull --rebase", dir);
+    
+    // 恢复 stash 的更改
+    if (statusOutput) {
+      console.log(`${dir} 取回之前的更改`);
+      await runCommand("git stash pop", dir);
+    }
+    // #endregion pull 之前的预处理 - 策略一 stash
+
+    
+    
+    // #region pull 之前的预处理 - 策略二 commit
+    // 在 git pull 之前先暂存并提交未提交的更改
+    // 弊端：每次一旦有变更，都会预先 commit 一次。策略一则是先 stash，git stash 不会创建新的提交记录，只是临时保存更改，适用你不想立即提交更改的情况。
+    // await runCommand("git add .", dir);
+    // await runCommand('git commit -m "auto commit before pull"', dir);
+    // await runCommand("git pull --rebase", dir);
+    // #region pull 之前的预处理 - 策略二 commit
+
+
+    // 再次检查是否有未提交的更改
+    const newStatus = await runCommand("git status --porcelain", dir);
+    if (!newStatus) {
+      console.log(`${dir} 没有新的更改，跳过提交`);
       return;
     }
 
-    // 3. 在当前 dir 中执行 git add .
+    // 提交并推送
     await runCommand("git add .", dir);
-
-    // 4. 在当前 dir 中执行 git commit -m "update"
-    await runCommand('git commit -m "update"', dir);
-
-    // 5. 在当前 dir 中执行 git push
+    const changedFiles = newStatus.split("\n").length;
+    await runCommand(`git commit -m "update: ${changedFiles} files modified"`, dir);
     await runCommand("git push", dir);
 
+    // 获取远程 URL
     const url = await runCommand("git remote -v", dir);
-
-    // 6. 打印 "同步完成"
-    console.log(`✅ 笔记同步完成 ${url.match(/https:\/\/[^\s]+/)[0]}`);
+    const remoteMatch = url.match(/https:\/\/[^\s]+|git@[^:\s]+:[^\s]+/);
+    console.log(`✅ 笔记同步完成 ${remoteMatch ? remoteMatch[0] : "（无法解析远程 URL）"}`);
   } catch (error) {
-    // 7. 如果某个步骤有错误，则打印错误信息
     console.error(`处理 ${dir} 时出错：${error.message}`);
   }
 }
