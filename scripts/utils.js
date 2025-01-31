@@ -25,21 +25,21 @@ async function syncLocalAndRemote(dir) {
     }
 
     // #region pull 之前的预处理 - 策略一 stash
-    // // 处理未暂存更改
-    // const statusOutput = await runCommand("git status --porcelain", dir);
-    // if (statusOutput) {
-    //   console.log(`${dir} 存在未暂存的更改，先 stash...`);
-    //   await runCommand("git stash", dir);
-    // }
+    // 处理未暂存更改
+    const statusOutput = await runCommand("git status --porcelain", dir);
+    if (statusOutput) {
+      console.log(`${dir} 存在未暂存的更改，先 stash...`);
+      await runCommand("git stash", dir);
+    }
     
-    // // 拉取远程更新
-    // await runCommand("git pull --rebase", dir);
+    // 拉取远程更新
+    await runCommand("git pull --rebase", dir);
     
-    // // 恢复 stash 的更改
-    // if (statusOutput) {
-    //   console.log(`${dir} 取回之前的更改`);
-    //   await runCommand("git stash pop", dir);
-    // }
+    // 恢复 stash 的更改
+    if (statusOutput) {
+      console.log(`${dir} 取回之前的更改`);
+      await runCommand("git stash pop", dir);
+    }
     // #endregion pull 之前的预处理 - 策略一 stash
 
     
@@ -47,9 +47,9 @@ async function syncLocalAndRemote(dir) {
     // #region pull 之前的预处理 - 策略二 commit
     // 在 git pull 之前先暂存并提交未提交的更改
     // 弊端：每次一旦有变更，都会预先 commit 一次。策略一则是先 stash，git stash 不会创建新的提交记录，只是临时保存更改，适用你不想立即提交更改的情况。
-    await runCommand("git add .", dir);
-    await runCommand('git commit -m "auto commit before pull"', dir);
-    await runCommand("git pull --rebase", dir);
+    // await runCommand("git add .", dir);
+    // await runCommand('git commit -m "auto commit before pull"', dir);
+    // await runCommand("git pull --rebase", dir);
     // #region pull 之前的预处理 - 策略二 commit
 
 
