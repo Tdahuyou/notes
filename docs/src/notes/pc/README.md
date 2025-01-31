@@ -3,32 +3,17 @@
 
 ## 1. 仓库内容简介
 
-- [ ] [0016. 仓库简介](https://tdahuyou.github.io/notes/notes/pc/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html) <!-- [locale](./0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html) -->  
-  - [1. ⏰ 搬运 yuque 上的工具分享笔记](https://tdahuyou.github.io/notes/notes/pc/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html#1--搬运-yuque-上的工具分享笔记)
-  - pc 笔记仓库内容简介
-    - 存放和使用个人电脑（macOS、Widnows）相关的笔记。
-    - 记录一些个人的使用习惯
-    - 记录一些软件的使用分享
-    - 记录网友咨询过的一些问题的回复
-    - ……
-  - https://space.bilibili.com/407241004
-    - 🔗 bilibili 视频链接
-    - 搜【📒 pc】视频合集
+- [x] [0016. 仓库简介](https://tdahuyou.github.io/notes/notes/pc/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html) <!-- [locale](./0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html) -->  
+  - [1. 📒 pc 笔记仓库内容简介](https://tdahuyou.github.io/notes/notes/pc/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html#1--pc-笔记仓库内容简介)
+  - [2. 🔗 bilibili 视频链接](https://tdahuyou.github.io/notes/notes/pc/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html#2--bilibili-视频链接)
+  - [3. ⏰ 搬运 yuque 上的工具分享笔记](https://tdahuyou.github.io/notes/notes/pc/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html#3--搬运-yuque-上的工具分享笔记)
   
 
-## 2. 掌握 AI 的基本使用技巧
+## 2. 工具分享系列
 
-- [ ] [0018. 学会使用 AI 来解决一些基础问题](https://tdahuyou.github.io/notes/notes/pc/0018.%20%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%20AI%20%E6%9D%A5%E8%A7%A3%E5%86%B3%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98/README.html) <!-- [locale](./0018.%20%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%20AI%20%E6%9D%A5%E8%A7%A3%E5%86%B3%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98/README.html) -->  
-  - [1. ⏰ 针对网友提过的一些问题，录制视频实际演示一下如何使用 AI 来解决这些问题，只需要一两分钟，把最基本的流程给录制清楚即可。](https://tdahuyou.github.io/notes/notes/pc/0018.%20%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%20AI%20%E6%9D%A5%E8%A7%A3%E5%86%B3%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98/README.html#1--针对网友提过的一些问题录制视频实际演示一下如何使用-ai-来解决这些问题只需要一两分钟把最基本的流程给录制清楚即可)
-  
-
-## 3. 工具分享系列
-
-### 3.1. snipaste
+### 2.1. snipaste
 
 - [ ] [0005. Snipaste 截图工具](https://tdahuyou.github.io/notes/notes/pc/0005.%20Snipaste%20%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0005.%20Snipaste%20%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1QR4y1y7GG" />
-<BilibiliOutsidePlayer id="BV1Ak4y1h7st" />
   
 
   - [bilibili.pc.0005.1](https://www.bilibili.com/video/BV1QR4y1y7GG)、[bilibili.pc.0005.2](https://www.bilibili.com/video/BV1Ak4y1h7st)
@@ -72,10 +57,9 @@
     - 视频中提到了 windows 系统自带的截图软件、snipaste、pixpin、QQ 截图、钉钉截图。
   
 
-### 3.2. wgesture
+### 2.2. wgesture
 
 - [ ] [0006. Wgesture 鼠标手势工具](https://tdahuyou.github.io/notes/notes/pc/0006.%20Wgesture%20%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0006.%20Wgesture%20%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E5%B7%A5%E5%85%B7/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1HM411z7Vn" />
   
 
   - [bilibili.pc.0006.1](https://www.bilibili.com/video/BV1HM411z7Vn)
@@ -96,11 +80,9 @@
     - 其它……
   
 
-### 3.3. 微信读书脚本
+### 2.3. 微信读书脚本
 
 - [ ] [0007. WeRead 微信读书辅助工具](https://tdahuyou.github.io/notes/notes/pc/0007.%20WeRead%20%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0007.%20WeRead%20%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1Ds4y1W7mq" />
-<BilibiliOutsidePlayer id="BV1sZ421p7fW" />
   
 
   - [bilibili.pc.0007.1](https://www.bilibili.com/video/BV1Ds4y1W7mq)、[bilibili.pc.0007.2](https://www.bilibili.com/video/BV1sZ421p7fW)
@@ -124,68 +106,63 @@
     - 微信读书桌面版
   
 
-### 3.4. SimpRead
+### 2.4. SimpRead
 
 - [ ] [0010. SimpRead 文章收集工具](https://tdahuyou.github.io/notes/notes/pc/0010.%20SimpRead%20%E6%96%87%E7%AB%A0%E6%94%B6%E9%9B%86%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0010.%20SimpRead%20%E6%96%87%E7%AB%A0%E6%94%B6%E9%9B%86%E5%B7%A5%E5%85%B7/README.html) -->  
-  <BilibiliOutsidePlayer id="BV19v4y1h7mY" />
   
 
   - [bilibili.pc.0010.1](https://www.bilibili.com/video/BV19v4y1h7mY)
   - [1. ⏰ 搬运 yuque 上的早期文章](https://tdahuyou.github.io/notes/notes/pc/0010.%20SimpRead%20%E6%96%87%E7%AB%A0%E6%94%B6%E9%9B%86%E5%B7%A5%E5%85%B7/README.html#1--搬运-yuque-上的早期文章)
   
 
-### 3.5. TypingClub
+### 2.5. TypingClub
 
 - [ ] [0008. TypingClub 打字练习工具](https://tdahuyou.github.io/notes/notes/pc/0008.%20TypingClub%20%E6%89%93%E5%AD%97%E7%BB%83%E4%B9%A0%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0008.%20TypingClub%20%E6%89%93%E5%AD%97%E7%BB%83%E4%B9%A0%E5%B7%A5%E5%85%B7/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1Cv4y1474Y" />
   
 
   - [bilibili.pc.0008.1](https://www.bilibili.com/video/BV1Cv4y1474Y)
   - [1. ⏰ 搬运 yuque 上的早期文章](https://tdahuyou.github.io/notes/notes/pc/0008.%20TypingClub%20%E6%89%93%E5%AD%97%E7%BB%83%E4%B9%A0%E5%B7%A5%E5%85%B7/README.html#1--搬运-yuque-上的早期文章)
   
 
-### 3.6. Qwerty Learner
+### 2.6. Qwerty Learner
 
 - [ ] [0009. Qwerty Learner 打字练习 + 学习外语工具](https://tdahuyou.github.io/notes/notes/pc/0009.%20Qwerty%20Learner%20%E6%89%93%E5%AD%97%E7%BB%83%E4%B9%A0%20%2B%20%E5%AD%A6%E4%B9%A0%E5%A4%96%E8%AF%AD%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0009.%20Qwerty%20Learner%20%E6%89%93%E5%AD%97%E7%BB%83%E4%B9%A0%20%2B%20%E5%AD%A6%E4%B9%A0%E5%A4%96%E8%AF%AD%E5%B7%A5%E5%85%B7/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1sj411A7r2" />
-<BilibiliOutsidePlayer id="BV1sj411A7r2" />
   
 
   - [bilibili.pc.0009.1](https://www.bilibili.com/video/BV1sj411A7r2)、[bilibili.pc.0009.2](https://www.bilibili.com/video/BV1sj411A7r2)
   - [1. ⏰ 搬运 yuque 上的早期文章](https://tdahuyou.github.io/notes/notes/pc/0009.%20Qwerty%20Learner%20%E6%89%93%E5%AD%97%E7%BB%83%E4%B9%A0%20%2B%20%E5%AD%A6%E4%B9%A0%E5%A4%96%E8%AF%AD%E5%B7%A5%E5%85%B7/README.html#1--搬运-yuque-上的早期文章)
   
 
-### 3.7. TTSmaker
+### 2.7. TTSmaker
 
 - [ ] [0011. TTSmaker 文本转语音在线工具](https://tdahuyou.github.io/notes/notes/pc/0011.%20TTSmaker%20%E6%96%87%E6%9C%AC%E8%BD%AC%E8%AF%AD%E9%9F%B3%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0011.%20TTSmaker%20%E6%96%87%E6%9C%AC%E8%BD%AC%E8%AF%AD%E9%9F%B3%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7/README.html) -->  
-  <BilibiliOutsidePlayer id="BV1iX4y1a7Fz" />
   
 
   - [bilibili.pc.0011.1](https://www.bilibili.com/video/BV1iX4y1a7Fz)
   - [1. ⏰ 搬运 yuque 上的早期文章](https://tdahuyou.github.io/notes/notes/pc/0011.%20TTSmaker%20%E6%96%87%E6%9C%AC%E8%BD%AC%E8%AF%AD%E9%9F%B3%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7/README.html#1--搬运-yuque-上的早期文章)
   
 
-### 3.8. Deskpins windows
+### 2.8. Deskpins windows
 
 - [ ] [0012. DeskPins windows 窗口置顶工具](https://tdahuyou.github.io/notes/notes/pc/0012.%20DeskPins%20windows%20%E7%AA%97%E5%8F%A3%E7%BD%AE%E9%A1%B6%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0012.%20DeskPins%20windows%20%E7%AA%97%E5%8F%A3%E7%BD%AE%E9%A1%B6%E5%B7%A5%E5%85%B7/README.html) -->  
   - [1. ⏰ 搬运 yuque 上的早期文章](https://tdahuyou.github.io/notes/notes/pc/0012.%20DeskPins%20windows%20%E7%AA%97%E5%8F%A3%E7%BD%AE%E9%A1%B6%E5%B7%A5%E5%85%B7/README.html#1--搬运-yuque-上的早期文章)
   
 
-### 3.9. 语雀收藏助手
+### 2.9. 语雀收藏助手
 
 - [ ] [0013. 语雀收藏助手](https://tdahuyou.github.io/notes/notes/pc/0013.%20%E8%AF%AD%E9%9B%80%E6%94%B6%E8%97%8F%E5%8A%A9%E6%89%8B/README.html) <!-- [locale](./0013.%20%E8%AF%AD%E9%9B%80%E6%94%B6%E8%97%8F%E5%8A%A9%E6%89%8B/README.html) -->  
   - [1. ⏰ 搬运 yuque 上的早期文章](https://tdahuyou.github.io/notes/notes/pc/0013.%20%E8%AF%AD%E9%9B%80%E6%94%B6%E8%97%8F%E5%8A%A9%E6%89%8B/README.html#1--搬运-yuque-上的早期文章)
   
 
-### 3.10. screen brush
+### 2.10. screen brush
 
 - [ ] [0014. screen brush macos 屏幕画笔工具](https://tdahuyou.github.io/notes/notes/pc/0014.%20screen%20brush%20macos%20%E5%B1%8F%E5%B9%95%E7%94%BB%E7%AC%94%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0014.%20screen%20brush%20macos%20%E5%B1%8F%E5%B9%95%E7%94%BB%E7%AC%94%E5%B7%A5%E5%85%B7/README.html) -->  
   - [1. ⏰ 搬运 yuque 上的早期文章](https://tdahuyou.github.io/notes/notes/pc/0014.%20screen%20brush%20macos%20%E5%B1%8F%E5%B9%95%E7%94%BB%E7%AC%94%E5%B7%A5%E5%85%B7/README.html#1--搬运-yuque-上的早期文章)
   
 
-### 3.11. LICEcap
+### 2.11. LICEcap
 
-- [ ] [0001. 使用 LICEcap 在 macos 和 windows 系统上录制 gif 图](https://tdahuyou.github.io/notes/notes/pc/0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.html) <!-- [locale](./0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.html) -->  
+- [x] [0001. 使用 LICEcap 在 macos 和 windows 系统上录制 gif 图](https://tdahuyou.github.io/notes/notes/pc/0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.html) <!-- [locale](./0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.html) -->  
   - [1. 📒 LICEcap 简介](https://tdahuyou.github.io/notes/notes/pc/0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.html#1--licecap-简介)
   - [2. 📒 LICEcap 的安装和使用步骤](https://tdahuyou.github.io/notes/notes/pc/0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.html#2--licecap-的安装和使用步骤)
     - [2.1. 安装](https://tdahuyou.github.io/notes/notes/pc/0001.%20%E4%BD%BF%E7%94%A8%20LICEcap%20%E5%9C%A8%20macos%20%E5%92%8C%20windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%BD%95%E5%88%B6%20gif%20%E5%9B%BE/README.html#21-安装)
@@ -194,16 +171,16 @@
   
   
 
-## 4. 系统常用快捷方式
+## 3. 系统常用快捷方式
 
 - [ ] [0002. Windows 锁屏快捷键](https://tdahuyou.github.io/notes/notes/pc/0002.%20Windows%20%E9%94%81%E5%B1%8F%E5%BF%AB%E6%8D%B7%E9%94%AE/README.html) <!-- [locale](./0002.%20Windows%20%E9%94%81%E5%B1%8F%E5%BF%AB%E6%8D%B7%E9%94%AE/README.html) -->  
   - [1. 📒 `win L`](https://tdahuyou.github.io/notes/notes/pc/0002.%20Windows%20%E9%94%81%E5%B1%8F%E5%BF%AB%E6%8D%B7%E9%94%AE/README.html#1--win-l)
   
   
 
-## 5. 浏览器相关
+## 4. 浏览器相关
 
-### 5.1. 浏览器插件
+### 4.1. 浏览器插件
 
 - [ ] [0004. chrome 上的 Scripty 插件介绍](https://tdahuyou.github.io/notes/notes/pc/0004.%20chrome%20%E4%B8%8A%E7%9A%84%20Scripty%20%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D/README.html) <!-- [locale](./0004.%20chrome%20%E4%B8%8A%E7%9A%84%20Scripty%20%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D/README.html) -->  
   - [1. 🔗 Scripty 在线配置](https://tdahuyou.github.io/notes/notes/pc/0004.%20chrome%20%E4%B8%8A%E7%9A%84%20Scripty%20%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D/README.html#1--scripty-在线配置)
@@ -213,33 +190,43 @@
   - [5. 📒 Scripty vs. Tampermonkey](https://tdahuyou.github.io/notes/notes/pc/0004.%20chrome%20%E4%B8%8A%E7%9A%84%20Scripty%20%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D/README.html#5--scripty-vs-tampermonkey)
   
 
-### 5.2. 脚本
+### 4.2. 脚本
 
 - [ ] [0003. 在 GitHub 上预览自己的笔记时处理一些默认样式](https://tdahuyou.github.io/notes/notes/pc/0003.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E9%A2%84%E8%A7%88%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%B6%E5%A4%84%E7%90%86%E4%B8%80%E4%BA%9B%E9%BB%98%E8%AE%A4%E6%A0%B7%E5%BC%8F/README.html) <!-- [locale](./0003.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E9%A2%84%E8%A7%88%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%B6%E5%A4%84%E7%90%86%E4%B8%80%E4%BA%9B%E9%BB%98%E8%AE%A4%E6%A0%B7%E5%BC%8F/README.html) -->  
   - [1. 📒 脚本功能简介](https://tdahuyou.github.io/notes/notes/pc/0003.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E9%A2%84%E8%A7%88%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%B6%E5%A4%84%E7%90%86%E4%B8%80%E4%BA%9B%E9%BB%98%E8%AE%A4%E6%A0%B7%E5%BC%8F/README.html#1--脚本功能简介)
   - [2. 💻 实现脚本](https://tdahuyou.github.io/notes/notes/pc/0003.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E9%A2%84%E8%A7%88%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%B6%E5%A4%84%E7%90%86%E4%B8%80%E4%BA%9B%E9%BB%98%E8%AE%A4%E6%A0%B7%E5%BC%8F/README.html#2--实现脚本)
   
 
-### 5.3. 插件开发
+### 4.3. 插件开发
 
 - [ ] [0015. chrome for developers 站点简介](https://tdahuyou.github.io/notes/notes/pc/0015.%20chrome%20for%20developers%20%E7%AB%99%E7%82%B9%E7%AE%80%E4%BB%8B/README.html) <!-- [locale](./0015.%20chrome%20for%20developers%20%E7%AB%99%E7%82%B9%E7%AE%80%E4%BB%8B/README.html) -->  
   - [1. 🔗 chrome for developers](https://tdahuyou.github.io/notes/notes/pc/0015.%20chrome%20for%20developers%20%E7%AB%99%E7%82%B9%E7%AE%80%E4%BB%8B/README.html#1--chrome-for-developers)
   - [2. ⏰ 搂一眼这个站点里边的内容，在笔记中记录一下大致的结构、内容等。](https://tdahuyou.github.io/notes/notes/pc/0015.%20chrome%20for%20developers%20%E7%AB%99%E7%82%B9%E7%AE%80%E4%BB%8B/README.html#2--搂一眼这个站点里边的内容在笔记中记录一下大致的结构内容等)
   
 
-## 6. B 站收藏
+## 5. B 站收藏
 
-### 6.1. 编程相关
+### 5.1. 编程相关
 
-- [ ] [0020. 30年前的技术债引发win11离奇bug，微软不敢修！--bilibili--epcdiy](https://tdahuyou.github.io/notes/notes/pc/0020.%2030%E5%B9%B4%E5%89%8D%E7%9A%84%E6%8A%80%E6%9C%AF%E5%80%BA%E5%BC%95%E5%8F%91win11%E7%A6%BB%E5%A5%87bug%EF%BC%8C%E5%BE%AE%E8%BD%AF%E4%B8%8D%E6%95%A2%E4%BF%AE%EF%BC%81--bilibili--epcdiy/README.html) <!-- [locale](./0020.%2030%E5%B9%B4%E5%89%8D%E7%9A%84%E6%8A%80%E6%9C%AF%E5%80%BA%E5%BC%95%E5%8F%91win11%E7%A6%BB%E5%A5%87bug%EF%BC%8C%E5%BE%AE%E8%BD%AF%E4%B8%8D%E6%95%A2%E4%BF%AE%EF%BC%81--bilibili--epcdiy/README.html) -->  
-  - https://b23.tv/fZ4H265
+- [x] [0020. 30年前的技术债引发win11离奇bug，微软不敢修！](https://tdahuyou.github.io/notes/notes/pc/0020.%2030%E5%B9%B4%E5%89%8D%E7%9A%84%E6%8A%80%E6%9C%AF%E5%80%BA%E5%BC%95%E5%8F%91win11%E7%A6%BB%E5%A5%87bug%EF%BC%8C%E5%BE%AE%E8%BD%AF%E4%B8%8D%E6%95%A2%E4%BF%AE%EF%BC%81/README.html) <!-- [locale](./0020.%2030%E5%B9%B4%E5%89%8D%E7%9A%84%E6%8A%80%E6%9C%AF%E5%80%BA%E5%BC%95%E5%8F%91win11%E7%A6%BB%E5%A5%87bug%EF%BC%8C%E5%BE%AE%E8%BD%AF%E4%B8%8D%E6%95%A2%E4%BF%AE%EF%BC%81/README.html) -->  
+  <BilibiliOutsidePlayer id="BV1Rf421v73F" />
+  
+  - https://www.bilibili.com/video/BV1Rf421v73F
   - 介绍了 Windows 环境下路径过长的历史 bug
   - 提到了 macOS 和 windows 在升级的时候所选择的策略：
   - macOS 舍弃技术债，不对旧程序做兼容。
   - Windows 保留技术债，尽可能对旧程序做兼容。
 
-- [ ] [0021. 下载开源软件还要付钱？论国内搜索引擎中的广告究竟有多不要脸？--bilibili--Z极客](https://tdahuyou.github.io/notes/notes/pc/0021.%20%E4%B8%8B%E8%BD%BD%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E8%BF%98%E8%A6%81%E4%BB%98%E9%92%B1%EF%BC%9F%E8%AE%BA%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%B8%AD%E7%9A%84%E5%B9%BF%E5%91%8A%E7%A9%B6%E7%AB%9F%E6%9C%89%E5%A4%9A%E4%B8%8D%E8%A6%81%E8%84%B8%EF%BC%9F--bilibili--Z%E6%9E%81%E5%AE%A2/README.html) <!-- [locale](./0021.%20%E4%B8%8B%E8%BD%BD%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E8%BF%98%E8%A6%81%E4%BB%98%E9%92%B1%EF%BC%9F%E8%AE%BA%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%B8%AD%E7%9A%84%E5%B9%BF%E5%91%8A%E7%A9%B6%E7%AB%9F%E6%9C%89%E5%A4%9A%E4%B8%8D%E8%A6%81%E8%84%B8%EF%BC%9F--bilibili--Z%E6%9E%81%E5%AE%A2/README.html) -->  
-  - https://b23.tv/FrZ0VMJ
+- [x] [0021. 下载开源软件还要付钱？论国内搜索引擎中的广告究竟有多不要脸？](https://tdahuyou.github.io/notes/notes/pc/0021.%20%E4%B8%8B%E8%BD%BD%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E8%BF%98%E8%A6%81%E4%BB%98%E9%92%B1%EF%BC%9F%E8%AE%BA%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%B8%AD%E7%9A%84%E5%B9%BF%E5%91%8A%E7%A9%B6%E7%AB%9F%E6%9C%89%E5%A4%9A%E4%B8%8D%E8%A6%81%E8%84%B8%EF%BC%9F/README.html) <!-- [locale](./0021.%20%E4%B8%8B%E8%BD%BD%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E8%BF%98%E8%A6%81%E4%BB%98%E9%92%B1%EF%BC%9F%E8%AE%BA%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%B8%AD%E7%9A%84%E5%B9%BF%E5%91%8A%E7%A9%B6%E7%AB%9F%E6%9C%89%E5%A4%9A%E4%B8%8D%E8%A6%81%E8%84%B8%EF%BC%9F/README.html) -->  
+  <BilibiliOutsidePlayer id="BV1as421T7xf" />
+  
+  - https://www.bilibili.com/video/BV1as421T7xf
   - 介绍了使用百度，搜狗，360 等搜索开源免费软件缺下到盗版收费软件的问题。
   - 介绍了广告拦截插件 - AdGuard。
   - 侧面体现了使用 Google 的好处。（前提是有科学上网的条件）
+
+## 6. 掌握 AI 的基本使用技巧
+
+- [ ] [0018. 学会使用 AI 来解决一些基础问题](https://tdahuyou.github.io/notes/notes/pc/0018.%20%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%20AI%20%E6%9D%A5%E8%A7%A3%E5%86%B3%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98/README.html) <!-- [locale](./0018.%20%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%20AI%20%E6%9D%A5%E8%A7%A3%E5%86%B3%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98/README.html) -->  
+  - [1. ⏰ 针对网友提过的一些问题，录制视频实际演示一下如何使用 AI 来解决这些问题，只需要一两分钟，把最基本的流程给录制清楚即可。](https://tdahuyou.github.io/notes/notes/pc/0018.%20%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%20AI%20%E6%9D%A5%E8%A7%A3%E5%86%B3%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98/README.html#1--针对网友提过的一些问题录制视频实际演示一下如何使用-ai-来解决这些问题只需要一两分钟把最基本的流程给录制清楚即可)
+  

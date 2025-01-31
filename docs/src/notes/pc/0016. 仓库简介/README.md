@@ -1,19 +1,25 @@
 # [0016. 仓库简介](https://github.com/Tdahuyou/pc/tree/main/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B)
 
 <!-- region:toc -->
-- [1. ⏰ 搬运 yuque 上的工具分享笔记](#1--搬运-yuque-上的工具分享笔记)
+- [1. 📒 pc 笔记仓库内容简介](#1--pc-笔记仓库内容简介)
+- [2. 🔗 bilibili 视频链接](#2--bilibili-视频链接)
+- [3. ⏰ 搬运 yuque 上的工具分享笔记](#3--搬运-yuque-上的工具分享笔记)
 <!-- endregion:toc -->
-- pc 笔记仓库内容简介
-  - 存放和使用个人电脑（macOS、Widnows）相关的笔记。
-  - 记录一些个人的使用习惯
-  - 记录一些软件的使用分享
-  - 记录网友咨询过的一些问题的回复
-  - ……
-- https://space.bilibili.com/407241004
-  - 🔗 bilibili 视频链接
-  - 搜【📒 pc】视频合集
 
-## 1. ⏰ 搬运 yuque 上的工具分享笔记
+## 1. 📒 pc 笔记仓库内容简介
+
+- 存放和使用个人电脑（macOS、Widnows）相关的笔记。
+- 记录一些个人的使用习惯
+- 记录一些软件的使用分享
+- 记录网友咨询过的一些问题的回复
+- ……
+
+## 2. 🔗 bilibili 视频链接
+
+- https://space.bilibili.com/407241004
+  - 视频合集 TNotes > pc
+
+## 3. ⏰ 搬运 yuque 上的工具分享笔记
 
 - [工具分享](https://www.yuque.com/tdahuyou/tools)
 - 搬运 yuque 上的工具分享笔记，在搬运之前，可以先回看一下自己在 B 站上发布的工具分享系列的视频，将一些目前不再使用的工具分享的视频给下掉，依旧在使用的工具，可以重新录制分享视频。

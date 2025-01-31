@@ -512,7 +512,7 @@ class ReadmeUpdater {
       }));
     
       console.log('this.homeReadme.titles', this.homeReadme.titles);
-      console.log('this.homeReadme.titlesNotesCount', this.homeReadme.titlesNotesCount);
+      // console.log('this.homeReadme.titlesNotesCount', this.homeReadme.titlesNotesCount);
     
       // Helper function to parse titles into hierarchical structure
       const parseTitles = (titles, notesCount) => {

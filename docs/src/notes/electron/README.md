@@ -1,111 +1,31 @@
 # electron
 
-<!-- region:toc -->
-- [electron](#electron)
-  - [1. electron 笔记内容简介](#1-electron-笔记内容简介)
-  - [2. electron 概述](#2-electron-概述)
-  - [3. electron 的一些学习资源](#3-electron-的一些学习资源)
-    - [3.1. electron 书籍](#31-electron-书籍)
-    - [3.2. electron 掘金小册](#32-electron-掘金小册)
-  - [4. 认识 electron](#4-认识-electron)
-    - [4.1. electron 都能用来开发什么类型的应用程序？](#41-electron-都能用来开发什么类型的应用程序)
-    - [4.2. 了解 electron 的核心概念](#42-了解-electron-的核心概念)
-  - [5. 打通主进程和渲染进程](#5-打通主进程和渲染进程)
-    - [5.1. 上下文桥接 contextBridge](#51-上下文桥接-contextbridge)
-    - [5.2. IPC 基础](#52-ipc-基础)
-      - [5.2.1. 认识 IPC 相关模块](#521-认识-ipc-相关模块)
-      - [5.2.2. 渲染进程 -> 主进程](#522-渲染进程---主进程)
-      - [5.2.3. 主进程 -> 渲染进程](#523-主进程---渲染进程)
-      - [5.2.4. 渲染进程 <-> 主进程](#524-渲染进程---主进程)
-    - [5.3. IPC 进阶](#53-ipc-进阶)
-      - [5.3.1. 渲染进程 <-> 渲染进程](#531-渲染进程---渲染进程)
-      - [5.3.2. MessageChannel](#532-messagechannel)
-  - [6. 窗口](#6-窗口)
-    - [6.1. 不同系统的窗口行为兼容适配](#61-不同系统的窗口行为兼容适配)
-    - [6.2. 窗口首次加载的白屏问题](#62-窗口首次加载的白屏问题)
-    - [6.3. 无边框窗口](#63-无边框窗口)
-    - [6.4. 窗口层级](#64-窗口层级)
-  - [7. 菜单](#7-菜单)
-    - [7.1. 不同系统的菜单适配](#71-不同系统的菜单适配)
-    - [7.2. 页面右键菜单](#72-页面右键菜单)
-    - [7.3. Dock 菜单](#73-dock-菜单)
-    - [7.4. 自定义菜单](#74-自定义菜单)
-    - [7.5. Tray 菜单](#75-tray-菜单)
-  - [8. app](#8-app)
-    - [8.1. 路径](#81-路径)
-  - [9. 快捷键](#9-快捷键)
-    - [9.1. 页面级别](#91-页面级别)
-    - [9.2. 全局级别](#92-全局级别)
-  - [10. 剪切板](#10-剪切板)
-  - [11. 系统通知](#11-系统通知)
-  - [12. 桌面视频流](#12-桌面视频流)
-  - [13. 插件化](#13-插件化)
-    - [13.1. 集成浏览器插件](#131-集成浏览器插件)
-  - [14. 其它功能](#14-其它功能)
-    - [14.1. webContents startDrag 原生文件拖放](#141-webcontents-startdrag-原生文件拖放)
-  - [15. 第三方库](#15-第三方库)
-    - [15.1. electron-reload](#151-electron-reload)
-    - [15.2. electron-builder](#152-electron-builder)
-  - [16. 小练习](#16-小练习)
-    - [16.1. 桌面时钟](#161-桌面时钟)
-    - [16.2. 微信读书助手](#162-微信读书助手)
-    - [16.3. 自动定时截图工具](#163-自动定时截图工具)
-  - [17. 📺 bilibili](#17--bilibili)
-  <!-- endregion:toc -->
 
-## 1. electron 笔记内容简介
-
-- [ ] [0060. electron 笔记仓库介绍](https://tdahuyou.github.io/notes/notes/electron/0060.%20electron%20%E7%AC%94%E8%AE%B0%E4%BB%93%E5%BA%93%E4%BB%8B%E7%BB%8D/README.html) <!-- [locale](./0060.%20electron%20%E7%AC%94%E8%AE%B0%E4%BB%93%E5%BA%93%E4%BB%8B%E7%BB%8D/README.html) -->  
-  - 该仓库 https://github.com/Tdahuyou/electron 存放的是个人的 electron 学习笔记，有需要的可自行 clone。
-  - https://tdahuyou.github.io/notes/
-    - 这是个人的笔记博客，汇总个人写的一些笔记内容，以便查阅。
-  
-  
-  
-  
+## 1. 笔记内容简介
   
 
-- [ ] [0059. bilibili 视频播放链接](https://tdahuyou.github.io/notes/notes/electron/0059.%20bilibili%20%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E9%93%BE%E6%8E%A5/README.html) <!-- [locale](./0059.%20bilibili%20%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E9%93%BE%E6%8E%A5/README.html) -->  
-  - https://www.bilibili.com/video/BV1544219774
-    - bilibili 视频播放链接
-  - 视频内容及更新说明
-    - **根据编号定位**：B 站上仅录制了一小部分的视频，可以根据编号来定位笔记和视频。
-    - **不定期更新**：结合实际情况，会不定期更新笔记和视频。
-    - **内容**：视频内容主要是展示一些 demo 效果，并附带简单的说明，大部分视频的时长均在 10min 左右，在查看具体笔记时若有疑问，可查阅视频作为一个参考。
-  
-  
-  
-  
-  
-  
+- [x] [0059. electron 笔记简介](https://tdahuyou.github.io/notes/notes/electron/0059.%20electron%20%E7%AC%94%E8%AE%B0%E7%AE%80%E4%BB%8B/README.html) <!-- [locale](./0059.%20electron%20%E7%AC%94%E8%AE%B0%E7%AE%80%E4%BB%8B/README.html) -->  
+  - [1. 🔗 electron 笔记仓库 - github](https://tdahuyou.github.io/notes/notes/electron/0059.%20electron%20%E7%AC%94%E8%AE%B0%E7%AE%80%E4%BB%8B/README.html#1--electron-笔记仓库---github)
+  - [2. 🔗 B 站视频播放链接](https://tdahuyou.github.io/notes/notes/electron/0059.%20electron%20%E7%AC%94%E8%AE%B0%E7%AE%80%E4%BB%8B/README.html#2--b-站视频播放链接)
+  - [3. 🔍 查看已经录制了视频的笔记](https://tdahuyou.github.io/notes/notes/electron/0059.%20electron%20%E7%AC%94%E8%AE%B0%E7%AE%80%E4%BB%8B/README.html#3--查看已经录制了视频的笔记)
+  - [4. 📒 视频内容及更新说明](https://tdahuyou.github.io/notes/notes/electron/0059.%20electron%20%E7%AC%94%E8%AE%B0%E7%AE%80%E4%BB%8B/README.html#4--视频内容及更新说明)
   
 
-## 2. electron 概述
+## 2. 官方提供的相关内容
 
 - [ ] [0057. electron 源码仓库](https://tdahuyou.github.io/notes/notes/electron/0057.%20electron%20%E6%BA%90%E7%A0%81%E4%BB%93%E5%BA%93/README.html) <!-- [locale](./0057.%20electron%20%E6%BA%90%E7%A0%81%E4%BB%93%E5%BA%93/README.html) -->  
   - https://github.com/electron/electron
     - Github electron 项目源码仓库链接
-  - ⏰ 学习 electron 源码
-  
-  
-  
-  
-  
-  
+    - ⏰ 学习 electron 源码
   
 
 - [ ] [0058. electron 官方文档](https://tdahuyou.github.io/notes/notes/electron/0058.%20electron%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/README.html) <!-- [locale](./0058.%20electron%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/README.html) -->  
   - https://www.electronjs.org/
     - 这是 Electron 的官网链接，可以说是除了源码之外最权威的 Electron 内容了。官网有中文版，翻译得非常友好。
-    - ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0058.%20electron%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/md-imgs%2F2024-10-05-19-22-00.png)
+    - ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0058.%20electron%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/assets%2F2024-10-05-19-22-00.png)
   - ⏰ 记录查阅官方文档的经验
   - ⏰ 官方文档内容概述
   - ⏰ 官方文档基本结构介绍
-  
-  
-  
-  
-  
   
   
 
@@ -114,14 +34,10 @@
 ### 3.1. electron 书籍
 
 - [ ] [0050. 《Electron 实战：入门、进阶与性能优化》](https://tdahuyou.github.io/notes/notes/electron/0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/README.html) <!-- [locale](./0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/README.html) -->  
-  - 该笔记存放了 [《Electron 实战：入门、进阶与性能优化》](https://tdahuyou.github.io/notes/notes/electron/0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/%E3%80%8AElectron%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B.pdf) 这本书的 pdf 版本。
-  - 这本书还没读完，记得读了其中的一小部分，现在（24.10）electron 已经升级到 v33 了，书中的版本记得应该是蛮低的，在阅读的时候需要注意一下版本。书中（20.05）的版本是 8 左右。差了 25 个大版本，变化的内容还是挺多的。
-    - ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/md-imgs%2F2024-10-20-01-17-04.png)
   
-  
-  
-  
-  
+
+  - [bilibili.electron.0050.1](https://www.bilibili.com/video/BV1544219774)
+  - [1. 📝 备注](https://tdahuyou.github.io/notes/notes/electron/0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/README.html#1--备注)
   
 
 ### 3.2. electron 掘金小册
@@ -154,8 +70,8 @@
 
 ### 4.1. electron 都能用来开发什么类型的应用程序？
 
-- [ ] [0052. Electron Showcase](https://tdahuyou.github.io/notes/notes/electron/0052.%20Electron%20Showcase/README.html) <!-- [locale](./0052.%20Electron%20Showcase/README.html) -->  
-  - [1. 📒Electron Showcase 简介](https://tdahuyou.github.io/notes/notes/electron/0052.%20Electron%20Showcase/README.html#1-electron-showcase-简介)
+- [ ] [0052. 通过 Electron Showcase 了解 electron 都能用来开发什么类型的应用程序](https://tdahuyou.github.io/notes/notes/electron/0052.%20%E9%80%9A%E8%BF%87%20Electron%20Showcase%20%E4%BA%86%E8%A7%A3%20electron%20%E9%83%BD%E8%83%BD%E7%94%A8%E6%9D%A5%E5%BC%80%E5%8F%91%E4%BB%80%E4%B9%88%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/README.html) <!-- [locale](./0052.%20%E9%80%9A%E8%BF%87%20Electron%20Showcase%20%E4%BA%86%E8%A7%A3%20electron%20%E9%83%BD%E8%83%BD%E7%94%A8%E6%9D%A5%E5%BC%80%E5%8F%91%E4%BB%80%E4%B9%88%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/README.html) -->  
+  - [1. 📒Electron Showcase 简介](https://tdahuyou.github.io/notes/notes/electron/0052.%20%E9%80%9A%E8%BF%87%20Electron%20Showcase%20%E4%BA%86%E8%A7%A3%20electron%20%E9%83%BD%E8%83%BD%E7%94%A8%E6%9D%A5%E5%BC%80%E5%8F%91%E4%BB%80%E4%B9%88%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/README.html#1-electron-showcase-简介)
   - 本节介绍了一下 **Electron Showcase** 是什么。
   
 
@@ -343,7 +259,7 @@
   - 本文介绍的这种通信方式需要依赖 ipcRenderer 模块中的 ipcRenderer.sendTo方法，这个方法在 Electron 的 v28 版本中已经被丢弃了，如果要使用这种通信方案的话，需要注意 Electron 的版本问题。
   - 这种方式在最新版的 Electron 中已经被淘汰了。
   
-  ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1/md-imgs%2F2024-10-05-22-05-41.png)
+  ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1/assets%2F2024-10-05-22-05-41.png)
   
 
 - [ ] [0040. 使用 MessagePort 实现两个渲染进程之间的互相通信](https://tdahuyou.github.io/notes/notes/electron/0040.%20%E4%BD%BF%E7%94%A8%20MessagePort%20%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0040.%20%E4%BD%BF%E7%94%A8%20MessagePort%20%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1/README.html) -->  
@@ -498,7 +414,7 @@
   - [2. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0012.%20%E4%BD%BF%E7%94%A8%20Menu%20%E6%A8%A1%E5%9D%97%E5%AE%9E%E7%8E%B0%E9%A1%B5%E9%9D%A2%E4%B8%AD%E7%9A%84%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/README.html#2--demo)
   - 在页面上创建右键菜单，这是桌面端应用中很常见的一个功能点。本文的介绍了如何使用 Menu 模块来创建一个右键菜单。
   - 本节介绍如何如何使用 Menu 模块来创建一个右键菜单。这里提到的右键菜单，又称为上下文菜单，也就是你在一些应用程序的界面上，点击鼠标右键所弹出的内容。
-  - ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0012.%20%E4%BD%BF%E7%94%A8%20Menu%20%E6%A8%A1%E5%9D%97%E5%AE%9E%E7%8E%B0%E9%A1%B5%E9%9D%A2%E4%B8%AD%E7%9A%84%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/md-imgs%2F2024-10-06-01-24-36.png)
+  - ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0012.%20%E4%BD%BF%E7%94%A8%20Menu%20%E6%A8%A1%E5%9D%97%E5%AE%9E%E7%8E%B0%E9%A1%B5%E9%9D%A2%E4%B8%AD%E7%9A%84%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/assets%2F2024-10-06-01-24-36.png)
   
 
 ### 7.3. Dock 菜单
@@ -723,7 +639,7 @@
   - [3. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0032.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F/README.html#3--demo)
   - 手写一个简单的桌面时钟摆件
   - 最终效果：
-    - ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0032.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F/md-imgs%2F2024-10-13-21-41-11.png)
+    - ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0032.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F/assets%2F2024-10-13-21-41-11.png)
   
 
 - [ ] [0056. 实现一个桌面时钟-2](https://tdahuyou.github.io/notes/notes/electron/0056.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F-2/README.html) <!-- [locale](./0056.%20%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E6%97%B6%E9%92%9F-2/README.html) -->  
@@ -761,10 +677,5 @@
   
   
   
-
-## 17. 📺 bilibili
-
-
-- [x] [0061. electron bilibili 视频列表](https://tdahuyou.github.io/notes/notes/electron/0061.%20electron%20bilibili%20%E8%A7%86%E9%A2%91%E5%88%97%E8%A1%A8/README.html) <!-- [locale](./0061.%20electron%20bilibili%20%E8%A7%86%E9%A2%91%E5%88%97%E8%A1%A8/README.html) -->  
-  - [1. 📺 bilibili](https://tdahuyou.github.io/notes/notes/electron/0061.%20electron%20bilibili%20%E8%A7%86%E9%A2%91%E5%88%97%E8%A1%A8/README.html#1--bilibili)
+  
   
