@@ -3,11 +3,16 @@
 <!-- region:toc -->
 
 
-- [bilibili.electron.0037.1](https://www.bilibili.com/video/BV1544219774)
-- [1. 💻 demo](#1--demo)
+- [bilibili.electron.0037.1](https://www.bilibili.com/video/BV1CBFyeRErb)
+- [1. 📺 视频](#1--视频)
+- [2. 💻 demo](#2--demo)
 <!-- endregion:toc -->
 
-## 1. 💻 demo
+## 1. 📺 视频
+
+<BilibiliOutsidePlayer id="BV1CBFyeRErb" />
+
+## 2. 💻 demo
 
 ```js
 // index.js
@@ -70,6 +75,8 @@ app.on('ready', () => {
 渲染进程使用 ipcRenderer.send 发送消息给主进程，主进程通过 ipcMain.on 对渲染进程发送过来的消息进行监听，实现【渲染进程】到【主进程】的【单向 IPC 通信】。
 
 ![](assets/2024-10-05-19-52-58.png)
+
+
 
 
 

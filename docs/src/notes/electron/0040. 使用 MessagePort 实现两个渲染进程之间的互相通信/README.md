@@ -1,15 +1,21 @@
 # [0040. 使用 MessagePort 实现两个渲染进程之间的互相通信](https://github.com/Tdahuyou/electron/tree/main/0040.%20%E4%BD%BF%E7%94%A8%20MessagePort%20%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1)
 
+
 <!-- region:toc -->
 
 
-- [bilibili.electron.0040.1](https://www.bilibili.com/video/BV1544219774)
-- [1. 🔗 links](#1--links)
-- [2. 💻 demo](#2--demo)
+- [bilibili.electron.0040.1](https://www.bilibili.com/video/BV1CBFyeREuR)
+- [1. 📺 视频](#1--视频)
+- [2. 🔗 links](#2--links)
+- [3. 💻 demo](#3--demo)
 <!-- endregion:toc -->
 - 如何使用 MessagePort 来实现两个渲染进程之间的相互通信
 
-## 1. 🔗 links
+## 1. 📺 视频
+
+<BilibiliOutsidePlayer id="BV1CBFyeREuR" />
+
+## 2. 🔗 links
 
 - https://www.electronjs.org/zh/docs/latest/tutorial/message-ports#%E5%9C%A8%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E5%BB%BA%E7%AB%8B-messagechannel
   - 官方文档，Electron 中的消息端口。
@@ -20,7 +26,7 @@
   - 这个是 MessagePort 性能测试案例。
   - 听说 MessagePort 这玩意儿性能还不错，没有实际测试过，工作上也基本上没用过，于是写了这个 demo。
 
-## 2. 💻 demo
+## 3. 💻 demo
 
 ```js
 // index.js
@@ -80,6 +86,8 @@ ipcRenderer.on('port', e => {
 ![](assets/2024-10-05-22-16-04.png)
 
 ![](assets/2024-10-05-22-16-08.png)
+
+
 
 
 

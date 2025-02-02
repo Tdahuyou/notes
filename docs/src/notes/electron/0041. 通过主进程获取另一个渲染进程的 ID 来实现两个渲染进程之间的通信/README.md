@@ -1,11 +1,13 @@
 # [0041. 通过主进程获取另一个渲染进程的 ID 来实现两个渲染进程之间的通信](https://github.com/Tdahuyou/electron/tree/main/0041.%20%E9%80%9A%E8%BF%87%E4%B8%BB%E8%BF%9B%E7%A8%8B%E8%8E%B7%E5%8F%96%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E7%9A%84%20ID%20%E6%9D%A5%E5%AE%9E%E7%8E%B0%E4%B8%A4%E4%B8%AA%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1)
 
+
 <!-- region:toc -->
 
 
-- [bilibili.electron.0041.1](https://www.bilibili.com/video/BV1544219774)
-- [1. 🔗 links](#1--links)
-- [2. 💻 demo](#2--demo)
+- [bilibili.electron.0041.1](https://www.bilibili.com/video/BV1CBFyeREsn)
+- [1. 📺 视频](#1--视频)
+- [2. 🔗 links](#2--links)
+- [3. 💻 demo](#3--demo)
 <!-- endregion:toc -->
 - 本文介绍了两个渲染进程之间实现互相通信的一种方式 —— 通过主进程获取另一个渲染进程的 ID 来实现两个渲染进程之间的通信。
 - 本文介绍的这种通信方式需要依赖 ipcRenderer 模块中的 ipcRenderer.sendTo方法，这个方法在 Electron 的 v28 版本中已经被丢弃了，如果要使用这种通信方案的话，需要注意 Electron 的版本问题。
@@ -13,14 +15,18 @@
 
 ![](assets/2024-10-05-22-05-41.png)
 
-## 1. 🔗 links
+## 1. 📺 视频
+
+<BilibiliOutsidePlayer id="BV1CBFyeREsn" />
+
+## 2. 🔗 links
 
 - https://www.electronjs.org/zh/docs/latest/breaking-changes#%E5%B7%B2%E7%A7%BB%E9%99%A4-ipcrenderersendto
   - Electron--文档--引用--重大变更。
   - 这是 Electron 的官方文档，在版本更新中的一些 Breaking Changes 截断式的更新（也就是不兼容的更新）。
   - 文中提到 v28 版本的更新中提到 ipcRenderer.sendTo() 方法已经被移除了，取而代之的是 MessageChannel。
 
-## 2. 💻 demo
+## 3. 💻 demo
 
 **【最终效果】**
 
@@ -130,6 +136,8 @@ ipcRenderer.on('renderer1-to-renderer2', (e, a, b) => {
   console.log('参数为：', a, b)
 })
 ```
+
+
 
 
 

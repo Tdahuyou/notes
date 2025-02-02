@@ -1,15 +1,21 @@
 # [0039. 使用 ipcRenderer.sendSync、ipcMain.on 实现主进程和渲染进程之间的双向 IPC 通信](https://github.com/Tdahuyou/electron/tree/main/0039.%20%E4%BD%BF%E7%94%A8%20ipcRenderer.sendSync%E3%80%81ipcMain.on%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8F%8C%E5%90%91%20IPC%20%E9%80%9A%E4%BF%A1)
 
+
 <!-- region:toc -->
 
 
-- [bilibili.electron.0039.1](https://www.bilibili.com/video/BV1544219774)
-- [1. 💻 demo](#1--demo)
+- [bilibili.electron.0039.1](https://www.bilibili.com/video/BV1CBFyeREu6)
+- [1. 📺 视频](#1--视频)
+- [2. 💻 demo](#2--demo)
 <!-- endregion:toc -->
 - 通过对比 `ipcRenderer.send`、`ipcRenderer.sendSync` 来熟悉 `sendSync` API 的一些特点和基本用法。
 - 注意：ipcRenderer.sendSync 非必要，不建议使用。
 
-## 1. 💻 demo
+## 1. 📺 视频
+
+<BilibiliOutsidePlayer id="BV1CBFyeREu6" />
+
+## 2. 💻 demo
 
 **通信原理图**
 
@@ -107,6 +113,8 @@ app.on('ready', () => {
 主进程收到了来自渲染进程的 ipcRenderer.send 方法发送的消息 1 2 3
 主进程收到了来自渲染进程的 ipcRenderer.sendSync 方法发送的消息 1 2 3
 ```
+
+
 
 
 

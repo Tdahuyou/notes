@@ -3,11 +3,16 @@
 <!-- region:toc -->
 
 
-- [bilibili.electron.0038.1](https://www.bilibili.com/video/BV1544219774)
-- [1. 💻 demo](#1--demo)
+- [bilibili.electron.0038.1](https://www.bilibili.com/video/BV1CBFyeRE5w)
+- [1. 📺 视频](#1--视频)
+- [2. 💻 demo](#2--demo)
 <!-- endregion:toc -->
 
-## 1. 💻 demo
+## 1. 📺 视频
+
+<BilibiliOutsidePlayer id="BV1CBFyeRE5w" />
+
+## 2. 💻 demo
 
 **通信原理图**
 
@@ -82,6 +87,8 @@ app.on('ready', () => {
 # 主进程日志
 receive message from renderer process 1 2 3
 ```
+
+
 
 
 
