@@ -323,7 +323,7 @@ const copyRawFile = () => {
     text-align: center;
     line-height: 20px;
     font-size: 12px;
-    color: #fff;
+    color: #1a1a1a;
     opacity: .2;
     background: rgba(0, 0, 0, 0.2);
 }

@@ -1,7 +1,7 @@
 # pc
 
 
-## 1. 仓库内容简介
+## 1. 仓库简介
 
 - [x] [0016. 仓库简介](https://tdahuyou.github.io/notes/notes/pc/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html) <!-- [locale](./0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html) -->  
   - [1. 📒 pc 笔记仓库内容简介](https://tdahuyou.github.io/notes/notes/pc/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html#1--pc-笔记仓库内容简介)
@@ -9,7 +9,7 @@
   - [3. ⏰ 搬运 yuque 上的工具分享笔记](https://tdahuyou.github.io/notes/notes/pc/0016.%20%E4%BB%93%E5%BA%93%E7%AE%80%E4%BB%8B/README.html#3--搬运-yuque-上的工具分享笔记)
   
 
-## 2. 工具分享系列
+## 2. 电脑软件使用分享
 
 ### 2.1. snipaste
 
@@ -179,7 +179,7 @@
   
   
 
-## 4. 浏览器相关
+## 4. 浏览器
 
 ### 4.1. 浏览器插件
 
@@ -191,14 +191,29 @@
   - [5. 📒 Scripty vs. Tampermonkey](https://tdahuyou.github.io/notes/notes/pc/0004.%20chrome%20%E4%B8%8A%E7%9A%84%20Scripty%20%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D/README.html#5--scripty-vs-tampermonkey)
   
 
-### 4.2. 脚本
+- [x] [0022. Video Speed Controller](https://tdahuyou.github.io/notes/notes/pc/0022.%20Video%20Speed%20Controller/README.html) <!-- [locale](./0022.%20Video%20Speed%20Controller/README.html) -->  
+  - [1. 📒 Video Speed Controller 是什么](https://tdahuyou.github.io/notes/notes/pc/0022.%20Video%20Speed%20Controller/README.html#1--video-speed-controller-是什么)
+  - [2. 📒 Video Speed Controller 主要功能](https://tdahuyou.github.io/notes/notes/pc/0022.%20Video%20Speed%20Controller/README.html#2--video-speed-controller-主要功能)
+  - [3. 📒 Chrome 用户如何安装 Video Speed Controller](https://tdahuyou.github.io/notes/notes/pc/0022.%20Video%20Speed%20Controller/README.html#3--chrome-用户如何安装-video-speed-controller)
+  - [4. 📒 常用快捷键](https://tdahuyou.github.io/notes/notes/pc/0022.%20Video%20Speed%20Controller/README.html#4--常用快捷键)
+  - [5. 📒 测试对 B 站视频的支持](https://tdahuyou.github.io/notes/notes/pc/0022.%20Video%20Speed%20Controller/README.html#5--测试对-b-站视频的支持)
+  
+
+- [ ] [0010. SimpRead 文章收集工具](https://tdahuyou.github.io/notes/notes/pc/0010.%20SimpRead%20%E6%96%87%E7%AB%A0%E6%94%B6%E9%9B%86%E5%B7%A5%E5%85%B7/README.html) <!-- [locale](./0010.%20SimpRead%20%E6%96%87%E7%AB%A0%E6%94%B6%E9%9B%86%E5%B7%A5%E5%85%B7/README.html) -->  
+  
+
+  - [bilibili.pc.0010.1](https://www.bilibili.com/video/BV19v4y1h7mY)
+  - [1. ⏰ 搬运 yuque 上的早期文章](https://tdahuyou.github.io/notes/notes/pc/0010.%20SimpRead%20%E6%96%87%E7%AB%A0%E6%94%B6%E9%9B%86%E5%B7%A5%E5%85%B7/README.html#1--搬运-yuque-上的早期文章)
+  
+
+### 4.2. 浏览器脚本
 
 - [ ] [0003. 在 GitHub 上预览自己的笔记时处理一些默认样式](https://tdahuyou.github.io/notes/notes/pc/0003.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E9%A2%84%E8%A7%88%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%B6%E5%A4%84%E7%90%86%E4%B8%80%E4%BA%9B%E9%BB%98%E8%AE%A4%E6%A0%B7%E5%BC%8F/README.html) <!-- [locale](./0003.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E9%A2%84%E8%A7%88%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%B6%E5%A4%84%E7%90%86%E4%B8%80%E4%BA%9B%E9%BB%98%E8%AE%A4%E6%A0%B7%E5%BC%8F/README.html) -->  
   - [1. 📒 脚本功能简介](https://tdahuyou.github.io/notes/notes/pc/0003.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E9%A2%84%E8%A7%88%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%B6%E5%A4%84%E7%90%86%E4%B8%80%E4%BA%9B%E9%BB%98%E8%AE%A4%E6%A0%B7%E5%BC%8F/README.html#1--脚本功能简介)
   - [2. 💻 实现脚本](https://tdahuyou.github.io/notes/notes/pc/0003.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E9%A2%84%E8%A7%88%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%B6%E5%A4%84%E7%90%86%E4%B8%80%E4%BA%9B%E9%BB%98%E8%AE%A4%E6%A0%B7%E5%BC%8F/README.html#2--实现脚本)
   
 
-### 4.3. 插件开发
+### 4.3. 浏览器插件开发
 
 - [ ] [0015. chrome for developers 站点简介](https://tdahuyou.github.io/notes/notes/pc/0015.%20chrome%20for%20developers%20%E7%AB%99%E7%82%B9%E7%AE%80%E4%BB%8B/README.html) <!-- [locale](./0015.%20chrome%20for%20developers%20%E7%AB%99%E7%82%B9%E7%AE%80%E4%BB%8B/README.html) -->  
   - [1. 🔗 chrome for developers](https://tdahuyou.github.io/notes/notes/pc/0015.%20chrome%20for%20developers%20%E7%AB%99%E7%82%B9%E7%AE%80%E4%BB%8B/README.html#1--chrome-for-developers)
