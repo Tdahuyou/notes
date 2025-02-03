@@ -2,15 +2,15 @@
 // https://vitepress.dev/zh/guide/custom-theme
 
 // .vitepress/theme/index.ts
-import DefaultTheme from "vitepress/theme";
-import type { Theme } from "vitepress";
-import "./custom.css";
+import DefaultTheme from 'vitepress/theme'
+import type { Theme } from 'vitepress'
+import './custom.css'
 // import MyGlobalComponent from "../components/MyGlobalComponent.vue";
-import MyLayout from "../components/MyLayout.vue";
-import MyDynamicComp from "../components/MyDynamicComp.vue";
-import MyGiscusComp from "../components/MyGiscusComp.vue";
-import BilibiliOutsidePlayer from "../components/BilibiliOutsidePlayer.vue";
-import TNotesDir from "../components/TNotesDir.vue";
+import MyLayout from '../components/MyLayout.vue'
+import MyDynamicComp from '../components/MyDynamicComp.vue'
+import MyGiscusComp from '../components/MyGiscusComp.vue'
+import BilibiliOutsidePlayer from '../components/BilibiliOutsidePlayer.vue'
+import TNotesDir from '../components/TNotesDir.vue'
 
 export default {
   extends: DefaultTheme,
@@ -31,5 +31,5 @@ export default {
     app.component('MyGiscusComp', MyGiscusComp)
     app.component('BilibiliOutsidePlayer', BilibiliOutsidePlayer)
     app.component('TNotesDir', TNotesDir)
-  }
-} satisfies Theme;
+  },
+} satisfies Theme
