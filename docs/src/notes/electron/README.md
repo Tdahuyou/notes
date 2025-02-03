@@ -11,24 +11,24 @@
 
 ### 1.1. 官方内容
 
-- [ ] [0057. electron 源码仓库](https://tdahuyou.github.io/notes/notes/electron/0057.%20electron%20%E6%BA%90%E7%A0%81%E4%BB%93%E5%BA%93/README.html) <!-- [locale](./0057.%20electron%20%E6%BA%90%E7%A0%81%E4%BB%93%E5%BA%93/README.html) -->  
+- [x] [0057. electron 源码仓库](https://tdahuyou.github.io/notes/notes/electron/0057.%20electron%20%E6%BA%90%E7%A0%81%E4%BB%93%E5%BA%93/README.html) <!-- [locale](./0057.%20electron%20%E6%BA%90%E7%A0%81%E4%BB%93%E5%BA%93/README.html) -->  
   - https://github.com/electron/electron
-    - Github electron 项目源码仓库链接
-    - ⏰ 学习 electron 源码
+  - 这是 Github electron 项目源码仓库链接
+  - ⏰ TODO
+    - 学习 electron 源码
   
   
   
 
-- [ ] [0058. electron 官方文档](https://tdahuyou.github.io/notes/notes/electron/0058.%20electron%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/README.html) <!-- [locale](./0058.%20electron%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/README.html) -->  
+- [x] [0058. electron 官方文档](https://tdahuyou.github.io/notes/notes/electron/0058.%20electron%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/README.html) <!-- [locale](./0058.%20electron%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/README.html) -->  
   - https://www.electronjs.org/
-    - 这是 Electron 的官网链接，可以说是除了源码之外最权威的 Electron 内容了。官网有中文版，翻译得非常友好。
+    - 这是 Electron 的官网链接，可以说是除了源码之外最权威的 Electron 内容了。
+    - 官网有中文版，翻译得非常友好。
     - ![](https://raw.githubusercontent.com/Tdahuyou/electron/main/0058.%20electron%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/assets%2F2024-10-05-19-22-00.png)
-  - ⏰ 记录查阅官方文档的经验
-  - ⏰ 官方文档内容概述
-  - ⏰ 官方文档基本结构介绍
-  
-  
-  
+  - ⏰ TODO
+    - ⏰ 记录查阅官方文档的经验
+    - ⏰ 官方文档内容概述
+    - ⏰ 官方文档基本结构介绍
   
 
 ### 1.2. 学习资源
@@ -37,24 +37,24 @@
   - [1. 📝 备注](https://tdahuyou.github.io/notes/notes/electron/0050.%20%E3%80%8AElectron%20%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%8B/README.html#1--备注)
   
 
-- [ ] [0051. 掘金小册 - 《Electron 应用开发实践指南》](https://tdahuyou.github.io/notes/notes/electron/0051.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E3%80%8B/README.html) <!-- [locale](./0051.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E3%80%8B/README.html) -->  
+- [x] [0051. 掘金小册 - 《Electron 应用开发实践指南》](https://tdahuyou.github.io/notes/notes/electron/0051.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E3%80%8B/README.html) <!-- [locale](./0051.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E3%80%8B/README.html) -->  
   - [1. 🔗 个人推广链接](https://tdahuyou.github.io/notes/notes/electron/0051.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E3%80%8B/README.html#1--个人推广链接)
   - [2. 🔗 rubick](https://tdahuyou.github.io/notes/notes/electron/0051.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E3%80%8B/README.html#2--rubick)
   - [3. 📒 rubick 简介](https://tdahuyou.github.io/notes/notes/electron/0051.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%E3%80%8B/README.html#3--rubick-简介)
   - 《Electron 应用开发实践指南》 这本小册的作者，是开源项目 [rubick](https://github.com/rubickCenter/rubick) 的作者。
   
 
-- [ ] [0053. 掘金小册 - 《Electron + Vue 3 桌面应用开发》](https://tdahuyou.github.io/notes/notes/electron/0053.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20Vue%203%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E3%80%8B/README.html) <!-- [locale](./0053.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20Vue%203%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E3%80%8B/README.html) -->  
+- [x] [0053. 掘金小册 - 《Electron + Vue 3 桌面应用开发》](https://tdahuyou.github.io/notes/notes/electron/0053.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20Vue%203%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E3%80%8B/README.html) <!-- [locale](./0053.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20Vue%203%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E3%80%8B/README.html) -->  
   - [1. 🔗 个人推广链接](https://tdahuyou.github.io/notes/notes/electron/0053.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20Vue%203%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E3%80%8B/README.html#1--个人推广链接)
   - 《Electron + Vue 3 桌面应用开发》 这本小册的作者就是 electron.0050. 《Electron 实战：入门、进阶与性能优化》 这本书的作者“刘晓伦”。
   
 
-- [ ] [0054. 掘金小册 - 《Electron + React 从 0 到 1 实现简历平台实战》](https://tdahuyou.github.io/notes/notes/electron/0054.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20React%20%E4%BB%8E%200%20%E5%88%B0%201%20%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8E%86%E5%B9%B3%E5%8F%B0%E5%AE%9E%E6%88%98%E3%80%8B/README.html) <!-- [locale](./0054.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20React%20%E4%BB%8E%200%20%E5%88%B0%201%20%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8E%86%E5%B9%B3%E5%8F%B0%E5%AE%9E%E6%88%98%E3%80%8B/README.html) -->  
+- [x] [0054. 掘金小册 - 《Electron + React 从 0 到 1 实现简历平台实战》](https://tdahuyou.github.io/notes/notes/electron/0054.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20React%20%E4%BB%8E%200%20%E5%88%B0%201%20%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8E%86%E5%B9%B3%E5%8F%B0%E5%AE%9E%E6%88%98%E3%80%8B/README.html) <!-- [locale](./0054.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20React%20%E4%BB%8E%200%20%E5%88%B0%201%20%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8E%86%E5%B9%B3%E5%8F%B0%E5%AE%9E%E6%88%98%E3%80%8B/README.html) -->  
   - [1. 🔗 个人推广链接](https://tdahuyou.github.io/notes/notes/electron/0054.%20%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C%20-%20%E3%80%8AElectron%20%2B%20React%20%E4%BB%8E%200%20%E5%88%B0%201%20%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8E%86%E5%B9%B3%E5%8F%B0%E5%AE%9E%E6%88%98%E3%80%8B/README.html#1--个人推广链接)
   - 《Electron + React 从 0 到 1 实现简历平台实战》 这一本小册还没购买，其它的跟 electron 相关的都已经购买了，并阅读了一部分，也都还没读完，后续学习的时候会顺带着将相关的知识点整理到当前的笔记仓库中。
   
 
-- [ ] [0055. WebStudyBooks 免费的前端掘金小册](https://tdahuyou.github.io/notes/notes/electron/0055.%20WebStudyBooks%20%E5%85%8D%E8%B4%B9%E7%9A%84%E5%89%8D%E7%AB%AF%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C/README.html) <!-- [locale](./0055.%20WebStudyBooks%20%E5%85%8D%E8%B4%B9%E7%9A%84%E5%89%8D%E7%AB%AF%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C/README.html) -->  
+- [x] [0055. WebStudyBooks 免费的前端掘金小册](https://tdahuyou.github.io/notes/notes/electron/0055.%20WebStudyBooks%20%E5%85%8D%E8%B4%B9%E7%9A%84%E5%89%8D%E7%AB%AF%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C/README.html) <!-- [locale](./0055.%20WebStudyBooks%20%E5%85%8D%E8%B4%B9%E7%9A%84%E5%89%8D%E7%AB%AF%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C/README.html) -->  
   - [1. 🔗 WebStudyBooks 相关链接](https://tdahuyou.github.io/notes/notes/electron/0055.%20WebStudyBooks%20%E5%85%8D%E8%B4%B9%E7%9A%84%E5%89%8D%E7%AB%AF%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C/README.html#1--webstudybooks-相关链接)
   - [2. 📒 注意一些可能存在的问题](https://tdahuyou.github.io/notes/notes/electron/0055.%20WebStudyBooks%20%E5%85%8D%E8%B4%B9%E7%9A%84%E5%89%8D%E7%AB%AF%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8C/README.html#2--注意一些可能存在的问题)
   - 介绍了一个 github 仓库 [WebStudyBooks](https://github.com/zhaoxinkun/WebStudyBooks)，这里边存放了一些作者上传的掘金小册的压缩包，可以免费获取。
@@ -66,9 +66,10 @@
 ### 2.1. electron 都能用来开发什么类型的应用程序？
 
 - [x] [0052. 通过 Electron Showcase 了解 electron 都能用来开发什么类型的应用程序](https://tdahuyou.github.io/notes/notes/electron/0052.%20%E9%80%9A%E8%BF%87%20Electron%20Showcase%20%E4%BA%86%E8%A7%A3%20electron%20%E9%83%BD%E8%83%BD%E7%94%A8%E6%9D%A5%E5%BC%80%E5%8F%91%E4%BB%80%E4%B9%88%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/README.html) <!-- [locale](./0052.%20%E9%80%9A%E8%BF%87%20Electron%20Showcase%20%E4%BA%86%E8%A7%A3%20electron%20%E9%83%BD%E8%83%BD%E7%94%A8%E6%9D%A5%E5%BC%80%E5%8F%91%E4%BB%80%E4%B9%88%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/README.html) -->  
-  - [1. 📒Electron Showcase 简介](https://tdahuyou.github.io/notes/notes/electron/0052.%20%E9%80%9A%E8%BF%87%20Electron%20Showcase%20%E4%BA%86%E8%A7%A3%20electron%20%E9%83%BD%E8%83%BD%E7%94%A8%E6%9D%A5%E5%BC%80%E5%8F%91%E4%BB%80%E4%B9%88%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/README.html#1-electron-showcase-简介)
-  - [Electron Showcase](https://www.electronjs.org/apps) 是 Electron 官方提供的一个站点，记录了一些使用 Electron 开发的应用程序。
-  - 通过这个 Electron Showcase 站点，可以快速查阅那些使用 Electron 开发的桌面应用程序，了解 Electron 都适合用来写些什么东西。
+  - [1. 📒 Electron Showcase 简介](https://tdahuyou.github.io/notes/notes/electron/0052.%20%E9%80%9A%E8%BF%87%20Electron%20Showcase%20%E4%BA%86%E8%A7%A3%20electron%20%E9%83%BD%E8%83%BD%E7%94%A8%E6%9D%A5%E5%BC%80%E5%8F%91%E4%BB%80%E4%B9%88%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/README.html#1--electron-showcase-简介)
+  - **了解 Electron 都适合用来写些什么类型的应用程序**
+    - [Electron Showcase](https://www.electronjs.org/apps) 是 Electron 官方提供的一个站点，记录了大量使用 Electron 开发的应用程序。
+    - 在正式开始学习 Electron 之前，我们可以通过这个 Electron Showcase 站点，可以快速查阅那些使用 Electron 开发的桌面应用程序。
   
 
 ### 2.2. 了解 electron 的核心概念
@@ -81,14 +82,14 @@
   - [2. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#2--links)
   - [3. 📒 electron 应用的最小组成](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#3--electron-应用的最小组成)
   - [4. 📒 最终效果展示](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#4--最终效果展示)
-  - [5. 💻 demo - 实现步骤](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#5--demo---实现步骤)
+  - [5. 💻 demos.1 - Hello World 示例](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#5--demos1---hello-world-示例)
     - [5.1. 安装 Node.js 和 npm](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#51-安装-nodejs-和-npm)
     - [5.2. 安装 Electron](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#52-安装-electron)
     - [5.3. 准备入口文件（主进程）](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#53-准备入口文件主进程)
     - [5.4. 准备页面（渲染进程，非必需）](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#54-准备页面渲染进程非必需)
     - [5.5. 配置启动命令（非必需）](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#55-配置启动命令非必需)
     - [5.6. 启动 Electron 应用](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#56-启动-electron-应用)
-  - [6. 🤔 问：主进程加载的入口文件是？](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#6--问主进程加载的入口文件是)
+  - [6. ✍️ 小练习 - 如何查看主进程加载的入口文件？](https://tdahuyou.github.io/notes/notes/electron/0001.%20Electron%20%E5%BA%94%E7%94%A8%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%84%E6%88%90/README.html#6-️-小练习---如何查看主进程加载的入口文件)
   - 实现一个 demo - 从 0 到 1 搭建一个 hello world 应用
     - 知道 Electron 应用的最小组成，要求能够做到快速搭建一个简单的 Electron 学习环境，全程耗时控制在 1min ~ 3min（不算下载依赖耗时）实现一个小 demo，为接下来的 Electron 相关知识点的学习做准备。
   - 本节内容，主要就是仨文件：
@@ -97,70 +98,42 @@
     - index.html 渲染进程（非必需）
   
 
-- [ ] [0045. Electron 核心概念](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html) <!-- [locale](./0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html) -->  
-  - [1. 🔗 链接](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#1--链接)
-  - [2. 💡 导图](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#2--导图)
-  - [3. 📝 Electron 架构](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#3--electron-架构)
-  - [4. 📝 主进程 vs. 渲染进程](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#4--主进程-vs-渲染进程)
-    - [4.1. 数量差异](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#41-数量差异)
-    - [4.2. 作用差异](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#42-作用差异)
-    - [4.3. 模块差异](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#43-模块差异)
-  - [5. 📝 contextBridge](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#5--contextbridge)
-    - [5.1. `contextIsolation` 是什么](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#51-contextisolation-是什么)
-    - [5.2. `contextIsolation` 工作原理](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#52-contextisolation-工作原理)
-    - [5.3. 为什么要使用 `contextIsolation`](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#53-为什么要使用-contextisolation)
-    - [5.4. 如何配置 `contextIsolation`](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#54-如何配置-contextisolation)
-    - [5.5. 小结](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#55-小结)
-  - [6. 📝 contextBridge 上下文桥接](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#6--contextbridge-上下文桥接)
-    - [6.1. `contextBridge` 是什么](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#61-contextbridge-是什么)
-    - [6.2. `contextBridge` 工作原理](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#62-contextbridge-工作原理)
-    - [6.3. `contextBridge` 基本使用](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#63-contextbridge-基本使用)
-  - [7. 🤔 问：渲染进程中的 remote 模块是？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#7--问渲染进程中的-remote-模块是)
-  - [8. 🤔 问：Electron 中的渲染进程也是网页，那么它和我们在浏览器中开发的网页有何区别？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#8--问electron-中的渲染进程也是网页那么它和我们在浏览器中开发的网页有何区别)
-  - [9. 🤔 问：IPC 通信是什么？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#9--问ipc-通信是什么)
-  - [10. 🤔 问：为什么需要 IPC 通信呢？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#10--问为什么需要-ipc-通信呢)
-  - [11. 🤔 问：为什么 Electron 要将主进程和渲染进程分开呢？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#11--问为什么-electron-要将主进程和渲染进程分开呢)
-  - [12. 🤔 问：主进程向渲染进程发消息，是向页面发吗？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#12--问主进程向渲染进程发消息是向页面发吗)
-  - [13. 🤔 问：为什么要使用 `contextBridge`](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#13--问为什么要使用-contextbridge)
-  - 主进程是什么
-  - 渲染进程是什么
-  - 主进程和渲染进程之间的差异
-  - electron 的渲染进程（Web 页面）和我们传统的在浏览器端开发的 Web 页面有何区别
-  - 上下文隔离 contextIsolation 是什么
-  - 如何开启 contextIsolation 配置
-  - 为什么建议始终开启 contextIsolation 配置
-  - 上下文桥接 contextBridge 是什么
-  - contextBridge 用来解决什么问题
-  - 如何使用 contextBridge API 来给渲染进程暴露方法
-  - 需要对 Electron 中的主进程和渲染进程有个初步的认知，在后续的学习中，Electron 的主进程和渲染进程将会是学习的重点内容。“Electron 的主进程”、“Electron 的渲染进程”这两组字眼，在接下来的学习中，会不断地被提及。本文档中提及的内容，仅仅是做一个初步的简单介绍罢了，通过多撸代码，慢慢加深对它们的理解。
+- [x] [0045. Electron 核心概念](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html) <!-- [locale](./0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html) -->  
+  - [1. 📝 本节内容概述](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#1--本节内容概述)
+  - [2. 📝 认识 Electron 基本架构](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#2--认识-electron-基本架构)
+  - [3. 📝 主进程 vs. 渲染进程](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#3--主进程-vs-渲染进程)
+    - [3.1. 数量差异](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#31-数量差异)
+    - [3.2. 作用差异](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#32-作用差异)
+    - [3.3. 模块差异](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#33-模块差异)
+  - [4. 📝 认识 contextIsolation 上下文隔离](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#4--认识-contextisolation-上下文隔离)
+  - [5. 📝 认识 contextBridge 上下文桥接](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#5--认识-contextbridge-上下文桥接)
+  - [6. 🤔 问：渲染进程中的 remote 模块是？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#6--问渲染进程中的-remote-模块是)
+  - [7. 🤔 问：Electron 中的渲染进程也是网页，那么它和我们在浏览器中开发的网页有何区别？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#7--问electron-中的渲染进程也是网页那么它和我们在浏览器中开发的网页有何区别)
+  - [8. 🤔 问：IPC 通信是什么？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#8--问ipc-通信是什么)
+  - [9. 🤔 问：为什么需要 IPC 通信呢？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#9--问为什么需要-ipc-通信呢)
+  - [10. 🤔 问：为什么 Electron 要将主进程和渲染进程分开呢？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#10--问为什么-electron-要将主进程和渲染进程分开呢)
+  - [11. 🤔 问：主进程向渲染进程发消息，是向页面发吗？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#11--问主进程向渲染进程发消息是向页面发吗)
+  - [12. 💼 面试题：谈谈为什么要使用 `contextBridge`？](https://tdahuyou.github.io/notes/notes/electron/0045.%20Electron%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/README.html#12--面试题谈谈为什么要使用-contextbridge)
+  - 本节主要介绍 electron 中的部分核心概念 —— 主进程、渲染进程、上下文隔离、上下文桥接、remote 模块、IPC 通信等。
   
 
 ## 3. IPC
 
 ### 3.1. 上下文桥接 contextBridge
 
-- [ ] [0002. 使用 contextBridge 暴露 API 给渲染进程](https://tdahuyou.github.io/notes/notes/electron/0002.%20%E4%BD%BF%E7%94%A8%20contextBridge%20%E6%9A%B4%E9%9C%B2%20API%20%E7%BB%99%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B/README.html) <!-- [locale](./0002.%20%E4%BD%BF%E7%94%A8%20contextBridge%20%E6%9A%B4%E9%9C%B2%20API%20%E7%BB%99%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0002.%20%E4%BD%BF%E7%94%A8%20contextBridge%20%E6%9A%B4%E9%9C%B2%20API%20%E7%BB%99%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B/README.html#1--links)
-  - [2. 💻 demo](https://tdahuyou.github.io/notes/notes/electron/0002.%20%E4%BD%BF%E7%94%A8%20contextBridge%20%E6%9A%B4%E9%9C%B2%20API%20%E7%BB%99%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B/README.html#2--demo)
+- [x] [0002. 使用 contextBridge 暴露 API 给渲染进程](https://tdahuyou.github.io/notes/notes/electron/0002.%20%E4%BD%BF%E7%94%A8%20contextBridge%20%E6%9A%B4%E9%9C%B2%20API%20%E7%BB%99%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B/README.html) <!-- [locale](./0002.%20%E4%BD%BF%E7%94%A8%20contextBridge%20%E6%9A%B4%E9%9C%B2%20API%20%E7%BB%99%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B/README.html) -->  
+  - [1. 💻 demos.1 - 使用 contextBridge 暴露 API 给渲染进程](https://tdahuyou.github.io/notes/notes/electron/0002.%20%E4%BD%BF%E7%94%A8%20contextBridge%20%E6%9A%B4%E9%9C%B2%20API%20%E7%BB%99%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B/README.html#1--demos1---使用-contextbridge-暴露-api-给渲染进程)
   - 学会在开启 `contextIsolation` 的情况下，使用 `contextBridge` 来给渲染进程暴露 Electron API，使用系统的原生能力。
   
 
 ### 3.2. IPC 基础
 
-- [ ] [0046. 认识 IPC 相关模块](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html) <!-- [locale](./0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#1--links)
-  - [2. 💡 导图](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#2--导图)
-  - [3. 📒 electron doc - 进程间通信教程](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#3--electron-doc---进程间通信教程)
-  - [4. 📒 send vs. sendSync](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#4--send-vs-sendsync)
-    - [4.1. send、sendSync 是什么](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#41-sendsendsync-是什么)
-    - [4.2. 同步 vs. 异步](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#42-同步-vs-异步)
-    - [4.3. 返回值](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#43-返回值)
-    - [4.4. 看看官方建议](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#44-看看官方建议)
-  - [5. 📒 send vs. invoke](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#5--send-vs-invoke)
-    - [5.1. 先给出结论](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#51-先给出结论)
-    - [5.2. 场景 - 双向通信](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#52-场景---双向通信)
-    - [5.3. 场景 - 单向通信](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#53-场景---单向通信)
-  - [6. 🤔 问：使用 send 来实现单向通信能减少开销提高性能？](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#6--问使用-send-来实现单向通信能减少开销提高性能)
+- [x] [0046. 认识 IPC 相关模块](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html) <!-- [locale](./0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html) -->  
+  - [1. 💡 思维导图](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#1--思维导图)
+  - [2. 🔍 查看官方提供的 IPC 通信教程](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#2--查看官方提供的-ipc-通信教程)
+  - [3. 📒 send vs. sendSync](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#3--send-vs-sendsync)
+  - [4. 📒 send vs. invoke](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#4--send-vs-invoke)
+  - [5. 🤔 问：使用 send 来实现单向通信能减少开销提高性能？](https://tdahuyou.github.io/notes/notes/electron/0046.%20%E8%AE%A4%E8%AF%86%20IPC%20%E7%9B%B8%E5%85%B3%E6%A8%A1%E5%9D%97/README.html#5--问使用-send-来实现单向通信能减少开销提高性能)
   - 把官方教程中提到的 IPC 通信模式刷一遍
   - 认识用于实现 IPC 通信的模块 ipcMain、ipcRenderer
   - send 和 sendSync 之间的一些差异（这俩 API “已过时”）
