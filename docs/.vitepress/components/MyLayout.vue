@@ -104,59 +104,35 @@ import 'swiper/css/pagination'
 const swiperInstance = ref(null)
 // window.swiperInstance = swiperInstance
 
-// const initSwiper = () => {
-//     // destroySwiper();
-//     console.log('initSwiper')
-//     swiperInstance.value = new Swiper('.swiper-container', {
-//         slidesPerView: 1,
-//         spaceBetween: 30,
-//         // Keyboard control !无效
-//         // keyboard: {
-//         //     enabled: true,
-//         // },
-//         // Mousewheel control !无效
-//         // mousewheel: true,
-//         loop: true,
-//         modules: [Navigation, Pagination],
-//         pagination: {
-//             el: ".swiper-pagination",
-//             clickable: true,
-//             // Pagination custom
-//             renderBullet: function (index, className) {
-//                 return '<span class="' + className + '">' + (index + 1) + "</span>";
-//             },
-//         },
-//         navigation: {
-//             nextEl: '.swiper-button-next',
-//             prevEl: '.swiper-button-prev',
-//         },
-//     })
-// }
-// window.initSwiper = initSwiper
-
-onMounted(() => {
-    import('swiper').then(({ default: Swiper }) => {
-        import('swiper/modules').then(({ Navigation, Pagination }) => {
-            swiperInstance.value = new Swiper('.swiper-container', {
-                slidesPerView: 1,
-                spaceBetween: 30,
-                loop: true,
-                modules: [Navigation, Pagination],
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                    // renderBullet: function (index, className) {
-                    //   return '<span class="' + className + '">' + (index + 1) + "</span>";
-                    // },
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-        });
-    });
-});
+const initSwiper = () => {
+    // destroySwiper();
+    console.log('initSwiper')
+    swiperInstance.value = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        // Keyboard control !无效
+        // keyboard: {
+        //     enabled: true,
+        // },
+        // Mousewheel control !无效
+        // mousewheel: true,
+        loop: true,
+        modules: [Navigation, Pagination],
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            // Pagination custom
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + (index + 1) + "</span>";
+            },
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
+}
+window.initSwiper = initSwiper
 
 function destroySwiper() {
     // ! unknow error
