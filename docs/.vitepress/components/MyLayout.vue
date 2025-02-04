@@ -103,35 +103,59 @@ import 'swiper/css/pagination'
 const swiperInstance = ref(null)
 // window.swiperInstance = swiperInstance
 
-const initSwiper = () => {
-    // destroySwiper();
-    console.log('initSwiper')
-    swiperInstance.value = new Swiper('.swiper-container', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        // Keyboard control !无效
-        // keyboard: {
-        //     enabled: true,
-        // },
-        // Mousewheel control !无效
-        // mousewheel: true,
-        loop: true,
-        modules: [Navigation, Pagination],
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            // Pagination custom
-            renderBullet: function (index, className) {
-                return '<span class="' + className + '">' + (index + 1) + "</span>";
-            },
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    })
-}
-window.initSwiper = initSwiper
+// const initSwiper = () => {
+//     // destroySwiper();
+//     console.log('initSwiper')
+//     swiperInstance.value = new Swiper('.swiper-container', {
+//         slidesPerView: 1,
+//         spaceBetween: 30,
+//         // Keyboard control !无效
+//         // keyboard: {
+//         //     enabled: true,
+//         // },
+//         // Mousewheel control !无效
+//         // mousewheel: true,
+//         loop: true,
+//         modules: [Navigation, Pagination],
+//         pagination: {
+//             el: ".swiper-pagination",
+//             clickable: true,
+//             // Pagination custom
+//             renderBullet: function (index, className) {
+//                 return '<span class="' + className + '">' + (index + 1) + "</span>";
+//             },
+//         },
+//         navigation: {
+//             nextEl: '.swiper-button-next',
+//             prevEl: '.swiper-button-prev',
+//         },
+//     })
+// }
+// window.initSwiper = initSwiper
+
+onMounted(() => {
+    import('swiper').then(({ default: Swiper }) => {
+        import('swiper/modules').then(({ Navigation, Pagination }) => {
+            swiperInstance.value = new Swiper('.swiper-container', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                modules: [Navigation, Pagination],
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                    // renderBullet: function (index, className) {
+                    //   return '<span class="' + className + '">' + (index + 1) + "</span>";
+                    // },
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+    });
+});
 
 function destroySwiper() {
     // ! unknow error
@@ -155,16 +179,30 @@ onMounted(() => {
 
 onBeforeUnmount(destroySwiper)
 
-watch(
-    () => route.path,
-    (newPath, oldPath) => {
-        if (newPath !== oldPath) {
-            nextTick(() => {
-                initSwiper()
-            })
+// watch(
+//     () => route.path,
+//     (newPath, oldPath) => {
+//         if (newPath !== oldPath) {
+//             nextTick(() => {
+//                 initSwiper()
+//             })
+//         }
+//     }
+// )
+
+onMounted(() => {
+    watch(
+        () => route.path,
+        (newPath, oldPath) => {
+            if (newPath !== oldPath) {
+                nextTick(() => {
+                    initSwiper()
+                })
+            }
         }
-    }
-)
+    );
+});
+
 
 // <!-- Slider main container -->
 // <div class="swiper">
@@ -195,13 +233,24 @@ const vpData = useData()
 // console.log('notesData:', notesData)
 // console.log('vpData:', vpData)
 
-const vscodeNoteDir = computed(() => {
-    if (!(vpData.page.value.relativePath.startsWith('notes/'))) return ''
-    const TNotesDir = localStorage.getItem('TNotesDir')
-    const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '')
-    const result = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : ''
-    return result
+// const vscodeNoteDir = computed(() => {
+//     if (!(vpData.page.value.relativePath.startsWith('notes/'))) return ''
+//     const TNotesDir = localStorage.getItem('TNotesDir')
+//     const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '')
+//     const result = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : ''
+//     return result
+// });
+
+const vscodeNoteDir = ref('');
+
+onMounted(() => {
+    if (vpData.page.value?.relativePath?.startsWith('notes/')) {
+        const TNotesDir = localStorage.getItem('TNotesDir');
+        const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '');
+        vscodeNoteDir.value = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : '';
+    }
 });
+
 const allNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.allNotesLen);
 const doneNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.doneNotesLen);
 const isCopied = ref(false)

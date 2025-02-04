@@ -23,7 +23,7 @@ export default {
 
   // doc: https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
   // 使用注入插槽的包装组件覆盖 Layout
-  // Layout: MyLayout,
+  Layout: MyLayout,
   // doc: https://vitepress.dev/zh/guide/extending-default-theme#registering-global-components
   enhanceApp({ app }) {
     // 注册自定义全局组件
