@@ -104,35 +104,35 @@ import 'swiper/css/pagination'
 const swiperInstance = ref(null)
 // window.swiperInstance = swiperInstance
 
-const initSwiper = () => {
-    // destroySwiper();
-    console.log('initSwiper')
-    swiperInstance.value = new Swiper('.swiper-container', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        // Keyboard control !无效
-        // keyboard: {
-        //     enabled: true,
-        // },
-        // Mousewheel control !无效
-        // mousewheel: true,
-        loop: true,
-        modules: [Navigation, Pagination],
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            // Pagination custom
-            // renderBullet: function (index, className) {
-            //     return '<span class="' + className + '">' + (index + 1) + "</span>";
-            // },
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    })
-}
-window.initSwiper = initSwiper
+// const initSwiper = () => {
+//     // destroySwiper();
+//     console.log('initSwiper')
+//     swiperInstance.value = new Swiper('.swiper-container', {
+//         slidesPerView: 1,
+//         spaceBetween: 30,
+//         // Keyboard control !无效
+//         // keyboard: {
+//         //     enabled: true,
+//         // },
+//         // Mousewheel control !无效
+//         // mousewheel: true,
+//         loop: true,
+//         modules: [Navigation, Pagination],
+//         pagination: {
+//             el: ".swiper-pagination",
+//             clickable: true,
+//             // Pagination custom
+//             // renderBullet: function (index, className) {
+//             //     return '<span class="' + className + '">' + (index + 1) + "</span>";
+//             // },
+//         },
+//         navigation: {
+//             nextEl: '.swiper-button-next',
+//             prevEl: '.swiper-button-prev',
+//         },
+//     })
+// }
+// window.initSwiper = initSwiper
 
 onMounted(() => {
     import('swiper').then(({ default: Swiper }) => {
@@ -169,11 +169,11 @@ function destroySwiper() {
     // swiperInstance.value = null
 }
 
-onMounted(() => {
-    nextTick(() => {
-        initSwiper()
-    })
-})
+// onMounted(() => {
+//     nextTick(() => {
+//         initSwiper()
+//     })
+// })
 
 onBeforeUnmount(destroySwiper)
 
@@ -188,18 +188,18 @@ onBeforeUnmount(destroySwiper)
 //     }
 // )
 
-onMounted(() => {
-    watch(
-        () => route.path,
-        (newPath, oldPath) => {
-            if (newPath !== oldPath) {
-                nextTick(() => {
-                    initSwiper()
-                })
-            }
-        }
-    );
-});
+// onMounted(() => {
+//     watch(
+//         () => route.path,
+//         (newPath, oldPath) => {
+//             if (newPath !== oldPath) {
+//                 nextTick(() => {
+//                     initSwiper()
+//                 })
+//             }
+//         }
+//     );
+// });
 
 
 // <!-- Slider main container -->
@@ -345,7 +345,7 @@ const copyRawFile = () => {
     object-fit: contain;
 }
 
-.swiper-container .swiper-pagination-bullet {
+/* .swiper-container .swiper-pagination-bullet {
     width: 20px;
     height: 20px;
     text-align: center;
@@ -354,7 +354,7 @@ const copyRawFile = () => {
     color: #1a1a1a;
     opacity: .2;
     background: rgba(0, 0, 0, 0.2);
-}
+} */
 
 .swiper-container .swiper-pagination-bullet:hover {
     opacity: .8;
