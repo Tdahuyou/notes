@@ -389,4 +389,13 @@ export default defineConfig({
   //   console.log('transformHtml', code, id, context)
   //   // ...
   // }
+  transformHtml: (html, id, ctx) => {
+    if (id.endsWith('.html')) {
+      console.log('SSR Output:', html); // 检查生成的 SSR HTML
+    }
+    return html;
+  },
+  router: {
+    prefetchLinks: false, // 禁止预加载，确保每次加载内容是同步的
+  },
 })
