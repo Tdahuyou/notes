@@ -218,33 +218,33 @@ const vpData = useData()
 //     return result
 // });
 
-// const vscodeNoteDir = ref('');
-
-// onMounted(() => {
-//     if (vpData.page.value?.relativePath?.startsWith('notes/')) {
-//         const TNotesDir = localStorage.getItem('TNotesDir');
-//         const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '');
-//         vscodeNoteDir.value = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : '';
-//     }
-// });
-
 const vscodeNoteDir = ref('');
 
-const updateVscodeNoteDir = () => {
+onMounted(() => {
     if (vpData.page.value?.relativePath?.startsWith('notes/')) {
         const TNotesDir = localStorage.getItem('TNotesDir');
         const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '');
         vscodeNoteDir.value = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : '';
-    } else {
-        vscodeNoteDir.value = '';
     }
-};
+});
 
-// 在组件挂载时计算一次
-onMounted(updateVscodeNoteDir);
+// const vscodeNoteDir = ref('');
 
-// 监听 `vpData.page.value.relativePath` 的变化，并在变化时重新计算 `vscodeNoteDir`
-watch(() => vpData.page.value.relativePath, updateVscodeNoteDir);
+// const updateVscodeNoteDir = () => {
+//     if (vpData.page.value?.relativePath?.startsWith('notes/')) {
+//         const TNotesDir = localStorage.getItem('TNotesDir');
+//         const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '');
+//         vscodeNoteDir.value = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : '';
+//     } else {
+//         vscodeNoteDir.value = '';
+//     }
+// };
+
+// // 在组件挂载时计算一次
+// onMounted(updateVscodeNoteDir);
+
+// // 监听 `vpData.page.value.relativePath` 的变化，并在变化时重新计算 `vscodeNoteDir`
+// watch(() => vpData.page.value.relativePath, updateVscodeNoteDir);
 
 
 const allNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.allNotesLen);
