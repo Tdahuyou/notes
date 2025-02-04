@@ -306,10 +306,6 @@ export default defineConfig({
   },
   // doc => https://vitepress.dev/zh/guide/markdown#image-lazy-loading
   markdown: {
-    theme: {
-      light: 'github-light',
-      dark: 'github-dark',
-    },
     // lineNumbers: true, // 启用代码块的行号
     config(md) {
       md

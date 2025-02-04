@@ -149,7 +149,7 @@ function destroySwiper() {
 
 onMounted(() => {
     nextTick(() => {
-        initSwiper()
+        // initSwiper()
     })
 })
 
