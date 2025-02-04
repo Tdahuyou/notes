@@ -16,8 +16,7 @@
             <div class="doc-before-container">
                 <div class="left-area">
                     <div class="vscode-box" v-show="vscodeNoteDir">
-                        <a :href="vscodeNoteDir"
-                            aria-label="open in vscode" title="open in vscode" target="_blank">
+                        <a :href="vscodeNoteDir" aria-label="open in vscode" title="open in vscode" target="_blank">
                             <img src="./icon__vscode.svg" alt="open in vscode">
                         </a>
                     </div>
@@ -56,8 +55,9 @@
             <!-- {{ vpData.page.value.title }} -->
         </template>
         <template #aside-outline-before>
-            <span @click="toTop" style="cursor: pointer; height: 1em; width: 1em;" title="回到顶部"><img
-                    src="./icon__totop.svg" alt="to top"></span>
+            <span @click="scrollToTop" style="cursor: pointer; height: 1em; width: 1em;" title="回到顶部">
+                <img src="./icon__totop.svg" alt="to top" />
+            </span>
         </template>
 
         <!-- <template #sidebar-nav-before>sidebar-nav-before</template> -->
@@ -86,6 +86,7 @@ import { useData, useRoute } from 'vitepress'
 import { data as notesData } from '../../src/notes/notes.data'
 import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import notesmeta from '../../../scripts/.notesmeta.json'
+import { formatDate, scrollToTop } from './utils'
 
 const route = useRoute()
 
@@ -241,39 +242,38 @@ const vpData = useData()
 //     return result
 // });
 
+// const vscodeNoteDir = ref('');
+
+// onMounted(() => {
+//     if (vpData.page.value?.relativePath?.startsWith('notes/')) {
+//         const TNotesDir = localStorage.getItem('TNotesDir');
+//         const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '');
+//         vscodeNoteDir.value = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : '';
+//     }
+// });
+
 const vscodeNoteDir = ref('');
 
-onMounted(() => {
+const updateVscodeNoteDir = () => {
     if (vpData.page.value?.relativePath?.startsWith('notes/')) {
         const TNotesDir = localStorage.getItem('TNotesDir');
         const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '');
         vscodeNoteDir.value = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : '';
+    } else {
+        vscodeNoteDir.value = '';
     }
-});
+};
+
+// 在组件挂载时计算一次
+onMounted(updateVscodeNoteDir);
+
+// 监听 `vpData.page.value.relativePath` 的变化，并在变化时重新计算 `vscodeNoteDir`
+watch(() => vpData.page.value.relativePath, updateVscodeNoteDir);
+
 
 const allNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.allNotesLen);
 const doneNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.doneNotesLen);
 const isCopied = ref(false)
-
-const formatDate = (timestamp) => {
-    const date = new Date(timestamp)
-    const year = date.getFullYear()
-    const month = String(date.getMonth() + 1).padStart(2, '0')
-    const day = String(date.getDate()).padStart(2, '0')
-    const weekDays = ['日', '一', '二', '三', '四', '五', '六']
-    const weekDay = weekDays[date.getDay()]
-    const hours = String(date.getHours()).padStart(2, '0')
-    const minutes = String(date.getMinutes()).padStart(2, '0')
-    const seconds = String(date.getSeconds()).padStart(2, '0')
-
-    // const period = hours < 12 ? '上午' : '下午'
-    // const formattedHours = hours % 12 || 12
-
-    return `${year}年${month}月${day}日 周${weekDay} ${hours}:${minutes}:${seconds}`
-    // return `${year}-${month}-${day} 周${weekDay} ${period} ${formattedHours}:${minutes}:${seconds}`
-}
-
-const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 const copyRawFile = () => {
     const noteData = notesData[vpData.page.value.title.toLowerCase()]
     // console.log(notesData, vpData.page.value.title.toLowerCase())
