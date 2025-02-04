@@ -122,9 +122,9 @@ const initSwiper = () => {
             el: ".swiper-pagination",
             clickable: true,
             // Pagination custom
-            renderBullet: function (index, className) {
-                return '<span class="' + className + '">' + (index + 1) + "</span>";
-            },
+            // renderBullet: function (index, className) {
+            //     return '<span class="' + className + '">' + (index + 1) + "</span>";
+            // },
         },
         navigation: {
             nextEl: '.swiper-button-next',
@@ -133,6 +133,27 @@ const initSwiper = () => {
     })
 }
 window.initSwiper = initSwiper
+
+onMounted(() => {
+    import('swiper').then(({ default: Swiper }) => {
+        import('swiper/modules').then(({ Navigation, Pagination }) => {
+            swiperInstance.value = new Swiper('.swiper-container', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                modules: [Navigation, Pagination],
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+    });
+});
 
 function destroySwiper() {
     // ! unknow error
@@ -210,41 +231,23 @@ const vpData = useData()
 // console.log('notesData:', notesData)
 // console.log('vpData:', vpData)
 
-// const vscodeNoteDir = computed(() => {
-//     if (!(vpData.page.value.relativePath.startsWith('notes/'))) return ''
-//     const TNotesDir = localStorage.getItem('TNotesDir')
-//     const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '')
-//     const result = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : ''
-//     return result
-// });
-
 const vscodeNoteDir = ref('');
 
-onMounted(() => {
+const updateVscodeNoteDir = () => {
     if (vpData.page.value?.relativePath?.startsWith('notes/')) {
         const TNotesDir = localStorage.getItem('TNotesDir');
         const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '');
         vscodeNoteDir.value = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : '';
+    } else {
+        vscodeNoteDir.value = '';
     }
-});
+};
 
-// const vscodeNoteDir = ref('');
+// 在组件挂载时计算一次
+onMounted(updateVscodeNoteDir);
 
-// const updateVscodeNoteDir = () => {
-//     if (vpData.page.value?.relativePath?.startsWith('notes/')) {
-//         const TNotesDir = localStorage.getItem('TNotesDir');
-//         const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '');
-//         vscodeNoteDir.value = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : '';
-//     } else {
-//         vscodeNoteDir.value = '';
-//     }
-// };
-
-// // 在组件挂载时计算一次
-// onMounted(updateVscodeNoteDir);
-
-// // 监听 `vpData.page.value.relativePath` 的变化，并在变化时重新计算 `vscodeNoteDir`
-// watch(() => vpData.page.value.relativePath, updateVscodeNoteDir);
+// 监听 `vpData.page.value.relativePath` 的变化，并在变化时重新计算 `vscodeNoteDir`
+watch(() => vpData.page.value.relativePath, updateVscodeNoteDir);
 
 
 const allNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.allNotesLen);
