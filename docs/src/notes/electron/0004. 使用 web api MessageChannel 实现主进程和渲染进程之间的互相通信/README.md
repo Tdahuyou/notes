@@ -1,16 +1,17 @@
 # [0004. 使用 web api MessageChannel 实现主进程和渲染进程之间的互相通信](https://github.com/Tdahuyou/electron/tree/main/0004.%20%E4%BD%BF%E7%94%A8%20web%20api%20MessageChannel%20%E5%AE%9E%E7%8E%B0%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1)
 
 <!-- region:toc -->
-- [1. 💻 demo](#1--demo)
+- [1. 💻 demos.1 - 使用 web api MessageChannel 实现主进程和渲染进程之间的互相通信](#1--demos1---使用-web-api-messagechannel-实现主进程和渲染进程之间的互相通信)
 <!-- endregion:toc -->
-- 介绍如何使用 web api 来实现 IPC 通信
+
+## 1. 💻 demos.1 - 使用 web api MessageChannel 实现主进程和渲染进程之间的互相通信
+
 - 主进程有 MessageChannelMain 模块，渲染进程可以使用 Web API MessageChannel。
-- 用哪个模块都可以实现通信的效果，差异是通信的端口是在主进程生产还是在渲染进程生产。
+- 用哪个模块都可以实现通信的目的，差异在于通信的端口是在主进程生产还是在渲染进程生产。
 
-## 1. 💻 demo
+::: code-group
 
-```js
-// index.js
+```js [index.js]
 const { app, BrowserWindow, ipcMain } = require('electron')
 
 // 创建窗口方法
@@ -34,22 +35,22 @@ app.whenReady().then(() => {
   createWindow()
 })
 
-ipcMain.on('port', (event) => {
+ipcMain.on('port', (event) => { // [!code highlight]
   // 拿到渲染进程给我传递过来的 port2
   const port = event.ports[0]
 
-  port.on('message', (event) => {
+  port.on('message', (event) => { // [!code highlight]
     console.log('渲染进程给我传递过来的信息为：', event.data)
-    port.postMessage('我收到你的消息了，周末出来玩呗～')
+    port.postMessage('我收到你的消息了，周末出来玩呗～') // [!code highlight]
   })
 
   // 开启这个端口 - 这意味着两者之间可以进行通信了
-  port.start()
+  port.start() // [!code highlight]
 })
 ```
 
-```js
-// renderer.js
+```js [renderer.js]
+// 
 const { ipcRenderer } = require('electron')
 const { port1, port2 } = new MessageChannel() // https://www.electronjs.org/zh/docs/latest/tutorial/message-ports/#messageports-in-the-main-process
 
@@ -59,18 +60,20 @@ const { port1, port2 } = new MessageChannel() // https://www.electronjs.org/zh/d
  * @param {any} args 传递的参数，要传递给主进程的消息内容
  * @param {MessagePort[]} transferList 传递的 MessagePort 端口的数组
  */
-ipcRenderer.postMessage('port', null, [port2])
+ipcRenderer.postMessage('port', null, [port2]) // [!code highlight]
 
 // 监听 port1 的消息
-port1.onmessage = (event) => {
+port1.onmessage = (event) => { // [!code highlight]
   console.log('主进程给我传递过来的信息为：', event.data)
 }
 
 document.getElementById('btn').addEventListener('click', () => {
   // 向主进程发消息
-  port1.postMessage('Hello, World!')
+  port1.postMessage('Hello, World!') // [!code highlight]
 })
 ```
+
+:::
 
 **最终效果**
 
@@ -79,16 +82,3 @@ document.getElementById('btn').addEventListener('click', () => {
 3. 主进程再给渲染进程回复一条消息【我收到你的消息了，周末出来玩呗～】
 
 ![](assets/2024-10-05-22-26-48.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
