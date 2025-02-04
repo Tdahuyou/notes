@@ -82,59 +82,26 @@
 
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import { useData, useRoute } from 'vitepress'
+import { useData } from 'vitepress'
 import { data as notesData } from '../../src/notes/notes.data'
 import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import notesmeta from '../../../scripts/.notesmeta.json'
 import { formatDate, scrollToTop } from './utils'
-
-const route = useRoute()
 
 // --------------------------------------------------------------
 // #region - swiper
 // --------------------------------------------------------------
 // doc: https://swiperjs.com/demos
 
-import Swiper from 'swiper'
-import { Navigation, Pagination } from 'swiper/modules'
+// import Swiper from 'swiper'
+// import { Navigation, Pagination } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 const swiperInstance = ref(null)
-// window.swiperInstance = swiperInstance
 
-// const initSwiper = () => {
-//     // destroySwiper();
-//     console.log('initSwiper')
-//     swiperInstance.value = new Swiper('.swiper-container', {
-//         slidesPerView: 1,
-//         spaceBetween: 30,
-//         // Keyboard control !无效
-//         // keyboard: {
-//         //     enabled: true,
-//         // },
-//         // Mousewheel control !无效
-//         // mousewheel: true,
-//         loop: true,
-//         modules: [Navigation, Pagination],
-//         pagination: {
-//             el: ".swiper-pagination",
-//             clickable: true,
-//             // Pagination custom
-//             // renderBullet: function (index, className) {
-//             //     return '<span class="' + className + '">' + (index + 1) + "</span>";
-//             // },
-//         },
-//         navigation: {
-//             nextEl: '.swiper-button-next',
-//             prevEl: '.swiper-button-prev',
-//         },
-//     })
-// }
-// window.initSwiper = initSwiper
-
-onMounted(() => {
+const initSwiper = () => {
     import('swiper').then(({ default: Swiper }) => {
         import('swiper/modules').then(({ Navigation, Pagination }) => {
             swiperInstance.value = new Swiper('.swiper-container', {
@@ -153,7 +120,7 @@ onMounted(() => {
             });
         });
     });
-});
+}
 
 function destroySwiper() {
     // ! unknow error
@@ -169,38 +136,7 @@ function destroySwiper() {
     // swiperInstance.value = null
 }
 
-// onMounted(() => {
-//     nextTick(() => {
-//         initSwiper()
-//     })
-// })
-
 onBeforeUnmount(destroySwiper)
-
-// watch(
-//     () => route.path,
-//     (newPath, oldPath) => {
-//         if (newPath !== oldPath) {
-//             nextTick(() => {
-//                 initSwiper()
-//             })
-//         }
-//     }
-// )
-
-// onMounted(() => {
-//     watch(
-//         () => route.path,
-//         (newPath, oldPath) => {
-//             if (newPath !== oldPath) {
-//                 nextTick(() => {
-//                     initSwiper()
-//                 })
-//             }
-//         }
-//     );
-// });
-
 
 // <!-- Slider main container -->
 // <div class="swiper">
@@ -243,11 +179,8 @@ const updateVscodeNoteDir = () => {
     }
 };
 
-// 在组件挂载时计算一次
-onMounted(updateVscodeNoteDir);
-
-// 监听 `vpData.page.value.relativePath` 的变化，并在变化时重新计算 `vscodeNoteDir`
-watch(() => vpData.page.value.relativePath, updateVscodeNoteDir);
+onMounted(() => { updateVscodeNoteDir(); initSwiper(); });
+watch(() => vpData.page.value.relativePath, () => { updateVscodeNoteDir(); initSwiper(); });
 
 
 const allNotesLen = computed(() => notesData[vpData.page.value.title.toLowerCase()]?.allNotesLen);

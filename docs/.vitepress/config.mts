@@ -320,25 +320,27 @@ export default defineConfig({
         .use(markdownItContainer, 'swiper', {
           render: (tokens, idx) => {
             // 缓存默认的图片渲染规则，在 :::swiper ... ::: 内部使用自定义渲染规则，处理 Markdown 中的图片并转化为 Swiper Slide。
-            const defaultRenderRulesImage = md.renderer.rules.image!
-            // console.log(defaultRenderRulesImage)
-            // const defaultRenderRulesParagraphOpen = md.renderer.rules.paragraph_open!
-            // const defaultRenderRulesParagraphClose = md.renderer.rules.paragraph_close!
+            const defaultRenderRulesImage = md.renderer.rules.image || ((tokens, idx, options, env, slf) => slf.renderToken(tokens, idx, options))
             if (tokens[idx].nesting === 1) {
+              // console.log('tokens[idx].nesting', tokens[idx].nesting, '开始 swiper 容器 ::: swiper')
               // 重新指定渲染规则
 
               // 禁用段落 <p>，以免在最终返回的图片容器 div.swiper-slide 的外层多出一个 <p> 标签。p 包裹 div 是不规范的。
-              // md.renderer.rules.paragraph_open = () => ''
-              // md.renderer.rules.paragraph_close = () => ''
+              md.renderer.rules.paragraph_open = () => ''
+              md.renderer.rules.paragraph_close = () => ''
               // 将图片直接包裹到 `<div class="swiper-slide">` 中，具体元素格式，参照 Swiper.js 官方文档。
               md.renderer.rules.image = (tokens, idx, options, env, slf) => `<div class="swiper-slide">${defaultRenderRulesImage(tokens, idx, options, env, slf).replaceAll('<div class="swiper-slide">', '').replaceAll('</div>', '')}</div>`
-
+              
               // 开始标签，创建 swiper 容器和 wrapper
               return `<div class="swiper-container"><div class="swiper-wrapper">\n`
             } else {
-              // md.renderer.rules.paragraph_open = defaultRenderRulesParagraphOpen
-              // md.renderer.rules.paragraph_close = defaultRenderRulesParagraphClose
-              md.renderer.rules.image = defaultRenderRulesImage // reset image renderer
+              // console.log('tokens[idx].nesting', tokens[idx].nesting, '结束 swiper 容器 :::')
+              
+              // reset renderer rules
+              md.renderer.rules.paragraph_open = undefined
+              md.renderer.rules.paragraph_close = undefined
+              md.renderer.rules.image = (tokens, idx, options, env, slf) => `${defaultRenderRulesImage(tokens, idx, options, env, slf).replaceAll('<div class="swiper-slide">', '').replaceAll('</div>', '')}`
+
               // 结束标签，关闭 wrapper 和 container
               return '</div><div class="swiper-button-next"></div><div class="swiper-button-prev"></div><div class="swiper-pagination"></div></div>\n'
               // return '</div><div class="swiper-pagination"></div></div>\n'
