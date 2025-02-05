@@ -43,7 +43,9 @@
 
 ![](assets/0003-题解-暴力解法.gif)
 
-```javascript
+::: code-group
+
+```js
 var lengthOfLongestSubstring = function (s) {
   const len = s.length, set = new Set()
   let ans = 0
@@ -61,6 +63,8 @@ var lengthOfLongestSubstring = function (s) {
   return ans
 }
 ```
+
+:::
 
 - 时间复杂度：O(n^2)
 - 空间复杂度：O(n)
@@ -136,7 +140,9 @@ var lengthOfLongestSubstring = function (s) {
 
 ![](assets/0003-题解-滑动窗口.gif)
 
-```javascript
+::: code-group
+
+```js
 /**
  * @param {string} s
  * @return {number}
@@ -158,6 +164,8 @@ var lengthOfLongestSubstring = function (s) {
   return ans
 };
 ```
+
+:::
 
 - 时间复杂度：O(n)
 - 空间复杂度：O(n)
@@ -188,14 +196,3 @@ end 开始赋值为 -1，也是为了让代码更优雅，好从字符串下标 
 
 1. 在每次收缩窗口之前
 2. 在遍历完字符串的时候
-
-
-
-
-
-
-
-
-
-
-

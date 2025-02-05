@@ -172,7 +172,7 @@ const vscodeNoteDir = ref('');
 const updateVscodeNoteDir = () => {
     if (vpData.page.value?.relativePath?.startsWith('notes/')) {
         const TNotesDir = localStorage.getItem('TNotesDir');
-        const relativePath = vpData.page.value.relativePath.replaceAll('notes/', '').replaceAll('README.md', '');
+        const relativePath = vpData.page.value.relativePath.replaceAll(/^notes\//g, '').replaceAll('README.md', '');
         vscodeNoteDir.value = TNotesDir ? `vscode://file/${TNotesDir}/${relativePath}` : '';
     } else {
         vscodeNoteDir.value = '';
