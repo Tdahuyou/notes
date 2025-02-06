@@ -24,6 +24,7 @@ import sidebar__react from '../src/notes/react/sidebar.json'
 import sidebar__svg from '../src/notes/svg/sidebar.json'
 import sidebar__typescript from '../src/notes/typescript/sidebar.json'
 import sidebar__vite from '../src/notes/vite/sidebar.json'
+import sidebar__vitepress from '../src/notes/vitepress/sidebar.json'
 import sidebar__vscode from '../src/notes/vscode/sidebar.json'
 import sidebar__vue from '../src/notes/vue/sidebar.json'
 import sidebar__webpack from '../src/notes/webpack/sidebar.json'
@@ -184,6 +185,7 @@ export default defineConfig({
               { ...sidebar__react },
               { ...sidebar__vue },
               { ...sidebar__vite },
+              { ...sidebar__vitepress },
               { ...sidebar__webpack },
               { ...sidebar__eslint },
               { ...sidebar__prettier },

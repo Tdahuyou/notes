@@ -115,6 +115,6 @@
 </svg>
 ```
 
-- ![](https://cdn.nlark.com/yuque/0/2024/gif/2331396/1716201871202-ea307fa2-102a-4b70-8cf9-6c1552f93baa.gif)
+- ![](assets/1.gif)
 - 除了上面提到的这两种简单的 css 效果之外，还有很多 css 动画效果都可以直接作用到 svg 元素上。
 - 实际上不仅仅可以通过 css 来给 svg 添加动画效果，svg 自身也是有 `<animate>` 的。

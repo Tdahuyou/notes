@@ -3,16 +3,10 @@
 - 如果你学习过 html、css，那么 svg 的很多笔记只需要搂一眼就行了。快速把笔记内容给过一遍，对 svg 中的一些元素有个初步的认识，知道不同元素之间分别可以用来绘制什么图形，当在项目中需要手写 svg 的时候，然后在线搜即可。
 
 
-## 1. 词库
 
-- [x] [0049. en-words](https://tdahuyou.github.io/notes/notes/svg/0049.%20en-words/README.html) <!-- [locale](./0049.%20en-words/README.html) -->  
-  - [1. 📝 词汇列表](https://tdahuyou.github.io/notes/notes/svg/0049.%20en-words/README.html#1--词汇列表)
-  - 记录在学习过程中涉及到的一些英语词汇。
-  
+<!-- ## 1. svg 在线免费教程 -->
 
-## 2. svg 在线免费教程
-
-## 3. svg 起步
+## 1. svg 起步
 
 - [x] [0043. 理解 svg 是什么](https://tdahuyou.github.io/notes/notes/svg/0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) <!-- [locale](./0043.%20%E7%90%86%E8%A7%A3%20svg%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) -->  
   
@@ -118,7 +112,7 @@
   - 可以结合着 `Q&A` 中提到的问题来理解 viewBox 属性。
   
 
-## 4. 基本图形绘制
+## 2. 基本图形绘制
 
 - [x] [0005. 使用 line 绘制直线](https://tdahuyou.github.io/notes/notes/svg/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.html) <!-- [locale](./0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.html) -->  
   - [1. 💻 demos.1 - 使用 `<line>` 绘制直线](https://tdahuyou.github.io/notes/notes/svg/0005.%20%E4%BD%BF%E7%94%A8%20line%20%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF/README.html#1--demos1---使用-line-绘制直线)
@@ -207,7 +201,7 @@
   - 看下文档中提供的 demo 效果，很容易理解其作用。效果蛮惊艳的，不过不太常见。
   
 
-## 5. path 路径
+## 3. path 路径
 
 - [x] [0048. 认识 path 元素](https://tdahuyou.github.io/notes/notes/svg/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.html) <!-- [locale](./0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.html) -->  
   - [1. 📒 近乎万能的 path](https://tdahuyou.github.io/notes/notes/svg/0048.%20%E8%AE%A4%E8%AF%86%20path%20%E5%85%83%E7%B4%A0/README.html#1--近乎万能的-path)
@@ -268,7 +262,7 @@
   - 二次、三次贝塞尔曲线绘制原理，见 canvas.0025。
   
 
-## 6. stroke 描边和 fill 填充
+## 4. stroke 描边和 fill 填充
 
 - [x] [0028. 使用属性 stroke、stroke-width、stroke-opacity、stroke-linecap 设置描边样式](https://tdahuyou.github.io/notes/notes/svg/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.html) <!-- [locale](./0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.html) -->  
   - [1. 💻 demos.1 - 使用 stroke 相关属性设置描边样式](https://tdahuyou.github.io/notes/notes/svg/0028.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20stroke%E3%80%81stroke-width%E3%80%81stroke-opacity%E3%80%81stroke-linecap%20%E8%AE%BE%E7%BD%AE%E6%8F%8F%E8%BE%B9%E6%A0%B7%E5%BC%8F/README.html#1--demos1---使用-stroke-相关属性设置描边样式)
@@ -324,7 +318,7 @@
   - 绘制眼睛图标时，中心有一个镂空的圆环。要弄清楚为什么这块的内容是镂空的，需要理解填充规则 nonzero 和 evenodd。
   
 
-## 7. 复用
+## 5. 复用
 
 - [ ] [0020. 使用 use 引用图形](https://tdahuyou.github.io/notes/notes/svg/0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.html) <!-- [locale](./0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.html) -->  
   - [1. 💻 demos.1 - 使用 use 引用图形](https://tdahuyou.github.io/notes/notes/svg/0020.%20%E4%BD%BF%E7%94%A8%20use%20%E5%BC%95%E7%94%A8%E5%9B%BE%E5%BD%A2/README.html#1--demos1---使用-use-引用图形)
@@ -347,9 +341,9 @@
   - `<defs>` 用于定义图形，使用 `<defs>` 定义的元素不会直接显示，除非被其他 SVG 元素通过引用使用，通常配合 `<use>`、`<g>` 一起使用。
   
 
-## 8. svg 与传统前端技术相结合
+## 6. svg 与传统前端技术相结合
 
-### 8.1. svg + html
+### 6.1. svg + html
 
 - [x] [0001. 在 html 中嵌入 svg](https://tdahuyou.github.io/notes/notes/svg/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.html) <!-- [locale](./0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.html) -->  
   - [1. 💻 demos.1 - 准备测试用的 svg 图形](https://tdahuyou.github.io/notes/notes/svg/0001.%20%E5%9C%A8%20html%20%E4%B8%AD%E5%B5%8C%E5%85%A5%20svg/README.html#1--demos1---准备测试用的-svg-图形)
@@ -365,7 +359,7 @@
   - 如果你写好了一个 svg 文件，想要知道如何将其引入到前端页面上，可以参考下文中提到的一些做法。
   
 
-### 8.2. svg + css
+### 6.2. svg + css
 
 - [ ] [0021. 使用 css 控制 svg 样式](https://tdahuyou.github.io/notes/notes/svg/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.html) <!-- [locale](./0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.html) -->  
   - [1. 📒 使用 CSS 控制 SVG 样式的注意事项](https://tdahuyou.github.io/notes/notes/svg/0021.%20%E4%BD%BF%E7%94%A8%20css%20%E6%8E%A7%E5%88%B6%20svg%20%E6%A0%B7%E5%BC%8F/README.html#1--使用-css-控制-svg-样式的注意事项)
@@ -375,7 +369,7 @@
   - 不是很重要，快速过～
   
 
-### 8.3. svg + js
+### 6.3. svg + js
 
 - [ ] [0022. 使用 js 控制 svg 实现 CRUD 操作](https://tdahuyou.github.io/notes/notes/svg/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.html) <!-- [locale](./0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.html) -->  
   - [1. 🔗 snapsvg](https://tdahuyou.github.io/notes/notes/svg/0022.%20%E4%BD%BF%E7%94%A8%20js%20%E6%8E%A7%E5%88%B6%20svg%20%E5%AE%9E%E7%8E%B0%20CRUD%20%E6%93%8D%E4%BD%9C/README.html#1--snapsvg)
@@ -387,7 +381,7 @@
   - 如果不清楚 CRUD 是什么，可以见结尾的 Q&A。
   
 
-## 9. 练习
+## 7. 练习
 
 - 0013
 - 0023
@@ -418,3 +412,7 @@
 - [ ] [0041. 【练习】绘制动态饼图](https://tdahuyou.github.io/notes/notes/svg/0041.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.html) <!-- [locale](./0041.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.html) -->  
   - [1. 📒 notes](https://tdahuyou.github.io/notes/notes/svg/0041.%20%E3%80%90%E7%BB%83%E4%B9%A0%E3%80%91%E7%BB%98%E5%88%B6%E5%8A%A8%E6%80%81%E9%A5%BC%E5%9B%BE/README.html#1--notes)
   
+
+## 8. ⏰ 待分组
+
+- [x] [0049. empty](https://tdahuyou.github.io/notes/notes/svg/0049.%20empty/README.html) <!-- [locale](./0049.%20empty/README.html) -->
