@@ -58,3 +58,34 @@
     - [2.5. 更新 Git](https://tdahuyou.github.io/notes/notes/git/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.html#25-更新-git)
   - 解决办法：`git config --global http.sslVerify false`
   
+
+## 5. 学习 git 命令
+
+- [ ] [0008. git stash](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html) <!-- [locale](./0008.%20git%20stash/README.html) -->  
+  - [1. 📒 `git stash` 命令的作用](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#1--git-stash-命令的作用)
+  - [2. 📒 `git stash` 命令列表](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#2--git-stash-命令列表)
+  - [3. 📒 `git stash` 命令的基本使用](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#3--git-stash-命令的基本使用)
+    - [3.1. 暂存当前工作目录](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#31-暂存当前工作目录)
+    - [3.2. 查看暂存列表](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#32-查看暂存列表)
+    - [3.3. 恢复暂存的修改](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#33-恢复暂存的修改)
+      - [3.3.1. 恢复但不删除](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#331-恢复但不删除)
+      - [3.3.2. 恢复并删除 stash](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#332-恢复并删除-stash)
+    - [3.4. 删除 stash](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#34-删除-stash)
+      - [3.4.1. 删除指定 stash](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#341-删除指定-stash)
+      - [3.4.2. 删除所有 stash](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#342-删除所有-stash)
+    - [3.5. 仅 stash 某些文件](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#35-仅-stash-某些文件)
+  - [4. 📒 `git stash` 的适用场景](https://tdahuyou.github.io/notes/notes/git/0008.%20git%20stash/README.html#4--git-stash-的适用场景)
+  - `git stash` 是一个非常实用的命令，适用于需要临时存储更改的场景！
+  
+
+- [ ] [0009. git status](https://tdahuyou.github.io/notes/notes/git/0009.%20git%20status/README.html) <!-- [locale](./0009.%20git%20status/README.html) -->  
+  - [1. 📒 `git status` 命令的作用](https://tdahuyou.github.io/notes/notes/git/0009.%20git%20status/README.html#1--git-status-命令的作用)
+  - [2. 📒 `git status` 的基本用法](https://tdahuyou.github.io/notes/notes/git/0009.%20git%20status/README.html#2--git-status-的基本用法)
+    - [2.1. 查看仓库状态](https://tdahuyou.github.io/notes/notes/git/0009.%20git%20status/README.html#21-查看仓库状态)
+    - [2.2. `git status -s`（简洁模式）](https://tdahuyou.github.io/notes/notes/git/0009.%20git%20status/README.html#22-git-status--s简洁模式)
+    - [2.3. `git status --short`](https://tdahuyou.github.io/notes/notes/git/0009.%20git%20status/README.html#23-git-status---short)
+  - [3. 📒 文件状态说明](https://tdahuyou.github.io/notes/notes/git/0009.%20git%20status/README.html#3--文件状态说明)
+  - [4. 📒 `git status` 的适用场景](https://tdahuyou.github.io/notes/notes/git/0009.%20git%20status/README.html#4--git-status-的适用场景)
+  - [5. 📒 `git status` 命令列表](https://tdahuyou.github.io/notes/notes/git/0009.%20git%20status/README.html#5--git-status-命令列表)
+  - `git status` 用于检查当前仓库的状态，确保提交前的变更正确！
+  

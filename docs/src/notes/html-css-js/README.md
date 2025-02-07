@@ -1,6 +1,6 @@
-# javascript
+# html-css-js
 
-⏰ 笔记内容待搬运。
+前端三件套笔记。
 
 
 ## 1. var、let、const
@@ -817,16 +817,77 @@
   - 这个方法会显示一个带有“确定”和“取消”按钮的基本对话框，并返回一个布尔值，表示用户的选择是“确定”（true）还是“取消”（false）。
   
 
-## 10. ⏰ 待分组
-
 - [x] [0081. 使用 postMessage 实现跨标签页通信](https://tdahuyou.github.io/notes/notes/html-css-js/0081.%20%E4%BD%BF%E7%94%A8%20postMessage%20%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%80%9A%E4%BF%A1/README.html) <!-- [locale](./0081.%20%E4%BD%BF%E7%94%A8%20postMessage%20%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%80%9A%E4%BF%A1/README.html) -->  
   - [1. 💻 demos.1 - 使用 postMessage 实现跨标签页通信](https://tdahuyou.github.io/notes/notes/html-css-js/0081.%20%E4%BD%BF%E7%94%A8%20postMessage%20%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%80%9A%E4%BF%A1/README.html#1--demos1---使用-postmessage-实现跨标签页通信)
   - `postMessage` API 可用于实现不同窗口、标签页或 iframe 之间的安全通信。它允许你向另一个浏览上下文（如新打开的窗口、iframe 等）发送消息，并可以接收来自这些上下文的消息。
   
 
+- [ ] [0108. DOMParser](https://tdahuyou.github.io/notes/notes/html-css-js/0108.%20DOMParser/README.html) <!-- [locale](./0108.%20DOMParser/README.html) -->  
+  - [1. 📒 DOMParser 概述](https://tdahuyou.github.io/notes/notes/html-css-js/0108.%20DOMParser/README.html#1--domparser-概述)
+  - [2. 📒 解析 XML 字符串](https://tdahuyou.github.io/notes/notes/html-css-js/0108.%20DOMParser/README.html#2--解析-xml-字符串)
+  - [3. 📒 代码解析](https://tdahuyou.github.io/notes/notes/html-css-js/0108.%20DOMParser/README.html#3--代码解析)
+  - [4. 📒 解析 HTML](https://tdahuyou.github.io/notes/notes/html-css-js/0108.%20DOMParser/README.html#4--解析-html)
+  - [5. 📒 处理 XML 解析错误](https://tdahuyou.github.io/notes/notes/html-css-js/0108.%20DOMParser/README.html#5--处理-xml-解析错误)
+  - [6. 📒 `DOMParser` 在 Blockly 代码中的应用](https://tdahuyou.github.io/notes/notes/html-css-js/0108.%20DOMParser/README.html#6--domparser-在-blockly-代码中的应用)
+  - [7. 📒 `DOMParser` vs. `document.createElement`](https://tdahuyou.github.io/notes/notes/html-css-js/0108.%20DOMParser/README.html#7--domparser-vs-documentcreateelement)
+  - [8. 📒 `DOMParser` vs. `XSLTProcessor`](https://tdahuyou.github.io/notes/notes/html-css-js/0108.%20DOMParser/README.html#8--domparser-vs-xsltprocessor)
+  
 
+- [ ] [0109. XSLTProcessor](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html) <!-- [locale](./0109.%20XSLTProcessor/README.html) -->  
+  - [1. 什么是 XSLTProcessor？](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#1-什么是-xsltprocessor)
+  - [2. `XSLTProcessor` 的工作流程](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#2-xsltprocessor-的工作流程)
+  - [3. `XSLTProcessor` 代码示例](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#3-xsltprocessor-代码示例)
+    - [3.1. 示例：将 XML 转换为 HTML](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#31-示例将-xml-转换为-html)
+    - [3.2. JavaScript 代码](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#32-javascript-代码)
+    - [3.3. 转换后 HTML 结果](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#33-转换后-html-结果)
+  - [4. `XSLTProcessor` 主要方法](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#4-xsltprocessor-主要方法)
+    - [4.1. 示例：使用 transformToFragment](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#41-示例使用-transformtofragment)
+  - [5. `XSLTProcessor` 在 Blockly 代码中的作用](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#5-xsltprocessor-在-blockly-代码中的作用)
+    - [5.1. `XSLTProcessor` 的优缺点](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#51-xsltprocessor-的优缺点)
+  - [6. ✅ 优点](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#6--优点)
+  - [7. ❌ 缺点](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#7--缺点)
+    - [7.1. 现代替代方案](https://tdahuyou.github.io/notes/notes/html-css-js/0109.%20XSLTProcessor/README.html#71-现代替代方案)
+  
 
-## ⏰ 待分组
+## 10. css 属性
+
+- [ ] [0105. background](https://tdahuyou.github.io/notes/notes/html-css-js/0105.%20background/README.html) <!-- [locale](./0105.%20background/README.html) -->  
+  - [1. ⏰ background-* 忘记哪个就找些 demo 来看看，并汇总到 demos.* 中。](https://tdahuyou.github.io/notes/notes/html-css-js/0105.%20background/README.html#1--background--忘记哪个就找些-demo-来看看并汇总到-demos-中)
+  - [2. 💻 demos.1 - 使用 background-image 设置背景](https://tdahuyou.github.io/notes/notes/html-css-js/0105.%20background/README.html#2--demos1---使用-background-image-设置背景)
+  - MDN background
+    - https://developer.mozilla.org/zh-CN/docs/Web/CSS/background
+      - 在侧边目录中查看 `background-*`
+      - background
+      - background-attachment
+      - background-blend-mode
+      - background-clip
+      - background-color
+      - background-image
+      - background-origin
+      - background-position
+      - background-position-x
+      - background-position-y
+      - background-repeat
+      - background-size
+  
+
+- [ ] [0106. clip-path](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html) <!-- [locale](./0106.%20clip-path/README.html) -->  
+  - [1. 📒 clip-path 概述](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#1--clip-path-概述)
+  - [2. 💻 demos.1 - 圆形裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#2--demos1---圆形裁剪)
+  - [3. 💻 demos.3 - 椭圆形裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#3--demos3---椭圆形裁剪)
+  - [4. 💻 demos.4 - 矩形裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#4--demos4---矩形裁剪)
+  - [5. 💻 demos.2 - 多边形裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#5--demos2---多边形裁剪)
+  - [6. 💻 demos.5 - 使用 svg 的裁剪路径来裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#6--demos5---使用-svg-的裁剪路径来裁剪)
+  - [7. 💻 demos.6 - 使用 svg 的裁剪路径来裁剪 - vite、github](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#7--demos6---使用-svg-的裁剪路径来裁剪---vitegithub)
+  - clip-path 的写法非常灵活，笔记中的 demo 仅记录了其中一部分写法，更多写法可以参考 MDN。
+  - 虽然路径的绘制方式有很多，但其实如果我们掌握好了 svg 的话，使用 svg 来绘制路径，想要啥效果就画啥效果，也就是说啥路径都可以自行指定。
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+    - mdn - css clip-path 属性
+  - https://caniuse.com/?search=clip-path
+    - can i use clip-path
+  
+
+## 11. ⏰ html-css
 
 - [ ] [0082. img 元素宽度撑满，防止溢出容器](https://tdahuyou.github.io/notes/notes/html-css-js/0082.%20img%20%E5%85%83%E7%B4%A0%E5%AE%BD%E5%BA%A6%E6%92%91%E6%BB%A1%EF%BC%8C%E9%98%B2%E6%AD%A2%E6%BA%A2%E5%87%BA%E5%AE%B9%E5%99%A8/README.html) <!-- [locale](./0082.%20img%20%E5%85%83%E7%B4%A0%E5%AE%BD%E5%BA%A6%E6%92%91%E6%BB%A1%EF%BC%8C%E9%98%B2%E6%AD%A2%E6%BA%A2%E5%87%BA%E5%AE%B9%E5%99%A8/README.html) -->  
   - [1. ⏰ 从语雀搬运笔记](https://tdahuyou.github.io/notes/notes/html-css-js/0082.%20img%20%E5%85%83%E7%B4%A0%E5%AE%BD%E5%BA%A6%E6%92%91%E6%BB%A1%EF%BC%8C%E9%98%B2%E6%AD%A2%E6%BA%A2%E5%87%BA%E5%AE%B9%E5%99%A8/README.html#1--从语雀搬运笔记)
@@ -922,38 +983,16 @@
   - [1. ⏰ 从语雀搬运笔记](https://tdahuyou.github.io/notes/notes/html-css-js/0104.%20%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E7%9A%84%E9%80%9A%E7%94%A8%20css/README.html#1--从语雀搬运笔记)
   
 
-- [ ] [0105. background](https://tdahuyou.github.io/notes/notes/html-css-js/0105.%20background/README.html) <!-- [locale](./0105.%20background/README.html) -->  
-  - [1. ⏰ background-* 忘记哪个就找些 demo 来看看，并汇总到 demos.* 中。](https://tdahuyou.github.io/notes/notes/html-css-js/0105.%20background/README.html#1--background--忘记哪个就找些-demo-来看看并汇总到-demos-中)
-  - [2. 💻 demos.1 - 使用 background-image 设置背景](https://tdahuyou.github.io/notes/notes/html-css-js/0105.%20background/README.html#2--demos1---使用-background-image-设置背景)
-  - MDN background
-    - https://developer.mozilla.org/zh-CN/docs/Web/CSS/background
-      - 在侧边目录中查看 `background-*`
-      - background
-      - background-attachment
-      - background-blend-mode
-      - background-clip
-      - background-color
-      - background-image
-      - background-origin
-      - background-position
-      - background-position-x
-      - background-position-y
-      - background-repeat
-      - background-size
-  
+## 12. html 元素
 
-- [ ] [0106. clip-path](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html) <!-- [locale](./0106.%20clip-path/README.html) -->  
-  - [1. 📒 clip-path 概述](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#1--clip-path-概述)
-  - [2. 💻 demos.1 - 圆形裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#2--demos1---圆形裁剪)
-  - [3. 💻 demos.3 - 椭圆形裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#3--demos3---椭圆形裁剪)
-  - [4. 💻 demos.4 - 矩形裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#4--demos4---矩形裁剪)
-  - [5. 💻 demos.2 - 多边形裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#5--demos2---多边形裁剪)
-  - [6. 💻 demos.5 - 使用 svg 的裁剪路径来裁剪](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#6--demos5---使用-svg-的裁剪路径来裁剪)
-  - [7. 💻 demos.6 - 使用 svg 的裁剪路径来裁剪 - vite、github](https://tdahuyou.github.io/notes/notes/html-css-js/0106.%20clip-path/README.html#7--demos6---使用-svg-的裁剪路径来裁剪---vitegithub)
-  - clip-path 的写法非常灵活，笔记中的 demo 仅记录了其中一部分写法，更多写法可以参考 MDN。
-  - 虽然路径的绘制方式有很多，但其实如果我们掌握好了 svg 的话，使用 svg 来绘制路径，想要啥效果就画啥效果，也就是说啥路径都可以自行指定。
-  - https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
-    - mdn - css clip-path 属性
-  - https://caniuse.com/?search=clip-path
-    - can i use clip-path
+- [ ] [0107. style 元素的 sheet 属性](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html) <!-- [locale](./0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html) -->  
+  - [1. 📒 `sheet` 属性概述](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#1--sheet-属性概述)
+  - [2. 📒 获取 `<style>` 元素的 `sheet`](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#2--获取-style-元素的-sheet)
+  - [3. 📒 动态添加 CSS 规则](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#3--动态添加-css-规则)
+  - [4. 📒 移除 CSS 规则](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#4--移除-css-规则)
+  - [5. 📒 `sheet` 对象的常见属性和方法](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#5--sheet-对象的常见属性和方法)
+  - [6. 📒 获取所有 CSS 规则](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#6--获取所有-css-规则)
+  - [7. 📒 禁用样式表](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#7--禁用样式表)
+  - [8. 📒 `sheet` 适用于哪些情况？](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#8--sheet-适用于哪些情况)
+  - [9. 📒 `sheet` 属性适用于 `<style>` 还是 `<link>`？](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#9--sheet-属性适用于-style-还是-link)
   

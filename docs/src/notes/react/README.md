@@ -12,11 +12,13 @@
     - [3.3. 灵活](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#33-灵活)
     - [3.4. 单向数据流](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#34-单向数据流)
   - [4. 📒 库 vs. 框架](https://tdahuyou.github.io/notes/notes/react/0032.%20react%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#4--库-vs-框架)
-  - 了解什么是 react
+  - 了解 react 是什么
   - 了解 react 都有哪些特点
+  - 了解 vue、react 之间的一些差异
   - 理解为什么强调 react 是一个库，而非框架
-  - 谈了谈 vue、react 之间的一些差异
   
+
+### 1.1. 官方资料
 
 - [x] [0040. 了解 react 官方文档的基本结构](https://tdahuyou.github.io/notes/notes/react/0040.%20%E4%BA%86%E8%A7%A3%20react%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84/README.html) <!-- [locale](./0040.%20%E4%BA%86%E8%A7%A3%20react%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84/README.html) -->  
   - [1. 📒 react 官方文档结构简介](https://tdahuyou.github.io/notes/notes/react/0040.%20%E4%BA%86%E8%A7%A3%20react%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84/README.html#1--react-官方文档结构简介)
@@ -32,7 +34,9 @@
   
   
 
-## 2. 开发 react 推荐安装的 VSCode 插件
+## 2. 开发 react 前的一些准备工作
+
+### 2.1. 开发 react 推荐安装的 VSCode 插件
 
 - [x] [0034. 开发 react 项目之前推荐安装的 vscode 插件 - eslint](https://tdahuyou.github.io/notes/notes/react/0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html) <!-- [locale](./0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html) -->  
   - [1. 📒 eslint 概述](https://tdahuyou.github.io/notes/notes/react/0034.%20%E5%BC%80%E5%8F%91%20react%20%E9%A1%B9%E7%9B%AE%E4%B9%8B%E5%89%8D%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E7%9A%84%20vscode%20%E6%8F%92%E4%BB%B6%20-%20eslint/README.html#1--eslint-概述)
