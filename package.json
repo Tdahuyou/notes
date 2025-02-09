@@ -10,7 +10,7 @@
     "vitepress": "^1.6.3"
   },
   "scripts": {
-    "docs:dev": "        vitepress dev docs --host",
+    "docs:dev": "        vitepress dev docs --host --port 0629 --open",
     "docs:build": "      vitepress build docs",
     "docs:preview": "    vitepress preview docs",
     "docs:publish": "    node scripts/docs-publish.js",
