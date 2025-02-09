@@ -13,7 +13,7 @@ onMounted(() => {
   giscusScript.setAttribute('data-strict', '0');
   giscusScript.setAttribute('data-reactions-enabled', '1');
   giscusScript.setAttribute('data-emit-metadata', '0');
-  giscusScript.setAttribute('data-input-position', 'bottom');
+  giscusScript.setAttribute('data-input-position', 'top');
   giscusScript.setAttribute('data-theme', 'noborder_dark');
   giscusScript.setAttribute('data-lang', 'zh-CN');
   giscusScript.setAttribute('data-loading', 'lazy');
