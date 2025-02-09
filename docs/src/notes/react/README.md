@@ -72,8 +72,6 @@
   - [8. 🤔 `react` 核心库和 `react-dom` 库之间的关系是？](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#8--react-核心库和-react-dom-库之间的关系是)
   - [9. 🤔 为什么一旦使用了 `JSX` 语法，就必须要引入 `react` 核心库？](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#9--为什么一旦使用了-jsx-语法就必须要引入-react-核心库)
   - [10. 🤔 通过脚手架（比如 vite、umi、create-react-app）来搭建工程 vs. 通过（.html）页面的方式来直接引入 react 相关的库](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#10--通过脚手架比如-viteumicreate-react-app来搭建工程-vs-通过html页面的方式来直接引入-react-相关的库)
-  - [11. 📒 补充说明 - script 标签身上的 type 属性](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#11--补充说明---script-标签身上的-type-属性)
-  - [12. 📒 补充说明 - script 标签身上的 crossorigin 属性](https://tdahuyou.github.io/notes/notes/react/0042.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%20react%20v16%20%E7%A8%8B%E5%BA%8F%20-%20%E9%80%9A%E8%BF%87%20CDN%20%E5%BC%95%E5%85%A5%20react%E3%80%81react-dom%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%20Hello%20World/README.html#12--补充说明---script-标签身上的-crossorigin-属性)
   - 知识点
     - React.createElement 的基本使用
     - React Element 是不可变的
@@ -115,19 +113,14 @@
 ## 5. 描述 UI
 
 - [x] [0013. JSX 概述](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html) <!-- [locale](./0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html) -->  
-  - [1. 📒 JSX 是什么](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#1--jsx-是什么)
-  - [2. 📒 JSX 的本质](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#2--jsx-的本质)
-  - [3. 📒 JSX 必须单根](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#3--jsx-必须单根)
-  - [4. 📒 必须要有结束标记](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#4--必须要有结束标记)
-  - [5. 💻 demos.1 - 一个简单的 React 组件示例](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#5--demos1---一个简单的-react-组件示例)
-  - 关于 JSX，我们大概需要知道以下这些点：
-    1. **声明式**：JSX 是声明式的，这意味着你可以描述你的应用应该显示什么，而不是如何进行 DOM 操作来改变应用的状态。这使得代码更容易理解和维护。
-    2. **嵌入表达式**：你可以在 JSX 中使用大括号 `{}` 来嵌入任何有效的 JavaScript 表达式。例如，变量、函数调用或计算结果都可以被嵌入到 JSX 中。
-    3. **属性**：JSX 属性和 HTML 属性非常相似，但有一些不同之处。例如，`class` 在 HTML 中对应 `className` 在 JSX 中，因为 `class` 是 JavaScript 的保留字。
-    4. **事件处理**：JSX 中的事件处理函数是以驼峰命名法（camelCase）来写的，比如 `onClick` 而不是 `onclick`。这些事件处理函数接收一个事件对象作为参数。
-    5. **自闭合标签**：对于没有内容的元素，如 `<img>` 或 `<input>`，JSX 支持自闭合标签，即 `<img src={imageSrc} />`。
-    6. **注释**：在 JSX 中添加注释需要使用花括号 `{/* ... */}`。
+  - [1. 📒 JSX 概述](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#1--jsx-概述)
+  - [2. 💻 demos.1 - 一个简单的 React 组件示例](https://tdahuyou.github.io/notes/notes/react/0013.%20JSX%20%E6%A6%82%E8%BF%B0/README.html#2--demos1---一个简单的-react-组件示例)
   - 这篇笔记简单介绍了 JSX 的一些基础知识点，有关 JSX 的更多细节，会在其他笔记中介绍。
+  
+
+- [x] [0044. react element 是只读的](https://tdahuyou.github.io/notes/notes/react/0044.%20react%20element%20%E6%98%AF%E5%8F%AA%E8%AF%BB%E7%9A%84/README.html) <!-- [locale](./0044.%20react%20element%20%E6%98%AF%E5%8F%AA%E8%AF%BB%E7%9A%84/README.html) -->  
+  - [1. 💻 demos.1 - react element 是只读的](https://tdahuyou.github.io/notes/notes/react/0044.%20react%20element%20%E6%98%AF%E5%8F%AA%E8%AF%BB%E7%9A%84/README.html#1--demos1---react-element-是只读的)
+  - 永远不要尝试去修改 React Element 的属性，正确的做法是通过渲染新的 React Element 或使用 React 的状态管理机制（state 或 props）来更新 UI。
   
 
 - [x] [0003. html to jsx 在线转换](https://tdahuyou.github.io/notes/notes/react/0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.html) <!-- [locale](./0003.%20html%20to%20jsx%20%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2/README.html) -->  
@@ -336,23 +329,11 @@
 
 ### 6.9. 内置组件
 
-- [ ] [0014. React.Fragment](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html) <!-- [locale](./0014.%20React.Fragment/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#1--links)
-  - [2. 💻 React.Fragment 并不会生成真实 DOM](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#2--reactfragment-并不会生成真实-dom)
-  - [3. 💻 React.Fragment 渲染列表](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#3--reactfragment-渲染列表)
-  - [4. 🤖 请介绍一下 React.Fragment](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#4--请介绍一下-reactfragment)
-    - [4.1. 为什么使用 `React.Fragment`？](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#41-为什么使用-reactfragment)
-    - [4.2. 基本用法](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#42-基本用法)
-      - [4.2.1. 1. 1. 1. 1. 使用 `<React.Fragment>` 标签](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#421-1-1-1-1-使用-reactfragment-标签)
-      - [4.2.2. 2. 2. 2. 2. 使用短语法 `<></>`](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#422-2-2-2-2-使用短语法-)
-    - [4.3. 传递属性](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#43-传递属性)
-  - 简写形式：`<></>`
-  - 并不会实际被渲染到元素结构中，仅仅是起到一个占位的作用。
-  - 场景应用场景：使用 `<></>` 见多个“根元素”包裹一层，解决组件的单根问题。
-  - `React.Fragment` 是 React 中的一个内置组件，它允许你将多个子元素组合在一起，而 **无需向 DOM 添加额外的节点**。
-  - `<React.Fragment></React.Fragment>` 标签可以简写为 `<></>`。
-  - `React.Fragment` 并不会生成真实 DOM。
-  - 当你在循环中渲染多个元素时，你需要为每一个元素分配一个 key。如果这个元素为 Fragment 时，则需要使用普通的 JSX 语法来提供 key 属性。
+- [x] [0014. React.Fragment](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html) <!-- [locale](./0014.%20React.Fragment/README.html) -->  
+  - [1. 🔗 查看 react 官方文档对内置组件 `React.Fragment` 的描述](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#1--查看-react-官方文档对内置组件-reactfragment-的描述)
+  - [2. 📒 `<Fragment>` 概述](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#2--fragment-概述)
+  - [3. 💻 demos.1 - React.Fragment 并不会生成真实 DOM](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#3--demos1---reactfragment-并不会生成真实-dom)
+  - [4. 💻 demos.2 - 使用 React.Fragment 渲染列表项](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#4--demos2---使用-reactfragment-渲染列表项)
   
 
 ## 7. 状态管理
@@ -526,7 +507,3 @@
   - [3. 💻 demos.2 - 理解 contextHolder 的作用](https://tdahuyou.github.io/notes/notes/react/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html#3--demos2---理解-contextholder-的作用)
   - [4. 🔗 来自官方文档的回复：为什么 message 不能获取 context、redux 的内容和 ConfigProvider 的 locale/prefixCls/theme 等配置？](https://tdahuyou.github.io/notes/notes/react/0037.%20%E5%AD%A6%E4%B9%A0%20antd%20Message%20%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/README.html#4--来自官方文档的回复为什么-message-不能获取-contextredux-的内容和-configprovider-的-localeprefixclstheme-等配置)
   
-
-## 12. ⏰ 待分组
-
-- [ ] [0044. react element 是只读的](https://tdahuyou.github.io/notes/notes/react/0044.%20react%20element%20%E6%98%AF%E5%8F%AA%E8%AF%BB%E7%9A%84/README.html) <!-- [locale](./0044.%20react%20element%20%E6%98%AF%E5%8F%AA%E8%AF%BB%E7%9A%84/README.html) -->

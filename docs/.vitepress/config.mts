@@ -53,7 +53,7 @@ export default defineConfig({
   themeConfig: themeConfig(),
   // doc => https://vitepress.dev/zh/guide/markdown#image-lazy-loading
   markdown: {
-    // lineNumbers: true, // 启用代码块的行号
+    lineNumbers: true, // 启用代码块的行号
     config(md) {
       md.use(markdownItTaskLists) // 启用 markdown-it-task-lists 插件来处理复选框的渲染问题。
         .use(mila, {

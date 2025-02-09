@@ -887,7 +887,29 @@
     - can i use clip-path
   
 
-## 11. ⏰ html-css
+## 11. html 元素
+
+- [ ] [0107. style 元素的 sheet 属性](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html) <!-- [locale](./0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html) -->  
+  - [1. 📒 `sheet` 属性概述](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#1--sheet-属性概述)
+  - [2. 📒 获取 `<style>` 元素的 `sheet`](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#2--获取-style-元素的-sheet)
+  - [3. 📒 动态添加 CSS 规则](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#3--动态添加-css-规则)
+  - [4. 📒 移除 CSS 规则](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#4--移除-css-规则)
+  - [5. 📒 `sheet` 对象的常见属性和方法](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#5--sheet-对象的常见属性和方法)
+  - [6. 📒 获取所有 CSS 规则](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#6--获取所有-css-规则)
+  - [7. 📒 禁用样式表](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#7--禁用样式表)
+  - [8. 📒 `sheet` 适用于哪些情况？](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#8--sheet-适用于哪些情况)
+  - [9. 📒 `sheet` 属性适用于 `<style>` 还是 `<link>`？](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#9--sheet-属性适用于-style-还是-link)
+  
+
+- [ ] [0110. script 元素的 crossorigin 属性](https://tdahuyou.github.io/notes/notes/html-css-js/0110.%20script%20%E5%85%83%E7%B4%A0%E7%9A%84%20crossorigin%20%E5%B1%9E%E6%80%A7/README.html) <!-- [locale](./0110.%20script%20%E5%85%83%E7%B4%A0%E7%9A%84%20crossorigin%20%E5%B1%9E%E6%80%A7/README.html) -->  
+  - [1. 📒 crossorigin 属性](https://tdahuyou.github.io/notes/notes/html-css-js/0110.%20script%20%E5%85%83%E7%B4%A0%E7%9A%84%20crossorigin%20%E5%B1%9E%E6%80%A7/README.html#1--crossorigin-属性)
+  
+
+- [ ] [0111. script 元素的 type 属性](https://tdahuyou.github.io/notes/notes/html-css-js/0111.%20script%20%E5%85%83%E7%B4%A0%E7%9A%84%20type%20%E5%B1%9E%E6%80%A7/README.html) <!-- [locale](./0111.%20script%20%E5%85%83%E7%B4%A0%E7%9A%84%20type%20%E5%B1%9E%E6%80%A7/README.html) -->  
+  - [1. 📒 type 属性](https://tdahuyou.github.io/notes/notes/html-css-js/0111.%20script%20%E5%85%83%E7%B4%A0%E7%9A%84%20type%20%E5%B1%9E%E6%80%A7/README.html#1--type-属性)
+  
+
+## 12. ⏰ html-css
 
 - [ ] [0082. img 元素宽度撑满，防止溢出容器](https://tdahuyou.github.io/notes/notes/html-css-js/0082.%20img%20%E5%85%83%E7%B4%A0%E5%AE%BD%E5%BA%A6%E6%92%91%E6%BB%A1%EF%BC%8C%E9%98%B2%E6%AD%A2%E6%BA%A2%E5%87%BA%E5%AE%B9%E5%99%A8/README.html) <!-- [locale](./0082.%20img%20%E5%85%83%E7%B4%A0%E5%AE%BD%E5%BA%A6%E6%92%91%E6%BB%A1%EF%BC%8C%E9%98%B2%E6%AD%A2%E6%BA%A2%E5%87%BA%E5%AE%B9%E5%99%A8/README.html) -->  
   - [1. ⏰ 从语雀搬运笔记](https://tdahuyou.github.io/notes/notes/html-css-js/0082.%20img%20%E5%85%83%E7%B4%A0%E5%AE%BD%E5%BA%A6%E6%92%91%E6%BB%A1%EF%BC%8C%E9%98%B2%E6%AD%A2%E6%BA%A2%E5%87%BA%E5%AE%B9%E5%99%A8/README.html#1--从语雀搬运笔记)
@@ -981,18 +1003,4 @@
 
 - [ ] [0104. 一些常见的通用 css](https://tdahuyou.github.io/notes/notes/html-css-js/0104.%20%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E7%9A%84%E9%80%9A%E7%94%A8%20css/README.html) <!-- [locale](./0104.%20%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E7%9A%84%E9%80%9A%E7%94%A8%20css/README.html) -->  
   - [1. ⏰ 从语雀搬运笔记](https://tdahuyou.github.io/notes/notes/html-css-js/0104.%20%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E7%9A%84%E9%80%9A%E7%94%A8%20css/README.html#1--从语雀搬运笔记)
-  
-
-## 12. html 元素
-
-- [ ] [0107. style 元素的 sheet 属性](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html) <!-- [locale](./0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html) -->  
-  - [1. 📒 `sheet` 属性概述](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#1--sheet-属性概述)
-  - [2. 📒 获取 `<style>` 元素的 `sheet`](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#2--获取-style-元素的-sheet)
-  - [3. 📒 动态添加 CSS 规则](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#3--动态添加-css-规则)
-  - [4. 📒 移除 CSS 规则](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#4--移除-css-规则)
-  - [5. 📒 `sheet` 对象的常见属性和方法](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#5--sheet-对象的常见属性和方法)
-  - [6. 📒 获取所有 CSS 规则](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#6--获取所有-css-规则)
-  - [7. 📒 禁用样式表](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#7--禁用样式表)
-  - [8. 📒 `sheet` 适用于哪些情况？](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#8--sheet-适用于哪些情况)
-  - [9. 📒 `sheet` 属性适用于 `<style>` 还是 `<link>`？](https://tdahuyou.github.io/notes/notes/html-css-js/0107.%20style%20%E5%85%83%E7%B4%A0%E7%9A%84%20sheet%20%E5%B1%9E%E6%80%A7/README.html#9--sheet-属性适用于-style-还是-link)
   
