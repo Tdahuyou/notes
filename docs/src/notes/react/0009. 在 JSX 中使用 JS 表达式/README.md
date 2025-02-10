@@ -1,30 +1,35 @@
 # [0009. 在 JSX 中使用 JS 表达式](https://github.com/Tdahuyou/react/tree/main/0009.%20%E5%9C%A8%20JSX%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20JS%20%E8%A1%A8%E8%BE%BE%E5%BC%8F)
 
 <!-- region:toc -->
-- [1. 📒 在 JSX 中使用 JS 表达式](#1--在-jsx-中使用-js-表达式)
-- [2. 💻 demos.1 - 完整示例](#2--demos1---完整示例)
-- [3. 🔍 扩展 - Hedy Lamarr 是谁？](#3--扩展---hedy-lamarr-是谁)
-- [4. 💻 demos.2 - 在表达式中无法渲染的一些特殊值](#4--demos2---在表达式中无法渲染的一些特殊值)
-- [5. 💻 demos.3 - 无法渲染普通对象，可以渲染 react 元素对象](#5--demos3---无法渲染普通对象可以渲染-react-元素对象)
+- [1. 🔗 官方文档 - 在 JSX 中通过大括号使用 JavaScript](#1--官方文档---在-jsx-中通过大括号使用-javascript)
+- [2. 📒 在 JSX 中使用 JS 表达式](#2--在-jsx-中使用-js-表达式)
+- [3. 📒 不会显示的一些特殊值](#3--不会显示的一些特殊值)
+- [4. 📒 在 JSX 的大括号内使用 JavaScript 对象](#4--在-jsx-的大括号内使用-javascript-对象)
+- [5. 💻 demos.1 - 官方示例 - 渲染头像](#5--demos1---官方示例---渲染头像)
+  - [5.1. 🔍 扩展 - Hedy Lamarr 是谁？](#51--扩展---hedy-lamarr-是谁)
+- [6. 💻 demos.2 - 在表达式中无法渲染的一些特殊值](#6--demos2---在表达式中无法渲染的一些特殊值)
+- [7. 💻 demos.3 - 无法渲染普通对象，可以渲染 react 元素对象](#7--demos3---无法渲染普通对象可以渲染-react-元素对象)
 <!-- endregion:toc -->
-- 嵌入表达式的表示的是将表达式的值作为 jsx 内容的一部分插入进去。
+
+## 1. 🔗 官方文档 - 在 JSX 中通过大括号使用 JavaScript
+
+- https://zh-hans.react.dev/learn/javascript-in-jsx-with-curly-braces
+- 介绍了以下这些点：
+  - 如何使用引号传递字符串
+  - 在 JSX 的大括号内引用 JavaScript 变量
+  - 在 JSX 的大括号内调用 JavaScript 函数
+  - 在 JSX 的大括号内使用 JavaScript 对象
+- [ ] ⏰ 文章还没仔细读过，找时间仔细看看，能整合到笔记中的内容，到时候搬运进来。
+
+## 2. 📒 在 JSX 中使用 JS 表达式
+
+- JSX 让你可以在 Jaavascript 中嵌入 HTML 语法，而大括号可以让你在 JSX 中 “回到” JavaScript 中，这样你就可以从你的代码中嵌入一些变量并展示给用户。
+- 嵌入表达式意味着将表达式的返回值作为 JSX 内容的一部分插入到 JSX 中。
   - 类似于 vue 中的指令 v-bind 的作用。
 - 嵌入表达式的语法非常简单，使用一对大括号来包裹即可 `{xxx}`，xxx 就是我们嵌入的表达式。
-- 注意：如果表达式是对象类型。
-  - ❌ 普通对象，不可以作为子元素。
-  - ✅ React 元素对象是 ok 的。
-- 表达式除了可以作为内容丢到 jsx 中之外，也可以将表达式作为元素属性值传入。
-  - 注意：属性使用小驼峰命名法
-- JSX 让你可以在 Jaavascript 中嵌入 HTML 语法。而大括号可以让你在 JSX 中 “回到” JavaScript 中，这样你就可以从你的代码中嵌入一些变量并展示给用户。
-- 注意：
-  - 在 JSX 的大括号中插入 `null`、`undefined`、`false`、`ture`、`""`、`[]`、`注释` 这些值是不会显示的，如果要显示的话则不应该丢到大括号中，应该直接书写，将其事做普通的字符串来显示。
-  - 在 JSX 的大括号中插入普通对象（比如 `{ foo: 123, bar: 'abc' }`）是无法渲染的，会报错。
+- 例如，下面 👇 这将显示 `user.name`：
 
-## 1. 📒 在 JSX 中使用 JS 表达式
-
-- JSX 让你可以在 Jaavascript 中嵌入 HTML 语法，而大括号可以让你在 JSX 中 “回到” JavaScript 中，这样你就可以从你的代码中嵌入一些变量并展示给用户。例如，这将显示 `user.name`：
-
-```jsx
+```jsx{3}
 return (
   <h1>
     {user.name}
@@ -32,11 +37,18 @@ return (
 );
 ```
 
-- 你还可以将 JSX 属性 “转义到 JavaScript”，但你必须使用大括号而非引号。例如，
+- 你还可以将 JSX 属性 “转义到 JavaScript”，但你必须使用 **大括号** 而非引号。
+- 注意：
+  - react 中元素的属性名应该使用小驼峰命名法。
+  - 需要注意一些特殊属性名（和 js 关键字冲突的一些值）的写法，比如：
+    - `class` 属性，需要写为 `className`；
+    - 表单中的 `<label>` 的 `for` 属性，需要写为 `htmlFor`；
+    - ……
+- 例如：
   - `className="avatar"` 是将 "avatar" 字符串传递给 className，作为 CSS 的 class。
   - `src={user.imageUrl}` 会读取 JavaScript 的 `user.imageUrl` 变量，然后将该值作为 src 属性。
 
-```jsx
+```jsx{4}
 return (
   <img
     className="avatar"
@@ -45,9 +57,10 @@ return (
 );
 ```
 
-- 你也可以把更为复杂的表达式放入 JSX 的大括号内，例如 [字符串拼接](https://javascript.info/operators#string-concatenation-with-binary)：
+- 你也可以把更为复杂的表达式放入 JSX 的大括号内。
+- 例如：字符串拼接
 
-```jsx
+```jsx{14}
 const user = {
   name: 'Hedy Lamarr',
   imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
@@ -72,15 +85,29 @@ export default function Profile() {
 }
 ```
 
-## 2. 💻 demos.1 - 完整示例
+## 3. 📒 不会显示的一些特殊值
+
+- 在 JSX 的大括号中插入 `null`、`undefined`、`false`、`ture`、`""`、`[]`、`注释` 这些值是不会显示的。
+- 如果要显示的话则不应该丢到大括号中，应该直接书写，将其事做普通的字符串来显示。
+- ⚠️ 上述罗列的这些值不一定全，可能还有其它特殊值也是不会显示的。需要掌握的是：**如果想要在页面中展示这些不会渲染的特殊值，应该如何书写 jsx 即可**。
+
+## 4. 📒 在 JSX 的大括号内使用 JavaScript 对象
+
+- ❌ 普通对象，不可以作为子元素。
+  - 在 JSX 的大括号中插入普通对象（比如 `{ foo: 123, bar: 'abc' }`）是无法渲染的，会报错。
+- ✅ React 元素对象是 ok 的。
+
+## 5. 💻 demos.1 - 官方示例 - 渲染头像
 
 ::: code-group
 
-```jsx [main.jsx]
+```jsx{16,19-24} [main.jsx]
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './Profile.css'
 
+// 由于可以在 jsx 中插入表达式，因此我们可以将非常灵活地处理 JSX 中的一些动态值。
+// 可以将相关值存储在变量中，然后在 JSX 中通过表达式将其嵌入进去。
 const user = {
   name: 'Hedy Lamarr',
   imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
@@ -90,15 +117,15 @@ const user = {
 export default function Profile() {
   return (
     <>
-      <h1>{user.name}</h1> // [!code highlight]
+      <h1>{user.name}</h1>
       <img
         className="avatar"
-        src={user.imageUrl} // [!code highlight]
-        alt={'Photo of ' + user.name} // [!code highlight]
-        style={{ // [!code highlight]
-          width: user.imageSize, // [!code highlight]
-          height: user.imageSize, // [!code highlight]
-        }} // [!code highlight]
+        src={user.imageUrl}
+        alt={'Photo of ' + user.name}
+        style={{
+          width: user.imageSize,
+          height: user.imageSize,
+        }}
       />
     </>
   )
@@ -122,7 +149,7 @@ createRoot(document.getElementById('root')).render(
 - 最终渲染效果如下：
   - ![](assets/2024-09-24-14-17-10.png)
 
-## 3. 🔍 扩展 - Hedy Lamarr 是谁？
+### 5.1. 🔍 扩展 - Hedy Lamarr 是谁？
 
 > 本节笔记中提到的 Hedy Lamarr 来自于 react 官方文档。由于不认识这个人，就简单搜了一下，总之是个了不起的人就对了。
 > 
@@ -138,9 +165,9 @@ createRoot(document.getElementById('root')).render(
 - 除了她的演艺事业外，Lamarr 还是一名才华横溢的发明家。她对技术非常感兴趣，并与音乐家乔治·安泰尔共同开发了一种称为“频率跳变”（frequency hopping）的技术，这项技术最初是为了帮助盟军在第二次世界大战期间对抗德国潜艇的干扰信号。虽然当时这项专利没有被广泛使用，但它的原理后来成为了现代无线通信技术的基础之一，包括Wi-Fi、蓝牙以及手机网络等。
 - 直到晚年，Hedy Lamarr 的科学贡献才逐渐被人们所认识。1997年，她获得了电子前沿基金会（Electronic Frontier Foundation, EFF）颁发的先锋奖，以表彰她在扩展频谱通信领域的贡献。尽管她的名字可能不如她的银幕形象那样广为人知，但她作为一位先驱女性科学家的地位是不可否认的。
 
-## 4. 💻 demos.2 - 在表达式中无法渲染的一些特殊值
+## 6. 💻 demos.2 - 在表达式中无法渲染的一些特殊值
 
-```jsx
+```jsx{16-22}
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
@@ -182,11 +209,11 @@ createRoot(document.getElementById('root')).render(
 - ![](assets/2025-01-18-07-42-02.png)
 - ![](assets/2025-01-18-07-42-31.png)
 
-## 5. 💻 demos.3 - 无法渲染普通对象，可以渲染 react 元素对象
+## 7. 💻 demos.3 - 无法渲染普通对象，可以渲染 react 元素对象
 
 ::: code-group
 
-```jsx [❌ 无法渲染普通对象]
+```jsx{11} [❌ 无法渲染普通对象]
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
@@ -197,7 +224,7 @@ const userInfo = {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {userInfo} // [!code error]
+    {userInfo}
     {/*
       ❌ 这种写法会报错
       Objects are not valid as a React child (found: object with keys {name, age}).
@@ -206,7 +233,7 @@ createRoot(document.getElementById('root')).render(
 )
 ```
 
-```jsx [✅ 可以渲染 react 元素对象]
+```jsx{12-15} [✅ 可以渲染 react 元素对象]
 import { StrictMode, createElement } from 'react'
 import { createRoot } from 'react-dom/client'
 
