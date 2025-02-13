@@ -25,10 +25,10 @@ features:
     details: 📚 语言基础
     link: /notes/c-cpp/README
   - icon:
-      src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/assets/icon--html-css.svg
+      src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/assets/icon--html-css-js.png
     title: html-css
     details: 📚 语言基础
-    link: /notes/html-css/README
+    link: /notes/html-css-js/README
   - icon:
       src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/assets/icon--canvas.svg
     title: canvas
@@ -39,10 +39,6 @@ features:
     title: svg
     details: 📚 语言基础
     link: /notes/svg/README
-  - icon:
-      src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/assets/icon--javascript.svg
-    title: javascript
-    details: 📚 语言基础
     link: /notes/javascript/README
   - icon:
       src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/assets/icon--typescript.svg
