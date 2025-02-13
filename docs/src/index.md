@@ -39,7 +39,6 @@ features:
     title: svg
     details: 📚 语言基础
     link: /notes/svg/README
-    link: /notes/javascript/README
   - icon:
       src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/assets/icon--typescript.svg
     title: typescript
