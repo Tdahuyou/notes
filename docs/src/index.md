@@ -26,7 +26,7 @@ features:
     link: /notes/c-cpp/README
   - icon:
       src: https://raw.githubusercontent.com/Tdahuyou/notes/refs/heads/main/docs/src/assets/icon--html-css-js.png
-    title: html-css
+    title: html-css-js
     details: 📚 语言基础
     link: /notes/html-css-js/README
   - icon:
