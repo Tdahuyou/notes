@@ -107,7 +107,7 @@ createRoot(document.getElementById('root')).render(
 )
 ```
 
-```jsx [完整示例]
+```jsx [5️⃣ 完整示例]
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 

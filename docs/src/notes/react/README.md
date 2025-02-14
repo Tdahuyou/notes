@@ -339,28 +339,23 @@
 
 ### 7.1. redux
 
+- [x] [0047. redux 是什么](https://tdahuyou.github.io/notes/notes/react/0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) <!-- [locale](./0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html) -->  
+  - [1. 🔗 redux 官方文档和 github 仓库](https://tdahuyou.github.io/notes/notes/react/0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#1--redux-官方文档和-github-仓库)
+  - [2. 🔗 redux 作者 - Dan Abramov、Andrew Clark](https://tdahuyou.github.io/notes/notes/react/0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#2--redux-作者---dan-abramovandrew-clark)
+  - [3. 📒 redux 概述](https://tdahuyou.github.io/notes/notes/react/0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#3--redux-概述)
+  - [4. 📒 官方对 redux 的介绍](https://tdahuyou.github.io/notes/notes/react/0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#4--官方对-redux-的介绍)
+  - [5. 📒 redux 核心概念](https://tdahuyou.github.io/notes/notes/react/0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#5--redux-核心概念)
+  - [6. 🤔 为什么 Reducer 必须是纯函数（Pure Functions）？](https://tdahuyou.github.io/notes/notes/react/0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#6--为什么-reducer-必须是纯函数pure-functions)
+  - [7. 🤔 Action 创建函数（Action Creators）是什么？](https://tdahuyou.github.io/notes/notes/react/0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#7--action-创建函数action-creators是什么)
+  - [8. 📒 redux 常用工具及生态系统](https://tdahuyou.github.io/notes/notes/react/0047.%20redux%20%E6%98%AF%E4%BB%80%E4%B9%88/README.html#8--redux-常用工具及生态系统)
+  
+
 - [ ] [0028. redux 的基本使用](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html) <!-- [locale](./0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html) -->  
-  - [1. 🔗 redux 官方文档](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#1--redux-官方文档)
-  - [2. 📒 redux 是什么？](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#2--redux-是什么)
-  - [3. 📒 redux 核心概念](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#3--redux-核心概念)
-  - [4. 📒 纯函数](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#4--纯函数)
-  - [5. 📒 redux 的工具和生态系统](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#5--redux-的工具和生态系统)
-  - [6. 📒 本节会用到的一些依赖](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#6--本节会用到的一些依赖)
-  - [7. 💻 demos.1 - 脱离 react 单独使用 redux 来管理状态数据](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#7--demos1---脱离-react-单独使用-redux-来管理状态数据)
-  - [8. 💻 demos.2 - redux 的基本使用 - createStore 版](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#8--demos2---redux-的基本使用---createstore-版)
-  - [9. 💻 demos.2 - redux 的基本使用 - @reduxjs/toolkit 版](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#9--demos2---redux-的基本使用---reduxjstoolkit-版)
-  - [10. 💻 demos.2 - redux 的基本使用 - @reduxjs/toolkit 版（模块化）](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#10--demos2---redux-的基本使用---reduxjstoolkit-版模块化)
-  - [11. 🤖 我想要深入了解有关 redux 的内容，应该问你哪些问题呢？](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#11--我想要深入了解有关-redux-的内容应该问你哪些问题呢)
-    - [11.1. 基本概念](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#111-基本概念)
-    - [11.2. 高级概念](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#112-高级概念)
-    - [11.3. 最佳实践](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#113-最佳实践)
-    - [11.4. 实际应用](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#114-实际应用)
-    - [11.5. 其他问题](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#115-其他问题)
-  - 理解 redux 是什么
-  - 了解 redux 与 react 结合使用的两种常见方式
-    - 传统的 createStore 方式
-    - 新版的 redux-toolkit 方式
-  - 你可以脱离 react，单独使用 redux 来管理状态数据。
+  - [1. 📒 本节会用到的一些依赖](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#1--本节会用到的一些依赖)
+  - [2. 💻 demos.1 - 脱离 react 单独使用 redux 来管理状态数据](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#2--demos1---脱离-react-单独使用-redux-来管理状态数据)
+  - [3. 💻 demos.2 - redux 的基本使用 - createStore 版](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#3--demos2---redux-的基本使用---createstore-版)
+  - [4. 💻 demos.2 - redux 的基本使用 - @reduxjs/toolkit 版](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#4--demos2---redux-的基本使用---reduxjstoolkit-版)
+  - [5. 💻 demos.2 - redux 的基本使用 - @reduxjs/toolkit 版（模块化）](https://tdahuyou.github.io/notes/notes/react/0028.%20redux%20%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/README.html#5--demos2---redux-的基本使用---reduxjstoolkit-版模块化)
   
 
 - [ ] [0029. 为什么说前端的 mvc 已死](https://tdahuyou.github.io/notes/notes/react/0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.html) <!-- [locale](./0029.%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%89%8D%E7%AB%AF%E7%9A%84%20mvc%20%E5%B7%B2%E6%AD%BB/README.html) -->  
@@ -407,41 +402,29 @@
 ## 8. 第三方库
 
 - [x] [0006. react-modal](https://tdahuyou.github.io/notes/notes/react/0006.%20react-modal/README.html) <!-- [locale](./0006.%20react-modal/README.html) -->  
-  - [1. 💻 demos.1 - 认识 contentLabel 属性](https://tdahuyou.github.io/notes/notes/react/0006.%20react-modal/README.html#1--demos1---认识-contentlabel-属性)
-  - [2. 💻 demos.2 - 封装一个简单的 dialog 组件](https://tdahuyou.github.io/notes/notes/react/0006.%20react-modal/README.html#2--demos2---封装一个简单的-dialog-组件)
-  - `react-modal` 是一个常用的 React 弹出模态框库，它提供了许多配置选项来定制模态框的行为和样式。
-  - `react-modal` 使用起来非常简单的一个第三方组件，结合官方文档描述来使用即可。
-  - 笔记中记录了一些 `react-modal` 的基本使用示例，以及在使用这个组件时比较模糊的一些点，比如 contentLabel 属性（是用来做特殊用户的阅读体验优化的）。
-  - react-modal 相关链接
-    - https://www.npmjs.com/package/react-modal?activeTab=readme - npm react-modal
-    - https://github.com/reactjs/react-modal - github react-modal
+  - [1. 🔗 react-modal 相关链接](https://tdahuyou.github.io/notes/notes/react/0006.%20react-modal/README.html#1--react-modal-相关链接)
+  - [2. 📒 react-modal 概述](https://tdahuyou.github.io/notes/notes/react/0006.%20react-modal/README.html#2--react-modal-概述)
+  - [3. 💻 demos.1 - 认识 contentLabel 属性](https://tdahuyou.github.io/notes/notes/react/0006.%20react-modal/README.html#3--demos1---认识-contentlabel-属性)
+  - [4. 💻 demos.2 - 封装一个简单的 dialog 组件](https://tdahuyou.github.io/notes/notes/react/0006.%20react-modal/README.html#4--demos2---封装一个简单的-dialog-组件)
   
 
-- [ ] [0012. react-monaco-editor](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html) <!-- [locale](./0012.%20react-monaco-editor/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#1--links)
-  - [2. 📒 先说说结论](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#2--先说说结论)
-  - [3. 📒 单词 monaco](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#3--单词-monaco)
-  - [4. 📒 安装 @monaco-editor/react](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#4--安装-monaco-editorreact)
-  - [5. 💻 引入 Editor 组件](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#5--引入-editor-组件)
-  - [6. 💻 Editor 组件的一些钩子 onChange、onMount、beforeMount、onValidate](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#6--editor-组件的一些钩子-onchangeonmountbeforemountonvalidate)
-  - [7. 💻 获取编辑器的当前值的两种方式](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#7--获取编辑器的当前值的两种方式)
-  - [8. 💻 将 Editor 组件设置为只读的](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#8--将-editor-组件设置为只读的)
-  - [9. 💻 通过 editor 实例读写编辑器中的内容](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#9--通过-editor-实例读写编辑器中的内容)
-  - [10. 💻 实战练习 - 模仿 matatastudio 的代码预览效果封装一个代码预览组件](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#10--实战练习---模仿-matatastudio-的代码预览效果封装一个代码预览组件)
-  - [11. 📒 相关业务背景信息 + 遇到的坑 + 解决方案](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#11--相关业务背景信息--遇到的坑--解决方案)
-    - [11.1. 解决办法 1 - 在线 - 使用代理](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#111-解决办法-1---在线---使用代理)
-    - [11.2. 解决办法 2 - 在线 - 下载资源丢到自己的 CDN 上](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#112-解决办法-2---在线---下载资源丢到自己的-cdn-上)
-    - [11.3. 解决办法 3 - 离线 - 手动下载相关模块](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#113-解决办法-3---离线---手动下载相关模块)
-    - [11.4. 解决办法 4 - 离线 - use monaco-editor as an npm package](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#114-解决办法-4---离线---use-monaco-editor-as-an-npm-package)
-  - [12. 🤖 请介绍一下 react-monaco-editor](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#12--请介绍一下-react-monaco-editor)
-    - [12.1. 功能特点](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#121-功能特点)
-    - [12.2. 安装](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#122-安装)
-    - [12.3. 基本用法](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#123-基本用法)
-    - [12.4. 高级配置](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#124-高级配置)
-    - [12.5. 结论](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#125-结论)
-  - [13. 🤖 monaco 名称的由来](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#13--monaco-名称的由来)
-  - 通过一些 demo 介绍了 react-monaco-editor 组件的基本使用。
-  - 记录了相关的业务背景，为什么会需要用到这个组件，以及在应用过程中踩的坑（公共 CDN 资源加载缓慢的问题），同时也记录了相关的解决方案。其中较大篇幅都在描述坑，以及解决方案。
+- [x] [0012. react-monaco-editor](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html) <!-- [locale](./0012.%20react-monaco-editor/README.html) -->  
+  - [1. 🔗 monaco-react 官方文档](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#1--monaco-react-官方文档)
+  - [2. 🔍 Monaco Editor API](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#2--monaco-editor-api)
+  - [3. 📒 monaco-react 概述](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#3--monaco-react-概述)
+  - [4. 💻 demos.1 - 安装并引入 Editor 组件](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#4--demos1---安装并引入-editor-组件)
+  - [5. 💻 demos.2 - 4 个钩子 onChange、onMount、beforeMount、onValidate](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#5--demos2---4-个钩子-onchangeonmountbeforemountonvalidate)
+  - [6. 💻 demos.3 - 获取编辑器的当前值](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#6--demos3---获取编辑器的当前值)
+  - [7. 💻 demos.4 - 只读模式](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#7--demos4---只读模式)
+  - [8. 💻 demos.5 - 动态设置编辑器中的内容](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#8--demos5---动态设置编辑器中的内容)
+  - [9. 💻 demos.6 - 实战练习 - 模仿 matatastudio 的代码预览效果封装一个代码预览组件](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#9--demos6---实战练习---模仿-matatastudio-的代码预览效果封装一个代码预览组件)
+  - [10. 📒 实现代码预览功能 - 业务背景 + 遇到的坑 + 解决方案](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#10--实现代码预览功能---业务背景--遇到的坑--解决方案)
+    - [10.1. 1️⃣ 在线方案 - 使用代理](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#101-1️⃣-在线方案---使用代理)
+    - [10.2. 2️⃣ 在线方案 - 下载资源丢到自己的 CDN 上](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#102-2️⃣-在线方案---下载资源丢到自己的-cdn-上)
+    - [10.3. 3️⃣ 离线方案 - 手动下载相关模块](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#103-3️⃣-离线方案---手动下载相关模块)
+    - [10.4. 4️⃣ 离线方案 - use monaco-editor as an npm package](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#104-4️⃣-离线方案---use-monaco-editor-as-an-npm-package)
+  - [11. 🤖 monaco 名称的由来](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#11--monaco-名称的由来)
+  - [12. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0012.%20react-monaco-editor/README.html#12--links)
   
 
 - [ ] [0033. react-tooltip](https://tdahuyou.github.io/notes/notes/react/0033.%20react-tooltip/README.html) <!-- [locale](./0033.%20react-tooltip/README.html) -->  
@@ -510,7 +493,7 @@
 ## 12. 待分组
 
 
-- [ ] [0047. xxx](https://tdahuyou.github.io/notes/notes/react/0047.%20xxx/README.html) <!-- [locale](./0047.%20xxx/README.html) -->  
+
   
   
   ##
