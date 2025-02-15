@@ -1,6 +1,6 @@
 # 🗓 2024
 
-## 12.28
+## 🗓 12-28
 
 <MyDynamicComp>
   <template #text-area>
@@ -17,7 +17,7 @@
   <template #time>2024年12月28日 周六</template>
 </MyDynamicComp>
 
-## 12.23
+## 🗓 12-23
 
 <MyDynamicComp>
   <template #text-area>
@@ -29,7 +29,7 @@
   <template #time>2024年12月23日 周一 8:14</template>
 </MyDynamicComp>
 
-## 3.11
+## 🗓 03-11
 
 <MyDynamicComp>
   <template #text-area>
@@ -45,7 +45,7 @@
   <template #time>2024年3月11日 周一 22:25</template>
 </MyDynamicComp>
 
-## 2.24
+## 🗓 02-24
 
 <MyDynamicComp>
   <template #text-area>
@@ -57,7 +57,7 @@
   <template #time>2024年2月24日 周六 16:29（元宵节）</template>
 </MyDynamicComp>
 
-## 2.24
+## 🗓 02-24
 
 <MyDynamicComp>
   <template #text-area>
@@ -69,7 +69,7 @@
   <template #time>2024年2月24日 周六 12:12（元宵节）</template>
 </MyDynamicComp>
 
-## 2.12
+## 🗓 02-12
 
 <MyDynamicComp>
   <template #text-area>
@@ -93,7 +93,7 @@
   <template #time>2024年2月12日 周一 00:17（大年初三）</template>
 </MyDynamicComp>
 
-## 2.10
+## 🗓 02-10
 
 <MyDynamicComp>
   <template #text-area>
@@ -106,7 +106,7 @@
   <template #time>2024年2月10日 周六 23:37（大年初一）</template>
 </MyDynamicComp>
 
-## 1.7
+## 🗓 01-07
 
 <MyDynamicComp>
   <template #text-area>

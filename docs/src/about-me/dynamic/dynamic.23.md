@@ -1,6 +1,6 @@
 # 🗓 2023
 
-## 10.28
+## 🗓 10-28
 
 <MyDynamicComp>
   <template #text-area>
@@ -10,10 +10,10 @@
   <template #image-list="{ openModal }">
     <img src="./assets/2025-01-13-00-01-42.png" @click="openModal(0)"/>
   </template>
-  <template #time>2023年10月28日 周六 23:46</template>
+  <template #time>2023-10-28 周六 23:46</template>
 </MyDynamicComp>
 
-## 10.24
+## 🗓 10-24
 
 <MyDynamicComp>
   <template #text-area>
@@ -35,10 +35,10 @@
     <img src="./assets/2025-01-13-00-02-04.png" @click="openModal(0)"/>
     <img src="./assets/2025-01-13-00-02-10.png" @click="openModal(1)"/>
   </template>
-  <template #time>2023年10月24日 周二 6:39</template>
+  <template #time>2023-10-24 周二 6:39</template>
 </MyDynamicComp>
 
-## 10.14
+## 🗓 10-14
 
 <MyDynamicComp>
   <template #text-area>
@@ -51,10 +51,10 @@
     <img src="./assets/2025-01-13-00-02-19.png" @click="openModal(0)"/>
     <img src="./assets/2025-01-13-00-02-24.png" @click="openModal(1)"/>
   </template>
-  <template #time>2023年10月14日 周六 10:20</template>
+  <template #time>2023-10-14 周六 10:20</template>
 </MyDynamicComp>
 
-## 8.8
+## 🗓 08-08
 
 <MyDynamicComp>
   <template #text-area>
@@ -65,14 +65,14 @@
   </template>
   <!-- <video controls src="./assets/23-08-08.mp4" /> -->
   <!-- <iframe style="width: 100%; aspect-ratio: 1;" src="//player.bilibili.com/player.html?isOutside=true&aid=1755521687&bvid=BV1544219774&cid=1582630210&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe> -->
-  <template #time>2023年8月8日 周二 23:48</template>
+  <template #time>2023-08-08 周二 23:48</template>
 </MyDynamicComp>
 
 ::: info ⏰ TODO
 上传 pyq.23-08-08.mp4 到 哔哩哔哩 上边儿。
 :::
 
-## 6.30
+## 🗓 06-30
 
 <MyDynamicComp>
   <template #text-area>
@@ -81,10 +81,10 @@
   <template #image-list="{ openModal }">
     <img src="./assets/2025-01-13-00-05-19.png" @click="openModal(0)"/>
   </template>
-  <template #time>2023年6月30日 周五 00:19</template>
+  <template #time>2023-06-30 周五 00:19</template>
 </MyDynamicComp>
 
-## 4.13
+## 🗓 04-13
 
 <MyDynamicComp>
   <template #text-area>
@@ -95,19 +95,19 @@
     <img src="./assets/2025-01-13-00-10-19.png" @click="openModal(1)"/>
     <img src="./assets/2025-01-13-00-10-26.png" @click="openModal(2)"/>
   </template>
-  <template #time>2023年4月13日 周四 8:29</template>
+  <template #time>2023-04-13 周四 8:29</template>
 </MyDynamicComp>
 
-## 2.21
+## 🗓 02-21
 
 <MyDynamicComp>
   <template #text-area>
     <p>wu~~~~~~ 船长牛逼！！！！！！</p>
   </template>
-  <template #time>2023年2月21日 周二 3:32</template>
+  <template #time>2023-02-21 周二 15:32</template>
 </MyDynamicComp>
 
-## 1.17
+## 🗓 01-17
 
 <MyDynamicComp>
   <template #text-area>
@@ -118,10 +118,10 @@
   <template #image-list="{ openModal }">
     <img src="./assets/2025-01-13-00-05-49.png" @click="openModal(0)"/>
   </template>
-  <template #time>2023年1月17日 周二 22:21</template>
+  <template #time>2023-01-17 周二 22:21</template>
 </MyDynamicComp>
 
-## 1.7
+## 🗓 01-07
 
 <MyDynamicComp>
   <template #text-area>
@@ -134,5 +134,5 @@
     <img src="./assets/2025-01-13-00-06-13.png" @click="openModal(2)"/>
     <img src="./assets/2025-01-13-00-06-18.png" @click="openModal(3)"/>
   </template>
-  <template #time>2023年1月7日 周六 12:28</template>
+  <template #time>2023-01-7 周六 12:28</template>
 </MyDynamicComp>
