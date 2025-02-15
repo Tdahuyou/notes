@@ -1,5 +1,25 @@
 # 🗓 2025
 
+## 2.15
+
+<MyDynamicComp>
+  <template #text-area>
+    <p>包场看哪吒 2</p>
+    <p>昨晚买了 10 点的场次，凌晨结束，因为下雨 🌧️ 改签到了今天中午。</p>
+    <p>今早准备出门的时候发现雨 🌧️ 还在下，就喊了 🚗。</p>
+    <p>👍 👍 👍 难怪票房那么高。</p>
+    <p>这部片子看下来，40 ➕ 5 改签费 ➕ 30 来回打车费，还是感觉挺值的。</p>
+    <p>印象深刻的细节说来有点儿奇怪，就是哪吒撒尿的那个片段，撒完之后又续了一小段，创作有心了 ~(¯▽¯~)。</p>
+  </template>
+  <template #image-list="{ openModal }">
+    <img src="./assets/2025-02-15-18-11-29.png" @click="openModal(0)"/>
+    <img src="./assets/2025-02-15-18-11-34.png" @click="openModal(1)"/>
+    <img src="./assets/2025-02-15-18-11-39.png" @click="openModal(2)"/>
+    <img src="./assets/2025-02-15-18-11-53.png" @click="openModal(3)"/>
+  </template>
+  <template #time>2025年2月15日 周六 14:02</template>
+</MyDynamicComp>
+
 ## 1.22
 
 <MyDynamicComp>
