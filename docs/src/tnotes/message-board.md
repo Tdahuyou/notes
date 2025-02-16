@@ -1,6 +1,6 @@
-# 💭 TNotes Discussions 的技术实现
+# 💭 TNotes 评论模块（Discussions）的技术实现
 
-- 该留言板功能是基于 [Giscus](https://giscus.app/zh-CN) 实现的。
+- 评论功能是基于 [Giscus](https://giscus.app/zh-CN) 实现的。
 - Giscus 是基于 GitHub Discussions 的评论系统。
 - 用户通过 GitHub 登录后可以发表评论，评论会同步到你指定的 GitHub Discussion 中。
 - 优点：
