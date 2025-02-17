@@ -8,6 +8,7 @@ import './custom.css'
 // import MyGlobalComponent from "../components/MyGlobalComponent.vue";
 import MyLayout from '../components/MyLayout.vue'
 import Dynamic from '../components/Dynamic.vue'
+import EnWordList from '../components/EnWordList.vue'
 import MyGiscusComp from '../components/MyGiscusComp.vue'
 import BilibiliOutsidePlayer from '../components/BilibiliOutsidePlayer.vue'
 import TNotesDir from '../components/TNotesDir.vue'
@@ -28,6 +29,7 @@ export default {
   enhanceApp({ app }) {
     // 注册自定义全局组件
     app.component('Dynamic', Dynamic)
+    app.component('EnWordList', EnWordList)
     app.component('MyGiscusComp', MyGiscusComp)
     app.component('BilibiliOutsidePlayer', BilibiliOutsidePlayer)
     app.component('TNotesDir', TNotesDir)
