@@ -163,3 +163,4 @@ createRoot(document.getElementById('root')).render(
   - 副作用处理：使用 `useEffect` 来设置和清除定时器，确保组件卸载时清理定时器。
   - 单次初始化：只调用一次 `createRoot` 并保存其引用，避免重复初始化。
 - 这样可以避免警告，并且代码更加符合 React 的最佳实践。
+

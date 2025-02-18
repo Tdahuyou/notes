@@ -20,7 +20,7 @@
 - https://juejin.cn/post/6844903927104667662
   - 掘金文章《可能是最详细的UMD模块入门指南》
 
- 
+
 ## 2. 🤔 什么是 UMD？
 
 - **UMD（Universal Module Definition）** 是一种模块格式，旨在兼容多种 JavaScript 环境（如浏览器、Node.js）。
@@ -56,9 +56,11 @@
   // ...
 </script>
 
-<!-- 
+<!--
 type="module 表明这是一个模块化脚本。
 esm.sh 这是一个 ESM 模块的 CDN，可以提供现代化的 React 构建版本。
 -->
 ```
+
+
 

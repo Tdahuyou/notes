@@ -91,3 +91,5 @@ createRoot(document.getElementById('root')).render(
   - v-if、v-show 是用来做条件渲染用的，当条件满足时才会渲染对应的内容。
 - 在 react 中，并不存在类似的概念，由于 react 中的组件模板（html 标签）是通过 JSX 语法，直接跟 js 写在一起的，并不像 vue 那样，将 template 和 script 分离，所以在 react 中，对于条件渲染的处理逻辑会更加灵活，走 js 那套就行，无论是使用 if 语句还是三木运算符还是逻辑短路的写法，都是 ok 的。
 
+
+

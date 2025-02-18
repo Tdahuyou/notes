@@ -74,7 +74,7 @@ createRoot(document.getElementById('root')).render(
     {divFun()}    {/* 不太常见 */}
 
     {/* ❌ 错误写法： */}
-    
+
     {/* <divFun /> */}
     {/* 报错：Warning: <divFun /> is using incorrect casing. Use PascalCase for React components, or lowercase for HTML elements. */}
     {/* 中：<divFun /> 使用了错误的大小写，应该使用 PascalCase（大驼峰）来定义 React 组件，或者使用小写来定义 HTML 元素。 */}
@@ -148,7 +148,7 @@ createRoot(document.getElementById('root')).render(
 
     {/* 报错：Warning: <divEle /> is using incorrect casing. Use PascalCase for React components, or lowercase for HTML elements. */}
     {/* 中：<divEle /> 使用了错误的大小写，应该使用 PascalCase（大驼峰）来定义 React 组件，或者使用小写来定义 HTML 元素。 */}
-    
+
 
     {/* <divFun /> */}
     {/* 报错：Warning: <divFun /> is using incorrect casing. Use PascalCase for React components, or lowercase for HTML elements. */}
@@ -173,3 +173,4 @@ createRoot(document.getElementById('root')).render(
 
 - jsx 元素包括 div、span、button、img 等等，可以将它们视为 react 中特殊的内置组件，也就是传统的 html 标签。除了特殊的内置组件外，jsx 元素也包括自定义的组件。
 - jsx 元素的写法是非常灵活的，不过常见的主流写法并不多，需要重点掌握的是 1️⃣、4️⃣ 中的常见写法，3️⃣ 中的写法偶尔会见到，几乎不会见到有人采用 2️⃣ 这种写法。
+

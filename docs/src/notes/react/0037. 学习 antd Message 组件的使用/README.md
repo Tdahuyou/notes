@@ -71,7 +71,7 @@ export default App;
 //     <ConfigProvider theme={{ token: { colorSuccess: '#008c8c' } }}>
 //       {contextHolder}
 //       <Button onClick={showMessage}>Show Message</Button>
-//     </ConfigProvider> 
+//     </ConfigProvider>
 //   );
 // };
 
@@ -85,4 +85,6 @@ export default App;
 ## 4. 🔗 来自官方文档的回复：为什么 message 不能获取 context、redux 的内容和 ConfigProvider 的 locale/prefixCls/theme 等配置？
 
 - ![](assets/2024-12-02-16-31-49.png)
+
+
 

@@ -152,7 +152,7 @@ createRoot(document.getElementById('root')).render(
 ### 5.1. 🔍 扩展 - Hedy Lamarr 是谁？
 
 > 本节笔记中提到的 Hedy Lamarr 来自于 react 官方文档。由于不认识这个人，就简单搜了一下，总之是个了不起的人就对了。
-> 
+>
 > ![](assets/2025-01-17-17-54-01.png)
 
 - https://www.douban.com/personage/27246464/
@@ -271,3 +271,4 @@ createRoot(document.getElementById('root')).render(
 - 最终渲染结果如下：
 - ![](assets/2025-01-18-07-52-37.png)
 - ![](assets/2025-01-18-07-52-50.png)
+

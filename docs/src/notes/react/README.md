@@ -33,6 +33,8 @@
   
   
   
+  
+  
 
 ## 2. 开发 react 前的一些准备工作
 
@@ -248,7 +250,13 @@
   - ⏰ pending
   
 
-### 6.2. 样式
+### 6.2. 调用
+
+- [x] [0049. React 组件调用方式对比：JSX 渲染 vs 直接函数调用](https://tdahuyou.github.io/notes/notes/react/0049.%20React%20%E7%BB%84%E4%BB%B6%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F%E5%AF%B9%E6%AF%94%EF%BC%9AJSX%20%E6%B8%B2%E6%9F%93%20vs%20%E7%9B%B4%E6%8E%A5%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8/README.html) <!-- [locale](./0049.%20React%20%E7%BB%84%E4%BB%B6%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F%E5%AF%B9%E6%AF%94%EF%BC%9AJSX%20%E6%B8%B2%E6%9F%93%20vs%20%E7%9B%B4%E6%8E%A5%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8/README.html) -->  
+  - [1. 💻 demos.1 - JSX 渲染 vs 直接函数调用](https://tdahuyou.github.io/notes/notes/react/0049.%20React%20%E7%BB%84%E4%BB%B6%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F%E5%AF%B9%E6%AF%94%EF%BC%9AJSX%20%E6%B8%B2%E6%9F%93%20vs%20%E7%9B%B4%E6%8E%A5%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8/README.html#1--demos1---jsx-渲染-vs-直接函数调用)
+  
+
+### 6.3. 样式
 
 - [ ] [0004. 使用 className 给元素添加 class](https://tdahuyou.github.io/notes/notes/react/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E7%BB%99%E5%85%83%E7%B4%A0%E6%B7%BB%E5%8A%A0%20class/README.html) <!-- [locale](./0004.%20%E4%BD%BF%E7%94%A8%20className%20%E7%BB%99%E5%85%83%E7%B4%A0%E6%B7%BB%E5%8A%A0%20class/README.html) -->  
   - [1. 🔗 react 官网 - adding-styles](https://tdahuyou.github.io/notes/notes/react/0004.%20%E4%BD%BF%E7%94%A8%20className%20%E7%BB%99%E5%85%83%E7%B4%A0%E6%B7%BB%E5%8A%A0%20class/README.html#1--react-官网---adding-styles)
@@ -260,7 +268,7 @@
     - ❌ `<img class="avatar" />`
   
 
-### 6.3. 属性
+### 6.4. 属性
 
 - [ ] [0019. 组件属性的传递和接收](https://tdahuyou.github.io/notes/notes/react/0019.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E4%BC%A0%E9%80%92%E5%92%8C%E6%8E%A5%E6%94%B6/README.html) <!-- [locale](./0019.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E4%BC%A0%E9%80%92%E5%92%8C%E6%8E%A5%E6%94%B6/README.html) -->  
   - [1. 💻 函数组件和类组件的属性传递](https://tdahuyou.github.io/notes/notes/react/0019.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E4%BC%A0%E9%80%92%E5%92%8C%E6%8E%A5%E6%94%B6/README.html#1--函数组件和类组件的属性传递)
@@ -310,9 +318,9 @@
   - [6. 🤖 AI](https://tdahuyou.github.io/notes/notes/react/0020.%20%E7%BB%84%E4%BB%B6%E5%B1%9E%E6%80%A7%E7%9A%84%E6%A0%A1%E9%AA%8C/README.html#6--ai)
   
 
-### 6.4. 状态
+### 6.5. 状态
 
-### 6.5. 生命周期
+### 6.6. 生命周期
 
 - [ ] [0027. 生命周期](https://tdahuyou.github.io/notes/notes/react/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.html) <!-- [locale](./0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.html) -->  
   - [1. ⏰ TODO：待完善](https://tdahuyou.github.io/notes/notes/react/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.html#1--todo待完善)
@@ -323,17 +331,17 @@
   - [6. 🤖 AI](https://tdahuyou.github.io/notes/notes/react/0027.%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/README.html#6--ai)
   
 
-### 6.6. ref
+### 6.7. ref
 
 - [ ] [0007. ref](https://tdahuyou.github.io/notes/notes/react/0007.%20ref/README.html) <!-- [locale](./0007.%20ref/README.html) -->  
   - [1. ⏰](https://tdahuyou.github.io/notes/notes/react/0007.%20ref/README.html#1-)
   
 
-### 6.7. hooks
+### 6.8. hooks
 
-### 6.8. hoc
+### 6.9. hoc
 
-### 6.9. 内置组件
+### 6.10. 内置组件
 
 - [x] [0014. React.Fragment](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html) <!-- [locale](./0014.%20React.Fragment/README.html) -->  
   - [1. 🔗 查看 react 官方文档对内置组件 `React.Fragment` 的描述](https://tdahuyou.github.io/notes/notes/react/0014.%20React.Fragment/README.html#1--查看-react-官方文档对内置组件-reactfragment-的描述)
@@ -481,11 +489,9 @@
 
 ## 10. 小练习
 
-- [ ] [0018. demo-图片定时切换](https://tdahuyou.github.io/notes/notes/react/0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.html) <!-- [locale](./0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.html) -->  
-  - [1. 🔗 links](https://tdahuyou.github.io/notes/notes/react/0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.html#1--links)
-  - [2. 💻 demo](https://tdahuyou.github.io/notes/notes/react/0018.%20demo-%E5%9B%BE%E7%89%87%E5%AE%9A%E6%97%B6%E5%88%87%E6%8D%A2/README.html#2--demo)
-  - 实现一个图片定时切换的 demo，类似轮播效果。
-  - 通过本节的 demo，强调了一个点 —— 由 `React.createElement` 创建的 react 元素对象是不可变的。
+- [x] [0018. 实现图片自动轮播的效果](https://tdahuyou.github.io/notes/notes/react/0018.%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E8%87%AA%E5%8A%A8%E8%BD%AE%E6%92%AD%E7%9A%84%E6%95%88%E6%9E%9C/README.html) <!-- [locale](./0018.%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E8%87%AA%E5%8A%A8%E8%BD%AE%E6%92%AD%E7%9A%84%E6%95%88%E6%9E%9C/README.html) -->  
+  - [1. 💻 demos.1 - 图片自动轮播](https://tdahuyou.github.io/notes/notes/react/0018.%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E8%87%AA%E5%8A%A8%E8%BD%AE%E6%92%AD%E7%9A%84%E6%95%88%E6%9E%9C/README.html#1--demos1---图片自动轮播)
+  - [2. 💻 demos.2 - 来看一个常见的由于定时器混乱错误引发的 bug](https://tdahuyou.github.io/notes/notes/react/0018.%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E8%87%AA%E5%8A%A8%E8%BD%AE%E6%92%AD%E7%9A%84%E6%95%88%E6%9E%9C/README.html#2--demos2---来看一个常见的由于定时器混乱错误引发的-bug)
   
 
 ## 11. UI 组件库
@@ -503,370 +509,464 @@
 
 
 
-  ##
 
 
 
-- [ ] [0049. xxx](https://tdahuyou.github.io/notes/notes/react/0049.%20xxx/README.html) <!-- [locale](./0049.%20xxx/README.html) -->  
-  
-  
-  ##
-  
-  
 
 - [ ] [0050. xxx](https://tdahuyou.github.io/notes/notes/react/0050.%20xxx/README.html) <!-- [locale](./0050.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0051. xxx](https://tdahuyou.github.io/notes/notes/react/0051.%20xxx/README.html) <!-- [locale](./0051.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0052. xxx](https://tdahuyou.github.io/notes/notes/react/0052.%20xxx/README.html) <!-- [locale](./0052.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0053. xxx](https://tdahuyou.github.io/notes/notes/react/0053.%20xxx/README.html) <!-- [locale](./0053.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0054. xxx](https://tdahuyou.github.io/notes/notes/react/0054.%20xxx/README.html) <!-- [locale](./0054.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0055. xxx](https://tdahuyou.github.io/notes/notes/react/0055.%20xxx/README.html) <!-- [locale](./0055.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0056. xxx](https://tdahuyou.github.io/notes/notes/react/0056.%20xxx/README.html) <!-- [locale](./0056.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0057. xxx](https://tdahuyou.github.io/notes/notes/react/0057.%20xxx/README.html) <!-- [locale](./0057.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0058. xxx](https://tdahuyou.github.io/notes/notes/react/0058.%20xxx/README.html) <!-- [locale](./0058.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0059. xxx](https://tdahuyou.github.io/notes/notes/react/0059.%20xxx/README.html) <!-- [locale](./0059.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0060. xxx](https://tdahuyou.github.io/notes/notes/react/0060.%20xxx/README.html) <!-- [locale](./0060.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0061. xxx](https://tdahuyou.github.io/notes/notes/react/0061.%20xxx/README.html) <!-- [locale](./0061.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0062. xxx](https://tdahuyou.github.io/notes/notes/react/0062.%20xxx/README.html) <!-- [locale](./0062.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0063. xxx](https://tdahuyou.github.io/notes/notes/react/0063.%20xxx/README.html) <!-- [locale](./0063.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0064. xxx](https://tdahuyou.github.io/notes/notes/react/0064.%20xxx/README.html) <!-- [locale](./0064.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0065. xxx](https://tdahuyou.github.io/notes/notes/react/0065.%20xxx/README.html) <!-- [locale](./0065.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0066. xxx](https://tdahuyou.github.io/notes/notes/react/0066.%20xxx/README.html) <!-- [locale](./0066.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0067. xxx](https://tdahuyou.github.io/notes/notes/react/0067.%20xxx/README.html) <!-- [locale](./0067.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0068. xxx](https://tdahuyou.github.io/notes/notes/react/0068.%20xxx/README.html) <!-- [locale](./0068.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0069. xxx](https://tdahuyou.github.io/notes/notes/react/0069.%20xxx/README.html) <!-- [locale](./0069.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0070. xxx](https://tdahuyou.github.io/notes/notes/react/0070.%20xxx/README.html) <!-- [locale](./0070.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0071. xxx](https://tdahuyou.github.io/notes/notes/react/0071.%20xxx/README.html) <!-- [locale](./0071.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0072. xxx](https://tdahuyou.github.io/notes/notes/react/0072.%20xxx/README.html) <!-- [locale](./0072.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0073. xxx](https://tdahuyou.github.io/notes/notes/react/0073.%20xxx/README.html) <!-- [locale](./0073.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0074. xxx](https://tdahuyou.github.io/notes/notes/react/0074.%20xxx/README.html) <!-- [locale](./0074.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0075. xxx](https://tdahuyou.github.io/notes/notes/react/0075.%20xxx/README.html) <!-- [locale](./0075.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0076. xxx](https://tdahuyou.github.io/notes/notes/react/0076.%20xxx/README.html) <!-- [locale](./0076.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0077. xxx](https://tdahuyou.github.io/notes/notes/react/0077.%20xxx/README.html) <!-- [locale](./0077.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0078. xxx](https://tdahuyou.github.io/notes/notes/react/0078.%20xxx/README.html) <!-- [locale](./0078.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0079. xxx](https://tdahuyou.github.io/notes/notes/react/0079.%20xxx/README.html) <!-- [locale](./0079.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0080. xxx](https://tdahuyou.github.io/notes/notes/react/0080.%20xxx/README.html) <!-- [locale](./0080.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0081. xxx](https://tdahuyou.github.io/notes/notes/react/0081.%20xxx/README.html) <!-- [locale](./0081.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0082. xxx](https://tdahuyou.github.io/notes/notes/react/0082.%20xxx/README.html) <!-- [locale](./0082.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0083. xxx](https://tdahuyou.github.io/notes/notes/react/0083.%20xxx/README.html) <!-- [locale](./0083.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0084. xxx](https://tdahuyou.github.io/notes/notes/react/0084.%20xxx/README.html) <!-- [locale](./0084.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0085. xxx](https://tdahuyou.github.io/notes/notes/react/0085.%20xxx/README.html) <!-- [locale](./0085.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0086. xxx](https://tdahuyou.github.io/notes/notes/react/0086.%20xxx/README.html) <!-- [locale](./0086.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0087. xxx](https://tdahuyou.github.io/notes/notes/react/0087.%20xxx/README.html) <!-- [locale](./0087.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0088. xxx](https://tdahuyou.github.io/notes/notes/react/0088.%20xxx/README.html) <!-- [locale](./0088.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0089. xxx](https://tdahuyou.github.io/notes/notes/react/0089.%20xxx/README.html) <!-- [locale](./0089.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0090. xxx](https://tdahuyou.github.io/notes/notes/react/0090.%20xxx/README.html) <!-- [locale](./0090.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0091. xxx](https://tdahuyou.github.io/notes/notes/react/0091.%20xxx/README.html) <!-- [locale](./0091.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0092. xxx](https://tdahuyou.github.io/notes/notes/react/0092.%20xxx/README.html) <!-- [locale](./0092.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0093. xxx](https://tdahuyou.github.io/notes/notes/react/0093.%20xxx/README.html) <!-- [locale](./0093.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0094. xxx](https://tdahuyou.github.io/notes/notes/react/0094.%20xxx/README.html) <!-- [locale](./0094.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0095. xxx](https://tdahuyou.github.io/notes/notes/react/0095.%20xxx/README.html) <!-- [locale](./0095.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0096. xxx](https://tdahuyou.github.io/notes/notes/react/0096.%20xxx/README.html) <!-- [locale](./0096.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0097. xxx](https://tdahuyou.github.io/notes/notes/react/0097.%20xxx/README.html) <!-- [locale](./0097.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0098. xxx](https://tdahuyou.github.io/notes/notes/react/0098.%20xxx/README.html) <!-- [locale](./0098.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0099. xxx](https://tdahuyou.github.io/notes/notes/react/0099.%20xxx/README.html) <!-- [locale](./0099.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
+  
   
   
 
 - [ ] [0100. xxx](https://tdahuyou.github.io/notes/notes/react/0100.%20xxx/README.html) <!-- [locale](./0100.%20xxx/README.html) -->  
   
   
-  ##
+  
+  
   
   

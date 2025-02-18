@@ -613,3 +613,5 @@ Returns true if the parameter is a valid Redux action object (a plain object wit
 
 当然，如果你确实有需求，并且清楚上述限制，你可以在你的 Redux 应用中自定义 action 类型为符号。不过你需要确保所有的中间件、store 配置以及与之交互的其他部分都能正确处理这种情况。此外，你还需要自己实现或者调整相关的工具以适应符号类型的使用。
 
+
+

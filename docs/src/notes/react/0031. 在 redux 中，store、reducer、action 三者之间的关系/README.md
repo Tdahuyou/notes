@@ -46,3 +46,5 @@ stateDiagram-v2
 		reducer -->  newState: 	reducer 根据旧状态和 action 返回一个新的状态。
 ```
 
+
+

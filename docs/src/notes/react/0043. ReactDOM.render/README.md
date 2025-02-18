@@ -76,14 +76,14 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
   <!-- React 的核心库 react，与宿主环境无关。 -->
   <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-  
+
   <!-- React 依赖核心库 react-dom，将 react 库的核心功能与页面结合，依赖于浏览器环境。 -->
   <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 
   <script>
     // 创建一个 H1 元素
     const h1 = React.createElement("h1", {}, "Hello World");
-    
+
     // 将 H1 元素渲染到 root 容器中
     ReactDOM.render(h1, document.getElementById("root"));
   </script>
@@ -148,9 +148,11 @@ root.render(<App />);
 
 ## 7. 🤔 为什么弃用 ReactDOM.render？
 
-- **支持并发渲染（Concurrent Rendering）**  
+- **支持并发渲染（Concurrent Rendering）**
    - React 18 引入了并发模式，提高了渲染性能和响应性。`ReactDOM.render` 无法支持此模式。
-- **改进的 API 设计**  
+- **改进的 API 设计**
    - `ReactDOM.createRoot` 更加灵活，未来可以更好地支持新特性。
-- **提高渲染稳定性**  
+- **提高渲染稳定性**
    - 新 API 提供了更强的控制能力，使 React 在渲染过程中可以处理更多复杂的场景。
+
+

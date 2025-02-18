@@ -35,7 +35,7 @@
     <!-- DOC https://legacy.reactjs.org/docs/cdn-links.html -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    
+
     <!-- babel -->
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
@@ -99,5 +99,7 @@ createRoot(document.getElementById('root')).render(
 - 如果开启这个配置项的话，那么上述程序会报错。
   - ![](assets/2024-09-27-17-33-10.png)
 - 可以这么理解，当你在 JSX 中出现 `// <p>description</p>` 这种写法时，并且开启了 `react/jsx-no-comment-textnodes` 检查，那么 eslint 会认为你希望注释掉这一行代码，但是你缺使用了错误的格式 `//`，JSX 中注释只能使用 `{/* */}` 这种写法，因此 eslint 会检查到错误，并爆红提醒你。
+
+
 
 

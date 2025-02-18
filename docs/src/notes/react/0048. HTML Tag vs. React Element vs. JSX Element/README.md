@@ -144,3 +144,4 @@ const reactElement = React.createElement(
     - 也可以说 React 中用于描述 UI 的（React 组件、JSX 元素、HTML TAG ……）其实都是 React Element。
   - **JSX Element**：JSX 语法中的一部分，最终会被编译为 `React.createElement` 调用，生成 React Element。
   - **HTML Tag**：在 JSX 中使用的类似 HTML 的标签（如 `<div>`、`<span>`），实际上是 React 的内置组件。
+

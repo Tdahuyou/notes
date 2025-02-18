@@ -167,3 +167,5 @@ createRoot(document.getElementById('root')).render(
   2. 在列表渲染时如果没有指定 key 的话会存在问题，Fragment 考虑到了这一点，当我们循环渲染列表时，不能使用简写形式，应该写为 `<React.Fragment key={...}></React.Fragment>`。
 - 最终渲染结果：
   - ![](assets/2024-09-27-16-46-29.png)
+
+
