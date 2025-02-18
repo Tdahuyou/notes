@@ -412,7 +412,7 @@ function themeConfig() {
     //     timeStyle: 'short'
     //   }
     // },
-    // externalLinkIcon: true,
+    externalLinkIcon: true,
   }
 
   return themeConfig
