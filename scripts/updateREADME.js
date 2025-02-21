@@ -7,11 +7,13 @@
  */
 import fs from 'fs';
 import path, { dirname } from 'path';
-// import notesmeta from './.notesmeta.json' assert { type: 'json' }; // !ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
-import GithubSlugger from 'github-slugger'; // doc: https://www.npmjs.com/package/github-slugger
-import { fileURLToPath } from "url";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// !ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+// import notesmeta from './.notesmeta.json' assert { type: 'json' };
+
+import GithubSlugger from 'github-slugger'; // doc: https://www.npmjs.com/package/github-slugger
+import { __dirname } from './constants';
+
 const notesmeta = JSON.parse(fs.readFileSync(path.resolve(__dirname, '.notesmeta.json'), 'utf-8'));
 
 const slugger = new GithubSlugger();
@@ -22,7 +24,7 @@ class ReadmeUpdater {
     this.baseDir = baseDir;
     // fs.readdirSync(path.resolve(this.baseDir, 'notes.mata.json'), { encoding: 'utf8' });
     
-    this.githubUsername = "Tdahuyou";
+    this.githubUsername = notesmeta.github_username;
     this.ignoreDirs = ignoreDirs || [];
     this.doneNoteIds = doneNoteIds || [];
     this.bilibiliMap = bilibiliMap || {};

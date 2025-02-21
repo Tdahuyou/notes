@@ -1,14 +1,14 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'fs'
+import path from 'path'
 
-// #region consts
-const EOL = '\n';
-const SEPERATOR = `<!-- !======> SEPERATOR <====== -->`;
-const IO_FILENAME = 'MERGED_README.md';
-// #endregion consts
+import {
+  EOL,
+  MERGED_README_FILENAME,
+  SEPERATOR
+} from './constants'
 
 function mergeReadme(baseDir, ignoreDirs) {
-  const mergedReadmePath = path.resolve(baseDir, IO_FILENAME);
+  const mergedReadmePath = path.resolve(baseDir, MERGED_README_FILENAME);
   
   const dirMap = {};
   const dirNameList = fs.readdirSync(baseDir);
@@ -40,7 +40,7 @@ function mergeReadme(baseDir, ignoreDirs) {
 }
 
 function distributeReadme(baseDir) {
-  const mergedReadmePath = path.resolve(baseDir, IO_FILENAME);
+  const mergedReadmePath = path.resolve(baseDir, MERGED_README_FILENAME);
   const mergedReadmeContent = fs.readFileSync(mergedReadmePath, 'utf8');
   const mergedReadmeSections = mergedReadmeContent.split(new RegExp(`.*${SEPERATOR}$`, 'gm')); // 按照分隔符切割为多个部分
 
