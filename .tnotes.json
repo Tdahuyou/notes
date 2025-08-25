@@ -1,6 +1,10 @@
 {
   "statistic": {
+<<<<<<< Updated upstream
     "completed_notes_count": 520
+=======
+    "completed_notes_count": 495
+>>>>>>> Stashed changes
   },
   "sub_knowledge_list": [
     "TNotes.introduction",
@@ -51,11 +55,19 @@
         "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--canvas.svg"
       },
       "title": "canvas",
+<<<<<<< Updated upstream
       "completed_notes_count": 47,
       "details": "Canvas 笔记",
       "link": "https://tdahuyou.github.io/TNotes.canvas/",
       "created_at": 1741007058000,
       "updated_at": 1756133705348,
+=======
+      "completed_notes_count": 31,
+      "details": "Canvas 笔记",
+      "link": "https://tdahuyou.github.io/TNotes.canvas/",
+      "created_at": 1741007058000,
+      "updated_at": 1755440105004,
+>>>>>>> Stashed changes
       "days_since_birth": 9380,
       "is_visible_in_root_folder": true
     },
